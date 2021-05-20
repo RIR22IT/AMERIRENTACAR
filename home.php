@@ -299,27 +299,67 @@
                 </div>
             </div>
             <!-- end .main-slider-->
+            <br>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-advantages-1">
-                            <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-gearbox"></i>
-                                <h3 class="b-advantages-1__title">Largest Dealership of Cars</h3>
-                                <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div><span class="ui-decor-2"></span>
-                            </section>
-                            <!-- end .b-advantages-->
-                            <section class="b-advantages-1 active"><i class="b-advantages-1__icon flaticon-steering-wheel"></i>
-                                <h3 class="b-advantages-1__title">We Offers Lower Cars Prices</h3>
-                                <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div><span class="ui-decor-2"></span>
-                            </section>
-                            <!-- end .b-advantages-->
-                            <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-wrench"></i>
-                                <h3 class="b-advantages-1__title">Multipoint Safety Checks</h3>
-                                <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div><span class="ui-decor-2"></span>
-                            </section>
-                            <!-- end .b-advantages-->
+                    <div class="row">
+
+                        <div class="text-center">
+                            <h2 class="ui-title-block">Find Your Car</h2>
+                            <div class="ui-subtitle-block">Tempor incididunt labore dolore magna aliqua sed ipsum</div>
+                            <div class="ui-decor"></div>
                         </div>
-                        <!-- end .section-advantages-1-->
+                        <br>
+                        <div class="col-md-3 col-sm-6">
+                            <select class="selectpicker" data-width="100%">
+                                <option>PICK-UP DATE</option>
+                            </select>
+                            <select class="selectpicker" data-width="100%">
+                                <option>MODEL OF THE VEHICLE</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <select class="selectpicker" data-width="100%">
+                                <option>DROP-OFF DATE</option>
+                            </select>
+                            <select class="selectpicker" data-width="100%">
+                                <option>FUEL TYPE</option>
+                                <option>Petrol</option>
+                                <option>Diesel</option>
+                                <option>Hybrid</option>
+                                <option>Plugin electric</option>
+                                <option>Electric</option>
+                                <option>Petrol+CNG</option>
+                                <option>LPG</option>
+                                
+
+
+                            </select>     
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <select class="selectpicker" data-width="100%">
+                                <option>MAKES OF VEHICLE</option>
+                                <option>HONDA</option>
+                                <option>MITSHUBISHI</option>
+                                <option>KIA</option>
+                                <option>PERODUA</option>
+                            </select>
+
+                            <select class="selectpicker" data-width="100%">
+                                <option>TRANSMISSION RANG</option>
+                                <option>Automatic</option>
+                                <option>Manual</option>
+                                <option>Semi-Automatic</option>
+                            </select>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="b-filter__btns">
+                                <button class="btn btn-lg btn-primary">search vehicle</button><a class="btn-link" href="#">ADVANCED SEARCH</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -328,106 +368,35 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="text-center">
-                                <h2 class="ui-title-block">Find Your Dream Car</h2>
-                                <div class="ui-subtitle-block">Tempor incididunt labore dolore magna aliqua sed ipsum</div>
+
+
+                                <div class="col-md-12">
+                                    <div class="section-advantages-1">
+                                        <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-car-dashboard"></i>
+                                            <h3 class="b-advantages-1__title">Fast & Easy Booking</h3>
+                                            <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div><span class="ui-decor-2"></span>
+                                        </section>
+                                        <!-- end .b-advantages-->
+                                        <section class="b-advantages-1 active"><i class="b-advantages-1__icon flaticon-doors"></i>
+                                            <h3 class="b-advantages-1__title">Many Pickup Locations</h3>
+                                            <div class="b-advantages-1__info">We pride ourselves on providing a many pickup and drop locations service with our wide range of rental cars. Our goal is to provide a great customer experience.</div><span class="ui-decor-2"></span>
+                                        </section>
+                                        <!-- end .b-advantages-->
+                                        <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-calculator"></i>
+                                            <h3 class="b-advantages-1__title">Best Prices in Sri Lanka</h3>
+                                            <div class="b-advantages-1__info">We are all about helping people find the best car deals in Sri Lanka. Guaranteed best deals for self drive rates and with driver rates in Sri Lanka.</div><span class="ui-decor-2"></span>
+                                        </section>
+                                        <!-- end .b-advantages-->
+                                    </div>
+                                    <!-- end .section-advantages-1-->
+                                </div>
+
                                 <div class="ui-decor"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <form class="b-filter">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="b-filter-type">
-                                    <div class="b-filter-type__item">
-                                        <input class="b-filter-type__input" id="typePickup" name="type-car" type="radio" value="" />
-                                        <label class="b-filter-type__label" for="typePickup"><i class="b-filter-type__icon flaticon-pick-up"></i><span class="b-filter-type__title">PICKUP</span>
-                                        </label>
-                                    </div>
-                                    <div class="b-filter-type__item">
-                                        <input class="b-filter-type__input" id="typeSuv" name="type-car" type="radio" value="" />
-                                        <label class="b-filter-type__label" for="typeSuv"><i class="b-filter-type__icon flaticon-car-of-hatchback-model"></i><span class="b-filter-type__title">SUV</span>
-                                        </label>
-                                    </div>
-                                    <div class="b-filter-type__item">
-                                        <input class="b-filter-type__input" id="typeCoupe" name="type-car" type="radio" value="" checked="checked" />
-                                        <label class="b-filter-type__label" for="typeCoupe"><i class="b-filter-type__icon flaticon-coupe-car"></i><span class="b-filter-type__title">coupe</span>
-                                        </label>
-                                    </div>
-                                    <div class="b-filter-type__item">
-                                        <input class="b-filter-type__input" id="typeConvertible" name="type-car" type="radio" value="" />
-                                        <label class="b-filter-type__label" for="typeConvertible"><i class="b-filter-type__icon flaticon-cabrio-car"></i><span class="b-filter-type__title">CONVERTIBLE</span>
-                                        </label>
-                                    </div>
-                                    <div class="b-filter-type__item">
-                                        <input class="b-filter-type__input" id="typeSedan" name="type-car" type="radio" value="" />
-                                        <label class="b-filter-type__label" for="typeSedan"><i class="b-filter-type__icon flaticon-sedan-car-model"></i><span class="b-filter-type__title">sedan</span>
-                                        </label>
-                                    </div>
-                                    <div class="b-filter-type__item">
-                                        <input class="b-filter-type__input" id="typeMinicar" name="type-car" type="radio" value="" />
-                                        <label class="b-filter-type__label" for="typeMinicar"><i class="b-filter-type__icon flaticon-car-1"></i><span class="b-filter-type__title">MINICAR</span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-filter__inner bg-grey">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <select class="selectpicker" data-width="100%">
-                                        <option>Select Make</option>
-                                        <option>Make 1</option>
-                                        <option>Make 2</option>
-                                        <option>Make 3</option>
-                                    </select>
-                                    <select class="selectpicker" data-width="100%">
-                                        <option>Select Car Status</option>
-                                        <option>Status 1</option>
-                                        <option>Status 2</option>
-                                        <option>Status 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <select class="selectpicker" data-width="100%">
-                                        <option>Select Model</option>
-                                        <option>Model 1</option>
-                                        <option>Model 2</option>
-                                        <option>Model 3</option>
-                                    </select>
-                                    <select class="selectpicker" data-width="100%">
-                                        <option>Select All Locations</option>
-                                        <option>Location 1</option>
-                                        <option>Location 2</option>
-                                        <option>Location 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <select class="selectpicker" data-width="100%">
-                                        <option>Select Year</option>
-                                        <option>2017</option>
-                                        <option>2016</option>
-                                        <option>2015</option>
-                                    </select>
-                                    <div class="ui-filter-slider">
-                                        <div id="slider-price"></div>
-                                        <div class="ui-filter-slider__info">
-                                            <div class="ui-filter-slider__label">Price Range:</div><span class="ui-filter-slider__current" id="slider-snap-value-lower"></span>-<span class="ui-filter-slider__current" id="slider-snap-value-upper"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-filter__btns">
-                                        <button class="btn btn-lg btn-primary">search vehicle</button><a class="btn-link" href="#">ADVANCED SEARCH</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                
                 <!-- end .b-filter-->
             </section>
             <!-- end .section-filter-->
@@ -588,6 +557,7 @@
                 <!-- end .featured-carousel-->
             </section>
             <!-- end .section-default-->
+            
             <section class="section-advantages-2 section-dark area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-1.jpg)">
                 <div class="area-bg__inner">
                     <div class="container">
@@ -754,8 +724,8 @@
                     <div class="row">
                         <div class="col-lg-10">
                             <div class="b-about__inner">
-                                <h2 class="ui-title-block">About MotorLand</h2>
-                                <div class="ui-subtitle-block">Tempor incididunt duis labore dolore magna aliqua sed ipsum</div>
+                                <h2 class="ui-title-block">GET IN TOUCH WITH US</h2>
+                                <div class="ui-subtitle-block">Whether its a car for self drive or chauffeur driven vehicle for an event, you are sure to get the best tailored deals and support from us around the clock 356 days.</div>
                                 <div class="ui-decor"></div>
                                 <div class="b-about-main">
                                     <div class="b-about-main__title">We are a Trusted Name in Auto Industry</div>
@@ -768,25 +738,31 @@
                             </div>
                         </div>
                         <div class="col-lg-2">
-                            <ul class="b-about-list list-unstyled">
-                                <li class="b-about-list__item"><i class="b-about-list__icon flaticon-travel"></i>
-                                    <div class="b-about-list__inner">
-                                        <div class="b-about-list__title">10 Years in Business</div>
-                                        <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div>
-                                        <div class="ui-decor-2"></div>
-                                    </div>
-                                </li>
-                                <li class="b-about-list__item"><i class="b-about-list__icon flaticon-handshake"></i>
-                                    <div class="b-about-list__inner">
-                                        <div class="b-about-list__title">Trusted by Auto Buyers</div>
-                                        <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div>
-                                        <div class="ui-decor-2"></div>
-                                    </div>
-                                </li>
+                            <ul class="b-about-list list-unstyled"> 
                                 <li class="b-about-list__item"><i class="b-about-list__icon flaticon-transport"></i>
                                     <div class="b-about-list__inner">
-                                        <div class="b-about-list__title">Affordable Auto Prices</div>
-                                        <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div>
+                                        <div class="b-about-list__title">No.43, School Lane, Colombo-03, Sri Lanka</div>
+                                        <!-- <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div> -->
+                                        <div class="ui-decor-2"></div>
+                                    </div>
+                                </li>
+                                <li class="b-about-list__item"><i class="b-about-list__icon flaticon-smartphone"></i>
+                                    <div class="b-about-list__inner">
+                                        <div class="b-about-list__title">Support Phone  : &nbsp; &nbsp; (+94) 777 312 848,   (+94) 777668166,    (+94) 727343435,   (+94) 0765566431</div>
+                                        <!-- <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div> -->
+                                        <div class="ui-decor-2"></div>
+                                    </div>
+                                </li>
+                                <li class="b-about-list__item"><i class="b-about-list__icon "></i>
+                                    <div class="b-about-list__inner">
+                                        <div class="b-about-list__title">E mails: amerirentacar@gmail.com</div>
+                                        <div class="ui-decor-2"></div>
+                                    </div>
+                                </li>
+                                <li class="b-about-list__item"><i class="b-about-list__icon "></i>
+                                    <div class="b-about-list__inner">
+                                        <div class="b-about-list__title">Working Hours: 08:30 am - 05:30 pm</div>
+                                        
                                         <div class="ui-decor-2"></div>
                                     </div>
                                 </li>
@@ -801,265 +777,24 @@
                 <div class="info-group__section col-md-6">
                     <section class="b-info b-info_mod-a area-bg area-bg_op_80 area-bg_prim parallax" style="background-image: url(assets/media/content/bg/bg-4.jpg)">
                         <div class="area-bg__inner">
-                            <h2 class="b-info__title">Are You Looking<strong class="b-info__title_lg">TO BUY A CAR?</strong></h2>
-                            <div class="b-info__desc">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white" href="#">search your car</a>
+                            <h2 class="b-info__title">Call Today For Booking Your Next Ride<strong class="b-info__title_lg">(+94) 777 312 848</strong></h2>
+                            <div class="b-info__desc">Operators available 24/7.</div><a class="btn btn-white" href="#">search your car</a>
                         </div>
                     </section>
                 </div>
                 <div class="info-group__section col-md-6">
                     <section class="b-info b-info_mod-b area-bg area-bg_op_80 area-bg_dark-2 parallax" style="background-image: url(assets/media/content/bg/bg-3.jpg)">
                         <div class="area-bg__inner">
-                            <h2 class="b-info__title">Do You Want To<strong class="b-info__title_lg">SELL YOUR CAR?</strong></h2>
-                            <div class="b-info__desc">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white" href="#">let us know</a>
+                            <h2 class="b-info__title">Please Contact Us<strong class="b-info__title_lg">For Special Discount and Promos</strong></h2>
+                            <div class="b-info__desc">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white" href="#">cONTACT US</a>
                         </div>
                     </section>
                 </div>
             </div>
             <!-- end .b-info-group-->
-            <section class="section-default">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="text-center">
-                                <h2 class="ui-title-block">Executive Team</h2>
-                                <div class="ui-subtitle-block">Tempor incididunt duis labore dolore magna aliqua sed ipsum</div>
-                                <div class="ui-decor"></div>
-                                <div class="team-carousel owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
-                                    <section class="b-team">
-                                        <div class="b-team__inner">
-                                            <div class="b-team__media">
-                                                <img class="img-responsive" src="assets/media/components/b-team/group-1_1.jpg" alt="Foto" />
-                                                <div class="b-team__category">Owner &amp; CEO</div>
-                                            </div>
-                                            <h3 class="b-team__name">William J. Smith</h3>
-                                            <div class="b-team__description">Euis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum</div>
-                                            <ul class="b-team__social-net">
-                                                <li><a href="home.html">Facebook</a>
-                                                </li>
-                                                <li><a href="home.html">Twitter</a>
-                                                </li>
-                                                <li><a href="home.html">LinkedIn</a>
-                                                </li>
-                                                <li><a href="home.html">YouTube</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </section>
-                                    <!-- end .b-team-->
-                                    <section class="b-team">
-                                        <div class="b-team__inner">
-                                            <div class="b-team__media">
-                                                <img class="img-responsive" src="assets/media/components/b-team/group-1_2.jpg" alt="Foto" />
-                                                <div class="b-team__category">Senior Manager</div>
-                                            </div>
-                                            <h3 class="b-team__name">Gloria Anderson</h3>
-                                            <div class="b-team__description">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum</div>
-                                            <ul class="b-team__social-net">
-                                                <li><a href="home.html">Facebook</a>
-                                                </li>
-                                                <li><a href="home.html">Twitter</a>
-                                                </li>
-                                                <li><a href="home.html">LinkedIn</a>
-                                                </li>
-                                                <li><a href="home.html">YouTube</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </section>
-                                    <!-- end .b-team-->
-                                    <section class="b-team">
-                                        <div class="b-team__inner">
-                                            <div class="b-team__media">
-                                                <img class="img-responsive" src="assets/media/components/b-team/group-1_3.jpg" alt="Foto" />
-                                                <div class="b-team__category">Dealers President</div>
-                                            </div>
-                                            <h3 class="b-team__name">thomas masone</h3>
-                                            <div class="b-team__description">Muis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum</div>
-                                            <ul class="b-team__social-net">
-                                                <li><a href="home.html">Facebook</a>
-                                                </li>
-                                                <li><a href="home.html">Twitter</a>
-                                                </li>
-                                                <li><a href="home.html">LinkedIn</a>
-                                                </li>
-                                                <li><a href="home.html">YouTube</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </section>
-                                    <!-- end .b-team-->
-                                    <section class="b-team">
-                                        <div class="b-team__inner">
-                                            <div class="b-team__media">
-                                                <img class="img-responsive" src="assets/media/components/b-team/group-1_1.jpg" alt="Foto" />
-                                                <div class="b-team__category">Owner &amp; CEO</div>
-                                            </div>
-                                            <h3 class="b-team__name">William J. Smith</h3>
-                                            <div class="b-team__description">Euis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum</div>
-                                            <ul class="b-team__social-net">
-                                                <li><a href="home.html">Facebook</a>
-                                                </li>
-                                                <li><a href="home.html">Twitter</a>
-                                                </li>
-                                                <li><a href="home.html">LinkedIn</a>
-                                                </li>
-                                                <li><a href="home.html">YouTube</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </section>
-                                    <!-- end .b-team-->
-                                    <section class="b-team">
-                                        <div class="b-team__inner">
-                                            <div class="b-team__media">
-                                                <img class="img-responsive" src="assets/media/components/b-team/group-1_2.jpg" alt="Foto" />
-                                                <div class="b-team__category">Senior Manager</div>
-                                            </div>
-                                            <h3 class="b-team__name">Gloria Anderson</h3>
-                                            <div class="b-team__description">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum</div>
-                                            <ul class="b-team__social-net">
-                                                <li><a href="home.html">Facebook</a>
-                                                </li>
-                                                <li><a href="home.html">Twitter</a>
-                                                </li>
-                                                <li><a href="home.html">LinkedIn</a>
-                                                </li>
-                                                <li><a href="home.html">YouTube</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </section>
-                                    <!-- end .b-team-->
-                                    <section class="b-team">
-                                        <div class="b-team__inner">
-                                            <div class="b-team__media">
-                                                <img class="img-responsive" src="assets/media/components/b-team/group-1_3.jpg" alt="Foto" />
-                                                <div class="b-team__category">Dealers President</div>
-                                            </div>
-                                            <h3 class="b-team__name">thomas masone</h3>
-                                            <div class="b-team__description">Muis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum</div>
-                                            <ul class="b-team__social-net">
-                                                <li><a href="home.html">Facebook</a>
-                                                </li>
-                                                <li><a href="home.html">Twitter</a>
-                                                </li>
-                                                <li><a href="home.html">LinkedIn</a>
-                                                </li>
-                                                <li><a href="home.html">YouTube</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </section>
-                                    <!-- end .b-team-->
-                                </div>
-                                <!-- end .team-carousel-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           
             <!-- end .section-default-->
-            <section class="section-isotope">
-                <div class="section-isotope__header bg-grey">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="text-center">
-                                    <h2 class="ui-title-block">Photo Gallery</h2>
-                                    <div class="ui-subtitle-block">Tempor incididunt labore dolore magna cillium fugiat</div>
-                                    <div class="ui-decor"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-isotope">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <ul class="b-isotope-filter list-inline">
-                                    <li class="current"><a href="" data-filter="*">all</a>
-                                    </li>
-                                    <li><a href="" data-filter=".sale">for sale</a>
-                                    </li>
-                                    <li><a href="" data-filter=".new">new arrivals</a>
-                                    </li>
-                                    <li><a href="" data-filter=".top">top brands</a>
-                                    </li>
-                                    <li><a href="" data-filter=".ferrari">ferrari</a>
-                                    </li>
-                                    <li><a href="" data-filter=".mercedes">mercedes</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="b-isotope-grid grid list-unstyled">
-                        <li class="grid-sizer"></li>
-                        <li class="b-isotope-grid__item grid-item top mercedes">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/1.jpg">
-                                <img src="assets/media/content/gallery/384x300/1.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item sale ferrari">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/2.jpg">
-                                <img src="assets/media/content/gallery/384x300/2.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item new top mercedes">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/3.jpg">
-                                <img src="assets/media/content/gallery/384x300/3.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item sale top">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/4.jpg">
-                                <img src="assets/media/content/gallery/384x300/4.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item sale ferrari">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/5.jpg">
-                                <img src="assets/media/content/gallery/384x300/5.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item new top mercedes">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/6.jpg">
-                                <img src="assets/media/content/gallery/384x300/6.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item sale ferrari">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/7.jpg">
-                                <img src="assets/media/content/gallery/384x300/7.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item sale top">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/8.jpg">
-                                <img src="assets/media/content/gallery/384x300/8.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item sale mercedes">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/9.jpg">
-                                <img src="assets/media/content/gallery/384x300/9.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="b-isotope-grid__item grid-item new">
-                            <a class="b-isotope-grid__inner js-zoom-images" href="assets/media/content/gallery/384x300/10.jpg">
-                                <img src="assets/media/content/gallery/384x300/10.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info helper"><span class="b-isotope-grid__info"><i class="icon fa fa-search"></i><span class="b-isotope-grid__title">porsche panamera 2018</span></span>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- end .b-isotope-->
-            </section>
+           
             <!-- end .section-isotope-->
             <div class="section-default">
                 <div class="container">
@@ -1161,8 +896,8 @@
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
                                         </div>
                                         <blockquote>
-                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                            <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Gayani Loid</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
+                                            <p>I had a greate service from this company. The KIA SUV was in really good condition. Communication with staff was verry proffessional and verry helpful.</p>
                                         </blockquote>
                                     </div>
                                     <!-- end .b-blockquote-->
@@ -1649,246 +1384,7 @@
                 </div>
             </section>
             <!-- end .section-default-->
-            <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg)">
-                <div class="area-bg__inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="text-center">
-                                    <h2 class="ui-title-block">Latest News</h2>
-                                    <div class="ui-subtitle-block">Tempor incididunt labore dolore magna clium fugiat alique</div>
-                                    <div class="ui-decor"></div>
-                                </div>
-                                <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
-                                    <section class="b-post b-post-1 clearfix">
-                                        <div class="entry-media">
-                                            <img class="img-responsive" src="assets/media/content/posts/360x250/1.jpg" alt="Foto" />
-                                        </div>
-                                        <div class="entry-main">
-                                            <div class="entry-header">
-                                                <div class="entry-meta">
-                                                    <div class="entry-meta__face">
-                                                        <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" />
-                                                    </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>Ford News</strong></a>
-                                                </div>
-                                                <h2 class="entry-title"><a href="blog-post.html">Ford Motors overhauled its design team </a></h2>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
-                                            </div>
-                                            <div class="entry-footer">
-                                                <div class="entry-footer__inner">
-                                                    <div class="b-post-social">SHARE
-                                                        <ul class="b-post-social__list list-inline">
-                                                            <li><a href="twitter.com"><i class="icon fa fa-twitter"></i></a>
-                                                            </li>
-                                                            <li><a href="facebook.com"><i class="icon fa fa-facebook"></i></a>
-                                                            </li>
-                                                            <li><a href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
-                                                            </li>
-                                                            <li><a href="pinterest.com"><i class="icon fa fa-pinterest-p"></i></a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="entry-meta"><span class="entry-meta__item"><i class="entry-meta__icon fa fa-heart"></i>300</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- end .post-->
-                                    <section class="b-post b-post-1 clearfix">
-                                        <div class="entry-media">
-                                            <img class="img-responsive" src="assets/media/content/posts/360x250/2.jpg" alt="Foto" />
-                                        </div>
-                                        <div class="entry-main">
-                                            <div class="entry-header">
-                                                <div class="entry-meta">
-                                                    <div class="entry-meta__face">
-                                                        <img class="img-responsive" src="assets/media/content/posts/face/76x76_2.jpg" alt="face" />
-                                                    </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>Driving</strong></a>
-                                                </div>
-                                                <h2 class="entry-title"><a href="blog-post.html">Self-driving legislation sets in the motion</a></h2>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
-                                            </div>
-                                            <div class="entry-footer">
-                                                <div class="entry-footer__inner">
-                                                    <div class="b-post-social">SHARE
-                                                        <ul class="b-post-social__list list-inline">
-                                                            <li><a href="twitter.com"><i class="icon fa fa-twitter"></i></a>
-                                                            </li>
-                                                            <li><a href="facebook.com"><i class="icon fa fa-facebook"></i></a>
-                                                            </li>
-                                                            <li><a href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
-                                                            </li>
-                                                            <li><a href="pinterest.com"><i class="icon fa fa-pinterest-p"></i></a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="entry-meta"><span class="entry-meta__item"><i class="entry-meta__icon fa fa-heart"></i>205</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- end .post-->
-                                    <section class="b-post b-post-1 clearfix">
-                                        <div class="entry-media">
-                                            <img class="img-responsive" src="assets/media/content/posts/360x250/3.jpg" alt="Foto" />
-                                        </div>
-                                        <div class="entry-main">
-                                            <div class="entry-header">
-                                                <div class="entry-meta">
-                                                    <div class="entry-meta__face">
-                                                        <img class="img-responsive" src="assets/media/content/posts/face/76x76_3.jpg" alt="face" />
-                                                    </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>What’s New</strong></a>
-                                                </div>
-                                                <h2 class="entry-title"><a href="blog-post.html">What's new coming from the automakers in future</a></h2>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
-                                            </div>
-                                            <div class="entry-footer">
-                                                <div class="entry-footer__inner">
-                                                    <div class="b-post-social">SHARE
-                                                        <ul class="b-post-social__list list-inline">
-                                                            <li><a href="twitter.com"><i class="icon fa fa-twitter"></i></a>
-                                                            </li>
-                                                            <li><a href="facebook.com"><i class="icon fa fa-facebook"></i></a>
-                                                            </li>
-                                                            <li><a href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
-                                                            </li>
-                                                            <li><a href="pinterest.com"><i class="icon fa fa-pinterest-p"></i></a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="entry-meta"><span class="entry-meta__item"><i class="entry-meta__icon fa fa-heart"></i>242</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- end .post-->
-                                    <section class="b-post b-post-1 clearfix">
-                                        <div class="entry-media">
-                                            <img class="img-responsive" src="assets/media/content/posts/360x250/1.jpg" alt="Foto" />
-                                        </div>
-                                        <div class="entry-main">
-                                            <div class="entry-header">
-                                                <div class="entry-meta">
-                                                    <div class="entry-meta__face">
-                                                        <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" />
-                                                    </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>Ford News</strong></a>
-                                                </div>
-                                                <h2 class="entry-title"><a href="blog-post.html">Ford Motors overhauled its design team </a></h2>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
-                                            </div>
-                                            <div class="entry-footer">
-                                                <div class="entry-footer__inner">
-                                                    <div class="b-post-social">SHARE
-                                                        <ul class="b-post-social__list list-inline">
-                                                            <li><a href="twitter.com"><i class="icon fa fa-twitter"></i></a>
-                                                            </li>
-                                                            <li><a href="facebook.com"><i class="icon fa fa-facebook"></i></a>
-                                                            </li>
-                                                            <li><a href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
-                                                            </li>
-                                                            <li><a href="pinterest.com"><i class="icon fa fa-pinterest-p"></i></a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="entry-meta"><span class="entry-meta__item"><i class="entry-meta__icon fa fa-heart"></i>300</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- end .post-->
-                                    <section class="b-post b-post-1 clearfix">
-                                        <div class="entry-media">
-                                            <img class="img-responsive" src="assets/media/content/posts/360x250/2.jpg" alt="Foto" />
-                                        </div>
-                                        <div class="entry-main">
-                                            <div class="entry-header">
-                                                <div class="entry-meta">
-                                                    <div class="entry-meta__face">
-                                                        <img class="img-responsive" src="assets/media/content/posts/face/76x76_2.jpg" alt="face" />
-                                                    </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>Driving</strong></a>
-                                                </div>
-                                                <h2 class="entry-title"><a href="blog-post.html">Self-driving legislation sets in the motion</a></h2>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
-                                            </div>
-                                            <div class="entry-footer">
-                                                <div class="entry-footer__inner">
-                                                    <div class="b-post-social">SHARE
-                                                        <ul class="b-post-social__list list-inline">
-                                                            <li><a href="twitter.com"><i class="icon fa fa-twitter"></i></a>
-                                                            </li>
-                                                            <li><a href="facebook.com"><i class="icon fa fa-facebook"></i></a>
-                                                            </li>
-                                                            <li><a href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
-                                                            </li>
-                                                            <li><a href="pinterest.com"><i class="icon fa fa-pinterest-p"></i></a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="entry-meta"><span class="entry-meta__item"><i class="entry-meta__icon fa fa-heart"></i>205</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- end .post-->
-                                    <section class="b-post b-post-1 clearfix">
-                                        <div class="entry-media">
-                                            <img class="img-responsive" src="assets/media/content/posts/360x250/3.jpg" alt="Foto" />
-                                        </div>
-                                        <div class="entry-main">
-                                            <div class="entry-header">
-                                                <div class="entry-meta">
-                                                    <div class="entry-meta__face">
-                                                        <img class="img-responsive" src="assets/media/content/posts/face/76x76_3.jpg" alt="face" />
-                                                    </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>What’s New</strong></a>
-                                                </div>
-                                                <h2 class="entry-title"><a href="blog-post.html">What's new coming from the automakers in future</a></h2>
-                                            </div>
-                                            <div class="entry-content">
-                                                <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
-                                            </div>
-                                            <div class="entry-footer">
-                                                <div class="entry-footer__inner">
-                                                    <div class="b-post-social">SHARE
-                                                        <ul class="b-post-social__list list-inline">
-                                                            <li><a href="twitter.com"><i class="icon fa fa-twitter"></i></a>
-                                                            </li>
-                                                            <li><a href="facebook.com"><i class="icon fa fa-facebook"></i></a>
-                                                            </li>
-                                                            <li><a href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
-                                                            </li>
-                                                            <li><a href="pinterest.com"><i class="icon fa fa-pinterest-p"></i></a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="entry-meta"><span class="entry-meta__item"><i class="entry-meta__icon fa fa-heart"></i>242</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!-- end .post-->
-                                </div>
-                                <!-- end .carousel-news-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           
             <!-- end .section-news-->
             <div class="section-default">
                 <div class="b-brands owl-carousel owl-theme enable-owl-carousel" data-min768="2" data-min992="5" data-min1200="6" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
@@ -1926,70 +1422,9 @@
                 <!-- end .b-brands-->
             </div>
             <!-- end .section-default-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="b-subscribe area-bg area-bg_prim area-bg_op_90 parallax" style="background-image: url(assets/media/components/b-subscribe/bg.jpg)">
-                            <div class="area-bg__inner">
-                                <div class="b-subscribe__info">Get the latest news from MotorLand</div>
-                                <h2 class="b-subscribe__title">Subscribe to our newsletter</h2>
-                                <form class="b-subscribe__form ui-form" id="subscribeForm" action="#" method="post">
-                                    <div class="form-group">
-                                        <input class="form-control" type="text" placeholder="Enter your email ..." required="required" />
-                                        <button class="b-subscribe__submit"><i class="fa fa-paper-plane"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <!-- end .b-subscribe-->
-            <div class="block-table">
-                <div class="block-table__cell col-md-6">
-                    <div class="block-table__inner">
-                        <section class="section-form-contacts">
-                            <div class="section-form-contacts__label">Get in Touch</div>
-                            <h2 class="section-form-contacts__title">Send Us Message</h2>
-                            <div class="section-form-contacts__info">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal sint ipsum occaecat excepteur ipsum dolor sit amet consectetur.</div>
-                            <div id="success"></div>
-                            <form class="b-form-contacts ui-form" id="contactForm" action="#" method="post">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input class="form-control" id="user-name" type="text" name="user-name" placeholder="Name" required="required" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" id="user-phone" type="tel" name="user-phone" placeholder="Phone" required="required" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input class="form-control" id="user-email" type="email" name="user-email" placeholder="Email" required="required" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control last-block_mrg-btn_0" id="user-subject" type="text" name="user-subject" placeholder="Subject" required="required" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <textarea class="form-control" id="user-message" rows="7" placeholder="Message" required="required"></textarea>
-                                        <button class="btn btn-white btn-lg">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </section>
-                        <!-- end .b-form-contact-->
-                    </div>
-                </div>
-                <div class="block-table__cell col-md-6">
-                    <div class="block-table__inner">
-                        <div class="map" id="map"></div>
-                    </div>
-                </div>
-            </div>
+            
             <!-- end .block-table-->
             <footer class="footer area-bg">
                 <div class="area-bg__inner">
