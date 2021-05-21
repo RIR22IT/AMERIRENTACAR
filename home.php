@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="assets/css/master.css" />
         <!-- SWITCHER-->
         <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
+        <link href="assets/css/index.css"/>
         <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
         <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2" />
         <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
@@ -241,162 +242,7 @@
                 <!-- end .b-filter-->
             </section>
             <!-- end .section-filter-->
-            <section class="section-default">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="text-center">
-                                <h2 class="ui-title-block">Featured Vehicles</h2>
-                                <div class="ui-subtitle-block">Tempor incididunt labore dolore magna alique</div>
-                                <div class="ui-decor"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="featured-carousel owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="5" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-5.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Lexus GX 490i Hybird</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-1.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Lexus GX 490i Hybird</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-2.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Toyota Avalon TX</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-3.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Lexus GX 490i Hybird</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-4.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Lexus GX 490i Hybird</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-5.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Lexus GX 490i Hybird</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-1.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Lexus GX 490i Hybird</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-2.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Toyota Avalon TX</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-3.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Lexus GX 490i Hybird</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                    <div class="b-goods-feat">
-                        <div class="b-goods-feat__img">
-                            <img class="img-responsive" src="assets/media/components/b-goods/featured-4.jpg" alt="foto" /><span class="b-goods-feat__label">$45,000<span class="b-goods-feat__label_msrp">MSRP $27,000</span></span>
-                        </div>
-                        <ul class="b-goods-feat__desc list-unstyled">
-                            <li class="b-goods-feat__desc-item">35,000 mi</li>
-                            <li class="b-goods-feat__desc-item">Model: 2017</li>
-                            <li class="b-goods-feat__desc-item">Auto</li>
-                            <li class="b-goods-feat__desc-item">320 hp</li>
-                        </ul>
-                        <h3 class="b-goods-feat__name"><a href="car-details.html">Lexus GX 490i Hybird</a></h3>
-                        <div class="b-goods-feat__info">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</div>
-                    </div>
-                    <!-- end .b-goods-featured-->
-                </div>
-                <!-- end .featured-carousel-->
-            </section>
+            
             <!-- end .section-default-->
             
             <section class="section-advantages-2 section-dark area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-1.jpg)">
@@ -405,41 +251,14 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="text-center">
-                                    <h2 class="ui-title-block">What We Offers</h2>
-                                    <div class="ui-subtitle-block">Tempor incididunt labore dolore duis lorem magna aliqua sed ipsum</div>
+                                    <h2 class="ui-title-block">GET IN TOUCH WITH US</h2>
+                                    <div class="ui-subtitle-block">Whether its a car for self drive or chauffeur driven vehicle for an event, you are sure to get the best tailored deals and support from us around the clock 356 days.</div>
                                     <div class="ui-decor"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3 col-sm-6">
-                                <section class="b-advantages-2"><i class="b-advantages-2__icon flaticon-wheel-alignment"></i>
-                                    <h3 class="b-advantages-2__title">The Wheel<strong>Balancing</strong></h3>
-                                    <div class="b-advantages-2__info">MotorLand is nisi aliquip ex con velit esse cillum dolore fugiatal excepteur sint occaecat.</div><span class="ui-decor-2"></span>
-                                </section>
-                                <!-- end .b-advantages-->
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <section class="b-advantages-2"><i class="b-advantages-2__icon flaticon-gearstick"></i>
-                                    <h3 class="b-advantages-2__title">Transmission<strong>Installation</strong></h3>
-                                    <div class="b-advantages-2__info">MotorLand is nisi aliquip ex con velit esse cillum dolore fugiatal excepteur sint occaecat.</div><span class="ui-decor-2"></span>
-                                </section>
-                                <!-- end .b-advantages-->
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <section class="b-advantages-2"><i class="b-advantages-2__icon flaticon-painting"></i>
-                                    <h3 class="b-advantages-2__title">CarZone<strong>Painting</strong></h3>
-                                    <div class="b-advantages-2__info">MotorLand is nisi aliquip ex con velit esse cillum dolore fugiatal excepteur sint occaecat.</div><span class="ui-decor-2"></span>
-                                </section>
-                                <!-- end .b-advantages-->
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <section class="b-advantages-2"><i class="b-advantages-2__icon flaticon-inspection"></i>
-                                    <h3 class="b-advantages-2__title">CarZone<strong>Inspection</strong></h3>
-                                    <div class="b-advantages-2__info">MotorLand is nisi aliquip ex con velit esse cillum dolore fugiatal excepteur sint occaecat.</div><span class="ui-decor-2"></span>
-                                </section>
-                                <!-- end .b-advantages-->
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -449,16 +268,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <ul class="b-progress-list js-progress-list list-unstyled">
-                                <li class="b-progress-list__item clearfix"><span class="b-progress-list__percent js-chart" data-percent="3874"><span class="js-percent"></span><span></span></span><span class="b-progress-list__name">Vehicles Stock</span>
-                                </li>
-                                <li class="b-progress-list__item clearfix"><span class="b-progress-list__percent js-chart" data-percent="299"><span class="js-percent"></span><span>+</span></span><span class="b-progress-list__name">dealers served</span>
-                                </li>
-                                <li class="b-progress-list__item clearfix"><span class="b-progress-list__percent js-chart" data-percent="6403"><span class="js-percent"></span><span></span></span><span class="b-progress-list__name">Happy Customers</span>
-                                </li>
-                                <li class="b-progress-list__item clearfix"><span class="b-progress-list__percent js-chart" data-percent="1450+"><span class="js-percent"></span><span>+</span></span><span class="b-progress-list__name">vehicles on sale</span>
-                                </li>
-                            </ul>
+                            
                             <!-- end .b-progress-->
                         </div>
                     </div>
@@ -594,7 +404,7 @@
                                         <div class="ui-decor-2"></div>
                                     </div>
                                 </li>
-                                <li class="b-about-list__item"><i class="b-about-list__icon "></i>
+                                <li class="b-about-list__item"><i class="b-about-list__icon flaticon-sportive-car"></i>
                                     <div class="b-about-list__inner">
                                         <div class="b-about-list__title">E mails: amerirentacar@gmail.com</div>
                                         <div class="ui-decor-2"></div>
@@ -637,165 +447,95 @@
             <!-- end .section-default-->
            
             <!-- end .section-isotope-->
-            <div class="section-default">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <section class="section-list-brands">
-                                <h2 class="ui-title-block">Top Car Makes</h2>
-                                <div class="ui-subtitle-block">We have large number of Cars available, here you can browse by Make!</div>
-                                <div class="ui-decor"></div>
-                                <ul class="b-list-brands list-unstyled">
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Alfa Romeo<span class="badge">(256)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Alpine<span class="badge">(157)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Alpine<span class="badge">(145)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Aston Martin<span class="badge">(456)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Audi<span class="badge">(856)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Bently<span class="badge">(125)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">BMW<span class="badge">(562)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Bugatti<span class="badge">(562)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Ferrari<span class="badge">(256)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Fiat<span class="badge">(157)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Lamborghini<span class="badge">(145)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Lancia<span class="badge">(456)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Land Rover<span class="badge">(856)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Maserati<span class="badge">(125)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">McLaren<span class="badge">(562)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Mercedes-Benz<span class="badge">(562)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Mini<span class="badge">(256)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Opel<span class="badge">(157)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Peugeot<span class="badge">(145)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Porsche<span class="badge">(456)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Renault<span class="badge">(856)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Rolls-Royce<span class="badge">(125)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Vauxhall<span class="badge">(562)</span></a>
-                                    </li>
-                                    <li class="b-list-brands__item"><a class="b-list-brands__link" href="listings.html">Volkswagen<span class="badge">(562)</span></a>
-                                    </li>
-                                </ul><a class="btn btn-primary" href="home.html">See all brands</a>
-                            </section>
-                        </div>
-                        <div class="col-md-4 col-md-offset-1">
-                            <div class="b-bnr">
-                                <div class="b-bnr__label">Best & Low Cost</div>
-                                <div class="b-bnr__title">CAR RENTAL</div>
-                                <div class="b-bnr__info">We have Effective and Efficient Vehicles for Car Rental to meet all your needs!</div>
-                                <ul class="b-bnr__list list list-mark-3">
-                                    <li>Instant Quotes</li>
-                                    <li>Unlimited Mileage</li>
-                                    <li>No Booking Fees or Hidden Costs</li>
-                                    <li>Hassle-Free Service</li>
-                                    <li>Guranteed Reservations</li>
-                                </ul>
-                            </div>
-                            <!-- end .b-banner-->
-                        </div>
-                    </div>
-                </div>
-            </div>
+           <br><br>
+
             <!-- end .b-list-brands-->
             <div class="section-reviews area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-6.jpg)">
+            
                 <div class="area-bg__inner">
+                
                     <div class="container">
+                  
                         <div class="row">
+                        
+                        <center><h2 class="b-info__title"><strong class="b-info__title_lg">CUSTOMER REVIEWS</strong></h2></center>
                             <div class="col-xs-12">
                                 <div class="carousel-reviews owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
+                                
                                     <div class="b-blockquote b-blockquote-1">
+                                        <!-- <div class="b-blockquote__img">
+                                            <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
+                                        </div> -->
+                                        <blockquote>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Chris Fogden</span><span class="b-blockquote__category"></span></cite>
+                                            <p>Great car in excellent condition and find working order. The staff were Friendly and helpful and prices are very competitive.They also organised my local driving permit with ease. I look forward to renting with them again.</p>
+                                        </blockquote>
+                                    </div>
+                                    <!-- end .b-blockquote-->
+                                    <div class="b-blockquote b-blockquote-1">
+                                        <!-- <div class="b-blockquote__img">
+                                            <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
+                                        </div> -->
+                                        <blockquote>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Gayani Loid</span><span class="b-blockquote__category"></span></cite>
+                                            <p>I had a great service from this company!!! The KIA SUV was in really good condition. Communication with staff was verry proffessional and very helpful! I have been using this company for two years and will use them again without any doubt! Thank you Amire rental!</p>
+                                        </blockquote>
+                                    </div>
+                                    <!-- end .b-blockquote-->
+                                    <!-- <div class="b-blockquote b-blockquote-1">
                                         <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
                                         </div>
                                         <blockquote>
-                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Nick William</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                            <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
-                                        </blockquote>
-                                    </div>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Taste of India</spaMotorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
+                                        </blockquote>n><span class="b-blockquote__category"></span></cite>
+                                            <p>
+                                    </div> -->
                                     <!-- end .b-blockquote-->
-                                    <div class="b-blockquote b-blockquote-1">
-                                        <div class="b-blockquote__img">
+                                    <!-- <div class="b-blockquote b-blockquote-1"> -->
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
-                                        </div>
-                                        <blockquote>
-                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Gayani Loid</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                            <p>I had a greate service from this company. The KIA SUV was in really good condition. Communication with staff was verry proffessional and verry helpful.</p>
-                                        </blockquote>
-                                    </div>
-                                    <!-- end .b-blockquote-->
-                                    <div class="b-blockquote b-blockquote-1">
-                                        <div class="b-blockquote__img">
-                                            <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
-                                        </div>
-                                        <blockquote>
-                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Nick William</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                            <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
-                                        </blockquote>
-                                    </div>
-                                    <!-- end .b-blockquote-->
-                                    <div class="b-blockquote b-blockquote-1">
-                                        <div class="b-blockquote__img">
-                                            <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
-                                        </div>
-                                        <blockquote>
+                                        </div> -->
+                                        <!-- <blockquote>
                                             <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
                                             <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
-                                        </blockquote>
-                                    </div>
+                                        </blockquote> -->
+                                    <!-- </div> -->
                                     <!-- end .b-blockquote-->
                                     <div class="b-blockquote b-blockquote-1">
-                                        <div class="b-blockquote__img">
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
-                                        </div>
+                                        </div> -->
                                         <blockquote>
-                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Nick William</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                            <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Taste Of India</span><span class="b-blockquote__category"></span></cite>
+                                            <p>We were very happy with Ameri Rent a Car.Sajad Ismail was very friendly and helpful. The rental car was in very good condition.Should we again need a car in Sri Lanka. We will definitely rent again at Ameri. Highly recommended.</p>
                                         </blockquote>
                                     </div>
                                     <!-- end .b-blockquote-->
-                                    <div class="b-blockquote b-blockquote-1">
-                                        <div class="b-blockquote__img">
+                                    <!-- <div class="b-blockquote b-blockquote-1"> -->
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
-                                        </div>
-                                        <blockquote>
+                                        </div> -->
+                                        <!-- <blockquote>
                                             <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
                                             <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
-                                        </blockquote>
-                                    </div>
+                                        </blockquote> -->
+                                    <!-- </div> -->
                                     <!-- end .b-blockquote-->
-                                    <div class="b-blockquote b-blockquote-1">
-                                        <div class="b-blockquote__img">
+                                    <!-- <div class="b-blockquote b-blockquote-1"> -->
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
-                                        </div>
-                                        <blockquote>
+                                        </div> -->
+                                        <!-- <blockquote>
                                             <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Nick William</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
                                             <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
-                                        </blockquote>
-                                    </div>
+                                        </blockquote> -->
+                                    <!-- </div> -->
                                     <!-- end .b-blockquote-->
                                     <div class="b-blockquote b-blockquote-1">
-                                        <div class="b-blockquote__img">
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
-                                        </div>
+                                        </div> -->
                                         <blockquote>
                                             <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
                                             <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
@@ -810,563 +550,8 @@
                 </div>
             </div>
             <!-- end .section-reviews-->
-            <section class="section-default">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="text-center">
-                                <h2 class="ui-title-block">Shop Accessories</h2>
-                                <div class="ui-subtitle-block">Tempor veniam incididunt labore dolore magna aliqua volputate ipsum</div>
-                                <div class="ui-decor"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="goods-group-1 wrap-inl-block">
-                        <div class="js-scroll-content">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap"><span class="b-goods-ac__label label-pink">Special deal</span>
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-1.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">White Gauge Face Kit</div>
-                                                    <div class="b-goods-ac__category">Dashboard</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$185<span class="b-goods-ac__price-old">$220</span>
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-1.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-1.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-2.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Sport Seats</div>
-                                                    <div class="b-goods-ac__category">Interior</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$649
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-2.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-2.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-3.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Clutch Plate</div>
-                                                    <div class="b-goods-ac__category">Interior</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$520
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-3.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-3.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-4.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Gripper Steering</div>
-                                                    <div class="b-goods-ac__category">Dashboard</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$95
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-4.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-4.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap"><span class="b-goods-ac__label bg-primary">hot sale</span>
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-5.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Inlet Fuel Pump</div>
-                                                    <div class="b-goods-ac__category">Pumps</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$145
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-5.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-5.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-6.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Alloy Wheels</div>
-                                                    <div class="b-goods-ac__category">Wheels</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$250
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-6.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-6.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap"><span class="b-goods-ac__label label-green">new</span>
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-7.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Coaxial Speakers</div>
-                                                    <div class="b-goods-ac__category">Sound System</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$28
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-7.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-7.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                            </div>
-                        </div><span class="btn btn-default js-scroll-next">load more items</span>
-                        <div class="js-scroll-content">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-6.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Alloy Wheels</div>
-                                                    <div class="b-goods-ac__category">Wheels</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$250
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-6.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-6.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-2.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Sport Seats</div>
-                                                    <div class="b-goods-ac__category">Interior</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$649
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-2.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-2.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-3.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Clutch Plate</div>
-                                                    <div class="b-goods-ac__category">Interior</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$520
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-3.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-3.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap"><span class="b-goods-ac__label bg-primary">hot sale</span>
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-5.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Inlet Fuel Pump</div>
-                                                    <div class="b-goods-ac__category">Pumps</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$145
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-5.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-5.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-4.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Gripper Steering</div>
-                                                    <div class="b-goods-ac__category">Dashboard</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$95
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-4.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-4.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap"><span class="b-goods-ac__label bg-primary">hot sale</span>
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-5.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Inlet Fuel Pump</div>
-                                                    <div class="b-goods-ac__category">Pumps</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$145
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-5.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-5.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap">
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-6.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Alloy Wheels</div>
-                                                    <div class="b-goods-ac__category">Wheels</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$250
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-6.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-6.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="b-goods-ac">
-                                        <div class="b-goods-ac__wrap"><span class="b-goods-ac__label label-green">new</span>
-                                            <div class="b-goods-ac__img">
-                                                <img class="img-responsive" src="assets/media/components/b-goods/access-7.jpg" alt="foto" />
-                                            </div>
-                                            <div class="b-goods-ac__inner">
-                                                <div class="b-goods-ac__info">
-                                                    <div class="b-goods-ac__name">Coaxial Speakers</div>
-                                                    <div class="b-goods-ac__category">Sound System</div>
-                                                </div>
-                                                <div class="b-goods-ac__price">$28
-                                                </div>
-                                            </div>
-                                            <ul class="b-goods-links list-unstyled">
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-shopping-basket"></i></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link js-zoom-images" href="assets/media/components/b-goods/access-7.jpg"><i class="fa fa-search-plus"></i><img class="hidden" src="assets/media/components/b-goods/access-7.jpg" alt="foto"/></a>
-                                                </li>
-                                                <li class="b-goods-links__item"><a class="b-goods-links__link" href="home.html"><i class="fa fa-heart-o"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- end .b-goods-access-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end .goods-group-1-->
-                </div>
-            </section>
-            <!-- end .section-default-->
-<<<<<<< HEAD:home.php
-           
-            <!-- end .section-news-->
-            <div class="section-default">
-                <div class="b-brands owl-carousel owl-theme enable-owl-carousel" data-min768="2" data-min992="5" data-min1200="6" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
-                    <div class="b-brands__item">
-                        <div class="b-brands__img">
-                            <img class="img-responsive" src="assets/media/components/b-brands/1.jpg" alt="foto" />
-                        </div>
-                    </div>
-                    <div class="b-brands__item">
-                        <div class="b-brands__img">
-                            <img class="img-responsive" src="assets/media/components/b-brands/2.jpg" alt="foto" />
-                        </div>
-                    </div>
-                    <div class="b-brands__item">
-                        <div class="b-brands__img">
-                            <img class="img-responsive" src="assets/media/components/b-brands/3.jpg" alt="foto" />
-                        </div>
-                    </div>
-                    <div class="b-brands__item">
-                        <div class="b-brands__img">
-                            <img class="img-responsive" src="assets/media/components/b-brands/4.jpg" alt="foto" />
-                        </div>
-                    </div>
-                    <div class="b-brands__item">
-                        <div class="b-brands__img">
-                            <img class="img-responsive" src="assets/media/components/b-brands/5.jpg" alt="foto" />
-                        </div>
-                    </div>
-                    <div class="b-brands__item">
-                        <div class="b-brands__img">
-                            <img class="img-responsive" src="assets/media/components/b-brands/6.jpg" alt="foto" />
-                        </div>
-                    </div>
-                </div>
-                <!-- end .b-brands-->
-            </div>
-            <!-- end .section-default-->
             
-            <!-- end .b-subscribe-->
-            
-            <!-- end .block-table-->
-            <footer class="footer area-bg">
-                <div class="area-bg__inner">
-                    <div class="footer__main">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="footer-section">
-                                        <a class="footer__logo" href="home.html">
-                                            <img class="img-responsive" src="assets/media/general/logo.png" alt="Logo" />
-                                        </a>
-                                        <div class="footer__info">Duis aute irure reprehend voluptate velit ese acium fugiat nula pariatur exceptus ipsum dolor sit amet consectetur adipisic elita sed eiusmod tempor.</div>
-                                        <ul class="social-net list-inline">
-                                            <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
-                                            </li>
-                                            <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a>
-                                            </li>
-                                            <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
-                                            </li>
-                                            <li class="social-net__item"><a class="social-net__link text-primary_h" href="instagram.com"><i class="icon fa fa-instagram"></i></a>
-                                            </li>
-                                            <li class="social-net__item"><a class="social-net__link text-primary_h" href="youtube.com"><i class="icon fa fa-youtube-play"></i></a>
-                                            </li>
-                                        </ul>
-                                        <!-- end .social-list-->
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <section class="footer-section footer-section_list-columns">
-                                        <h3 class="footer-section__title ui-title-inner">Top Brands</h3>
-                                        <ul class="footer-list footer-list_columns list-unstyled">
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Alfa Romeo</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Ferrari</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">BMW Series</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Mercedes</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Aston Martin</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Toyota</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Opel</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Land Rover</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Mclaren</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Peogeot</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Renault</a>
-                                            </li>
-                                        </ul>
-                                    </section>
-                                </div>
-                                <div class="col-md-2">
-                                    <section class="footer-section footer-section_list-one">
-                                        <h3 class="footer-section__title ui-title-inner">Categories</h3>
-                                        <ul class="footer-list list-unstyled">
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Trucks</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Sports Cars</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Crossovers</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Hybrid Cars</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Hybrid SUVs</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Future Cars</a>
-                                            </li>
-                                        </ul>
-                                    </section>
-                                </div>
-                                <div class="col-md-3">
-                                    <section class="footer-section">
-                                        <h3 class="footer-section__title ui-title-inner">Address Information</h3>
-                                        <div class="footer-contact footer-contact_lg">Call us<span class="text-primary"> (042) 789 35490</span>
-                                        </div>
-                                        <div class="footer-contact"><i class="icon icon-xs fa fa-envelope-o"></i>support@motorland.com</div>
-                                        <div class="footer-contact"><i class="icon icon-lg fa fa-map-marker"></i>Fairview Ave, El Monte, CA, 91732</div>
-                                        <div class="footer-contact"><i class="icon fa fa-clock-o"></i>Mon - Fri : 0900am to 0600pm</div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="copyright">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12">Copyrights 2017<a class="copyright__brand" href="home.html"> MOTORLAND</a> All Rights Reserved<a class="copyright__link" href="privacy-policy.html">Privacy Policy</a><a class="copyright__link" href="terms-of-use.html">Terms & Conditions</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><span class="btn-up" id="toTop">TOP</span>
-                </div>
-            </footer>
-            <!-- .footer-->
-=======
+            <!-- end .section-default-->
             <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg)">
                 <div class="area-bg__inner">
                     <div class="container">
@@ -1452,7 +637,6 @@
             <!-- footer start here-->
             <?php include('./inc/footer.php') ?>
 
->>>>>>> 2896fe3393e0650f4c8fa1e03053481ad0bd0650:home.html
         </div>
         <!-- end layout-theme-->
 
