@@ -209,7 +209,7 @@ body:not(.header-demo) .navbar-scrolling .navbar .toggle-menu-button.is-open .to
 }
 
 body:not(.header-demo) .navbar-scrolling .top-bar {
-    //border-bottom: 1px solid rgba(000, 000, 000, 0.15);
+    border-bottom: 1px solid rgba(000, 000, 000, 0.15);
     display: none;
 }
 

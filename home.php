@@ -482,196 +482,196 @@
                                         </blockquote>n><span class="b-blockquote__category"></span></cite>
                                             <p>
                                     </div> -->
-                                <!-- end .b-blockquote-->
-                                <!-- <div class="b-blockquote b-blockquote-1"> -->
-                                <!-- <div class="b-blockquote__img">
+                                    <!-- end .b-blockquote-->
+                                    <!-- <div class="b-blockquote b-blockquote-1"> -->
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
                                         </div> -->
-                                <!-- <blockquote>
+                                        <!-- <blockquote>
                                             <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
                                             <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
                                         </blockquote> -->
-                                <!-- </div> -->
-                                <!-- end .b-blockquote-->
-                                <div class="b-blockquote b-blockquote-1">
-                                    <!-- <div class="b-blockquote__img">
+                                    <!-- </div> -->
+                                    <!-- end .b-blockquote-->
+                                    <div class="b-blockquote b-blockquote-1">
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
                                         </div> -->
-                                    <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Taste Of India</span><span class="b-blockquote__category"></span></cite>
-                                        <p>We were very happy with Ameri Rent a Car.Sajad Ismail was very friendly and helpful. The rental car was in very good condition.Should we again need a car in Sri Lanka. We will definitely rent again at Ameri. Highly recommended.</p>
-                                    </blockquote>
-                                </div>
-                                <!-- end .b-blockquote-->
-                                <!-- <div class="b-blockquote b-blockquote-1"> -->
-                                <!-- <div class="b-blockquote__img">
+                                        <blockquote>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Taste Of India</span><span class="b-blockquote__category"></span></cite>
+                                            <p>We were very happy with Ameri Rent a Car.Sajad Ismail was very friendly and helpful. The rental car was in very good condition.Should we again need a car in Sri Lanka. We will definitely rent again at Ameri. Highly recommended.</p>
+                                        </blockquote>
+                                    </div>
+                                    <!-- end .b-blockquote-->
+                                    <!-- <div class="b-blockquote b-blockquote-1"> -->
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
                                         </div> -->
-                                <!-- <blockquote>
+                                        <!-- <blockquote>
                                             <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
                                             <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
                                         </blockquote> -->
-                                <!-- </div> -->
-                                <!-- end .b-blockquote-->
-                                <div class="b-blockquote b-blockquote-1">
-                                    <!-- <div class="b-blockquote__img">
+                                    <!-- </div> -->
+                                    <!-- end .b-blockquote-->
+                                    <!-- <div class="b-blockquote b-blockquote-1"> -->
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
                                         </div> -->
-                                    <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Nick William</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                        <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
-                                    </blockquote>
-                                </div>
-                                <!-- end .b-blockquote-->
-                                <div class="b-blockquote b-blockquote-1">
-                                    <!-- <div class="b-blockquote__img">
+                                        <!-- <blockquote>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Nick William</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
+                                            <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
+                                        </blockquote> -->
+                                    <!-- </div> -->
+                                    <!-- end .b-blockquote-->
+                                    <div class="b-blockquote b-blockquote-1">
+                                        <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
                                         </div> -->
-                                    <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                        <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
-                                    </blockquote>
+                                        <blockquote>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
+                                            <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
+                                        </blockquote>
+                                    </div>
+                                    <!-- end .b-blockquote-->
                                 </div>
-                                <!-- end .b-blockquote-->
+                                <!-- end .carousel-reviews-->
                             </div>
-                            <!-- end .carousel-reviews-->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- end .section-reviews-->
-
-        <!-- end .section-default-->
-        <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg)">
-            <div class="area-bg__inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="text-center">
-                                <h2 class="ui-title-block">EXPLORE SRI LANKA</h2>
-                                <div class="ui-subtitle-block">TIPS FOR TRAVEL AROUND SRI LANKA</div>
-                                <div class="ui-decor"></div>
-                            </div>
-                            <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
-                                <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
-                                                    <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
-                                            </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka </a></h2>
+            <!-- end .section-reviews-->
+            
+            <!-- end .section-default-->
+            <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg)">
+                <div class="area-bg__inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="text-center">
+                                    <h2 class="ui-title-block">EXPLORE SRI LANKA</h2>
+                                    <div class="ui-subtitle-block">TIPS FOR TRAVEL AROUND SRI LANKA</div>
+                                    <div class="ui-decor"></div>
+                                </div>
+                                <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
+                                    <!-- end .post-->
+                                    <section class="b-post b-post-1 clearfix">
+                                        <div class="entry-media">
+                                            <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto" style="max-height:200px" />
                                         </div>
-                                        <div class="entry-content">
-                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering. Have. Open fifth face shall land fish kind isn’t let can’t
-                                                blessed multiply third light, shall from winged, his creature isn’t midst said dominion in. Male firmament beginning dominion fourth he place shall. [...]</p>
-                                        </div>
-                                    </div>
-                                </section>
-                                <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
-
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
-                                            </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a></h2>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering. Have. Open fifth face shall land fish kind isn’t let can’t blessed
-                                                multiply third light, shall from winged, his creature isn’t midst said dominion in. Male firmament beginning dominion fourth he place shall[...]</p>
-                                        </div>
-                                    </div>
-                                </section>
-                                <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
+                                        <div class="entry-main">
+                                            <div class="entry-header">
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta__face">
+                                                        <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
+                                                    </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
                                                 </div>
-                                                <span class="entry-meta__item">Post by<a class="entry-meta__link" href="#">Admin</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
+                                                <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka </a></h2>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN SRILANKA</a></h2>
+                                            <div class="entry-content">
+                                                <p>Every forth one male man which. Brought won’t divide in. Hath gathering. Have. Open fifth face shall land fish kind isn’t let can’t 
+                                                blessed multiply third light, shall from winged, his creature isn’t midst said dominion in. Male firmament beginning dominion fourth he place shall. [...]</p>
+                                            </div>
                                         </div>
-                                        <div class="entry-content">
-                                            <p>Negombo Negombo is a modest beach town located just 10km from Bandaranaike International Airport. With a stash of decent hotels and restaurants to suit all pockets, a friendly local community. Negombo is the Major tourist destination in Sri Lanka.
+                                    </section>
+                                    <!-- end .post-->
+                                    <section class="b-post b-post-1 clearfix">
+                                        <div class="entry-media">
+                                            <img class="img-responsive" src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg" alt="Foto" style="max-height:200px" />
+                                        </div>
+                                        <div class="entry-main">
+                                            <div class="entry-header">
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta__face">
+                                                       
+                                                    </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
+                                                </div>
+                                                <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a></h2>
+                                            </div>
+                                            <div class="entry-content">
+                                                <p>Every forth one male man which. Brought won’t divide in. Hath gathering. Have. Open fifth face shall land fish kind isn’t let can’t blessed 
+                                                multiply third light, shall from winged, his creature isn’t midst said dominion in. Male firmament beginning dominion fourth he place shall[...]</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- end .post-->
+                                    <section class="b-post b-post-1 clearfix">
+                                        <div class="entry-media">
+                                            <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto" style="max-height:200px" />
+                                        </div>
+                                        <div class="entry-main">
+                                            <div class="entry-header">
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta__face">
+                                                    </div>
+                                                    <span class="entry-meta__item">Post by<a class="entry-meta__link" href="#">Admin</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
+                                                </div>
+                                                <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN SRILANKA</a></h2>
+                                            </div>
+                                            <div class="entry-content">
+                                                <p>Negombo Negombo is a modest beach town located just 10km from Bandaranaike International Airport. With a stash of decent hotels and restaurants to suit all pockets, a friendly local community. Negombo is the Major tourist destination in Sri Lanka. 
                                                 Negombo offers one of the best beaches […]</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </section>
-                                <!-- end .post-->
+                                    </section>
+                                    <!-- end .post-->
+                                </div>
+                                <!-- end .carousel-news-->
                             </div>
-                            <!-- end .carousel-news-->
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- end .section-news-->
+            <!-- end .section-news-->
 
-        <!-- footer start here-->
-        <?php include('./inc/footer.php') ?>
+            <!-- footer start here-->
+            <?php include('./inc/footer.php') ?>
 
-    </div>
-    <!-- end layout-theme-->
+        </div>
+        <!-- end layout-theme-->
 
 
-    <!-- ++++++++++++-->
-    <!-- MAIN SCRIPTS-->
-    <!-- ++++++++++++-->
-    <script src="assets/libs/jquery-1.12.4.min.js"></script>
-    <script src="assets/libs/jquery-migrate-1.2.1.js"></script>
-    <!-- Bootstrap-->
-    <script src="assets/libs/bootstrap/bootstrap.min.js"></script>
-    <!-- User customization-->
-    <script src="assets/js/custom.js"></script>
-    <!-- Headers scripts-->
-    <script src="assets/plugins/headers/slidebar.js"></script>
-    <script src="assets/plugins/headers/header.js"></script>
-    <!-- Color scheme-->
-    <script src="assets/plugins/switcher/js/dmss.js"></script>
-    <!-- Select customization & Color scheme-->
-    <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <!-- Slider-->
-    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-    <!-- Pop-up window-->
-    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- Mail scripts-->
-    <script src="assets/plugins/jqBootstrapValidation.js"></script>
-    <script src="assets/plugins/contact_me.js"></script>
-    <!-- Filter and sorting images-->
-    <script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
-    <script src="assets/plugins/isotope/imagesLoaded.js"></script>
-    <!-- Progress numbers-->
-    <script src="assets/plugins/rendro-easy-pie-chart/jquery.easypiechart.min.js"></script>
-    <script src="assets/plugins/rendro-easy-pie-chart/waypoints.min.js"></script>
-    <!-- NoUiSlider-->
-    <script src="assets/plugins/noUiSlider/nouislider.min.js"></script>
-    <script src="assets/plugins/noUiSlider/wNumb.js"></script>
-    <!-- Animations-->
-    <script src="assets/plugins/scrollreveal/scrollreveal.min.js"></script>
-    <!-- Main slider-->
-    <script src="assets/plugins/slider-pro/jquery.sliderPro.min.js"></script>
-    <!-- User map-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqQ_bBw186KJnMcRByvn5ffZueg88wp1E"></script>
-    <!-- Maps customization-->
-    <script src="assets/js/map-custom.js"></script>
-</body>
+        <!-- ++++++++++++-->
+        <!-- MAIN SCRIPTS-->
+        <!-- ++++++++++++-->
+        <script src="assets/libs/jquery-1.12.4.min.js"></script>
+        <script src="assets/libs/jquery-migrate-1.2.1.js"></script>
+        <!-- Bootstrap-->
+        <script src="assets/libs/bootstrap/bootstrap.min.js"></script>
+        <!-- User customization-->
+        <script src="assets/js/custom.js"></script>
+        <!-- Headers scripts-->
+        <script src="assets/plugins/headers/slidebar.js"></script>
+        <script src="assets/plugins/headers/header.js"></script>
+        <!-- Color scheme-->
+        <script src="assets/plugins/switcher/js/dmss.js"></script>
+        <!-- Select customization & Color scheme-->
+        <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+        <!-- Slider-->
+        <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+        <!-- Pop-up window-->
+        <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!-- Mail scripts-->
+        <script src="assets/plugins/jqBootstrapValidation.js"></script>
+        <script src="assets/plugins/contact_me.js"></script>
+        <!-- Filter and sorting images-->
+        <script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+        <script src="assets/plugins/isotope/imagesLoaded.js"></script>
+        <!-- Progress numbers-->
+        <script src="assets/plugins/rendro-easy-pie-chart/jquery.easypiechart.min.js"></script>
+        <script src="assets/plugins/rendro-easy-pie-chart/waypoints.min.js"></script>
+        <!-- NoUiSlider-->
+        <script src="assets/plugins/noUiSlider/nouislider.min.js"></script>
+        <script src="assets/plugins/noUiSlider/wNumb.js"></script>
+        <!-- Animations-->
+        <script src="assets/plugins/scrollreveal/scrollreveal.min.js"></script>
+        <!-- Main slider-->
+        <script src="assets/plugins/slider-pro/jquery.sliderPro.min.js"></script>
+        <!-- User map-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqQ_bBw186KJnMcRByvn5ffZueg88wp1E"></script>
+        <!-- Maps customization-->
+        <script src="assets/js/map-custom.js"></script>
+    </body>
 
 </html>
