@@ -1,16 +1,17 @@
+
 <?php
 
 $host = 'localhost';
 $user = 'root';
 $pass = '';
-$db = 'amerirentacar';
+$db_name = 'amerirentacar';
 
     //database connection
-    $conn = mysqli_connect($host,$user,$pass,$db);
+    $db = mysqli_connect($host,$user,$pass,$db_name);
 
     //check connection 
-    if($conn -> connect_error){
-        die("Connection failed: " . $conn -> connect_error);
+    if($db -> connect_error){
+        die("Connection failed: " . $db -> connect_error);
     }
 
 ?>
