@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Motor Land / Blog</title>
+        <title>AMERIRENTACAR / Self Drive Rates</title>
         <meta content="" name="description" />
         <meta content="" name="keywords" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +12,7 @@
         <meta name="HandheldFriendly" content="true" />
         <link rel="stylesheet" href="assets/css/master.css" />
         <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+
         <!-- SWITCHER-->
         <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
         <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
@@ -19,26 +20,44 @@
         <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
         <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+         <!--Whatsapp CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/whatsapp.css">
+
         <!--[if lt IE 9 ]>
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
 
-    <!--Whatsapp CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/whatsapp.css">
+<style>
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
+</style>
+
     </head>
 
     <body>
-        
+
         <!-- Loader-->
         <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span>
         </div>
         </div>
         <!-- Loader end-->
         <!-- ==========================-->
-        
+
          <!-- Mobile Header -->
-         <?php include('./inc/mobile-slider.php')?>
+         <?php include './inc/mobile-slider.php' ?>
 
           <!--WHATSAPP CONTENT
 			=============================================-->
@@ -47,7 +66,7 @@
 
         <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
             <!-- Start Switcher-->
-            
+
             <!-- end switcher-->
             <!-- ==========================-->
             <!-- SEARCH MODAL-->
@@ -125,7 +144,7 @@
                 </ul>
             </div>
              <!-- Header -->
-             <?php include('./inc/header.php')?>
+             <?php include './inc/header.php' ?>
 
             <!-- main slider start-->
             <div class="main-slider main-slider-1">
@@ -159,7 +178,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
-                                <h1 class="b-title-page bg-primary_a">WHO WE ARE</h1>
+                                <h1 class="b-title-page bg-primary_a">SELF DRIVE RATES IN SRI LANKA</h1>
                             </div>
                         </div>
                     </div>
@@ -171,47 +190,228 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <ol class="breadcrumb">
-                                <li><a href="home.html"><i class="icon fa fa-home"></i></a>
+                                <li><a href="home.php"><i class="icon fa fa-home"></i></a>
                                 </li>
-                                <li class="active">Who We Are</li>
+                                <li class="active">SELF DRIVE RATES IN SRI LANKA</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- end breadcrumb-->
-         
-           
-            <!-- <center><h1>WELCOME TO AMERI RENT A CAR!</h1></center> -->
+
+
             <div class="typography-section typography-section-border">
-                    <div class="container">
-                       
-                    <center><h2 class="ui-title-block-2">WELCOME TO AMERI RENT A CAR!</h2></center>
-                        <section class="typography-section__inner">
-                            <div class="row">
-                                <div class="col-xs-12">
-                               
-                                    <div class="row">
-                                        <div class="col-xs-12">
-                                        <h5> With over 35 years of exceptional experience and trusted for decades as one of Sri Lanka’s premier car rental companies, we at Ameri Rent a Car pride ourselves on providing dedicated and personalized solutions to fulfill all your transport requirements.</h5><br>
-                                        <h5>As a member of the Rent A Car Association of Sri Lanka (RACA), our team has years of valuable experience under their belt, managing a vast spectrum of customer expectations. We guarantee a car rental service that this reliable, cost-effective, superior, hassle-free and one that does not compromise on comfort or safety.</h5><br>
-                                        <h5>With our large fleet of vehicles, we are able to serve a wide range of customer requests, from short-term rentals to long-term leasing and specialty contracts. We offer a variety of cars, minivans and large passenger vans to suit any need or occasion.</h5><br>
-                                        <h5>Our long-standing reputation as a leading rent a car company in Sri Lanka and our loyal clientele stands as a testament to the quality of our service and our ongoing success.</h5><br>
-                                        <h5>Choose Ameri Rent a car for an unparalleled car rental experience in Sri Lanka that will exceed your expectations.</h5>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            
+            <div style="overflow-x:auto;">
+                    <table>
+                        <tr>
+                            <th>VEHICLES</th>
+                            <th>RATE PER MONTH</th>
+                            <th>RATE PER WEEK</th>
+                            <th>EXCESS MILEAGE</th>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">GENERAL CARS</th>
+                        </tr>
+                        <tr>
+                            <td>SUZUKI ALTO (MANUAL TRANSMISSION)</td>
+                            <td>50,000/- U$ 323</td>
+                            <td>21,000/- U$ 137</td>
+                            <td>25.00</td>
+                        </tr>
+                        <tr>
+                            <td>SUZUKI ALTO HYBRID JAPAN (AUTO TRANSMISSION)</td>
+                            <td>58,500/- U$ 334</td>
+                            <td>22,000/- U$ 126</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA PIXIS HYBRID</td>
+                            <td>63,000/- U$ 360</td>
+                            <td>25,600/- U$ 146</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>SUZUKI WAGON R HYBRID</td>
+                            <td>63,000/- U$ 360</td>
+                            <td>25,200/- U$ 144</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>VIVA AXIA</td>
+                            <td>71,500/- U$ 409</td>
+                            <td>27,000/- U$ 154</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA VITZ 2010</td>
+                            <td>58,500/- U$ 334</td>
+                            <td>22.000/- U$ 126</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA AQUA</td>
+                            <td>76,500/- U$ 437</td>
+                            <td>28,300/- U$ 162</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>SUZUKI BELENO</td>
+                            <td>76,500/- U$ 437</td>
+                            <td>28,300/- U$ 162</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>HONDA FIT HYBRID</td>
+                            <td>85,500/- U$ 551</td>
+                            <td>32,500/- U$ 210</td>
+                            <td>45.00</td>
+                        </tr>
+                        <tr>
+                            <td>KIA PICANTO 2016</td>
+                            <td>67,500/- U$ 386</td>
+                            <td>25,200/- U$ 144</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>PERODUA BEZZA 2018</td>
+                            <td>85,000/- U$ 486</td>
+                            <td>31,500/- U$ 180</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">PREMIUM CARS</th>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA YARIS / BELTA</td>
+                            <td>67,500/- U$ 386</td>
+                            <td>22,500/- U$ 129</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA NZE 121</td>
+                            <td>58,500/- U$ 334</td>
+                            <td>22,000/- U$ 126</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">SEMI LUXURY CARS</th>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA COROLLA NZE 141</td>
+                            <td>81,000/- U$ 463</td>
+                            <td>27,000/- U$ 154</td>
+                            <td>35.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA AXIO HYBRID</td>
+                            <td>112,500/- U$ 643</td>
+                            <td>31,500/- U$ 180</td>
+                            <td>45.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA ALLION 260</td>
+                            <td>121,500/- U$ 694</td>
+                            <td>40,500/- U$ 231</td>
+                            <td>50.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA PRIUS</td>
+                            <td>121,500/- U$ 694</td>
+                            <td>41,000/- U$ 234</td>
+                            <td>50.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA PREMIO 260 (2017')</td>
+                            <td>139,500/- U$ 797</td>
+                            <td>40,500/- U$ 231</td>
+                            <td>50.00</td>
+                        </tr>
+                        <tr>
+                            <td>CONTINENTAL CARS</td>
+                            <td>BY SPECIAL ARRANGEMENT</td>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">VANS</th>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA HIACE TRH200 (PETROL)</td>
+                            <td>135,000/- U$ 771</td>
+                            <td>45,000/- U$ 257</td>
+                            <td>75.00</td>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">4WD</th>
+                        </tr>
+                        <tr>
+                            <td>MITSUBISHI L200 4WD | TOYOTA HILUX</td>
+                            <td>135,000/- U$ 771</td>
+                            <td>45,000/- U$ 257</td>
+                            <td>75.00</td>
+                        </tr>
+                        <tr>
+                            <td>MITSUBISHI OUTLANDER</td>
+                            <td>166,500/- U$951</td>
+                            <td>50,400/- U$288</td>
+                            <td>75.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA CHR</td>
+                            <td>179,500/- U$ 1026</td>
+                            <td>58,500/- U$334</td>
+                            <td>75.00</td>
+                        </tr>
+                        <tr>
+                            <td>KIA SPORTAGE</td>
+                            <td>135,000/- U$ 771</td>
+                            <td>44,100/- U$ 252</td>
+                            <td>75.00</td>
+                        </tr>
+                        <tr>
+                            <td>MITSUBISHI MONTERO SPORT</td>
+                            <td>175,500/- U$ 1003</td>
+                            <td>67,500/- U$ 386</td>
+                            <td>120.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA LANDCRUISER – TRJ 120</td>
+                            <td>202,500/- U$ 1157</td>
+                            <td>85,500/- U$489</td>
+                            <td>120.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA LANDCRUISER PRADO TRJ 150</td>
+                            <td>315,000/- U$ 1800</td>
+                            <td>112,500/- U$643</td>
+                            <td>175.00</td>
+                        </tr>
+                        <tr>
+                            <td>HONDA VEZEL HYBRID</td>
+                            <td>135,000/- U$ 771</td>
+                            <td>45,000/- U$ 257</td>
+                            <td>75.00</td>
+                        </tr>
+                        <tr>
+                            <td>KIA SORANTA 7 SEATER SUV</td>
+                            <td>157,500/- U$ 900</td>
+                            <td>50,400/- U$ 288</td>
+                            <td>75.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA FORTUNA</td>
+                            <td>175,500/- U$ 1003</td>
+                            <td>67,500/- U$ 386</td>
+                            <td>75.00</td>
+                        </tr>
+                    </table>
+            </div>
+            </div>
 
 
-            
+
+
              <!-- footer start here-->
-             <?php include('./inc/footer.php') ?>
+             <?php include './inc/footer.php' ?>
 
         </div>
         <!-- end layout-theme-->
