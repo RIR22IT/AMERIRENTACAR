@@ -21,6 +21,11 @@
     <!--[if lt IE 9 ]>
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
+
+    <!--Whatsapp CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/whatsapp.css">
+
 </head>
 
 <body>
@@ -32,6 +37,10 @@
 
     <!-- Mobile Header -->
     <?php include('./inc/mobile-slider.php') ?>
+
+    <!--WHATSAPP CONTENT
+			=============================================-->
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
 
@@ -47,7 +56,8 @@
                                 <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
                                 <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
                                 </button>
-                                <div class="search-global__note">Begin typing your search above and press return to search.</div>
+                                <div class="search-global__note">Begin typing your search above and press return to
+                                    search.</div>
                             </form>
                         </div>
                     </div>
@@ -182,7 +192,11 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div></div></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- end .main-slider-->
@@ -198,28 +212,34 @@
                                 <div class="section-advantages-1">
                                     <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-car-dashboard"></i>
                                         <h3 class="b-advantages-1__title">Fast & Easy Booking</h3>
-                                        <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div><span class="ui-decor-2"></span>
+                                        <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis
+                                            velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.
+                                        </div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
                                     <section class="b-advantages-1 active"><i class="b-advantages-1__icon flaticon-doors"></i>
                                         <h3 class="b-advantages-1__title">Many Pickup Locations</h3>
-                                        <div class="b-advantages-1__info">We pride ourselves on providing a many pickup and drop locations service with our wide range of rental cars. Our goal is to provide a great customer experience.</div><span class="ui-decor-2"></span>
+                                        <div class="b-advantages-1__info">We pride ourselves on providing a many pickup
+                                            and drop locations service with our wide range of rental cars. Our goal is
+                                            to provide a great customer experience.</div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
                                     <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-calculator"></i>
                                         <h3 class="b-advantages-1__title">Best Prices in Sri Lanka</h3>
-                                        <div class="b-advantages-1__info">We are all about helping people find the best car deals in Sri Lanka. Guaranteed best deals for self drive rates and with driver rates in Sri Lanka.</div><span class="ui-decor-2"></span>
+                                        <div class="b-advantages-1__info">We are all about helping people find the best
+                                            car deals in Sri Lanka. Guaranteed best deals for self drive rates and with
+                                            driver rates in Sri Lanka.</div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
                                 </div>
                                 <!-- end .section-advantages-1-->
                             </div>
 
-                          
+
                         </div>
                     </div>
                 </div>
-            </div><br/><br/><br/><br/>
+            </div><br /><br /><br /><br />
 
             <!-- end .b-filter-->
         </section>
@@ -263,7 +283,8 @@
                         <div class="col-xs-12">
                             <div class="text-center">
                                 <h2 class="ui-title-block">Recent Cars</h2>
-                                <div class="ui-subtitle-block">Tempor incididunt labore dolore magna cillium fugiat alique</div>
+                                <div class="ui-subtitle-block">Tempor incididunt labore dolore magna cillium fugiat
+                                    alique</div>
                                 <div class="ui-decor"></div>
                             </div>
                             <div class="slider-thumbnail slider-pro" id="slider-thumbnail">
@@ -297,49 +318,57 @@
                                     <div class="sp-thumbnail">
                                         <div class="sp-thumbnail-text">
                                             <div class="sp-thumbnail-title">Chevrolet Silverado 1500</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L V8, Automatic 4-Speed, 4X2</div>
+                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L
+                                                V8, Automatic 4-Speed, 4X2</div>
                                         </div>
                                     </div>
                                     <div class="sp-thumbnail">
                                         <div class="sp-thumbnail-text">
                                             <div class="sp-thumbnail-title">Ford Explorer 2018 Super Duty</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4 Turbocharger, Auto 6-Speed</div>
+                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4
+                                                Turbocharger, Auto 6-Speed</div>
                                         </div>
                                     </div>
                                     <div class="sp-thumbnail">
                                         <div class="sp-thumbnail-text">
                                             <div class="sp-thumbnail-title">GMC Sierra 2500HD</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L V8, Automatic 4-Speed, 4X2</div>
+                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L
+                                                V8, Automatic 4-Speed, 4X2</div>
                                         </div>
                                     </div>
                                     <div class="sp-thumbnail">
                                         <div class="sp-thumbnail-text">
                                             <div class="sp-thumbnail-title">Ford Mustang EcoBoost</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4 Turbocharger, Auto 6-Speed</div>
+                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4
+                                                Turbocharger, Auto 6-Speed</div>
                                         </div>
                                     </div>
                                     <div class="sp-thumbnail">
                                         <div class="sp-thumbnail-text">
                                             <div class="sp-thumbnail-title">Chevrolet Silverado 1500</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L V8, Automatic 4-Speed, 4X2</div>
+                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L
+                                                V8, Automatic 4-Speed, 4X2</div>
                                         </div>
                                     </div>
                                     <div class="sp-thumbnail">
                                         <div class="sp-thumbnail-text">
                                             <div class="sp-thumbnail-title">Ford Explorer 2018 Super Duty</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4 Turbocharger, Auto 6-Speed</div>
+                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4
+                                                Turbocharger, Auto 6-Speed</div>
                                         </div>
                                     </div>
                                     <div class="sp-thumbnail">
                                         <div class="sp-thumbnail-text">
                                             <div class="sp-thumbnail-title">GMC Sierra 2500HD</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L V8, Automatic 4-Speed, 4X2</div>
+                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L
+                                                V8, Automatic 4-Speed, 4X2</div>
                                         </div>
                                     </div>
                                     <div class="sp-thumbnail">
                                         <div class="sp-thumbnail-text">
                                             <div class="sp-thumbnail-title">Ford Mustang EcoBoost</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4 Turbocharger, Auto 6-Speed</div>
+                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4
+                                                Turbocharger, Auto 6-Speed</div>
                                         </div>
                                     </div>
                                 </div>
@@ -357,14 +386,20 @@
                     <div class="col-lg-10">
                         <div class="b-about__inner">
                             <h2 class="ui-title-block">GET IN TOUCH WITH US</h2>
-                            <div class="ui-subtitle-block">Whether its a car for self drive or chauffeur driven vehicle for an event, you are sure to get the best tailored deals and support from us around the clock 356 days.</div>
+                            <div class="ui-subtitle-block">Whether its a car for self drive or chauffeur driven vehicle
+                                for an event, you are sure to get the best tailored deals and support from us around the
+                                clock 356 days.</div>
                             <div class="ui-decor"></div>
                             <div class="b-about-main">
                                 <div class="b-about-main__title">We are a Trusted Name in Auto Industry</div>
                                 <div class="b-about-main__subtitle">Visited by Million of Car Buyers Every Month!</div>
-                                <p>MotorLand is aliquip exd ea consequat duis lorem ipsum dolor sit amet consectetur dipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
-                                <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                <div class="b-about-main__btns"><a class="btn btn-dark" href="home.html">Our partners</a><a class="btn btn-primary" href="home.html">learn more</a>
+                                <p>MotorLand is aliquip exd ea consequat duis lorem ipsum dolor sit amet consectetur
+                                    dipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam quis nostrud exercitation.</p>
+                                <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor
+                                    raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <div class="b-about-main__btns"><a class="btn btn-dark" href="home.html">Our
+                                        partners</a><a class="btn btn-primary" href="home.html">learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -380,7 +415,8 @@
                             </li>
                             <li class="b-about-list__item"><i class="b-about-list__icon flaticon-smartphone"></i>
                                 <div class="b-about-list__inner">
-                                    <div class="b-about-list__title">Support Phone : &nbsp; &nbsp; (+94) 777 312 848, (+94) 777668166, (+94) 727343435, (+94) 0765566431</div>
+                                    <div class="b-about-list__title">Support Phone : &nbsp; &nbsp; (+94) 777 312 848,
+                                        (+94) 777668166, (+94) 727343435, (+94) 0765566431</div>
                                     <!-- <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div> -->
                                     <div class="ui-decor-2"></div>
                                 </div>
@@ -417,8 +453,10 @@
             <div class="info-group__section col-md-6">
                 <section class="b-info b-info_mod-b area-bg area-bg_op_80 area-bg_dark-2 parallax" style="background-image: url(assets/media/content/bg/bg-3.jpg)">
                     <div class="area-bg__inner">
-                        <h2 class="b-info__title">Please Contact Us<strong class="b-info__title_lg">For Special Discount and Promos</strong></h2>
-                        <div class="b-info__desc">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white" href="#">cONTACT US</a>
+                        <h2 class="b-info__title">Please Contact Us<strong class="b-info__title_lg">For Special Discount
+                                and Promos</strong></h2>
+                        <div class="b-info__desc">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal
+                            sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white" href="#">cONTACT US</a>
                     </div>
                 </section>
             </div>
@@ -451,7 +489,10 @@
                                         </div> -->
                                     <blockquote>
                                         <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Chris Fogden</span><span class="b-blockquote__category"></span></cite>
-                                        <p>Great car in excellent condition and find working order. The staff were Friendly and helpful and prices are very competitive.They also organised my local driving permit with ease. I look forward to renting with them again.</p>
+                                        <p>Great car in excellent condition and find working order. The staff were
+                                            Friendly and helpful and prices are very competitive.They also organised my
+                                            local driving permit with ease. I look forward to renting with them again.
+                                        </p>
                                     </blockquote>
                                 </div>
                                 <!-- end .b-blockquote-->
@@ -461,7 +502,10 @@
                                         </div> -->
                                     <blockquote>
                                         <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Gayani Loid</span><span class="b-blockquote__category"></span></cite>
-                                        <p>I had a great service from this company!!! The KIA SUV was in really good condition. Communication with staff was verry proffessional and very helpful! I have been using this company for two years and will use them again without any doubt! Thank you Amire rental!</p>
+                                        <p>I had a great service from this company!!! The KIA SUV was in really good
+                                            condition. Communication with staff was verry proffessional and very
+                                            helpful! I have been using this company for two years and will use them
+                                            again without any doubt! Thank you Amire rental!</p>
                                     </blockquote>
                                 </div>
                                 <!-- end .b-blockquote-->
@@ -521,7 +565,9 @@
                                         </div> -->
                                     <blockquote>
                                         <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                        <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation ullamco.</p>
+                                        <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla
+                                            pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam
+                                            quis nostrud exercitation ullamco.</p>
                                     </blockquote>
                                 </div>
                                 <!-- end .b-blockquote-->
@@ -558,11 +604,15 @@
                                                     <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
                                                 </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka </a></h2>
+                                            <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka
+                                                </a></h2>
                                         </div>
                                         <div class="entry-content">
-                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering. Have. Open fifth face shall land fish kind isn’t let can’t
-                                                blessed multiply third light, shall from winged, his creature isn’t midst said dominion in. Male firmament beginning dominion fourth he place shall. [...]</p>
+                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
+                                                Have. Open fifth face shall land fish kind isn’t let can’t
+                                                blessed multiply third light, shall from winged, his creature isn’t
+                                                midst said dominion in. Male firmament beginning dominion fourth he
+                                                place shall. [...]</p>
                                         </div>
                                     </div>
                                 </section>
@@ -578,11 +628,15 @@
 
                                                 </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a></h2>
+                                            <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a>
+                                            </h2>
                                         </div>
                                         <div class="entry-content">
-                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering. Have. Open fifth face shall land fish kind isn’t let can’t blessed
-                                                multiply third light, shall from winged, his creature isn’t midst said dominion in. Male firmament beginning dominion fourth he place shall[...]</p>
+                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
+                                                Have. Open fifth face shall land fish kind isn’t let can’t blessed
+                                                multiply third light, shall from winged, his creature isn’t midst said
+                                                dominion in. Male firmament beginning dominion fourth he place
+                                                shall[...]</p>
                                         </div>
                                     </div>
                                 </section>
@@ -598,10 +652,14 @@
                                                 </div>
                                                 <span class="entry-meta__item">Post by<a class="entry-meta__link" href="#">Admin</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN SRILANKA</a></h2>
+                                            <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN
+                                                    SRILANKA</a></h2>
                                         </div>
                                         <div class="entry-content">
-                                            <p>Negombo Negombo is a modest beach town located just 10km from Bandaranaike International Airport. With a stash of decent hotels and restaurants to suit all pockets, a friendly local community. Negombo is the Major tourist destination in Sri Lanka.
+                                            <p>Negombo Negombo is a modest beach town located just 10km from
+                                                Bandaranaike International Airport. With a stash of decent hotels and
+                                                restaurants to suit all pockets, a friendly local community. Negombo is
+                                                the Major tourist destination in Sri Lanka.
                                                 Negombo offers one of the best beaches […]</p>
                                         </div>
                                     </div>

@@ -28,13 +28,13 @@
                                     <section class="footer-section footer-section_list-columns">
                                         <h3 class="footer-section__title ui-title-inner">RATES</h3>
                                         <ul class="footer-list footer-list_columns list-unstyled">
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">SELF DRIVE RATES IN SRILANKA</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="self-drive-rates.php">SELF DRIVE RATES IN SRILANKA</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">WITH DRIVER RATES</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="with-drive-rates.php">WITH DRIVER RATES</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">WEDDING CAR RATES IN SRI LANKA</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="wedding-car-rates.php">WEDDING CAR RATES IN SRI LANKA</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">MOTORBIKE & BICYCLE RENTAL</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="motorbike-rates.php">MOTORBIKE & BICYCLE RENTAL</a>
                                             </li>
                                         </ul>
                                     </section>
@@ -76,7 +76,7 @@
                     <div class="copyright">
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-12">Copyrights 2021<a class="copyright__brand" href="home.php"> AMERIRENTACAR</a> All Rights Reserved<a class="copyright__link" href="#">Privacy Policy</a><a class="copyright__link" href="#">Terms & Conditions</a>
+                                <div class="col-xs-12">Copyrights 2021<a class="copyright__brand" href="home.php"> AMERIRENTACAR</a> All Rights Reserved<a class="copyright__link" href="#">Privacy Policy</a><a class="copyright__link" href="our-terms.php">Terms & Conditions</a>
                                 </div>
                             </div>
                         </div>

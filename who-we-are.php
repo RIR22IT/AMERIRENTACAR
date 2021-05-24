@@ -23,6 +23,9 @@
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
 
+    <!--Whatsapp CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/whatsapp.css">
     </head>
 
     <body>
@@ -36,6 +39,11 @@
         
          <!-- Mobile Header -->
          <?php include('./inc/mobile-slider.php')?>
+
+          <!--WHATSAPP CONTENT
+			=============================================-->
+            <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
+            class="fa fa-whatsapp whatsapp-icon"></i></a>
 
         <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
             <!-- Start Switcher-->
