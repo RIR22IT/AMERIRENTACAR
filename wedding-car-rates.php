@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Motor Land / Blog</title>
+        <title>AMERIRENTACAR / Wedding Car Rates</title>
         <meta content="" name="description" />
         <meta content="" name="keywords" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +12,7 @@
         <meta name="HandheldFriendly" content="true" />
         <link rel="stylesheet" href="assets/css/master.css" />
         <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+
         <!-- SWITCHER-->
         <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
         <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
@@ -19,35 +20,52 @@
         <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
         <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+        <!--Whatsapp CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/whatsapp.css">
         <!--[if lt IE 9 ]>
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
 
-    <!--Whatsapp CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/whatsapp.css">
+<style>
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
+</style>
+
     </head>
 
     <body>
-        
+
         <!-- Loader-->
         <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span>
         </div>
         </div>
         <!-- Loader end-->
         <!-- ==========================-->
-        
-         <!-- Mobile Header -->
-         <?php include('./inc/mobile-slider.php')?>
 
-          <!--WHATSAPP CONTENT
+         <!-- Mobile Header -->
+         <?php include './inc/mobile-slider.php' ?>
+
+         <!--WHATSAPP CONTENT
 			=============================================-->
             <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
             class="fa fa-whatsapp whatsapp-icon"></i></a>
 
         <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
             <!-- Start Switcher-->
-            
+
             <!-- end switcher-->
             <!-- ==========================-->
             <!-- SEARCH MODAL-->
@@ -125,7 +143,7 @@
                 </ul>
             </div>
              <!-- Header -->
-             <?php include('./inc/header.php')?>
+             <?php include './inc/header.php' ?>
 
             <!-- main slider start-->
             <div class="main-slider main-slider-1">
@@ -159,7 +177,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
-                                <h1 class="b-title-page bg-primary_a">WHO WE ARE</h1>
+                                <h1 class="b-title-page bg-primary_a">WEDDING CAR RATES IN SRI LANKA</h1>
                             </div>
                         </div>
                     </div>
@@ -171,47 +189,238 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <ol class="breadcrumb">
-                                <li><a href="home.html"><i class="icon fa fa-home"></i></a>
+                                <li><a href="home.php"><i class="icon fa fa-home"></i></a>
                                 </li>
-                                <li class="active">Who We Are</li>
+                                <li class="active">WEDDING CAR RATES IN SRI LANKA</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- end breadcrumb-->
-         
-           
-            <!-- <center><h1>WELCOME TO AMERI RENT A CAR!</h1></center> -->
+
+
             <div class="typography-section typography-section-border">
-                    <div class="container">
-                       
-                    <center><h2 class="ui-title-block-2">WELCOME TO AMERI RENT A CAR!</h2></center>
-                        <section class="typography-section__inner">
-                            <div class="row">
-                                <div class="col-xs-12">
-                               
-                                    <div class="row">
-                                        <div class="col-xs-12">
-                                        <h5> With over 35 years of exceptional experience and trusted for decades as one of Sri Lanka’s premier car rental companies, we at Ameri Rent a Car pride ourselves on providing dedicated and personalized solutions to fulfill all your transport requirements.</h5><br>
-                                        <h5>As a member of the Rent A Car Association of Sri Lanka (RACA), our team has years of valuable experience under their belt, managing a vast spectrum of customer expectations. We guarantee a car rental service that this reliable, cost-effective, superior, hassle-free and one that does not compromise on comfort or safety.</h5><br>
-                                        <h5>With our large fleet of vehicles, we are able to serve a wide range of customer requests, from short-term rentals to long-term leasing and specialty contracts. We offer a variety of cars, minivans and large passenger vans to suit any need or occasion.</h5><br>
-                                        <h5>Our long-standing reputation as a leading rent a car company in Sri Lanka and our loyal clientele stands as a testament to the quality of our service and our ongoing success.</h5><br>
-                                        <h5>Choose Ameri Rent a car for an unparalleled car rental experience in Sri Lanka that will exceed your expectations.</h5>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            
+            <div style="overflow-x:auto;">
+                    <table>
+                        <tr>
+                            <th>VEHICLES</th>
+                            <th>2 Hours & 30kms</th>
+                            <th>4 Hours & 40kms</th>
+                            <th>8 Hours & 80kms</th>
+                            <th>Excess Hours</th>
+                            <th>Excess Mileage</th>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">LUXURY CARS</th>
+                        </tr>
+                        <tr>
+                            <td>BMW 320 WHITE</td>
+                            <td>21,500.00</td>
+                            <td>23,000.00</td>
+                            <td>27,000.00</td>
+                            <td>3,000.00</td>
+                            <td>300.00</td>
+                        </tr>
+                        <tr>
+                            <td>MERCEDES BENZ C CLASS WHITE</td>
+                            <td>22,950.00</td>
+                            <td>25,000.00</td>
+                            <td>30,000.00</td>
+                            <td>3.000.00</td>
+                            <td>350.00</td>
+                        </tr>
+                        <tr>
+                            <td>MERCEDES BENZ S- CLASS</td>
+                            <td>50,000.00</td>
+                            <td>55,000.00</td>
+                            <td>65,000.00</td>
+                            <td>5,000.00</td>
+                            <td>600.00</td>
+                        </tr>
+                        <tr>
+                            <td>CHRYSLER 300 C ROLLS ROYCE PHANTOM FACE LIFT</td>
+                            <td>23,000.00</td>
+                            <td>26,000.00</td>
+                            <td>30,000.00</td>
+                            <td>3,000.00</td>
+                            <td>350.00</td>
+                        </tr>
+                        <tr>
+                            <td>BMW 525i (PETROL) – ALPINE WHITE</td>
+                            <td>23,000.00</td>
+                            <td>26,000.00</td>
+                            <td>30,000.00</td>
+                            <td>3,000.00</td>
+                            <td>350.00</td>
+                        </tr>
+                        <tr>
+                            <td>MERCEDES BENZ E 250 – POLAR WHITE NEW</td>
+                            <td>27,500.00</td>
+                            <td>29,750.00</td>
+                            <td>35,000.00</td>
+                            <td>3,500.00</td>
+                            <td>400.00</td>
+                        </tr>
+                        <tr>
+                            <td>JAGUAR ‘XF’ B/NEW</td>
+                            <td>27,500.00</td>
+                            <td>29.750.00</td>
+                            <td>35,000.00</td>
+                            <td>3,500.00</td>
+                            <td>400.00</td>
+                        </tr>
+                        <tr>
+                            <td>CHRYSLER LIMOUSINE</td>
+                            <td></td>
+                            <td></td>
+                            <td>70,000.00</td>
+                            <td>5,000.00</td>
+                            <td>700.00</td>
+                        </tr>
+
+                        <!--Vinatage & classic cars-->
+                        <tr>
+                            <th>VEHICLES</th>
+                            <th>4 Hours & 40kms</th>
+                            <th>8 Hours & 80kms</th>
+                            <th>Excess Hours</th>
+                            <th>Excess Mileage</th>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">VINTAGE & CLASSIC CARS</th>
+                        </tr>
+                        <tr>
+                            <td>AUSTIN SHEER LINE ROYAL LIMOUSINE (1949- WHITE)</td>
+                            <td>31,500.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>CLASSIC CARS (GENERAL) – AUSTIN/PEUGEOT/DKW/BEETLE</td>
+                            <td>13,950.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>VOLKSWAGEN COMBI “FLOWER POWER” (1978 – BLUE, SILVER + FLOWERS)</td>
+                            <td>14,000.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>MERCEDES 280 S-CLASS (1972 – BLACK)</td>
+                            <td>16,500.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>AUSTIN 12/4 ASCOT SALOON (1936 – WHITE)</td>
+                            <td>16,500.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>SKODA ROADSTER (1949 – WHITE) OPEN TOP</td>
+                            <td>18,950.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>SKODA ROADSTER (1950 – RED) OPEN TOP</td>
+                            <td>18,950.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>FORD 10 TOURER (1948 – MAROON) OPEN TOP</td>
+                            <td>18,950.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>MORRIS 10 TOURER (1933 – WHITE) OPEN TOP</td>
+                            <td>27,500.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>HILLMAN GRAND TOURER (WHITE- 1934) OPEN TOP</td>
+                            <td>27,500.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>AUSTIN 12/4 CLIFTON TOURER (1929 – RED) – OPEN TOP</td>
+                            <td>27,500.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>AUSTIN 12/4 CLIFTON TOURER (1929 – WHITE) – OPEN TOP</td>
+                            <td>27,500.00</td>
+                            <td>-</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+
+                        <!--premium cars-->
+                        <tr>
+                            <th>VEHICLES</th>
+                            <th>2 Hours & 30kms</th>
+                            <th>4 Hours & 40kms</th>
+                            <th>8 Hours & 80kms</th>
+                            <th>Excess Hours</th>
+                            <th>Excess Mileage</th>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">PREMIUM CARS</th>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA PREMIO (NEW)</td>
+                            <td>15,400.00</td>
+                            <td>17,200.00</td>
+                            <td>18,000.00</td>
+                            <td>2,000.00</td>
+                            <td>150.00</td>
+                        </tr>
+                        <tr>
+                            <td>PERODUA BEZZA PRIME SEDAN</td>
+                            <td>12,650.00</td>
+                            <td>13,100.00</td>
+                            <td>14,000.00</td>
+                            <td>2,000.00</td>
+                            <td>100.00</td>
+                        </tr>
+                        <tr>
+                            <td>TOYOTA COROLLA NZE 141/AXIO</td>
+                            <td>13,550.00</td>
+                            <td>14,000.00</td>
+                            <td>16,250.00</td>
+                            <td>2,000.00</td>
+                            <td>100.00</td>
+                        </tr>
+                        
+                    </table>
+            </div>
+            </div>
 
 
-            
+
+
              <!-- footer start here-->
-             <?php include('./inc/footer.php') ?>
+             <?php include './inc/footer.php' ?>
 
         </div>
         <!-- end layout-theme-->
