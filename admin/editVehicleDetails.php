@@ -215,7 +215,7 @@ if (isset($_GET['edit'])) {
 
                 </div>
 
-                <div class="col-md-offset-1 col-md-6" style="bottom: -32px;">
+                <div class="col-md-offset-1 col-md-6" style="bottom: -22px;">
                   <div class="col-15">
                     <select class="form-control" id="make" name="make" style="height: 50px;">
                       <option selected disabled="disabled">All Makes</option>
@@ -350,46 +350,52 @@ if (isset($_GET['edit'])) {
                   </div><br>
                   <hr><br>
 
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="musicOn" value="<?php if ($n['musicOn'] == "Yes") {
-                                                                                          echo "checked";
-                                                                                        } ?>">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Music Player - YES
-                    </label>
-                  </div><br>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="musicOn" value="<?php if ($n['musicOn'] == "No") {
-                                                                                          echo "checked";
-                                                                                        } ?>">
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Music Player - NO
-                    </label>
-                  </div><br>
-                  <hr><br>
+                  <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;">
+                    <option selected disabled="disabled">Music Player</option>
 
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="ac" value="<?php echo $ac; ?>">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      A/C
-                    </label>
-                  </div><br>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="ac" value="<?php echo $ac; ?>">
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      non A/C
-                    </label>
-                  </div><br>
-                  <hr><br>
+                    <option value="Yes" <?php
+                                        if ($musicOn == 'Yes') {
+                                          echo "selected";
+                                        }
+                                        ?>>Music Player - Yes</option>
 
-                </div>
-              </div>
+                    <option value="No" <?php
+                                        if ($musicOn == 'No') {
+                                          echo "selected";
+                                        }
+                                        ?>>Music Player - No</option>
+                  </select>
+                </div><br>
 
-              <?php if ($update == true) : ?>
+                <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="ac" name="ac" style="height: 50px;">
+                    <option selected disabled="disabled">A/C</option>
+
+                    <option value="A/C" <?php
+                                        if ($ac == 'A/C') {
+                                          echo "selected";
+                                        }
+                                        ?>>A/C</option>
+
+                    <option value="non A/C" <?php
+                                        if ($ac == 'non A/C') {
+                                          echo "selected";
+                                        }
+                                        ?>>non A/C</option>
+                  </select>
+                </div><br>
+
+                <?php if ($update == true) : ?>
                 <button class="btn btn-primary" type="submit" name="update">update</button>
               <?php else : ?>
                 <button class="btn" type="submit" name="save">Update</button>
               <?php endif ?>
+
+
+                </div>
+
+              </div>
 
             </form>
 

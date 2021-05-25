@@ -153,17 +153,11 @@
           <form method="post" action="viewDashboard.php" enctype="multipart/form-data">
             <div class="row">
 
-              <div class="col-md-offset-1 col-md-6">
+              <div class="col-md-offset-1 col-md-6"><br>
 
                 <div class="col-15">
-                  <label for="img">Vehicle Image</label>
-                  <input type="file" class="form-control" name="img" value="" >
-                </div><br>
-
-                <div class="col-15">
-                  <label>Model</label>
+                  <label>Model</label> <span style="color: blue;">(Ex: Allion)</span>
                   <input type="text" name="model" class="form-control" value="">
-                  <span style="color: blue;">Ex: Allion</span>
                 </div><br>
 
                 <div class="col-15">
@@ -193,7 +187,7 @@
 
               </div>
 
-              <div class="col-md-offset-1 col-md-6" style="bottom: -32px;">
+              <div class="col-md-offset-1 col-md-6" style="bottom: -48px;">
                 <div class="col-15">
                   <select class="form-control" id="make" name="make" style="height: 50px;">
                     <option selected disabled="disabled">All Makes</option>
@@ -235,35 +229,27 @@
                     <option value="5">5</option>
                   </select>
                 </div><br>
-                <hr><br>
 
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="musicOn" value="Yes" checked>
-                  <label class="form-check-label" for="flexRadioDefault1">
-                    Music Player - YES
-                  </label>
+                <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;">
+                    <option selected disabled="disabled">Music Player</option>
+                    <option value="Yes">Music Player - YES</option>
+                    <option value="No">Music Player - NO</option>
+                  </select>
                 </div><br>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="musicOn" value="No">
-                  <label class="form-check-label" for="flexRadioDefault2">
-                    Music Player - NO
-                  </label>
-                </div><br>
-                <hr><br>
 
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="ac" value="A/C" checked>
-                  <label class="form-check-label" for="flexRadioDefault1">
-                    A/C
-                  </label>
+                <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="ac" name="ac" style="height: 50px;">
+                    <option selected disabled="disabled">A/C</option>
+                    <option value="A/C">A/C</option>
+                    <option value="non A/C">non A/C</option>
+                  </select>
                 </div><br>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="ac" value="non A/C">
-                  <label class="form-check-label" for="flexRadioDefault2">
-                    non A/C
-                  </label>
+
+                <div class="col-15">
+                  <label for="img">Vehicle Image</label>
+                  <input type="file" class="form-control" name="img" value="" >
                 </div><br>
-                <hr><br>
 
               </div>
             </div>
