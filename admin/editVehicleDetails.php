@@ -372,14 +372,14 @@ if (isset($_GET['edit'])) {
                   <select class="form-control" id="ac" name="ac" style="height: 50px;">
                     <option selected disabled="disabled">A/C</option>
 
-                    <option value="A/C" <?php
-                                        if ($ac == 'A/C') {
+                    <option value="Yes" <?php
+                                        if ($ac == 'Yes') {
                                           echo "selected";
                                         }
                                         ?>>A/C</option>
 
-                    <option value="non A/C" <?php
-                                        if ($ac == 'non A/C') {
+                    <option value="No" <?php
+                                        if ($ac == 'No') {
                                           echo "selected";
                                         }
                                         ?>>non A/C</option>

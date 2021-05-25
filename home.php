@@ -265,14 +265,17 @@
         </section>
 
         <div class="col-lg-10" style="top: -400px; left: 70px;">
-            <h3 style="color: white;">Call Today For Booking Your Next Ride</h3> &nbsp; &nbsp; &nbsp;
-            <h2 style="color: red;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+94) 777 312 848</h2> &nbsp; &nbsp; &nbsp;
-            <p style="color: white; font-size: 30px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Operators available 24/7</p>
+            <h4 style="color: white;">Call Today For Booking Your Next Ride</h4> 
+            &nbsp; &nbsp; &nbsp;
+            <h3 style="color: red;"> 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+94) 777 312 848</h3> &nbsp; &nbsp; &nbsp;
+            <p style="color: white; font-size: 25px;"> 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Operators available 24/7</p>
         </div>
 
-        <div class="col-lg-10" style="top: -600px; left: 1300px;">
-            <p style="color: white;  font-size: 30px;">Please Contact Us</p> &nbsp; &nbsp; &nbsp;
-            <h2 style="color: white;">For Special Discount <br><br> and Promos</h2> &nbsp; &nbsp; &nbsp;
+        <div class="col-lg-10" style="top: -578px; left: 1200px;">
+            <p style="color: white;  font-size: 25px;">Please Contact Us</p> &nbsp; &nbsp; &nbsp;
+            <h3 style="color: white;">For Special Discount <br><br> and Promos</h3> &nbsp; &nbsp; &nbsp;
         </div>
 
         <!-- end .section-default-->

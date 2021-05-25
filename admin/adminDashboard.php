@@ -172,7 +172,7 @@
 
                 <div class="col-15">
                   <label>Rental Per Day ($)</label>
-                  <input type="number" class="form-control" name="rental" value="">
+                  <input type="number" class="form-control" name="rental" value=">
                 </div><br>
 
                 <div class="col-15">
@@ -241,8 +241,8 @@
                 <div class="col-15" style="bottom: -30px;">
                   <select class="form-control" id="ac" name="ac" style="height: 50px;">
                     <option selected disabled="disabled">A/C</option>
-                    <option value="A/C">A/C</option>
-                    <option value="non A/C">non A/C</option>
+                    <option value="Yes">A/C</option>
+                    <option value="No">non A/C</option>
                   </select>
                 </div><br>
 
