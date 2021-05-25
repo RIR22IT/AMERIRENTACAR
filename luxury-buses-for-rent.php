@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>CLASSIC AND VINTAGE CARS</title>
+    <title>LUXURY BUSES FOR RENT IN SRI LANKA</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -147,7 +147,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1 class="b-title-page bg-primary_a">PREMIUM CARS FOR RENT IN SRI LANKA</h1>
+                            <h1 class="b-title-page bg-primary_a">LUXURY BUSES FOR RENT IN SRI LANKA</h1>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                         <ol class="breadcrumb">
                             <li><a href="home.html"><i class="icon fa fa-home"></i></a>
                             </li>
-                            <li class="active">PREMIUM CARS FOR RENT IN SRI LANKA</li>
+                            <li class="active">LUXURY BUSES FOR RENT IN SRI LANKA</li>
                         </ol>
                     </div>
                 </div>
@@ -179,166 +179,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//premium-cars-for-rental//PeroduaPrime.jpg">
-                                            <img class="img-responsive" src="./images//premium-cars-for-rental//PeroduaPrime.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//luxury-buses-for-rent//Toyota-Coaster.jpg">
+                                            <img class="img-responsive" src="./images//luxury-buses-for-rent//Toyota-Coaster.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Perodua Bezza Prime Sedan</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//premium-cars-for-rental//ToyotaAllion.jpg">
-                                            <img class="img-responsive" src="./images//premium-cars-for-rental//ToyotaAllion.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Allion</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//premium-cars-for-rental//ToyotaAxioNKR165.jpg">
-                                            <img class="img-responsive" src="./images//premium-cars-for-rental//ToyotaAxioNKR165.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Axio NKR 165 Hybrid</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//premium-cars-for-rental//ToyotaAxioNKR165.jpg">
-                                            <img class="img-responsive" src="./images//premium-cars-for-rental//ToyotaAxioNKR165.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Corolla NKR 165 Axio Hybrid</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//premium-cars-for-rental//ToyotaCorolla.jpg">
-                                            <img class="img-responsive" src="./images//premium-cars-for-rental//ToyotaCorolla.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Corolla NZE 141/Axio</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//premium-cars-for-rental//ToyotaNZE141.jpg">
-                                            <img class="img-responsive" src="./images//premium-cars-for-rental//ToyotaNZE141.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota NZE 141</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//premium-cars-for-rental//ToyotaPremio.jpg">
-                                            <img class="img-responsive" src="./images//premium-cars-for-rental//ToyotaPremio.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Premio</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//premium-cars-for-rental//ToyotaPrius.jpg">
-                                            <img class="img-responsive" src="./images//premium-cars-for-rental//ToyotaPrius.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Prius</h2>
+                                            <h2 class="b-goods-1__name">Toyota Coaster 29 Seater</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">

@@ -151,32 +151,32 @@ if (!isset($_SESSION['email'])) {
 
                 <div class="col-15">
                   <label>Model</label> <span style="color: blue;">(Ex: Allion)</span>
-                  <input type="text" name="model" class="form-control" value="">
+                  <input type="text" name="model" class="form-control" value="" required>
                 </div><br>
 
                 <div class="col-15">
                   <label>Model Year</label>
-                  <input type="number" class="form-control" name="year" value="">
+                  <input type="number" class="form-control" name="year" value="" required>
                 </div><br>
 
                 <div class="col-15">
                   <label>Engine Capacity (CM3)</label>
-                  <input type="number" name="engine" class="form-control" value="">
+                  <input type="number" name="engine" class="form-control" value="" required>
                 </div><br>
 
                 <div class="col-15">
                   <label>Rental Per Day ($)</label>
-                  <input type="number" class="form-control" name="rental" value=">
+                  <input type="number" class="form-control" name="rental" value="" required>
                 </div><br>
 
                 <div class=" col-15">
                   <label>No of Passengers</label>
-                  <input type="number" class="form-control" name="passenger" value="">
+                  <input type="number" class="form-control" name="passenger" value="" required>
                 </div><br>
 
                 <div class="col-15">
                   <label>No of Luggage</label>
-                  <input type="number" class="form-control" name="luggage" value="">
+                  <input type="number" class="form-control" name="luggage" value="" required>
                 </div><br>
 
               </div>
@@ -195,7 +195,7 @@ if (!isset($_SESSION['email'])) {
                 </div><br>
 
                 <div class="col-15">
-                  <select class="form-control" id="transmission" name="transmission" style="height: 50px;">
+                  <select class="form-control" id="transmission" name="transmission" style="height: 50px;" required>
                     <option selected disabled="disabled">All Transmissions</option>
                     <option value="Automatic">Automatic</option>
                     <option value="Manual">Manual</option>
@@ -204,7 +204,7 @@ if (!isset($_SESSION['email'])) {
                 </div><br>
 
                 <div class="col-15">
-                  <select class="form-control" id="fuel" name="fuel" style="height: 50px;">
+                  <select class="form-control" id="fuel" name="fuel" style="height: 50px;" required>
                     <option selected disabled="disabled">Fuel Type</option>
                     <option value="Petrol">Petrol</option>
                     <option value="Diesol">Diesol</option>
@@ -216,7 +216,7 @@ if (!isset($_SESSION['email'])) {
                 </div><br>
 
                 <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="door" name="door" style="height: 50px;">
+                  <select class="form-control" id="door" name="door" style="height: 50px;" required>
                     <option selected disabled="disabled">No of Doors</option>
                     <option value="2">2</option>
                     <option value="4">4</option>
@@ -225,7 +225,7 @@ if (!isset($_SESSION['email'])) {
                 </div><br>
 
                 <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;">
+                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;" required>
                     <option selected disabled="disabled">Music Player</option>
                     <option value="Yes">Music Player - YES</option>
                     <option value="No">Music Player - NO</option>
@@ -233,7 +233,7 @@ if (!isset($_SESSION['email'])) {
                 </div><br>
 
                 <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="ac" name="ac" style="height: 50px;">
+                  <select class="form-control" id="ac" name="ac" style="height: 50px;" required>
                     <option selected disabled="disabled">A/C</option>
                     <option value="Yes">A/C</option>
                     <option value="No">non A/C</option>
@@ -242,7 +242,7 @@ if (!isset($_SESSION['email'])) {
 
                 <div class="col-15">
                   <label for="img">Vehicle Image</label>
-                  <input type="file" class="form-control" name="img" value="">
+                  <input type="file" class="form-control" name="img" value="" required>
                 </div><br>
 
               </div>
