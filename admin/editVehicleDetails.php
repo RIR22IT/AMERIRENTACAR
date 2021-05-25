@@ -180,40 +180,40 @@ if (isset($_GET['edit'])) {
 
                   <div class="col-15">
                     <label>Model</label>
-                    <input type="text" name="model" class="form-control" value="<?php echo $model; ?>">
+                    <input type="text" name="model" class="form-control" value="<?php echo $model; ?>" required>
                     <span style="color: blue;">Ex: Allion</span>
                   </div><br>
 
                   <div class="col-15">
                     <label>Model Year</label>
-                    <input type="number" class="form-control" name="year" value="<?php echo $year; ?>">
+                    <input type="number" class="form-control" name="year" value="<?php echo $year; ?>" required>
                   </div><br>
 
                   <div class="col-15">
                     <label>Engine Capacity (CM3)</label>
-                    <input type="number" name="engine" class="form-control" value="<?php echo $engine; ?>">
+                    <input type="number" name="engine" class="form-control" value="<?php echo $engine; ?>" required>
                   </div><br>
 
                   <div class="col-15">
                     <label>Rental Per Day ($)</label>
-                    <input type="number" class="form-control" name="rental" value="<?php echo $rental; ?>">
+                    <input type="number" class="form-control" name="rental" value="<?php echo $rental; ?>" required>
                   </div><br>
 
                   <div class="col-15">
                     <label>No of Passengers</label>
-                    <input type="number" class="form-control" name="passenger" value="<?php echo $passenger; ?>">
+                    <input type="number" class="form-control" name="passenger" value="<?php echo $passenger; ?>" required>
                   </div><br>
 
                   <div class="col-15">
                     <label>No of Luggage</label>
-                    <input type="number" class="form-control" name="luggage" value="<?php echo $luggage; ?>">
+                    <input type="number" class="form-control" name="luggage" value="<?php echo $luggage; ?>" required>
                   </div><br>
 
                 </div>
 
                 <div class="col-md-offset-1 col-md-6" style="bottom: -22px;">
                   <div class="col-15">
-                    <select class="form-control" id="make" name="make" style="height: 50px;">
+                    <select class="form-control" id="make" name="make" style="height: 50px;" required>
                       <option selected disabled="disabled">All Makes</option>
                       <option value="Honda" <?php
                                             if ($make == 'Honda') {
@@ -254,7 +254,7 @@ if (isset($_GET['edit'])) {
                   </div><br>
 
                   <div class="col-15">
-                    <select class="form-control" id="transmission" name="transmission" style="height: 50px;">
+                    <select class="form-control" id="transmission" name="transmission" style="height: 50px;" required>
                       <option selected disabled="disabled">All Transmissions</option>
 
                       <option value="Automatic" <?php
@@ -279,7 +279,7 @@ if (isset($_GET['edit'])) {
                   </div><br>
 
                   <div class="col-15">
-                    <select class="form-control" id="fuel" name="fuel" style="height: 50px;">
+                    <select class="form-control" id="fuel" name="fuel" style="height: 50px;" required>
                       <option selected disabled="disabled">Fuel Type</option>
 
                       <option value="Petrol" <?php
@@ -321,7 +321,7 @@ if (isset($_GET['edit'])) {
                   </div><br>
 
                   <div class="col-15" style="bottom: -30px;">
-                    <select class="form-control" id="door" name="door" style="height: 50px;">
+                    <select class="form-control" id="door" name="door" style="height: 50px;" required>
                       <option selected disabled="disabled">No of Doors</option>
 
                       <option value="2" <?php
@@ -347,7 +347,7 @@ if (isset($_GET['edit'])) {
                   <hr><br>
 
                   <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;">
+                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;" required>
                     <option selected disabled="disabled">Music Player</option>
 
                     <option value="Yes" <?php
@@ -365,7 +365,7 @@ if (isset($_GET['edit'])) {
                 </div><br>
 
                 <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="ac" name="ac" style="height: 50px;">
+                  <select class="form-control" id="ac" name="ac" style="height: 50px;" required>
                     <option selected disabled="disabled">A/C</option>
 
                     <option value="Yes" <?php

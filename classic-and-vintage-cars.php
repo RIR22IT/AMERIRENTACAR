@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>SUV/4WD FOR RENT IN SRI LANKA</title>
+    <title>CLASSIC AND VINTAGE CARS</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -147,7 +147,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1 class="b-title-page bg-primary_a">SUV/4WD FOR RENT IN SRI LANKA</h1>
+                            <h1 class="b-title-page bg-primary_a">CLASSIC AND VINTAGE CARS</h1>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                         <ol class="breadcrumb">
                             <li><a href="home.html"><i class="icon fa fa-home"></i></a>
                             </li>
-                            <li class="active">SUV/4WD FOR RENT IN SRI LANKA</li>
+                            <li class="active">CLASSIC AND VINTAGE CARS</li>
                         </ol>
                     </div>
                 </div>
@@ -179,13 +179,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//KIASorento.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//KIASorento.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//austina40devon.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//austina40devon.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Kia Sorento</h2>
+                                            <h2 class="b-goods-1__name">Austin-a40-devon</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -201,13 +201,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//KIASportage.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//KIASportage.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//austinascotsaloon.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//austinascotsaloon.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Kia Sportage</h2>
+                                            <h2 class="b-goods-1__name">austin-ascot-saloon</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -223,13 +223,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//MitsubishiL2004WDDouble.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//MitsubishiL2004WDDouble.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//austincliftontourer.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//austincliftontourer.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Mitsubishi L200 4wd Double Cab</h2>
+                                            <h2 class="b-goods-1__name">austin-clifton-tourer</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -245,13 +245,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//Montero.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//Montero.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//austincliftontourer2.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//austincliftontourer2.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Mitsubishi Montero</h2>
+                                            <h2 class="b-goods-1__name">austin-clifton-tourer</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -267,13 +267,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//HondaVezel.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//HondaVezel.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//austinsheerlineroyallimousine.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//austinsheerlineroyallimousine.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Rent Honda Vezel in Sri lanka</h2>
+                                            <h2 class="b-goods-1__name">austin-sheerline-royal-limousine</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -289,13 +289,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//ToyotaCHR.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//ToyotaCHR.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//bogwardisabella.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//bogwardisabella.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Rent a Toyota CHR in Sri Lanka</h2>
+                                            <h2 class="b-goods-1__name">bogward-isabella</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -311,13 +311,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//ToyotaFortuner.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//ToyotaFortuner.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//ford10angliatourer.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//ford10angliatourer.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Fortuner</h2>
+                                            <h2 class="b-goods-1__name">ford-10-anglia-tourer</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -333,13 +333,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//Landcruiser.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//Landcruiser.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//hilmangrandtourer.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//hilmangrandtourer.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser 200 V8</h2>
+                                            <h2 class="b-goods-1__name">hilman-grand-tourer</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -355,13 +355,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//LandCruiserCygnus.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//LandCruiserCygnus.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//hilmanminx.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//hilmanminx.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser Cygnus V8</h2>
+                                            <h2 class="b-goods-1__name">hilman-minx</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -377,13 +377,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//TOYOTALANDCRUISERPRADO.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//TOYOTALANDCRUISERPRADO.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//mercedes-280-s-classs.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//mercedes-280-s-classs.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser Prado (TRJ 120 Series)</h2>
+                                            <h2 class="b-goods-1__name">mercedes-280-s-classes</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -399,13 +399,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//ToyotaLandcruiserPradoTRJ.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//ToyotaLandcruiserPradoTRJ.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//classic-and-vintage-cars//morris-10.jpg">
+                                            <img class="img-responsive" src="./images//classic-and-vintage-cars//morris-10.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser Prado (TRJ 150 Series)</h2>
+                                            <h2 class="b-goods-1__name">morris-10</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -421,13 +421,79 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//ToyotaLandcruiserTRJ95.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//ToyotaLandcruiserTRJ95.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images/classic-and-vintage-cars//morris-oxford.jpg">
+                                            <img class="img-responsive" src="./images/classic-and-vintage-cars//morris-oxford.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser Prado (TRJ 95 Series)</h2>
+                                            <h2 class="b-goods-1__name">morris-oxford</h2>
+                                        </div>
+
+                                        <div class="b-goods-1__section">
+                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
+                                            <div class="collapse in" id="desc-1">
+                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- end .b-goods-1-->
+                            <section class="b-goods-1 b-goods-1_mod-a">
+                                <div class="row">
+                                    <div class="b-goods-1__img">
+                                        <a class="js-zoom-images" href="./images/classic-and-vintage-cars//skoda-roadster.jpg">
+                                            <img class="img-responsive" src="./images/classic-and-vintage-cars//skoda-roadster.jpg" alt="foto" style="width: 324px;" />
+                                        </a>
+                                    </div>
+                                    <div class="b-goods-1__inner">
+                                        <div class="b-goods-1__header">
+                                            <h2 class="b-goods-1__name">skoda-roadster</h2>
+                                        </div>
+
+                                        <div class="b-goods-1__section">
+                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
+                                            <div class="collapse in" id="desc-1">
+                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- end .b-goods-1-->
+                            <section class="b-goods-1 b-goods-1_mod-a">
+                                <div class="row">
+                                    <div class="b-goods-1__img">
+                                        <a class="js-zoom-images" href="./images/classic-and-vintage-cars//skoda-roadster2.jpg">
+                                            <img class="img-responsive" src="./images/classic-and-vintage-cars//skoda-roadster2.jpg" alt="foto" style="width: 324px;" />
+                                        </a>
+                                    </div>
+                                    <div class="b-goods-1__inner">
+                                        <div class="b-goods-1__header">
+                                            <h2 class="b-goods-1__name">skoda-roadster</h2>
+                                        </div>
+
+                                        <div class="b-goods-1__section">
+                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
+                                            <div class="collapse in" id="desc-1">
+                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- end .b-goods-1-->
+                            <section class="b-goods-1 b-goods-1_mod-a">
+                                <div class="row">
+                                    <div class="b-goods-1__img">
+                                        <a class="js-zoom-images" href="./images/classic-and-vintage-cars//sunbeam-talbot.jpg">
+                                            <img class="img-responsive" src="./images/classic-and-vintage-cars//sunbeam-talbot.jpg" alt="foto" style="width: 324px;" />
+                                        </a>
+                                    </div>
+                                    <div class="b-goods-1__inner">
+                                        <div class="b-goods-1__header">
+                                            <h2 class="b-goods-1__name">sunbeam-talbot</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">

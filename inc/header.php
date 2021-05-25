@@ -65,15 +65,15 @@
                                 </li>
                                 <li><a href="premium-cars-for-rental.php" tabindex="-1">PREMIUM CARS FOR RENT IN SRI LANKA</a>
                                 </li>
-                                <li><a href="listings-3.html" tabindex="-1">SUV/4WD FOR RENT IN SRI LANKA</a>
+                                <li><a href="4WD-for-rent.php" tabindex="-1">SUV/4WD FOR RENT IN SRI LANKA</a>
                                 </li>
-                                <li><a href="listings-3.html" tabindex="-1">WEDDING CARS FOR RENT IN SRI LANKA</a>
+                                <li><a href="wedding-cars-for-rent.php" tabindex="-1">WEDDING CARS FOR RENT IN SRI LANKA</a>
                                 </li>
-                                <li><a href="listings-3.html" tabindex="-1">CLASSIC AND VINTAGE CARS</a>
+                                <li><a href="classic-and-vintage-cars.php" tabindex="-1">CLASSIC AND VINTAGE CARS</a>
                                 </li>
-                                <li><a href="listings-3.html" tabindex="-1">LUXURY VANS FOR RENT IN SRI LANKA</a>
+                                <li><a href="luxury-vans-for-rent.php" tabindex="-1">LUXURY VANS FOR RENT IN SRI LANKA</a>
                                 </li>
-                                <li><a href="listings-3.html" tabindex="-1">LUXURY BUSES FOR RENT IN SRI LANKA</a>
+                                <li><a href="luxury-buses-for-rent.php" tabindex="-1">LUXURY BUSES FOR RENT IN SRI LANKA</a>
                                 </li>
                             </ul>
                         </li>
