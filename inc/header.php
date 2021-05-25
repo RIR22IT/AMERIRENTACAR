@@ -1,33 +1,6 @@
 <header
     class="header header-boxed-width navbar-fixed-top header-background-white header-color-black header-topbar-dark header-logo-black header-topbarbox-1-left header-topbarbox-2-right header-navibox-1-left header-navibox-2-right header-navibox-3-right header-navibox-4-right">
     <div class="container container-boxed-width">
-        <!-- <div class="top-bar">
-                        <div class="container"> -->
-        <!-- <div class="header-topbarbox-1"> -->
-        <!-- <ul>
-                                    <li><i class="icon fa fa-clock-o"></i> Mon - Fri : 0900am to 0600pm</li>
-                                    <li><i class="icon fa fa-phone"></i><a href="tel:+94 765 566 531">(+94) 765 566 531</a>
-                                    </li>
-                                    <li><i class="icon fa fa-envelope-o"></i><a href="mailto:amerirentacar@gmail.com">amerirentacar@gmail.com</a>
-                                    </li>
-                                </ul> -->
-        <!-- </div> -->
-        <!-- <div class="header-topbarbox-2"> -->
-        <!-- <ul class="social-links">
-                                    <li><a href="/" target="_blank"><i class="social_icons fa fa-twitter"></i></a>
-                                    </li>
-                                    <li><a href="/" target="_blank"><i class="social_icons fa fa-facebook"></i></a>
-                                    </li>
-                                    <li><a href="/" target="_blank"><i class="social_icons fa fa-linkedin"></i></a>
-                                    </li>
-                                    <li class="li-last"><a href="/" target="_blank"><i class="social_icons fa fa-instagram"></i></a>
-                                    </li>
-                                    <li><a href="/" target="_blank"><i class="social_icons fa fa-youtube-play"></i></a>
-                                    </li>
-                                </ul> -->
-        <!-- </div> -->
-        <!-- </div>
-                    </div> -->
         <nav class="navbar" id="nav">
             <div class="container">
                 <div class="header-navibox-1">
@@ -42,16 +15,6 @@
                             style="width:150px" />
                     </a>
                 </div>
-                <!-- <div class="header-navibox-3">
-                                <ul class="nav navbar-nav hidden-xs clearfix vcenter">
-                                    <li>
-                                        <div class="header-cart"><a href="#"><i class="icon fa fa-shopping-basket" aria-hidden="true"></i><span class="header-cart-count bg-primary">3</span></a>
-                                        </div>
-                                    </li>
-                                    <li><a class="btn_header_search" href="#"><i class="icon fa fa-search"></i></a>
-                                    </li>
-                                </ul><a class="btn btn-primary" href="home.html">sell car</a>
-                            </div> -->
                 <div class="header-navibox-2">
                     <ul class="yamm main-menu nav navbar-nav">
                         <li><a href="home.php">Home</a>
@@ -77,7 +40,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="car-rental.html">Our Cars</a>
+                        <li><a href="rental-car.php">Our Cars</a>
                         </li>
                         <li><a href="our-location.php">Our Location</a>
                         </li>
