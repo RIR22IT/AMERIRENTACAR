@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>SUV/4WD FOR RENT IN SRI LANKA</title>
+    <title>AMERIRENTACAR | SUV/4WD FOR RENT IN SRI LANKA</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

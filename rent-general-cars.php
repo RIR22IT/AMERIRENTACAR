@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>RENT GENERAL CARS IN SRI LANKA</title>
+    <title>AMERIRENTACAR | RENT GENERAL CARS IN SRI LANKA</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
