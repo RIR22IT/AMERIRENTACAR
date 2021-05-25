@@ -56,7 +56,7 @@
                                 Terms<b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="our-terms.php" tabindex="-1">Our Terms</a></li>
-                                <li><a href="car-details.html" tabindex="-1">FAQ</a></li>
+                                <li><a href="faq.php" tabindex="-1">FAQ</a></li>
                             </ul>
                 </li>
                 <li><a href="contact.php">Contact</a>
