@@ -2,6 +2,14 @@
 <?php include('../admin/php_code.php'); ?>
 
 <?php
+session_start();
+if (!isset($_SESSION['email'])) {
+  header("location: index.php");
+}
+
+?>
+
+<?php
 if (isset($_GET['edit'])) {
   $id = $_GET['edit'];
   $update = true;
@@ -137,30 +145,18 @@ if (isset($_GET['edit'])) {
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
-            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-            <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
-              <!-- Dropdown - Messages -->
-
-            </li>
-
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
                 <img class="img-profile rounded-circle" src="../images//admin-img.jpg">
               </a>
-              <!-- Dropdown - User Information -->
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="login.html" data-toggle="modal" data-target="#logoutModal">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Logout
-                </a>
-              </div>
             </li>
-
+              <!--logout btn-->
+            <li class="nav-item dropdown no-arrow" style="padding-top:15px; ">
+              <a href="logout.php?logout" class="btn btn-outline-secondary" role="button" aria-pressed="true"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
+            </li>
+          
           </ul>
 
         </nav>
@@ -184,40 +180,40 @@ if (isset($_GET['edit'])) {
 
                   <div class="col-15">
                     <label>Model</label>
-                    <input type="text" name="model" class="form-control" value="<?php echo $model; ?>">
+                    <input type="text" name="model" class="form-control" value="<?php echo $model; ?>" required>
                     <span style="color: blue;">Ex: Allion</span>
                   </div><br>
 
                   <div class="col-15">
                     <label>Model Year</label>
-                    <input type="number" class="form-control" name="year" value="<?php echo $year; ?>">
+                    <input type="number" class="form-control" name="year" value="<?php echo $year; ?>" required>
                   </div><br>
 
                   <div class="col-15">
                     <label>Engine Capacity (CM3)</label>
-                    <input type="number" name="engine" class="form-control" value="<?php echo $engine; ?>">
+                    <input type="number" name="engine" class="form-control" value="<?php echo $engine; ?>" required>
                   </div><br>
 
                   <div class="col-15">
                     <label>Rental Per Day ($)</label>
-                    <input type="number" class="form-control" name="rental" value="<?php echo $rental; ?>">
+                    <input type="number" class="form-control" name="rental" value="<?php echo $rental; ?>" required>
                   </div><br>
 
                   <div class="col-15">
                     <label>No of Passengers</label>
-                    <input type="number" class="form-control" name="passenger" value="<?php echo $passenger; ?>">
+                    <input type="number" class="form-control" name="passenger" value="<?php echo $passenger; ?>" required>
                   </div><br>
 
                   <div class="col-15">
                     <label>No of Luggage</label>
-                    <input type="number" class="form-control" name="luggage" value="<?php echo $luggage; ?>">
+                    <input type="number" class="form-control" name="luggage" value="<?php echo $luggage; ?>" required>
                   </div><br>
 
                 </div>
 
                 <div class="col-md-offset-1 col-md-6" style="bottom: -22px;">
                   <div class="col-15">
-                    <select class="form-control" id="make" name="make" style="height: 50px;">
+                    <select class="form-control" id="make" name="make" style="height: 50px;" required>
                       <option selected disabled="disabled">All Makes</option>
                       <option value="Honda" <?php
                                             if ($make == 'Honda') {
@@ -258,7 +254,7 @@ if (isset($_GET['edit'])) {
                   </div><br>
 
                   <div class="col-15">
-                    <select class="form-control" id="transmission" name="transmission" style="height: 50px;">
+                    <select class="form-control" id="transmission" name="transmission" style="height: 50px;" required>
                       <option selected disabled="disabled">All Transmissions</option>
 
                       <option value="Automatic" <?php
@@ -283,7 +279,7 @@ if (isset($_GET['edit'])) {
                   </div><br>
 
                   <div class="col-15">
-                    <select class="form-control" id="fuel" name="fuel" style="height: 50px;">
+                    <select class="form-control" id="fuel" name="fuel" style="height: 50px;" required>
                       <option selected disabled="disabled">Fuel Type</option>
 
                       <option value="Petrol" <?php
@@ -325,7 +321,7 @@ if (isset($_GET['edit'])) {
                   </div><br>
 
                   <div class="col-15" style="bottom: -30px;">
-                    <select class="form-control" id="door" name="door" style="height: 50px;">
+                    <select class="form-control" id="door" name="door" style="height: 50px;" required>
                       <option selected disabled="disabled">No of Doors</option>
 
                       <option value="2" <?php
@@ -351,7 +347,7 @@ if (isset($_GET['edit'])) {
                   <hr><br>
 
                   <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;">
+                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;" required>
                     <option selected disabled="disabled">Music Player</option>
 
                     <option value="Yes" <?php
@@ -369,17 +365,17 @@ if (isset($_GET['edit'])) {
                 </div><br>
 
                 <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="ac" name="ac" style="height: 50px;">
+                  <select class="form-control" id="ac" name="ac" style="height: 50px;" required>
                     <option selected disabled="disabled">A/C</option>
 
-                    <option value="A/C" <?php
-                                        if ($ac == 'A/C') {
+                    <option value="Yes" <?php
+                                        if ($ac == 'Yes') {
                                           echo "selected";
                                         }
                                         ?>>A/C</option>
 
-                    <option value="non A/C" <?php
-                                        if ($ac == 'non A/C') {
+                    <option value="No" <?php
+                                        if ($ac == 'No') {
                                           echo "selected";
                                         }
                                         ?>>non A/C</option>
@@ -427,26 +423,6 @@ if (isset($_GET['edit'])) {
           <a class="scroll-to-top rounded" href="#page-top">
             <i class="fas fa-angle-up"></i>
           </a>
-
-          <!-- Logout Modal-->
-          <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                  <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                  </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                  <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                  <a class="btn btn-primary" href="newlogin.php">Logout</a>
-                </div>
-
-              </div>
-            </div>
-          </div>
 
           <!-- Bootstrap core JavaScript-->
           <script src="../vendor/jquery/jquery.min.js"></script>

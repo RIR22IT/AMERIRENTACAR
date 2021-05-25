@@ -40,7 +40,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="car-rental.html">Our Cars</a>
+                        <li><a href="rental-car.php">Our Cars</a>
                         </li>
                         <li><a href="our-location.php">Our Location</a>
                         </li>

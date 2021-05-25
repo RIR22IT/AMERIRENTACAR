@@ -7,13 +7,13 @@ session_start();
     {
         if(empty($_POST['email']) || empty($_POST['password']))
         {
-            header("location:login.php?Empty= Please Fill in the Blanks!");
+            header("location:index.php?Empty= Please Fill in the Blanks!");
         }
         else
         {   
     
             $query = "select * from useraccount where email = '".$_POST['email']."' and password = '".$_POST['password']."'";
-            $result=mysqli_query($conn,$query);
+            $result=mysqli_query($db,$query);
 
             if(mysqli_fetch_assoc($result))
             {
@@ -22,7 +22,7 @@ session_start();
             }
             else
             {
-                header("location: login.php?Invalid= Please Enter correct Email and the Password");
+                header("location: index.php?Invalid= Please Enter correct Email and the Password");
             }
         }
     }
