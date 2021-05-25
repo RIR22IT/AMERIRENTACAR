@@ -129,7 +129,7 @@
                     <div class="sp-slides">
 
                         <div class="sp-slide">
-                            <img class="sp-image" src="assets/media/components/b-main-slider/bts6.jpeg" alt="slider" />
+                            <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
 
                             <div class="area-bg__inner">
                                 <div class="container">
@@ -264,125 +264,6 @@
 
         </section>
 
-        <div class="col-lg-10" style="top: -400px; left: 70px;">
-            <h4 style="color: white;">Call Today For Booking Your Next Ride</h4> 
-            &nbsp; &nbsp; &nbsp;
-            <h3 style="color: red;"> 
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+94) 777 312 848</h3> &nbsp; &nbsp; &nbsp;
-            <p style="color: white; font-size: 25px;"> 
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Operators available 24/7</p>
-        </div>
-
-        <div class="col-lg-10" style="top: -578px; left: 1200px;">
-            <p style="color: white;  font-size: 25px;">Please Contact Us</p> &nbsp; &nbsp; &nbsp;
-            <h3 style="color: white;">For Special Discount <br><br> and Promos</h3> &nbsp; &nbsp; &nbsp;
-        </div>
-
-        <!-- end .section-default-->
-        <section class="section-type-3 section-default area-bg area-bg_light">
-            <div class="area-bg__inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="text-center">
-                                <h2 class="ui-title-block">Recent Cars</h2>
-                                <div class="ui-subtitle-block">Tempor incididunt labore dolore magna cillium fugiat
-                                    alique</div>
-                                <div class="ui-decor"></div>
-                            </div>
-                            <div class="slider-thumbnail slider-pro" id="slider-thumbnail">
-                                <div class="sp-slides">
-                                    <div class="sp-slide">
-                                        <img class="sp-image" src="assets/media/components/b-thumb-slider/img-1.jpg" alt="img" />
-                                    </div>
-                                    <div class="sp-slide">
-                                        <img class="sp-image" src="assets/media/components/b-thumb-slider/img-1.jpg" alt="img" />
-                                    </div>
-                                    <div class="sp-slide">
-                                        <img class="sp-image" src="assets/media/components/b-thumb-slider/img-1.jpg" alt="img" />
-                                    </div>
-                                    <div class="sp-slide">
-                                        <img class="sp-image" src="assets/media/components/b-thumb-slider/img-1.jpg" alt="img" />
-                                    </div>
-                                    <div class="sp-slide">
-                                        <img class="sp-image" src="assets/media/components/b-thumb-slider/img-1.jpg" alt="img" />
-                                    </div>
-                                    <div class="sp-slide">
-                                        <img class="sp-image" src="assets/media/components/b-thumb-slider/img-1.jpg" alt="img" />
-                                    </div>
-                                    <div class="sp-slide">
-                                        <img class="sp-image" src="assets/media/components/b-thumb-slider/img-1.jpg" alt="img" />
-                                    </div>
-                                    <div class="sp-slide">
-                                        <img class="sp-image" src="assets/media/components/b-thumb-slider/img-1.jpg" alt="img" />
-                                    </div>
-                                </div>
-                                <div class="sp-thumbnails">
-                                    <div class="sp-thumbnail">
-                                        <div class="sp-thumbnail-text">
-                                            <div class="sp-thumbnail-title">Chevrolet Silverado 1500</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L
-                                                V8, Automatic 4-Speed, 4X2</div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-thumbnail">
-                                        <div class="sp-thumbnail-text">
-                                            <div class="sp-thumbnail-title">Ford Explorer 2018 Super Duty</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4
-                                                Turbocharger, Auto 6-Speed</div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-thumbnail">
-                                        <div class="sp-thumbnail-text">
-                                            <div class="sp-thumbnail-title">GMC Sierra 2500HD</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L
-                                                V8, Automatic 4-Speed, 4X2</div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-thumbnail">
-                                        <div class="sp-thumbnail-text">
-                                            <div class="sp-thumbnail-title">Ford Mustang EcoBoost</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4
-                                                Turbocharger, Auto 6-Speed</div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-thumbnail">
-                                        <div class="sp-thumbnail-text">
-                                            <div class="sp-thumbnail-title">Chevrolet Silverado 1500</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L
-                                                V8, Automatic 4-Speed, 4X2</div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-thumbnail">
-                                        <div class="sp-thumbnail-text">
-                                            <div class="sp-thumbnail-title">Ford Explorer 2018 Super Duty</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4
-                                                Turbocharger, Auto 6-Speed</div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-thumbnail">
-                                        <div class="sp-thumbnail-text">
-                                            <div class="sp-thumbnail-title">GMC Sierra 2500HD</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 5.3L
-                                                V8, Automatic 4-Speed, 4X2</div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-thumbnail">
-                                        <div class="sp-thumbnail-text">
-                                            <div class="sp-thumbnail-title">Ford Mustang EcoBoost</div>
-                                            <div class="sp-thumbnail-description"><strong>MSRP $30,862,</strong> 2.3L I4
-                                                Turbocharger, Auto 6-Speed</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end .b-thumb-slider-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end .section-default-->
         <section class="b-about section-default">
             <div class="container">
                 <div class="row">
@@ -394,15 +275,12 @@
                                 clock 356 days.</div>
                             <div class="ui-decor"></div>
                             <div class="b-about-main">
-                                <div class="b-about-main__title">We are a Trusted Name in Auto Industry</div>
-                                <div class="b-about-main__subtitle">Visited by Million of Car Buyers Every Month!</div>
-                                <p>MotorLand is aliquip exd ea consequat duis lorem ipsum dolor sit amet consectetur
-                                    dipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam quis nostrud exercitation.</p>
+                                <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
+                                <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
+                                <p></p>
                                 <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor
                                     raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                <div class="b-about-main__btns"><a class="btn btn-dark" href="home.html">Our
-                                        partners</a><a class="btn btn-primary" href="home.html">learn more</a>
+                                <div class="b-about-main__btns"><a class="btn btn-dark" href="contact.php">Contact Us</a><a class="btn btn-primary" href="#">learn more</a>
                                 </div>
                             </div>
                         </div>
