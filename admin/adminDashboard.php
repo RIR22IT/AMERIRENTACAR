@@ -89,184 +89,113 @@ if (!isset($_SESSION['email'])) {
                     <span>ADMIN PANEL</span></a>
             </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
+                <div class="col-15">
+                  <label>Model</label> <span style="color: blue;">(Ex: Allion)</span>
+                  <input type="text" name="model" class="form-control" value="" required>
+                </div><br>
 
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="adminDashboard.php">
-                    <i class="fas fa-plus-square"></i>
-                    <span>Add</span>
-                </a>
-            </li>
+                <div class="col-15">
+                  <label>Model Year</label>
+                  <input type="number" class="form-control" name="year" value="" required>
+                </div><br>
 
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link" href="viewDashboard.php">
-                    <i class="fas fa-eye"></i>
-                    <span>View</span>
-                </a>
-            </li>
+                <div class="col-15">
+                  <label>Engine Capacity (CM3)</label>
+                  <input type="number" name="engine" class="form-control" value="" required>
+                </div><br>
 
-        </ul>
-        <!-- End of Sidebar -->
-
-        <!-- Content Wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column">
-
-            <!-- Main Content -->
-            <div id="content">
-
-                <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-                    <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
-
-                    <!-- Topbar Navbar -->
-                    <ul class="navbar-nav ml-auto">
-
-                        <!-- Nav Item - User Information -->
-                        <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
-                                <img class="img-profile rounded-circle" src="../images/admin-img.jpg">
-                            </a>
-                        </li>
-                        <!--logout btn-->
-                        <li class="nav-item dropdown no-arrow" style="padding-top:15px; ">
-                            <a href="logout.php?logout" class="btn btn-outline-secondary" role="button"
-                                aria-pressed="true"><i
-                                    class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
-                        </li>
-                    </ul>
-
-                </nav>
-                <!-- End of Topbar -->
-
-                <!-- Begin Page Content -->
-                <div class="container-fluid" style="width: 1300px;">
-                    <!-- Page Heading -->
-                    <center>
-                        <h1 class="h3 mb-1 text-gray-800">Add Vehicle</h1>
-                    </center>
-
-                    <form method="post" action="viewDashboard.php" enctype="multipart/form-data">
-                        <div class="row">
-
-                            <div class="col-md-offset-1 col-md-6"><br>
-
-                                <div class="col-15">
-                                    <label>Model</label> <span style="color: blue;">(Ex: Allion)</span>
-                                    <input type="text" name="model" class="form-control" value="">
-                                </div><br>
-
-                                <div class="col-15">
-                                    <label>Model Year</label>
-                                    <input type="number" class="form-control" name="year" value="">
-                                </div><br>
-
-                                <div class="col-15">
-                                    <label>Engine Capacity (CM3)</label>
-                                    <input type="number" name="engine" class="form-control" value="">
-                                </div><br>
-
-                                <div class="col-15">
-                                    <label>Rental Per Day ($)</label>
-                                    <input type="number" class="form-control" name="rental" value=">
+                <div class="col-15">
+                  <label>Rental Per Day ($)</label>
+                  <input type="number" class="form-control" name="rental" value="" required>
                 </div><br>
 
                 <div class=" col-15">
-                                    <label>No of Passengers</label>
-                                    <input type="number" class="form-control" name="passenger" value="">
-                                </div><br>
+                  <label>No of Passengers</label>
+                  <input type="number" class="form-control" name="passenger" value="" required>
+                </div><br>
 
-                                <div class="col-15">
-                                    <label>No of Luggage</label>
-                                    <input type="number" class="form-control" name="luggage" value="">
-                                </div><br>
+                <div class="col-15">
+                  <label>No of Luggage</label>
+                  <input type="number" class="form-control" name="luggage" value="" required>
+                </div><br>
 
-                            </div>
+              </div>
 
-                            <div class="col-md-offset-1 col-md-6" style="bottom: -48px;">
-                                <div class="col-15">
-                                    <select class="form-control" id="make" name="make" style="height: 50px;">
-                                        <option selected disabled="disabled">All Makes</option>
-                                        <option value="Honda">Honda</option>
-                                        <option value="Mitshubishi">Mitshubishi</option>
-                                        <option value="Kia">Kia</option>
-                                        <option value="Perodua">Perodua</option>
-                                        <option value="Toyota">Toyota</option>
-                                        <option value="Suzuki">Suzuki</option>
-                                    </select>
-                                </div><br>
+              <div class="col-md-offset-1 col-md-6" style="bottom: -48px;">
+                <div class="col-15">
+                  <select class="form-control" id="make" name="make" style="height: 50px;">
+                    <option selected disabled="disabled">All Makes</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Mitshubishi">Mitshubishi</option>
+                    <option value="Kia">Kia</option>
+                    <option value="Perodua">Perodua</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Suzuki">Suzuki</option>
+                  </select>
+                </div><br>
 
-                                <div class="col-15">
-                                    <select class="form-control" id="transmission" name="transmission"
-                                        style="height: 50px;">
-                                        <option selected disabled="disabled">All Transmissions</option>
-                                        <option value="Automatic">Automatic</option>
-                                        <option value="Manual">Manual</option>
-                                        <option value="Semi-Automatic">Semi-Automatic</option>
-                                    </select>
-                                </div><br>
+                <div class="col-15">
+                  <select class="form-control" id="transmission" name="transmission" style="height: 50px;" required>
+                    <option selected disabled="disabled">All Transmissions</option>
+                    <option value="Automatic">Automatic</option>
+                    <option value="Manual">Manual</option>
+                    <option value="Semi-Automatic">Semi-Automatic</option>
+                  </select>
+                </div><br>
 
-                                <div class="col-15">
-                                    <select class="form-control" id="fuel" name="fuel" style="height: 50px;">
-                                        <option selected disabled="disabled">Fuel Type</option>
-                                        <option value="Petrol">Petrol</option>
-                                        <option value="Diesol">Diesol</option>
-                                        <option value="Hybrid">Hybrid</option>
-                                        <option value="Plugin Electric">Plugin Electric</option>
-                                        <option value="Petrol + CNG">Petrol + CNG</option>
-                                        <option value="LPG">LPG</option>
-                                    </select>
-                                </div><br>
+                <div class="col-15">
+                  <select class="form-control" id="fuel" name="fuel" style="height: 50px;" required>
+                    <option selected disabled="disabled">Fuel Type</option>
+                    <option value="Petrol">Petrol</option>
+                    <option value="Diesol">Diesol</option>
+                    <option value="Hybrid">Hybrid</option>
+                    <option value="Plugin Electric">Plugin Electric</option>
+                    <option value="Petrol + CNG">Petrol + CNG</option>
+                    <option value="LPG">LPG</option>
+                  </select>
+                </div><br>
 
-                                <div class="col-15" style="bottom: -30px;">
-                                    <select class="form-control" id="door" name="door" style="height: 50px;">
-                                        <option selected disabled="disabled">No of Doors</option>
-                                        <option value="2">2</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                    </select>
-                                </div><br>
+                <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="door" name="door" style="height: 50px;" required>
+                    <option selected disabled="disabled">No of Doors</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div><br>
 
-                                <div class="col-15" style="bottom: -30px;">
-                                    <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;">
-                                        <option selected disabled="disabled">Music Player</option>
-                                        <option value="Yes">Music Player - YES</option>
-                                        <option value="No">Music Player - NO</option>
-                                    </select>
-                                </div><br>
+                <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;" required>
+                    <option selected disabled="disabled">Music Player</option>
+                    <option value="Yes">Music Player - YES</option>
+                    <option value="No">Music Player - NO</option>
+                  </select>
+                </div><br>
 
-                                <div class="col-15" style="bottom: -30px;">
-                                    <select class="form-control" id="ac" name="ac" style="height: 50px;">
-                                        <option selected disabled="disabled">A/C</option>
-                                        <option value="Yes">A/C</option>
-                                        <option value="No">non A/C</option>
-                                    </select>
-                                </div><br>
+                <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="ac" name="ac" style="height: 50px;" required>
+                    <option selected disabled="disabled">A/C</option>
+                    <option value="Yes">A/C</option>
+                    <option value="No">non A/C</option>
+                  </select>
+                </div><br>
 
-                                <div class="col-15">
-                                    <label for="img">Vehicle Image</label>
-                                    <input type="file" class="form-control" name="img" value="">
-                                </div><br>
+                <div class="col-15">
+                  <label for="img">Vehicle Image</label>
+                  <input type="file" class="form-control" name="img" value="" required>
+                </div><br>
 
-                            </div>
-                        </div>
+              </div>
+            </div>
 
-                        <div class="col-md-20">
-                            <button type="submit" name="save" class="btn btn-primary">Add</button>
-                        </div>
+            <div class="col-md-20">
+              <button type="submit" name="save" class="btn btn-primary">Add</button>
+            </div>
 
-                    </form>
+          </form>
 
-                    <div class="card-body">
-                        <?php
+          <div class="card-body">
+            <?php
             if (isset($_SESSION['success']) && $_SESSION['success'] != '') {
               echo '<h2 class = "bg-primary text-white"> ' . $_SESSION['success'] . '</h2>';
               unset($_SESSION['success']);

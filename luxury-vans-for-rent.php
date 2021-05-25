@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>SUV/4WD FOR RENT IN SRI LANKA</title>
+    <title>LUXURY VANS FOR RENT IN SRI LANKA</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -147,7 +147,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1 class="b-title-page bg-primary_a">SUV/4WD FOR RENT IN SRI LANKA</h1>
+                            <h1 class="b-title-page bg-primary_a">LUXURY VANS FOR RENT IN SRI LANKA</h1>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                         <ol class="breadcrumb">
                             <li><a href="home.html"><i class="icon fa fa-home"></i></a>
                             </li>
-                            <li class="active">SUV/4WD FOR RENT IN SRI LANKA</li>
+                            <li class="active">LUXURY VANS FOR RENT IN SRI LANKA</li>
                         </ol>
                     </div>
                 </div>
@@ -179,13 +179,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//KIASorento.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//KIASorento.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//luxury-vans-for-rent//Alphard.jpg">
+                                            <img class="img-responsive" src="./images//luxury-vans-for-rent//Alphard.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Kia Sorento</h2>
+                                            <h2 class="b-goods-1__name">Alphard</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -201,13 +201,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//KIASportage.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//KIASportage.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//luxury-vans-for-rent//Toyota-Grand-Cabin-seater.jpg">
+                                            <img class="img-responsive" src="./images//luxury-vans-for-rent//Toyota-Grand-Cabin-seater.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Kia Sportage</h2>
+                                            <h2 class="b-goods-1__name">Toyota Grand Cabin 13 Seater</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -223,13 +223,34 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//MitsubishiL2004WDDouble.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//MitsubishiL2004WDDouble.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//luxury-vans-for-rent//Toyota-Hiace-Commuter9.jpg">
+                                            <img class="img-responsive" src="./images//luxury-vans-for-rent//Toyota-Hiace-Commuter9.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Mitsubishi L200 4wd Double Cab</h2>
+                                            <h2 class="b-goods-1__name">Toyota Hiace Commuter 09 Seater</h2>
+                                        </div>
+
+                                        <div class="b-goods-1__section">
+                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
+                                            <div class="collapse in" id="desc-1">
+                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="b-goods-1 b-goods-1_mod-a">
+                                <div class="row">
+                                    <div class="b-goods-1__img">
+                                        <a class="js-zoom-images" href="./images//luxury-vans-for-rent//Toyota-HiaceCommuter15.jpg">
+                                            <img class="img-responsive" src="./images//luxury-vans-for-rent//Toyota-HiaceCommuter15.jpg" alt="foto" style="width: 324px;" />
+                                        </a>
+                                    </div>
+                                    <div class="b-goods-1__inner">
+                                        <div class="b-goods-1__header">
+                                            <h2 class="b-goods-1__name">Toyota Hiace Commuter 15 Seater</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -245,13 +266,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//Montero.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//Montero.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//luxury-vans-for-rent//Toyota-HiaceTRH200.jpg">
+                                            <img class="img-responsive" src="./images//luxury-vans-for-rent//Toyota-HiaceTRH200.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Mitsubishi Montero</h2>
+                                            <h2 class="b-goods-1__name">Toyota Hiace TRH200</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
@@ -267,167 +288,13 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//HondaVezel.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//HondaVezel.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images" href="./images//luxury-vans-for-rent//Vito.jpg">
+                                            <img class="img-responsive" src="./images//luxury-vans-for-rent//Vito.jpg" alt="foto" style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Rent Honda Vezel in Sri lanka</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//ToyotaCHR.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//ToyotaCHR.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Rent a Toyota CHR in Sri Lanka</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//ToyotaFortuner.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//ToyotaFortuner.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Fortuner</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//Landcruiser.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//Landcruiser.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser 200 V8</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//LandCruiserCygnus.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//LandCruiserCygnus.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser Cygnus V8</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//TOYOTALANDCRUISERPRADO.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//TOYOTALANDCRUISERPRADO.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser Prado (TRJ 120 Series)</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//ToyotaLandcruiserPradoTRJ.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//ToyotaLandcruiserPradoTRJ.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser Prado (TRJ 150 Series)</h2>
-                                        </div>
-
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
-                                            <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- end .b-goods-1-->
-                            <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//4WD-for-rent//ToyotaLandcruiserTRJ95.jpg">
-                                            <img class="img-responsive" src="./images//4WD-for-rent//ToyotaLandcruiserTRJ95.jpg" alt="foto" style="width: 324px;" />
-                                        </a>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header">
-                                            <h2 class="b-goods-1__name">Toyota Land Cruiser Prado (TRJ 95 Series)</h2>
+                                            <h2 class="b-goods-1__name">Vito</h2>
                                         </div>
 
                                         <div class="b-goods-1__section">
