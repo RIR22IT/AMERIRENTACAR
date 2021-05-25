@@ -40,8 +40,7 @@
 
     <!--WHATSAPP CONTENT
 			=============================================-->
-    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
-            class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
 
@@ -54,8 +53,7 @@
                     <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
                         <div class="navbar-search">
                             <form class="search-global">
-                                <input class="search-global__input" type="text" placeholder="Type to search"
-                                    autocomplete="off" name="s" value="" />
+                                <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
                                 <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
                                 </button>
                                 <div class="search-global__note">Begin typing your search above and press return to
@@ -124,86 +122,74 @@
         </div>
         <!-- Header -->
         <?php include('./inc/header.php') ?>
-        <br />
-        <div class="main-slider main-slider-4">
-            <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="850px"
-                data-slider-arrows="false" data-slider-buttons="false">
-                <div class="sp-slides">
-                    <!-- Slide 1-->
-                    <div class="sp-slide">
-                        <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="sp-layer" data-show-transition="left" data-hide-transition="left"
-                                        data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                                        <br><br><br>
-                                        <div class="main-slider__title">Find Your Car<br>
-                                            <div class="ui-decor"></div>
+
+        <section class="section-filter">
+            <div class="main-slider main-slider-4">
+                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="650px" data-slider-arrows="false" data-slider-buttons="false">
+                    <div class="sp-slides">
+
+                        <div class="sp-slide">
+                            <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
+
+                            <div class="area-bg__inner">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h1 class="b-title-page bg-primary_a">Find Your Car</h1>
                                         </div>
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="row">
-                                                    <div class="col-md-3 col-sm-6"
-                                                        style="bottom: -100px; left: -150px;">
-                                                        <select class="selectpicker" data-width="100%"
-                                                            style="background-color:powderblue;">
-                                                            <option>PICK-UP DATE</option>
-                                                        </select><br><br><br>
-                                                        <select class="selectpicker" data-width="100%">
-                                                            <option>MODEL OF THE VEHICLE</option>
+                                    </div>
+                                </div>
+                            </div>
 
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-md-3 col-sm-6"
-                                                        style="bottom: -100px; left: -150px;">
-                                                        <select class="selectpicker" data-width="100%">
-                                                            <option>DROP-OFF DATE</option>
-                                                        </select><br><br><br>
-                                                        <select class="selectpicker" data-width="100%">
-                                                            <option>FUEL TYPE</option>
-                                                            <option>Petrol</option>
-                                                            <option>Diesel</option>
-                                                            <option>Hybrid</option>
-                                                            <option>Plugin electric</option>
-                                                            <option>Electric</option>
-                                                            <option>Petrol+CNG</option>
-                                                            <option>LPG</option>
+                            <div class="container">
 
-                                                        </select>
+                                <div class="container">
+                                    <div class="row"><br><br><br><br>
 
-                                                    </div>
-                                                    <div class="col-md-3 col-sm-6"
-                                                        style="bottom: -100px; left: -150px;">
-                                                        <select class="selectpicker" data-width="100%">
-                                                            <option>MAKES OF VEHICLE</option>
-                                                            <option>HONDA</option>
-                                                            <option>MITSHUBISHI</option>
-                                                            <option>KIA</option>
-                                                            <option>PERODUA</option>
-                                                        </select><br><br><br>
-
-                                                        <select class="selectpicker" data-width="100%">
-                                                            <option>TRANSMISSION RANG</option>
-                                                            <option>Automatic</option>
-                                                            <option>Manual</option>
-                                                            <option>Semi-Automatic</option>
-                                                        </select>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <select class="selectpicker" data-width="100%" style="background-color:powderblue;">
+                                                <option>PICK-UP DATE</option>
+                                            </select>
+                                            <select class="selectpicker" data-width="100%">
+                                                <option>MODEL OF THE VEHICLE</option>
+                                            </select>
                                         </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <select class="selectpicker" data-width="100%">
+                                                <option>DROP-OFF DATE</option>
+                                            </select>
+                                            <select class="selectpicker" data-width="100%">
+                                                <option>FUEL TYPE</option>
+                                                <option>Petrol</option>
+                                                <option>Diesel</option>
+                                                <option>Hybrid</option>
+                                                <option>Plugin electric</option>
+                                                <option>Electric</option>
+                                                <option>Petrol+CNG</option>
+                                                <option>LPG</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <select class="selectpicker" data-width="100%">
+                                                <option>MAKES OF VEHICLE</option>
+                                                <option>HONDA</option>
+                                                <option>MITSHUBISHI</option>
+                                                <option>KIA</option>
+                                                <option>PERODUA</option>
+                                            </select>
 
-                                        <div class="col-md-3 col-sm-6"><br><br>
+                                            <select class="selectpicker" data-width="100%">
+                                                <option>TRANSMISSION RANG</option>
+                                                <option>Automatic</option>
+                                                <option>Manual</option>
+                                                <option>Semi-Automatic</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
                                             <div class="b-filter__btns">
-                                                <button class="btn btn-lg btn-primary"
-                                                    style="width: 300px; left: 800px; top: -60px;">search
-                                                    vehicle</button>
+                                                <button class="btn btn-lg btn-primary">search vehicle</button>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +197,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- end .main-slider-->
         <br>
@@ -224,25 +210,21 @@
 
                             <div class="col-md-12">
                                 <div class="section-advantages-1">
-                                    <section class="b-advantages-1"><i
-                                            class="b-advantages-1__icon flaticon-car-dashboard"></i>
+                                    <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-car-dashboard"></i>
                                         <h3 class="b-advantages-1__title">Fast & Easy Booking</h3>
                                         <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis
                                             velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.
                                         </div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
-                                    <section class="b-advantages-1 active"><i
-                                            class="b-advantages-1__icon flaticon-doors"></i>
+                                    <section class="b-advantages-1 active"><i class="b-advantages-1__icon flaticon-doors"></i>
                                         <h3 class="b-advantages-1__title">Many Pickup Locations</h3>
                                         <div class="b-advantages-1__info">We pride ourselves on providing a many pickup
                                             and drop locations service with our wide range of rental cars. Our goal is
-                                            to provide a great customer experience.</div><span
-                                            class="ui-decor-2"></span>
+                                            to provide a great customer experience.</div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
-                                    <section class="b-advantages-1"><i
-                                            class="b-advantages-1__icon flaticon-calculator"></i>
+                                    <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-calculator"></i>
                                         <h3 class="b-advantages-1__title">Best Prices in Sri Lanka</h3>
                                         <div class="b-advantages-1__info">We are all about helping people find the best
                                             car deals in Sri Lanka. Guaranteed best deals for self drive rates and with
@@ -253,11 +235,11 @@
                                 <!-- end .section-advantages-1-->
                             </div>
 
-                            <div class="ui-decor"></div>
+
                         </div>
                     </div>
                 </div>
-            </div>
+            </div><br /><br /><br /><br />
 
             <!-- end .b-filter-->
         </section>
@@ -265,15 +247,13 @@
 
         <!-- end .section-default-->
 
-        <section class="section-advantages-2 section-dark area-bg area-bg_dark parallax"
-            style="background-image: url(assets/media/content/bg/bg-1.jpg)">
+        <section class="section-advantages-2 section-dark area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-1.jpg)">
             <div class="area-bg__inner">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="text-center">
-                                <img class="sp-image" src="./images/dealer.png"
-                                    style="margin-left: auto; margin-right: auto; width: 40%;" />
+                                <img class="sp-image" src="./images/dealer.png" style="margin-left: auto; margin-right: auto; width: 40%;" />
 
                             </div>
                         </div>
@@ -284,19 +264,6 @@
 
         </section>
 
-        <div class="col-lg-10" style="top: -400px; left: 70px;">
-            <h3 style="color: white;">Call Today For Booking Your Next Ride</h3> &nbsp; &nbsp; &nbsp;
-            <h2 style="color: red;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+94)
-                777 312 848</h2> &nbsp; &nbsp; &nbsp;
-            <p style="color: white; font-size: 30px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Operators available 24/7</p>
-        </div>
-
-        <div class="col-lg-10" style="top: -600px; left: 1300px;">
-            <p style="color: white;  font-size: 30px;">Please Contact Us</p> &nbsp; &nbsp; &nbsp;
-            <h2 style="color: white;">For Special Discount <br><br> and Promos</h2> &nbsp; &nbsp; &nbsp;
-        </div>
-        
         <section class="b-about section-default">
             <div class="container">
                 <div class="row">
@@ -308,15 +275,12 @@
                                 clock 356 days.</div>
                             <div class="ui-decor"></div>
                             <div class="b-about-main">
-                                <div class="b-about-main__title">We are a Trusted Name in Auto Industry</div>
-                                <div class="b-about-main__subtitle">Visited by Million of Car Buyers Every Month!</div>
-                                <p>MotorLand is aliquip exd ea consequat duis lorem ipsum dolor sit amet consectetur
-                                    dipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam quis nostrud exercitation.</p>
+                                <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
+                                <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
+                                <p></p>
                                 <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor
                                     raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                <div class="b-about-main__btns"><a class="btn btn-dark" href="home.html">Our
-                                        partners</a><a class="btn btn-primary" href="home.html">learn more</a>
+                                <div class="b-about-main__btns"><a class="btn btn-dark" href="contact.php">Contact Us</a><a class="btn btn-primary" href="#">learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -360,25 +324,20 @@
         <!-- end .b-about-->
         <div class="info-group block-table block-table_md">
             <div class="info-group__section col-md-6">
-                <section class="b-info b-info_mod-a area-bg area-bg_op_80 area-bg_prim parallax"
-                    style="background-image: url(assets/media/content/bg/bg-4.jpg)">
+                <section class="b-info b-info_mod-a area-bg area-bg_op_80 area-bg_prim parallax" style="background-image: url(assets/media/content/bg/bg-4.jpg)">
                     <div class="area-bg__inner">
-                        <h2 class="b-info__title">Call Today For Booking Your Next Ride<strong
-                                class="b-info__title_lg">(+94) 777 312 848</strong></h2>
-                        <div class="b-info__desc">Operators available 24/7.</div><a class="btn btn-white"
-                            href="#">search your car</a>
+                        <h2 class="b-info__title">Call Today For Booking Your Next Ride<strong class="b-info__title_lg">(+94) 777 312 848</strong></h2>
+                        <div class="b-info__desc">Operators available 24/7.</div><a class="btn btn-white" href="#">search your car</a>
                     </div>
                 </section>
             </div>
             <div class="info-group__section col-md-6">
-                <section class="b-info b-info_mod-b area-bg area-bg_op_80 area-bg_dark-2 parallax"
-                    style="background-image: url(assets/media/content/bg/bg-3.jpg)">
+                <section class="b-info b-info_mod-b area-bg area-bg_op_80 area-bg_dark-2 parallax" style="background-image: url(assets/media/content/bg/bg-3.jpg)">
                     <div class="area-bg__inner">
                         <h2 class="b-info__title">Please Contact Us<strong class="b-info__title_lg">For Special Discount
                                 and Promos</strong></h2>
                         <div class="b-info__desc">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal
-                            sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white"
-                            href="#">cONTACT US</a>
+                            sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white" href="#">cONTACT US</a>
                     </div>
                 </section>
             </div>
@@ -391,8 +350,7 @@
         <br><br>
 
         <!-- end .b-list-brands-->
-        <div class="section-reviews area-bg area-bg_dark parallax"
-            style="background-image: url(assets/media/content/bg/bg-6.jpg)">
+        <div class="section-reviews area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-6.jpg)">
 
             <div class="area-bg__inner">
 
@@ -404,18 +362,14 @@
                             <h2 class="b-info__title"><strong class="b-info__title_lg">CUSTOMER REVIEWS</strong></h2>
                         </center>
                         <div class="col-xs-12">
-                            <div class="carousel-reviews owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel"
-                                data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true"
-                                data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
+                            <div class="carousel-reviews owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
 
                                 <div class="b-blockquote b-blockquote-1">
                                     <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
                                         </div> -->
                                     <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span
-                                                class="b-blockquote__author">Chris Fogden</span><span
-                                                class="b-blockquote__category"></span></cite>
+                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Chris Fogden</span><span class="b-blockquote__category"></span></cite>
                                         <p>Great car in excellent condition and find working order. The staff were
                                             Friendly and helpful and prices are very competitive.They also organised my
                                             local driving permit with ease. I look forward to renting with them again.
@@ -428,9 +382,7 @@
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
                                         </div> -->
                                     <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span
-                                                class="b-blockquote__author">Gayani Loid</span><span
-                                                class="b-blockquote__category"></span></cite>
+                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Gayani Loid</span><span class="b-blockquote__category"></span></cite>
                                         <p>I had a great service from this company!!! The KIA SUV was in really good
                                             condition. Communication with staff was verry proffessional and very
                                             helpful! I have been using this company for two years and will use them
@@ -463,13 +415,8 @@
                                             <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
                                         </div> -->
                                     <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span
-                                                class="b-blockquote__author">Taste Of India</span><span
-                                                class="b-blockquote__category"></span></cite>
-                                        <p>We were very happy with Ameri Rent a Car.Sajad Ismail was very friendly and
-                                            helpful. The rental car was in very good condition.Should we again need a
-                                            car in Sri Lanka. We will definitely rent again at Ameri. Highly
-                                            recommended.</p>
+                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Taste Of India</span><span class="b-blockquote__category"></span></cite>
+                                        <p>We were very happy with Ameri Rent a Car.Sajad Ismail was very friendly and helpful. The rental car was in very good condition.Should we again need a car in Sri Lanka. We will definitely rent again at Ameri. Highly recommended.</p>
                                     </blockquote>
                                 </div>
                                 <!-- end .b-blockquote-->
@@ -498,9 +445,7 @@
                                             <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
                                         </div> -->
                                     <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span
-                                                class="b-blockquote__author">James Liam</span><span
-                                                class="b-blockquote__category">Quality Assurance Manager</span></cite>
+                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">James Liam</span><span class="b-blockquote__category">Quality Assurance Manager</span></cite>
                                         <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla
                                             pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam
                                             quis nostrud exercitation ullamco.</p>
@@ -517,8 +462,7 @@
         <!-- end .section-reviews-->
 
         <!-- end .section-default-->
-        <section class="section-news area-bg area-bg_light area-bg_op_90 parallax"
-            style="background-image: url(assets/media/content/bg/bg-7.jpg)">
+        <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg)">
             <div class="area-bg__inner">
                 <div class="container">
                     <div class="row">
@@ -528,24 +472,18 @@
                                 <div class="ui-subtitle-block">TIPS FOR TRAVEL AROUND SRI LANKA</div>
                                 <div class="ui-decor"></div>
                             </div>
-                            <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel"
-                                data-min768="2" data-min992="3" data-min1200="3" data-margin="30"
-                                data-pagination="false" data-navigation="true" data-auto-play="4000"
-                                data-stop-on-hover="true">
+                            <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
                                 <!-- end .post-->
                                 <section class="b-post b-post-1 clearfix">
                                     <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto"
-                                            style="max-height:200px" />
+                                        <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto" style="max-height:200px" />
                                     </div>
                                     <div class="entry-main">
                                         <div class="entry-header">
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link"
-                                                        href="#"> Admin</a></span><a class="entry-meta__categorie"
-                                                    href="#"><strong>19 OCT</strong></a>
+                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
                                             </div>
                                             <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka
                                                 </a></h2>
@@ -562,18 +500,14 @@
                                 <!-- end .post-->
                                 <section class="b-post b-post-1 clearfix">
                                     <div class="entry-media">
-                                        <img class="img-responsive"
-                                            src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg"
-                                            alt="Foto" style="max-height:200px" />
+                                        <img class="img-responsive" src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg" alt="Foto" style="max-height:200px" />
                                     </div>
                                     <div class="entry-main">
                                         <div class="entry-header">
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
 
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link"
-                                                        href="#"> Admin</a></span><a class="entry-meta__categorie"
-                                                    href="#"><strong>19 OCT</strong></a>
+                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
                                             </div>
                                             <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a>
                                             </h2>
@@ -590,17 +524,14 @@
                                 <!-- end .post-->
                                 <section class="b-post b-post-1 clearfix">
                                     <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto"
-                                            style="max-height:200px" />
+                                        <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto" style="max-height:200px" />
                                     </div>
                                     <div class="entry-main">
                                         <div class="entry-header">
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                 </div>
-                                                <span class="entry-meta__item">Post by<a class="entry-meta__link"
-                                                        href="#">Admin</a></span><a class="entry-meta__categorie"
-                                                    href="blog-main.html"><strong>29 JUL</strong></a>
+                                                <span class="entry-meta__item">Post by<a class="entry-meta__link" href="#">Admin</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
                                             </div>
                                             <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN
                                                     SRILANKA</a></h2>
