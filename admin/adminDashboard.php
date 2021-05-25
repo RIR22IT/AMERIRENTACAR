@@ -1,5 +1,12 @@
-<?php include ('../database/connection.php');?>
-<?php  include('../admin/php_code.php'); ?>
+<?php include('../database/connection.php'); ?>
+<?php include('../admin/php_code.php'); ?>
+<?php
+session_start();
+if (!isset($_SESSION['email'])) {
+  header("location: index.php");
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -114,30 +121,17 @@
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
-            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-            <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
-              <!-- Dropdown - Messages -->
-
-            </li>
-
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
                 <img class="img-profile rounded-circle" src="../images/admin-img.jpg">
               </a>
-              <!-- Dropdown - User Information -->
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="login.html" data-toggle="modal" data-target="#logoutModal">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Logout
-                </a>
-              </div>
             </li>
-
+            <!--logout btn-->
+            <li class="nav-item dropdown no-arrow" style="padding-top:15px; ">
+              <a href="logout.php?logout" class="btn btn-outline-secondary" role="button" aria-pressed="true"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
+            </li>
           </ul>
 
         </nav>
@@ -172,10 +166,10 @@
 
                 <div class="col-15">
                   <label>Rental Per Day ($)</label>
-                  <input type="number" class="form-control" name="rental" value="">
+                  <input type="number" class="form-control" name="rental" value=">
                 </div><br>
 
-                <div class="col-15">
+                <div class=" col-15">
                   <label>No of Passengers</label>
                   <input type="number" class="form-control" name="passenger" value="">
                 </div><br>
@@ -241,14 +235,14 @@
                 <div class="col-15" style="bottom: -30px;">
                   <select class="form-control" id="ac" name="ac" style="height: 50px;">
                     <option selected disabled="disabled">A/C</option>
-                    <option value="A/C">A/C</option>
-                    <option value="non A/C">non A/C</option>
+                    <option value="Yes">A/C</option>
+                    <option value="No">non A/C</option>
                   </select>
                 </div><br>
 
                 <div class="col-15">
                   <label for="img">Vehicle Image</label>
-                  <input type="file" class="form-control" name="img" value="" >
+                  <input type="file" class="form-control" name="img" value="">
                 </div><br>
 
               </div>
@@ -293,7 +287,7 @@
       </a>
 
       <!-- Logout Modal-->
-      <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <!-- <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -310,7 +304,7 @@
 
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Bootstrap core JavaScript-->
       <script src="../vendor/jquery/jquery.min.js"></script>

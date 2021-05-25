@@ -61,9 +61,9 @@
                         <li class="dropdown"><a class="dropdown-toggle" href="listings-1.html"
                                 data-toggle="dropdown">Vehicle Fleet<b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="listings-1.html" tabindex="-1">RENT GENERAL CARS IN SRI LANKA</a>
+                                <li><a href="rent-general-cars.php" tabindex="-1">RENT GENERAL CARS IN SRI LANKA</a>
                                 </li>
-                                <li><a href="listings-2.html" tabindex="-1">PREMIUM CARS FOR RENT IN SRI LANKA</a>
+                                <li><a href="premium-cars-for-rental.php" tabindex="-1">PREMIUM CARS FOR RENT IN SRI LANKA</a>
                                 </li>
                                 <li><a href="listings-3.html" tabindex="-1">SUV/4WD FOR RENT IN SRI LANKA</a>
                                 </li>
