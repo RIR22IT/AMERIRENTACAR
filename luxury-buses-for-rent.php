@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>LUXURY BUSES FOR RENT IN SRI LANKA</title>
+    <title>AMERIRENTACAR | LUXURY BUSES FOR RENT IN SRI LANKA</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,6 +21,10 @@
     <!--[if lt IE 9 ]>
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
+
+    <!--Whatsapp CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/whatsapp.css">
 </head>
 
 <body>
@@ -33,6 +37,11 @@
 
     <!-- Mobile Header -->
     <?php include('./inc/mobile-slider.php') ?>
+
+    <!--WHATSAPP CONTENT
+			=============================================-->
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
+            class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
         <!-- Start Switcher-->
@@ -47,10 +56,12 @@
                     <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
                         <div class="navbar-search">
                             <form class="search-global">
-                                <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
+                                <input class="search-global__input" type="text" placeholder="Type to search"
+                                    autocomplete="off" name="s" value="" />
                                 <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
                                 </button>
-                                <div class="search-global__note">Begin typing your search above and press return to search.</div>
+                                <div class="search-global__note">Begin typing your search above and press return to
+                                    search.</div>
                             </form>
                         </div>
                     </div>
@@ -118,24 +129,38 @@
 
         <!-- main slider start-->
         <div class="main-slider main-slider-1">
-            <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="true" data-slider-buttons="false">
+            <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px"
+                data-slider-arrows="true" data-slider-buttons="false">
                 <div class="sp-slides">
                     <!-- Slide 1-->
                     <div class="sp-slide">
                         <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />
-                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                            <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>
+                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"
+                            data-horizontal="62%" data-show-transition="left" data-hide-transition="left"
+                            data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
+                            <div class="main-slider__title">mercedes benz<span
+                                    class="main-slider__label bg-primary">model 2018</span>
                             </div>
-                            <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white btn-lg" href="services.html"><span class="main-slider__btn-label">Starting</span><span class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary btn-lg" href="services.html">book now</a>
+                            <div class="main-slider__subtitle">smart drive</div><a
+                                class="main-slider__btn btn btn-white btn-lg" href="services.html"><span
+                                    class="main-slider__btn-label">Starting</span><span class="main-slider__btn-price">
+                                    $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary btn-lg"
+                                href="services.html">book now</a>
                         </div>
                     </div>
                     <!-- Slide 2-->
                     <div class="sp-slide">
                         <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
-                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                            <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>
+                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"
+                            data-horizontal="62%" data-show-transition="left" data-hide-transition="left"
+                            data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
+                            <div class="main-slider__title">mercedes benz<span
+                                    class="main-slider__label bg-primary">model 2018</span>
                             </div>
-                            <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white" href="services.html">Starting<span class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary" href="services.html">book now</a>
+                            <div class="main-slider__subtitle">smart drive</div><a
+                                class="main-slider__btn btn btn-white" href="services.html">Starting<span
+                                    class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a
+                                class="main-slider__btn btn btn-primary" href="services.html">book now</a>
                         </div>
                     </div>
                 </div>
@@ -179,8 +204,11 @@
                             <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
                                     <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="./images//luxury-buses-for-rent//Toyota-Coaster.jpg">
-                                            <img class="img-responsive" src="./images//luxury-buses-for-rent//Toyota-Coaster.jpg" alt="foto" style="width: 324px;" />
+                                        <a class="js-zoom-images"
+                                            href="./images//luxury-buses-for-rent//Toyota-Coaster.jpg">
+                                            <img class="img-responsive"
+                                                src="./images//luxury-buses-for-rent//Toyota-Coaster.jpg" alt="foto"
+                                                style="width: 324px;" />
                                         </a>
                                     </div>
                                     <div class="b-goods-1__inner">
@@ -189,9 +217,12 @@
                                         </div>
 
                                         <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">Highlights</h3>
+                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">
+                                                Highlights</h3>
                                             <div class="collapse in" id="desc-1">
-                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH DRIVER RATES</a>
+                                                <a class="btn btn-dark" href="self-drive-rates.php">SELF DRIVE
+                                                    RATES</a><a class="btn btn-primary" href="with-drive-rates.php">WITH
+                                                    DRIVER RATES</a>
                                             </div>
                                         </div>
                                     </div>

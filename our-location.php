@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Motor Land / Our Locations</title>
+    <title>AMERIRENTACAR | Our Locations</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,8 +23,11 @@
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
 
+    <!--Whatsapp CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/whatsapp.css">
+
     <style>
-    
     /* Float four columns side by side */
     .column {
         float: left;
@@ -75,6 +78,11 @@
 
     <!-- Mobile Header -->
     <?php include './inc/mobile-slider.php' ?>
+
+    <!--WHATSAPP CONTENT
+        =============================================-->
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
+            class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
         <!-- Start Switcher-->
@@ -235,20 +243,22 @@
                 <div class="row">
                     <div class="column">
                         <div class="card">
-                        <i class="b-advantages-1__icon flaticon-car-1"></i>
-                        <h3>Head Office</h3>
+                            <i class="b-advantages-1__icon flaticon-car-1"></i>
+                            <h3>Head Office</h3>
                             <p>No.43, School Lane, Colombo-03, Sri Lanka</p>
                         </div>
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         <div class="card">
-                        <i class="b-advantages-1__icon flaticon-transport-1"></i>
-                        <h3>Airport</h3>
+                            <i class="b-advantages-1__icon flaticon-transport-1"></i>
+                            <h3>Airport</h3>
                             <p>Bandaranaike International Airport</p>
                         </div>
                     </div>
                     <div class="column">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.946277225689!2d79.85451711556532!3d6.8970293206196684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bdf4a1ab231%3A0xa15b314b086393e4!2s43%20School%20Ln%2C%20Colombo%2000300!5e0!3m2!1sen!2slk!4v1621843298629!5m2!1sen!2slk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.946277225689!2d79.85451711556532!3d6.8970293206196684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bdf4a1ab231%3A0xa15b314b086393e4!2s43%20School%20Ln%2C%20Colombo%2000300!5e0!3m2!1sen!2slk!4v1621843298629!5m2!1sen!2slk"
+                            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
 
