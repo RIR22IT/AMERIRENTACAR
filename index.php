@@ -258,12 +258,11 @@
                             </div>
                         </div>
                     </div>
-
+                    
                 </div>
             </div>
 
         </section>
-
         <section class="b-about section-default">
             <div class="container">
                 <div class="row">
