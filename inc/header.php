@@ -39,7 +39,7 @@
                     <a class="navbar-brand scroll" href="home.php">
                         <img class="normal-logo img-responsive" src="./images/logo-new_withcap.png" alt="logo" />
                         <img class="scroll-logo hidden-xs img-responsive" src="./images/logo-new_withcap.png" alt="logo"
-                            style="width:150px" />
+                            style="width:120px" />
                     </a>
                 </div>
                 <!-- <div class="header-navibox-3">

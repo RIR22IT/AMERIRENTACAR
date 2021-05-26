@@ -129,7 +129,7 @@
                     <div class="sp-slides">
 
                         <div class="sp-slide">
-                            <img class="sp-image" src="assets/media/components/b-main-slider/bts6.jpeg" alt="slider" />
+                            <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
 
                             <div class="area-bg__inner">
                                 <div class="container">
@@ -258,12 +258,12 @@
                             </div>
                         </div>
                     </div>
-
+                    
                 </div>
             </div>
 
         </section>
-
+        
         <div class="col-lg-10" style="top: -400px; left: 70px;">
             <h4 style="color: white;">Call Today For Booking Your Next Ride</h4> 
             &nbsp; &nbsp; &nbsp;
