@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>AMERIRENTACAR | RENTAL CAR</title>
+    <title>AMERIRENTACAR | RENTAL CAR ALL</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -194,12 +194,8 @@
 
                             <?php
                             include('./database/connection.php');
-                            if (isset($_POST['search'])) {
-                                $make = $_POST['make'];
-                                $fuel = $_POST['fuel'];
-                                $transmission = $_POST['transmission'];
-                                if ($make != "" || $fuel != "" || $transmission != "") {
-                                    $query = "SELECT * FROM car WHERE make = '$make' OR fuel = '$fuel' OR transmission = '$transmission'";
+                           
+                                    $query = "SELECT * FROM car";
                                     $data = mysqli_query($db, $query) or die('error');
 
                                     if (mysqli_num_rows($data) > 0) {
@@ -229,7 +225,7 @@
                                                     <div class="b-goods-1__inner">
                                                         <div class="b-goods-1__header"><a class="b-goods-1__choose hidden-th" href="listing-1.html"></a>
                                                             <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $make; ?>
-                                                            </a></h2>
+                                                                </a></h2>
                                                         </div>
 
                                                         <span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental; ?>
@@ -267,18 +263,7 @@
                                             </section>
                                         <?php
                                         }
-                                    } else {
-                                        ?>
-                                        <h2> Results Not Found. View All Vehicles </h2>
-                                        <div class="col-md-3 col-md-offset-3">
-                                            <a class="btn btn-primary" href="rental-car-all.php">VIEW
-                                            </a>
-                                        </div>
-                            <?php
-                                    }
-                                }
-                            }
-                            ?>
+                                    } ?>
 
                             <!-- <section class="b-goods-1 b-goods-1_mod-a">
                                 <div class="row">
