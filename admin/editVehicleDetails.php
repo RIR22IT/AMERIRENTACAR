@@ -6,7 +6,6 @@ session_start();
 if (!isset($_SESSION['email'])) {
   header("location: index.php");
 }
-
 ?>
 
 <?php
@@ -288,11 +287,11 @@ if (isset($_GET['edit'])) {
                                               }
                                               ?>>Petrol</option>
 
-                      <option value="Diesol" <?php
-                                              if ($fuel == 'Diesol') {
+                      <option value="Diesel" <?php
+                                              if ($fuel == 'Diesel') {
                                                 echo "selected";
                                               }
-                                              ?>>Diesol</option>
+                                              ?>>Diesel</option>
 
                       <option value="Hybrid" <?php
                                               if ($fuel == 'Hybrid') {

@@ -207,7 +207,7 @@ if (!isset($_SESSION['email'])) {
                   <select class="form-control" id="fuel" name="fuel" style="height: 50px;" required>
                     <option selected disabled="disabled">Fuel Type</option>
                     <option value="Petrol">Petrol</option>
-                    <option value="Diesol">Diesol</option>
+                    <option value="Diesel">Diesel</option>
                     <option value="Hybrid">Hybrid</option>
                     <option value="Plugin Electric">Plugin Electric</option>
                     <option value="Petrol + CNG">Petrol + CNG</option>
@@ -234,7 +234,7 @@ if (!isset($_SESSION['email'])) {
 
                 <div class="col-15" style="bottom: -30px;">
                   <select class="form-control" id="ac" name="ac" style="height: 50px;" required>
-                    <option selected disabled="disabled">A/C</option>
+                    <option selected disabled="disabled">Select A/C</option>
                     <option value="Yes">A/C</option>
                     <option value="No">non A/C</option>
                   </select>
