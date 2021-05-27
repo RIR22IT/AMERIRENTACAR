@@ -19,33 +19,31 @@ if (!isset($_SESSION['email'])) {
 
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="../admin//styles//sb-admin-2.min.css" rel="stylesheet">
 
     <style>
-    form {
-        width: 45%;
-        margin: 50px auto;
-        text-align: left;
-        padding: 20px;
-        border: 1px solid #bbbbbb;
-        border-radius: 5px;
-    }
+        form {
+            width: 45%;
+            margin: 50px auto;
+            text-align: left;
+            padding: 20px;
+            border: 1px solid #bbbbbb;
+            border-radius: 5px;
+        }
 
-    .msg {
-        margin: 30px auto;
-        padding: 10px;
-        border-radius: 5px;
-        color: #3c763d;
-        background: #dff0d8;
-        border: 1px solid #3c763d;
-        width: 50%;
-        text-align: center;
-    }
+        .msg {
+            margin: 30px auto;
+            padding: 10px;
+            border-radius: 5px;
+            color: #3c763d;
+            background: #dff0d8;
+            border: 1px solid #3c763d;
+            width: 50%;
+            text-align: center;
+        }
     </style>
 
 </head>
@@ -115,17 +113,14 @@ if (!isset($_SESSION['email'])) {
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
                                 <img class="img-profile rounded-circle" src="../images//admin-img.jpg">
                             </a>
                         </li>
                         <!--logout btn-->
                         <li class="nav-item dropdown no-arrow" style="padding-top:15px; ">
-                            <a href="logout.php?logout" class="btn btn-outline-secondary" role="button"
-                                aria-pressed="true"><i
-                                    class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
+                            <a href="logout.php?logout" class="btn btn-outline-secondary" role="button" aria-pressed="true"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
                         </li>
 
 
@@ -161,57 +156,55 @@ if (!isset($_SESSION['email'])) {
                             </thead>
 
                             <?php
-$i   = 1;
-$qry = "select * from car";
-$run = $db->query($qry);
-if ($run->num_rows > 0) {
-    while ($row = $run->fetch_assoc()) {
-        $id = $row['id'];
-        ?>
+                            $i   = 1;
+                            $qry = "select * from car";
+                            $run = $db->query($qry);
+                            if ($run->num_rows > 0) {
+                                while ($row = $run->fetch_assoc()) {
+                                    $id = $row['id'];
+                            ?>
 
-                            <tr>
-                                <td><?php echo $i++ ?></td>
-                                <td><?php echo '<img src="upload/' . $row['img'] . '" width = "70px;" height = "60px;" alt = "Image">' ?>
-                                </td>
-                                <td><?php echo $row['model']; ?></td>
-                                <td><?php echo $row['year']; ?></td>
-                                <td><?php echo $row['engine']; ?></td>
-                                <td><?php echo $row['rental']; ?></td>
-                                <td><?php echo $row['passenger']; ?></td>
-                                <td><?php echo $row['luggage']; ?></td>
-                                <td><?php echo $row['make']; ?></td>
-                                <td><?php echo $row['transmission']; ?></td>
-                                <td><?php echo $row['fuel']; ?></td>
-                                <td><?php echo $row['door']; ?></td>
-                                <td><?php echo $row['musicOn']; ?></td>
-                                <td><?php echo $row['ac']; ?></td>
-                                <td>
-                                    <a href="editVehicleDetails.php?edit=<?php echo $row['id']; ?>" class="edit_btn"><i
-                                            class="fas fa-edit" style="color:grey"></i></a>
-                                    &nbsp; &nbsp; &nbsp; &nbsp;
-                                    <a href="php_code.php?del=<?php echo $row['id']; ?>" class="del_btn"><i
-                                            class="fa fa-trash" style="color:grey"></i></a>
-                                </td>
-                            </tr>
+                                    <tr>
+                                        <td><?php echo $i++ ?></td>
+                                        <td><?php echo '<img src="upload/' . $row['img'] . '" width = "70px;" height = "60px;" alt = "Image">' ?>
+                                        </td>
+                                        <td><?php echo $row['model']; ?></td>
+                                        <td><?php echo $row['year']; ?></td>
+                                        <td><?php echo $row['engine']; ?></td>
+                                        <td><?php echo $row['rental']; ?></td>
+                                        <td><?php echo $row['passenger']; ?></td>
+                                        <td><?php echo $row['luggage']; ?></td>
+                                        <td><?php echo $row['make']; ?></td>
+                                        <td><?php echo $row['transmission']; ?></td>
+                                        <td><?php echo $row['fuel']; ?></td>
+                                        <td><?php echo $row['door']; ?></td>
+                                        <td><?php echo $row['musicOn']; ?></td>
+                                        <td><?php echo $row['ac']; ?></td>
+                                        <td>
+                                            <a href="editVehicleDetails.php?edit=<?php echo $row['id']; ?>" class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>
+                                            &nbsp; &nbsp; &nbsp; &nbsp;
+                                            <a href="php_code.php?del=<?php echo $row['id']; ?>" class="del_btn"><i class="fa fa-trash" style="color:grey"></i></a>
+                                        </td>
+                                    </tr>
 
-                            <?php ?>
+                                    <?php ?>
 
                             <?php
-}
-}
-?>
+                                }
+                            }
+                            ?>
 
                         </table>
                     </div>
                 </center>
 
-                <?php if (isset($_SESSION['message'])): ?>
-                <div class="msg">
-                    <?php
-echo $_SESSION['message'];
-unset($_SESSION['message']);
-?>
-                </div>
+                <?php if (isset($_SESSION['message'])) : ?>
+                    <div class="msg">
+                        <?php
+                        echo $_SESSION['message'];
+                        unset($_SESSION['message']);
+                        ?>
+                    </div>
                 <?php endif ?>
 
                 <!-- Bootstrap core JavaScript-->
@@ -219,9 +212,9 @@ unset($_SESSION['message']);
                 <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
                 <!-- prevent form resubmission -->
                 <script>
-                if (window.history.replaceState) {
-                    window.history.replaceState(null, null, window.location.href);
-                }
+                    if (window.history.replaceState) {
+                        window.history.replaceState(null, null, window.location.href);
+                    }
                 </script>
 
                 <!-- Core plugin JavaScript-->
