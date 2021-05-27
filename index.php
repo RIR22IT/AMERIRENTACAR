@@ -182,10 +182,12 @@
                                                     <option value="Semi-Automatic">Semi-Automatic</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-3">
-                                                <!-- <input  type="text" id="datepicker"
-                                                    placeholder="Pickup Date" /> -->
-                                            </div>
+
+                                            <!-- <div class="col-md-3">
+                                                <input class="form-control" type="text" id="datepicker"
+                                                    placeholder="Pickup Date" />
+                                            </div> -->
+
                                             <div class="col-md-3 col-md-offset-3">
                                                 <button class="btn btn-primary" name="search">Find Now
                                                 </button>
