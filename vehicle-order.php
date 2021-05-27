@@ -1,3 +1,33 @@
+<?php include('./database/connection.php'); ?>
+<?php include('./admin/php_code.php'); ?>
+
+<?php
+// if (isset($_GET['view'])) {
+    $vehicleID = $_GET['vehicleID'];
+    $pickDate = strtotime($_GET['pickDate']);
+    $dropDate = strtotime($_GET['dropDate']);
+    $qty = ($dropDate - $pickDate)/60/60/24;
+    $startDate = $_GET['pickDate'];
+    $endDate = $_GET['dropDate'];
+
+    // $update = true;
+    $qry = "select * from car where id = $vehicleID";
+    $run = $db->query($qry);
+    if ($run->num_rows > 0) {
+        while ($row = $run->fetch_assoc()) {
+            $id = $row['id'];
+            $model = $row['model'];
+            $rental = $row['rental'];
+            $make = $row['make'];
+            $img = $row['img']; 
+        }
+    }
+
+    //Calculate the subtotal
+    $subTot = $rental * $qty;
+// }
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -190,29 +220,32 @@
                                         <th>#</th>
                                         <th>VEHICLE IMG</th>
                                         <th>PRODUCT</th>
+                                        <th>PICKUP DATE</th>
+                                        <th>DROP DATE</th>
                                         <th>PRICE</th>
                                         <th>QUANTITY</th>
                                         <th>SUBTOTAL</th>
                                     </tr>
                                 </thead>
+
                                 <tbody>
                                     <tr>
-                                        <td>1</td>
-                                        <td>IMG</td>
-                                        <td>Booking auto </td>
-                                        <td>$21.00</td>
-                                        <td>1 Day(s)</td>
-                                        <td>$21.00</td>
+			                        <td><?php echo $id ?></td>
+			                        <td><?php echo '<img src="./admin/upload/' .$img.'" width = "70px;" height = "60px;" alt = "Image">'?></td>
+                                    <td><?php echo $make ?><br><br>
+                                    <?php echo $model ?></td>
+                                    <td><?php echo $startDate ?></td>
+                                    <td><?php echo $endDate ?></td>
+		    	                    <td>$<?php echo $rental ?>.00</td>
+                                    <td><?php echo $qty ?> Day(s)</td>
+                                    <td>$<?php echo $subTot ?>.00</td>
                                     </tr>
+                                    <?php     
+                                    ?> 
+
+	                           
                                 </tbody>
                             </table>
-
-                            <form class="form-sidebar" id="search-global-form" style = "width: 500px;">
-                                    <input class="form-sidebar__input form-control" type="search" placeholder="coupon code" />
-                                    <button class="form-sidebar__btn"><h6>APPLY COUPON</h6>
-                                    </button>
-                                </form>
-
 
                             <aside class="l-sidebar-3">
                                 <div class="b-bnr-2" style="width: 540px; height: 250px;">
@@ -222,7 +255,7 @@
                                             <div class="widget-content">
                                                 <form class="form-sidebar" id="newsletter-form" style="width: 500px;">
 
-                                                    <div class="b-car-info__item" disabled>
+                                                    <div class="b-car-info__item" disabled>$<?php echo $subTot ?>.00
                                                         <div class="b-car-info__item-inner"><span class="b-car-info__item-info">TOTAL</span>
                                                         </div>
                                                     </div><br>

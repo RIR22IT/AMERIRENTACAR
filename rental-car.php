@@ -228,8 +228,8 @@
                                                     </div>
                                                     <div class="b-goods-1__inner">
                                                         <div class="b-goods-1__header"><a class="b-goods-1__choose hidden-th" href="listing-1.html"></a>
-                                                            <h2 class="b-goods-1__name"><a href="booking-vehicle.php"><?php echo $make; ?>
-                                                                </a></h2>
+                                                            <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $make; ?>
+                                                            </a></h2>
                                                         </div>
 
                                                         <span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental; ?>
