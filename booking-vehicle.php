@@ -1,3 +1,33 @@
+<?php include('./database/connection.php'); ?>
+<?php include('./admin/php_code.php'); ?>
+
+<?php
+if (isset($_GET['view'])) {
+    $id = $_GET['view'];
+    $update = true;
+    $qry = "select * from car where id = $id";
+    $run = $db->query($qry);
+    if ($run->num_rows > 0) {
+        while ($row = $run->fetch_assoc()) {
+            $id = $row['id'];
+            $model = $row['model'];
+            $year = $row['year'];
+            $engine = $row['engine'];
+            $rental = $row['rental'];
+            $passenger = $row['passenger'];
+            $luggage = $row['luggage'];
+            $make = $row['make'];
+            $transmission = $row['transmission'];
+            $fuel = $row['fuel'];
+            $door = $row['door'];
+            $musicOn = $row['musicOn'];
+            $ac = $row['ac'];
+            $img = $row['img']; 
+        }
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -157,7 +187,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1 class="b-title-page bg-primary_a"></h1>
+                            <h1 class="b-title-page bg-primary_a"><?php echo $make; ?></h1>
                         </div>
                     </div>
                 </div>
@@ -171,7 +201,7 @@
                         <ol class="breadcrumb">
                             <li><a href="home.html"><i class="icon fa fa-home"></i></a>
                             </li>
-                            <li class="active"></li>
+                            <li class="active"><?php echo $make; ?></li>
                         </ol>
                     </div>
                 </div>
@@ -191,48 +221,47 @@
                                             <article class="b-post b-post-full clearfix">
 
                                                 <div class="row ">
-                                                    <div class="col-md-4 col-md-offset-4" style = "left: -260px;">
-                                                        <h1 class="b-filter-2__title" style = "width: 730px; height: 55px; bottom: -100px;">AAAAAA</h1>
+                                                    <div class="col-md-4 col-md-offset-4" style="left: -260px;">
+                                                        <h1 class="b-filter-2__title" style="width: 730px; height: 55px; bottom: -100px;"><?php echo $make; ?></h1>
                                                     </div>
                                                 </div><br>
 
                                                 <div class="entry-media">
-                                                    <a class="js-zoom-images" href="assets/media/content/posts/750x380/1.jpg">
-                                                        <img class="img-responsive" src="assets/media/content/posts/750x380/1.jpg" alt="Foto" />
-                                                    </a>
+                                                    <?php echo '<img src="./admin/upload/'.$img.'" width = "100%" height = "46%" alt = "Image">'?>
+                                                   
                                                 </div>
 
                                             </article>
 
 
                                         </main>
-                                        
+
                                         <!-- end .l-main-content-->
                                     </div>
-                                    
+
                                     <div class="col-md-4">
                                         <aside class="l-sidebar">
-                                            <form class="b-filter-2 bg-grey">
-                                                <h3 class="b-filter-2__title">search options</h3>
+                                            <form class="b-filter-2 bg-grey" action="vehicle-order.php" method = "POST">
+                                                <h3 class="b-filter-2__title">$<?php echo $rental;?> Day</h3>
                                                 <div class="b-filter-2__inner">
                                                     <div class="b-filter-2__group">
                                                         <div class="b-filter-2__group-title">Pick-Up Date</div>
-                                                        <input class="form-control" type="date" placeholder="Keyword..." />
+                                                        <input class="form-control" name = "pickDate" type="date" placeholder="Select Date" required/>
                                                     </div>
 
                                                     <div class="b-filter-2__group">
                                                         <div class="b-filter-2__group-title">Drop-Off Date</div>
-                                                        <input class="form-control" type="date" placeholder="Keyword..." />
+                                                        <input class="form-control" name = "dropDate" type="date" placeholder="Select Date" required/>
                                                     </div>
-
-                                                    <button class="btn btn-primary" style="width: 310px;">Booking this Car</button>
+                                                    <input type="hidden" name="vehicleID" value="<?php  echo $id ?>" >
+                                                    <button class="btn btn-primary" style="width: 310px;">Booking this Car</a></button>
 
                                                 </div><br><br><br>
                                             </form>
                                             <!-- end .b-filter-->
                                         </aside>
                                         <!-- end .l-sidebar-->
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -243,10 +272,10 @@
                     <!-- end .l-main-content-->
                 </div>
             </div>
-            
+
         </div>
 
-        
+
 
         <!-- footer start here-->
         <?php include('./inc/footer.php') ?>
