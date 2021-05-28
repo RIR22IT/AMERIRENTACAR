@@ -220,12 +220,18 @@ $subTot = $rental * $qty;
                             <div class="col-md-9">
 
                                 <form action="checkout-connection.php" method="GET" style="width: 900px;">
-                                    <input class="form-control" id="firstname" type="text" name="firstname" placeholder="Your First name *" required="required" />
-                                    <input class="form-control" id="lastname" type="text" name="lastname" placeholder="Last name *" required="required" />
-                                    <input class="form-control" id="companyname" type="text" name="companyname" placeholder="Company name (optional)" required="required" />
+                                    <lable>First name*</lable><br>
+                                    <input class="form-control" id="firstname" type="text" name="firstname" required="required" />
 
+                                    <lable>Last name*</lable><br>
+                                    <input class="form-control" id="lastname" type="text" name="lastname" required="required" />
+
+                                    <lable>Company Name (optional)*</lable><br>
+                                    <input class="form-control" id="companyname" type="text" name="companyname" />
+
+                                    <lable>Country*</lable><br>
                                     <select class="selectpicker" data-width="100%" id="country" name="country">
-                                        <option>Country*</option>
+                                        <option>Select Country</option>
                                         <option value="Afganistan">Afghanistan</option>
                                         <option value="Albania">Albania</option>
                                         <option value="Algeria">Algeria</option>
@@ -474,9 +480,15 @@ $subTot = $rental * $qty;
                                         <option value="Zimbabwe">Zimbabwe</option>
                                     </select>
 
-                                    <input class="form-control" id="streat" type="text" name="streat" placeholder="House number and street" required="required" />
+                                    <lable>House number and street*</lable><br>
+                                    <input class="form-control" id="streat" type="text" name="streat" required="required" />
+
+                                    <lable>Apartment,suite,unit,etc.(optional)*</lable><br>
                                     <input class="form-control" id="unit" type="text" name="unit" placeholder="Apartment,suite,unit,etc.(optional)" required="required" />
-                                    <input class="form-control" id="city" type="text" name="city" placeholder="Town , City" required="required" />
+
+                                    <lable>Town , City*</lable><br>
+                                    <input class="form-control" id="city" type="text" name="city" placeholder="Town , City" required="required"/>
+
                                     <input class="form-control" id="postcode" type="text" name="postcode" placeholder="Post code , Zip" required="required" />
                                     <input class="form-control" id="phone" type="text" name="phone" placeholder="Phone" required="required" />
                                     <input class="form-control" id="emailaddress" type="text" name="emailaddress" placeholder="Email adrress" required="required" />
