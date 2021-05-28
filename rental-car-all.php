@@ -237,8 +237,8 @@
                                                                     <li class="b-goods-1__desc-item"><?php echo $engine; ?>cc</li>
                                                                     <li class="b-goods-1__desc-item"><span class="hidden-th"></span><?php echo $year; ?></li>
                                                                     <li class="b-goods-1__desc-item">
-                                                                        <?php echo $transmission; ?></li>
-                                                                    <li class="b-goods-1__desc-item hidden-th"><?php echo $fuel ?></li>
+                                                                        <?php echo $fuel; ?></li>
+                                                                    <li class="b-goods-1__desc-item hidden-th"><?php echo $transmission ?></li>
                                                                 </ul>
                                                             </div>
                                                         </div>

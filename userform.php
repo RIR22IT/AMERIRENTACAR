@@ -1,8 +1,8 @@
 <?php include('./database/connection.php'); ?>
-<?php include('./checkout-connection.php'); ?>
 
 <?php
-// if (isset($_GET['view'])) {
+
+if (isset($_GET['proceedBtn'])) {
 $vehicleID = $_GET['vehicleID'];
 $pickDate = strtotime($_GET['startDate']);
 $dropDate = strtotime($_GET['endDate']);
@@ -25,7 +25,7 @@ if ($run->num_rows > 0) {
 
 //Calculate the subtotal
 $subTot = $rental * $qty;
-// }
+}
 ?>
 
 <!DOCTYPE html>
@@ -215,17 +215,24 @@ $subTot = $rental * $qty;
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2 class="typography-title">Billing Details</h2><br><br>
+                        <h2 class="typography-title">Billing Details</h2>
+                        <div class="ui-decor"></div><br><br><br><br>
                         <div class="row">
                             <div class="col-md-9">
 
-                                <form action="checkout-connection.php" method="GET" style="width: 900px;">
-                                    <input class="form-control" id="firstname" type="text" name="firstname" placeholder="Your First name *" required="required" />
-                                    <input class="form-control" id="lastname" type="text" name="lastname" placeholder="Last name *" required="required" />
-                                    <input class="form-control" id="companyname" type="text" name="companyname" placeholder="Company name (optional)" required="required" />
+                                <form action="userform.php" method="POST" style="width: 900px;">
+                                    <lable>First name*</lable><br>
+                                    <input class="form-control" id="firstname" type="text" name="firstname" required="required" />
 
+                                    <lable>Last name*</lable><br>
+                                    <input class="form-control" id="lastname" type="text" name="lastname" required="required" />
+
+                                    <lable>Company Name (optional)*</lable><br>
+                                    <input class="form-control" id="companyname" type="text" name="companyname" />
+
+                                    <lable>Country*</lable><br>
                                     <select class="selectpicker" data-width="100%" id="country" name="country">
-                                        <option>Country*</option>
+                                        <option>Select Country</option>
                                         <option value="Afganistan">Afghanistan</option>
                                         <option value="Albania">Albania</option>
                                         <option value="Algeria">Algeria</option>
@@ -474,19 +481,34 @@ $subTot = $rental * $qty;
                                         <option value="Zimbabwe">Zimbabwe</option>
                                     </select>
 
-                                    <input class="form-control" id="streat" type="text" name="streat" placeholder="House number and street" required="required" />
-                                    <input class="form-control" id="unit" type="text" name="unit" placeholder="Apartment,suite,unit,etc.(optional)" required="required" />
-                                    <input class="form-control" id="city" type="text" name="city" placeholder="Town , City" required="required" />
-                                    <input class="form-control" id="postcode" type="text" name="postcode" placeholder="Post code , Zip" required="required" />
-                                    <input class="form-control" id="phone" type="text" name="phone" placeholder="Phone" required="required" />
-                                    <input class="form-control" id="emailaddress" type="text" name="emailaddress" placeholder="Email adrress" required="required" />
-                                    <textarea class="form-control" id="information" type="text" name="information" rows="9" placeholder="Additional Information (Notes about the order)" required="required"></textarea>
+                                    <lable>House number and street*</lable><br>
+                                    <input class="form-control" id="streat" type="text" name="streat" required="required" />
+
+                                    <lable>Apartment,suite,unit,etc.(optional)*</lable><br>
+                                    <input class="form-control" id="unit" type="text" name="unit" required="required" />
+
+                                    <lable>Town , City*</lable><br>
+                                    <input class="form-control" id="city" type="text" name="city" required="required"/>
+
+                                    <lable>Post code , Zip*</lable><br>
+                                    <input class="form-control" id="postcode" type="text" name="postcode" required="required" />
+
+                                    <lable>Phone*</lable><br>
+                                    <input class="form-control" id="phone" type="text" name="phone" required="required" />
+
+                                    <lable>Email adrress*</lable><br>
+                                    <input class="form-control" id="emailaddress" type="text" name="emailaddress" required="required" />
+
+                                    <lable>Additional Information (Notes about the order)</lable><br>
+                                    <textarea class="form-control" id="information" type="text" name="information" rows="9"></textarea><br><br><hr>
 
                                     <div class="typography-section typography-section-border">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-xs-12">
-                                                    <h2 class="typography-title">Your Order</h1><br><br>
+                                                    <h2 class="typography-title">Your Order</h1>
+                                                    <div class="ui-decor"></div>
+                                                    <br><br><br>
                                                     <div class="table-container">
                                                         <table class="table table_primary table-type-2 table-striped typography-last-elem">
                                                             <thead>
@@ -523,11 +545,11 @@ $subTot = $rental * $qty;
                                     </tbody>
                                     </table>
 
-                                    <input type="hidden" name="vehicleID" value="<?php echo $id; ?>">
-                                    <input type="hidden" name="startDate" value="<?php echo $startDate; ?>">
-                                    <input type="hidden" name="endDate" value="<?php echo $endDate; ?>">
-                                    <input type="hidden" name="qty" value="<?php echo $qty; ?>">
-                                    <input type="hidden" name="subTot" value="<?php echo $subTot; ?>">
+                                    <input type="hidden" name="vId" value="<?php echo $id; ?>">
+                                    <input type="hidden" name="pDate" value="<?php echo $startDate; ?>">
+                                    <input type="hidden" name="dDate" value="<?php echo $endDate; ?>">
+                                    <input type="hidden" name="quantity" value="<?php echo $qty; ?>">
+                                    <input type="hidden" name="subTotal" value="<?php echo $subTot; ?>">
 
                                     <button type="submit" class="btn btn-primary btn-lg" name="book">Placed order</button>
                                 </form>
@@ -548,7 +570,6 @@ $subTot = $rental * $qty;
 
     </div>
     <!-- end layout-theme-->
-
 
     <!-- ++++++++++++-->
     <!-- MAIN SCRIPTS-->
