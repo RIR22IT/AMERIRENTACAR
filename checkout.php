@@ -206,9 +206,14 @@
                                 <h2 class="typography-title">Billing details</h2>
                                 <div class="row">
                                     <div class="col-md-9">
-                                        <form class="ui-form-3" id="contactForm" action="checkout_connection.php" method="POST">
-                                            <div class="row">
-                                                <div class="col-md-6">
+                                    <form action="checkout-connection.php" method = "GET">
+                                        <input name="firstname" type="text">
+                                        <input name="lastname" type="text">
+                                        <button type="submit" name="book">Confirm</button>
+                                    </form>
+                                        <!-- <form class="ui-form-3" action="checkout_connection.php" method="POST"> -->
+                                            <!-- <div class="row"> -->
+                                                <!-- <div class="col-md-6">
                                                     <div class="form-group">
                                                         <input class="form-control" id="firstname" type="text" name="firstname" placeholder="Your First name *" required="required" />
                                                     </div>
@@ -218,9 +223,9 @@
                                                     <div class="form-group">
                                                         <input class="form-control" id="lastname" type="text" name="lastname" placeholder="Last name *" required="required" />
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
+                                                </div> -->
+                                            <!-- </div> -->
+                                            <!-- <div class="row">
                                                 <div class="col-xs-12">
                                                 <div class="form-group">
                                                         <input class="form-control" id="companyname" type="text" name="companyname" placeholder="Company name (optional)" required="required" />
@@ -502,13 +507,13 @@
                                                         <input class="form-control" id="emailaddress" type="text" name="emailaddress" placeholder="Email adrress" required="required" />
                                                     </div>
                                                     
-                                                    <textarea class="form-control" id="information" type="text" name="information" rows="9" placeholder="Additional Information (Notes about the order)" required="required"></textarea>
+                                                    <textarea class="form-control" id="information" type="text" name="information" rows="9" placeholder="Additional Information (Notes about the order)" required="required"></textarea> -->
                                                     <!-- <button class="btn btn-primary">PLACE ORDER</button> -->
-                                            </div>
-                                            <div class="col-md-20">
-                                                <button type="submit" name="book" class="btn btn-primary">Booking Confirmed</button>
-                                            </div>
-                                        </form>
+                                            <!-- </div> -->
+                                            <!-- <div class="col-md-20"> -->
+                                                <!-- <button type="submit" name="book">Booking Confirmed</button> -->
+                                            <!-- </div> -->
+                                        <!-- </form> -->
                                         
 
 
