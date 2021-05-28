@@ -136,7 +136,7 @@ if (!isset($_SESSION['email'])) {
                 </nav>
 
                 <center>
-                    <h1 class="h3 mb-1 text-gray-800">View Vehicles</h1>
+                    <h1 class="h3 mb-1 text-gray-800">View Billing Details</h1>
                 </center><br>
 
                 <center>
@@ -145,53 +145,55 @@ if (!isset($_SESSION['email'])) {
                             <thead class="table-dark">
                                 <tr>
                                     <th>#</th>
-                                    <th>IMAGE</th>
-                                    <th>MODEL</th>
-                                    <th>YEAR</th>
-                                    <th>ENGINE</th>
-                                    <th>RENTAL</th>
-                                    <th>PASSENGER</th>
-                                    <th>LUGGAGE</th>
                                     <th>MAKE</th>
-                                    <th>TRANSMISSION</th>
-                                    <th>FUEL</th>
-                                    <th>DOOR</th>
-                                    <th>MUSIC</th>
-                                    <th>A/C</th>
-                                    <th>ACTIONS</th>
+                                    <th>MODEL</th>
+                                    <th>PICK DATE</th>
+                                    <th>DROP DATE</th>
+                                    <th>QTY</th>
+                                    <th>FIRST NAME</th>
+                                    <th>LAST NAME</th>
+                                    <th>COMPANY NAME</th>
+                                    <th>COUNTRY</th>
+                                    <th>STREET</th>
+                                    <th>UNIT</th>
+                                    <th>CITY</th>
+                                    <th>POST CODE</th>
+                                    <th>CONTACT</th>
+                                    <th>EMAIL</th>
+                                    <th>INFORMATION</th>
+                                    <th>SUB TOTAL</th>
                                 </tr>
                             </thead>
 
                             <?php
                             $i   = 1;
-                            $qry = "select * from car";
+                            $qry = "select checkout.pickDate,checkout.dropDate,checkout.qty,checkout.firstname,checkout.lastname,checkout.companyname,checkout.country,checkout.streat,checkout.unit,checkout.city,checkout.postcode,checkout.phone,checkout.emailaddress,checkout.information,checkout.subTot, car.make, car.model 
+                                    from checkout 
+                                    inner join car on checkout.vehicleId = car.id";
                             $run = $db->query($qry);
                             if ($run->num_rows > 0) {
                                 while ($row = $run->fetch_assoc()) {
-                                    $id = $row['id'];
                             ?>
 
                                     <tr>
                                         <td><?php echo $i++ ?></td>
-                                        <td><?php echo '<img src="upload/' . $row['img'] . '" width = "70px;" height = "60px;" alt = "Image">' ?>
-                                        </td>
-                                        <td><?php echo $row['model']; ?></td>
-                                        <td><?php echo $row['year']; ?></td>
-                                        <td><?php echo $row['engine']; ?></td>
-                                        <td><?php echo $row['rental']; ?></td>
-                                        <td><?php echo $row['passenger']; ?></td>
-                                        <td><?php echo $row['luggage']; ?></td>
                                         <td><?php echo $row['make']; ?></td>
-                                        <td><?php echo $row['transmission']; ?></td>
-                                        <td><?php echo $row['fuel']; ?></td>
-                                        <td><?php echo $row['door']; ?></td>
-                                        <td><?php echo $row['musicOn']; ?></td>
-                                        <td><?php echo $row['ac']; ?></td>
-                                        <td>
-                                            <a href="editVehicleDetails.php?edit=<?php echo $row['id']; ?>" class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>
-                                            &nbsp; &nbsp; &nbsp; &nbsp;
-                                            <a href="php_code.php?del=<?php echo $row['id']; ?>" class="del_btn"><i class="fa fa-trash" style="color:grey"></i></a>
-                                        </td>
+                                        <td><?php echo $row['model']; ?></td>
+                                        <td><?php echo $row['pickDate']; ?></td>
+                                        <td><?php echo $row['dropDate']; ?></td>
+                                        <td><?php echo $row['qty']; ?></td>
+                                        <td><?php echo $row['firstname']; ?></td>
+                                        <td><?php echo $row['lastname']; ?></td>
+                                        <td><?php echo $row['companyname']; ?></td>
+                                        <td><?php echo $row['country']; ?></td>
+                                        <td><?php echo $row['streat']; ?></td>
+                                        <td><?php echo $row['unit']; ?></td>
+                                        <td><?php echo $row['city']; ?></td>
+                                        <td><?php echo $row['postcode']; ?></td>
+                                        <td><?php echo $row['phone']; ?></td>
+                                        <td><?php echo $row['emailaddress']; ?></td>
+                                        <td><?php echo $row['information']; ?></td>
+                                        <td><?php echo $row['subTot']; ?></td>
                                     </tr>
 
                                     <?php ?>
