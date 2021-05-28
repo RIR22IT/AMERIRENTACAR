@@ -184,7 +184,6 @@
                     <main class="l-main-content">
                         <div class="filter-goods">
                             <div class="filter-goods__select">
-
                                 <div class="btns-switch"><i class="btns-switch__item js-view-th active icon fa fa-th-large"></i><i class="btns-switch__item js-view-list icon fa fa-th-list"></i>
                                 </div>
                             </div>
@@ -259,7 +258,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div>
+                                                    </div>
                                             </section>
                                         <?php
                                         }

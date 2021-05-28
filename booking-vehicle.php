@@ -241,7 +241,7 @@ if (isset($_GET['view'])) {
 
                                     <div class="col-md-4">
                                         <aside class="l-sidebar">
-                                            <form class="b-filter-2 bg-grey" action="vehicle-order.php" method = "POST">
+                                            <form class="b-filter-2 bg-grey" action="vehicle-order.php" method = "GET">
                                                 <h3 class="b-filter-2__title">$<?php echo $rental;?> Day</h3>
                                                 <div class="b-filter-2__inner">
                                                     <div class="b-filter-2__group">
