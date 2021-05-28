@@ -217,7 +217,7 @@
                             <table class="table table_primary">
                                 <thead>
                                     <tr>
-                                        <th>#</th>
+                                        <!-- <th>#</th> -->
                                         <th>VEHICLE IMG</th>
                                         <th>PRODUCT</th>
                                         <th>PICKUP DATE</th>
@@ -230,7 +230,7 @@
 
                                 <tbody>
                                     <tr>
-			                        <td><?php echo $id ?></td>
+			                        <!-- <td><?php echo $id ?></td> -->
 			                        <td><?php echo '<img src="./admin/upload/' .$img.'" width = "70px;" height = "60px;" alt = "Image">'?></td>
                                     <td><?php echo $make ?><br><br>
                                     <?php echo $model ?></td>
@@ -242,8 +242,6 @@
                                     </tr>
                                     <?php     
                                     ?> 
-
-	                           
                                 </tbody>
                             </table>
 
@@ -253,15 +251,19 @@
                                         <div class="widget widget-newsletter section-sidebar">
                                             <h3 class="widget-title ui-title-inner" style="color: white;">CART TOTAL</h3>
                                             <div class="widget-content">
-                                                <form class="form-sidebar" id="newsletter-form" style="width: 500px;">
+                                                <form class="form-sidebar" id="newsletter-form" style="width: 500px;" action="userform.php" method = "GET">
 
                                                     <div class="b-car-info__item" disabled>$<?php echo $subTot ?>.00
                                                         <div class="b-car-info__item-inner"><span class="b-car-info__item-info">TOTAL</span>
                                                         </div>
                                                     </div><br>
 
+                                                    <input type="hidden" name="startDate" value="<?php  echo $startDate ?>" >
+                                                    <input type="hidden" name="endDate" value="<?php  echo $endDate ?>" >
+
                                                     <div class="col-md-3 col-md-offset-3">
-                                                        <button class="btn btn-primary">proceed to checkout</button>
+                                                    <input type="hidden" name="vehicleID" value="<?php  echo $id ?>" >
+                                                    <button class="btn btn-primary">proceed to checkout</button>
                                                     </div>
 
                                                 </form>

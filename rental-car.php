@@ -182,13 +182,6 @@
             <div class="row">
                 <div class="col-md-8">
                     <main class="l-main-content">
-                        <div class="filter-goods">
-                            <div class="filter-goods__select">
-
-                                <div class="btns-switch"><i class="btns-switch__item js-view-th active icon fa fa-th-large"></i><i class="btns-switch__item js-view-list icon fa fa-th-list"></i>
-                                </div>
-                            </div>
-                        </div>
                         <!-- end .filter-goods-->
                         <div class="goods-group-2 list-goods list-goods_th">
 
@@ -269,9 +262,9 @@
                                         }
                                     } else {
                                         ?>
-                                        <h2> Results Not Found. View All Vehicles </h2>
+                                        <h2> Results Not Found. View All Vehicles </h2><br>
                                         <div class="col-md-3 col-md-offset-3">
-                                            <a class="btn btn-primary" href="rental-car-all.php">VIEW
+                                            <a class="btn btn-primary" href="rental-car-all.php" style = "width: 200px;">VIEW
                                             </a>
                                         </div>
                             <?php
