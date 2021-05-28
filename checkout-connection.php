@@ -2,7 +2,6 @@
 include('./database/connection.php');
 
 
-
 //Insert data into the db
 
 if(isset($_GET['book'])){

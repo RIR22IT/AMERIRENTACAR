@@ -145,14 +145,14 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div><br><br><br>
 
                             <div class="container">
 
                                 <form class="b-booking-form" action="rental-car.php" method="POST">
                                     <div class="area-bg__inner">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <select class="selectpicker" name="make" data-width="100%">
                                                     <option>All Makes</option>
                                                     <option value="Honda">HONDA</option>
@@ -163,7 +163,7 @@
                                                     <option value="Suzuki">SUZUKI</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <select class="selectpicker" name="fuel" data-width="100%">
                                                     <option>All Fuel Type</option>
                                                     <option value="Petrol">Petrol</option>
@@ -174,21 +174,21 @@
                                                     <option value="LPG">LPG</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <select class="selectpicker" name="transmission" data-width="100%">
                                                     <option>All Transmission</option>
                                                     <option value="Automatic">Automatic</option>
                                                     <option value="Manual">Manual</option>
                                                     <option value="Semi-Automatic">Semi-Automatic</option>
                                                 </select>
-                                            </div>
+                                            </div><br><br><br><br><br>
 
                                             <!-- <div class="col-md-3">
                                                 <input class="form-control" type="text" id="datepicker"
                                                     placeholder="Pickup Date" />
                                             </div> -->
 
-                                            <div class="col-md-3 col-md-offset-3">
+                                            <div class="col-md-3 col-md-offset-4" style = "width: 360px;">
                                                 <button class="btn btn-primary" name="search">Find Now
                                                 </button>
                                             </div>
