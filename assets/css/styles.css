@@ -53,6 +53,7 @@ body{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     z-index: 4;
+   
 }
 
 .cover::before{
@@ -69,7 +70,6 @@ body{
     transform: rotateX(0deg);
     transition: all 1s 1s ease;
 
-
 }
 
 .letter{
@@ -84,10 +84,10 @@ body{
     transition: all 1s ease;
 }
 
-.letter h5{
+.letter h3{
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 40%;
     transform: translate(-30%, -70%);
     font-size: 30px;
     color: #798992;
@@ -106,6 +106,25 @@ body{
     transition: all 1s 1s ease;
 }
 
-.button{
-    
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    right: 70px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+   
+}
+
+.vertical-center button {
+    background: #ff393c;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.vertical-center button a{
+    text-decoration: none;
+    color: #dedede;
+    font-weight: bold;
 }
