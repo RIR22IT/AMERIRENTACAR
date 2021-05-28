@@ -238,13 +238,13 @@ if (isset($_GET['view'])) {
                                                 <div class="row ">
                                                     <div class="col-md-4 col-md-offset-4" style="left: -260px;">
                                                         <h1 class="b-filter-2__title"
-                                                            style="width: 730px; height: 55px; bottom: -100px;">
-                                                            <?php echo $make; ?></h1>
+                                                            style="width: 730px; height: 55px; bottom: -100px; font-size: 35px;">
+                                                            <?php echo $make; ?> | <?php echo $model; ?></h1>
                                                     </div>
                                                 </div><br>
 
                                                 <div class="entry-media">
-                                                    <?php echo '<img src="./admin/upload/' . $img . '" width = "100%" height = "46%" alt = "Image">' ?>
+                                                    <?php echo '<img src="./admin/upload/' . $img . '" width = "100%" height = "53%" alt = "Image">' ?>
 
                                                 </div>
 
