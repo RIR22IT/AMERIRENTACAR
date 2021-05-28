@@ -223,7 +223,7 @@
                                                     </div>
                                                     <div class="b-goods-1__inner">
                                                         <div class="b-goods-1__header"><a class="b-goods-1__choose hidden-th" href="listing-1.html"></a>
-                                                            <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $make; ?>
+                                                            <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $id; ?>"><?php echo $make; ?>
                                                                 </a></h2>
                                                         </div>
 
