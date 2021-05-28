@@ -1,28 +1,28 @@
-<?php include('./database/connection.php'); ?>
-<?php include('./admin/php_code.php'); ?>
+<?php include './database/connection.php'; ?>
+<?php include './admin/php_code.php'; ?>
 
 <?php
 if (isset($_GET['view'])) {
-    $id = $_GET['view'];
+    $id     = $_GET['view'];
     $update = true;
-    $qry = "select * from car where id = $id";
-    $run = $db->query($qry);
+    $qry    = "select * from car where id = $id";
+    $run    = $db->query($qry);
     if ($run->num_rows > 0) {
         while ($row = $run->fetch_assoc()) {
-            $id = $row['id'];
-            $model = $row['model'];
-            $year = $row['year'];
-            $engine = $row['engine'];
-            $rental = $row['rental'];
-            $passenger = $row['passenger'];
-            $luggage = $row['luggage'];
-            $make = $row['make'];
+            $id           = $row['id'];
+            $model        = $row['model'];
+            $year         = $row['year'];
+            $engine       = $row['engine'];
+            $rental       = $row['rental'];
+            $passenger    = $row['passenger'];
+            $luggage      = $row['luggage'];
+            $make         = $row['make'];
             $transmission = $row['transmission'];
-            $fuel = $row['fuel'];
-            $door = $row['door'];
-            $musicOn = $row['musicOn'];
-            $ac = $row['ac'];
-            $img = $row['img']; 
+            $fuel         = $row['fuel'];
+            $door         = $row['door'];
+            $musicOn      = $row['musicOn'];
+            $ac           = $row['ac'];
+            $img          = $row['img'];
         }
     }
 }
@@ -66,11 +66,12 @@ if (isset($_GET['view'])) {
     <!-- ==========================-->
 
     <!-- Mobile Header -->
-    <?php include('./inc/mobile-slider.php') ?>
+    <?php include './inc/mobile-slider.php' ?>
 
     <!--WHATSAPP CONTENT
         =============================================-->
-    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
+            class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
         <!-- Start Switcher-->
@@ -85,7 +86,8 @@ if (isset($_GET['view'])) {
                     <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
                         <div class="navbar-search">
                             <form class="search-global">
-                                <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
+                                <input class="search-global__input" type="text" placeholder="Type to search"
+                                    autocomplete="off" name="s" value="" />
                                 <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
                                 </button>
                                 <div class="search-global__note">Begin typing your search above and press return to
@@ -153,29 +155,42 @@ if (isset($_GET['view'])) {
             </ul>
         </div>
         <!-- Header -->
-        <?php include('./inc/header.php') ?>
+        <?php include './inc/header.php' ?>
 
         <!-- main slider start-->
         <div class="main-slider main-slider-1">
-            <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="true" data-slider-buttons="false">
+            <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px"
+                data-slider-arrows="true" data-slider-buttons="false">
                 <div class="sp-slides">
                     <!-- Slide 1-->
                     <div class="sp-slide">
                         <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />
-                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                            <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>
+                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"
+                            data-horizontal="62%" data-show-transition="left" data-hide-transition="left"
+                            data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
+                            <div class="main-slider__title">mercedes benz<span
+                                    class="main-slider__label bg-primary">model 2018</span>
                             </div>
-                            <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white btn-lg" href="services.html"><span class="main-slider__btn-label">Starting</span><span class="main-slider__btn-price">
-                                    $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary btn-lg" href="services.html">book now</a>
+                            <div class="main-slider__subtitle">smart drive</div><a
+                                class="main-slider__btn btn btn-white btn-lg" href="services.html"><span
+                                    class="main-slider__btn-label">Starting</span><span class="main-slider__btn-price">
+                                    $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary btn-lg"
+                                href="services.html">book now</a>
                         </div>
                     </div>
                     <!-- Slide 2-->
                     <div class="sp-slide">
                         <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
-                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                            <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>
+                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"
+                            data-horizontal="62%" data-show-transition="left" data-hide-transition="left"
+                            data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
+                            <div class="main-slider__title">mercedes benz<span
+                                    class="main-slider__label bg-primary">model 2018</span>
                             </div>
-                            <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white" href="services.html">Starting<span class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary" href="services.html">book now</a>
+                            <div class="main-slider__subtitle">smart drive</div><a
+                                class="main-slider__btn btn btn-white" href="services.html">Starting<span
+                                    class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a
+                                class="main-slider__btn btn btn-primary" href="services.html">book now</a>
                         </div>
                     </div>
                 </div>
@@ -222,13 +237,15 @@ if (isset($_GET['view'])) {
 
                                                 <div class="row ">
                                                     <div class="col-md-4 col-md-offset-4" style="left: -260px;">
-                                                        <h1 class="b-filter-2__title" style="width: 730px; height: 55px; bottom: -100px;"><?php echo $make; ?></h1>
+                                                        <h1 class="b-filter-2__title"
+                                                            style="width: 730px; height: 55px; bottom: -100px;">
+                                                            <?php echo $make; ?></h1>
                                                     </div>
                                                 </div><br>
 
                                                 <div class="entry-media">
-                                                    <?php echo '<img src="./admin/upload/'.$img.'" width = "100%" height = "46%" alt = "Image">'?>
-                                                   
+                                                    <?php echo '<img src="./admin/upload/' . $img . '" width = "100%" height = "46%" alt = "Image">' ?>
+
                                                 </div>
 
                                             </article>
@@ -241,20 +258,25 @@ if (isset($_GET['view'])) {
 
                                     <div class="col-md-4">
                                         <aside class="l-sidebar">
+
                                             <form class="b-filter-2 bg-grey" action="vehicle-order.php" method = "GET">
                                                 <h3 class="b-filter-2__title">$<?php echo $rental;?> Day</h3>
+
                                                 <div class="b-filter-2__inner">
                                                     <div class="b-filter-2__group">
                                                         <div class="b-filter-2__group-title">Pick-Up Date</div>
-                                                        <input class="form-control" name = "pickDate" type="date" placeholder="Select Date" required/>
+                                                        <input class="form-control" name="pickDate" id="pickDate"
+                                                            type="date" placeholder="Select Date" required />
                                                     </div>
 
                                                     <div class="b-filter-2__group">
                                                         <div class="b-filter-2__group-title">Drop-Off Date</div>
-                                                        <input class="form-control" name = "dropDate" type="date" placeholder="Select Date" required/>
+                                                        <input class="form-control" name="dropDate" id="dropDate"
+                                                            type="date" placeholder="Select Date" required />
                                                     </div>
-                                                    <input type="hidden" name="vehicleID" value="<?php  echo $id ?>" >
-                                                    <button class="btn btn-primary" style="width: 310px;">Booking this Car</a></button>
+                                                    <input type="hidden" name="vehicleID" value="<?php echo $id ?>">
+                                                    <button class="btn btn-primary" style="width: 310px;">Booking this
+                                                        Car</a></button>
 
                                                 </div><br><br><br>
                                             </form>
@@ -278,7 +300,7 @@ if (isset($_GET['view'])) {
 
 
         <!-- footer start here-->
-        <?php include('./inc/footer.php') ?>
+        <?php include './inc/footer.php' ?>
 
     </div>
     <!-- end layout-theme-->
@@ -317,6 +339,24 @@ if (isset($_GET['view'])) {
     <script src="assets/plugins/noUiSlider/wNumb.js"></script>
     <!-- Animations-->
     <script src="assets/plugins/scrollreveal/scrollreveal.min.js"></script>
+    <!--Date picker-->
+    <script>
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth() + 1; //January is 0!
+    var yyyy = today.getFullYear();
+    if (dd < 10) {
+        dd = '0' + dd
+    }
+    if (mm < 10) {
+        mm = '0' + mm
+    }
+
+    today = yyyy + '-' + mm + '-' + dd;
+    document.getElementById("pickDate").setAttribute("min", today);
+    document.getElementById("dropDate").setAttribute("min", today);
+    </script>
+
 </body>
 
 </html>
