@@ -184,7 +184,6 @@
                     <main class="l-main-content">
                         <div class="filter-goods">
                             <div class="filter-goods__select">
-
                                 <div class="btns-switch"><i class="btns-switch__item js-view-th active icon fa fa-th-large"></i><i class="btns-switch__item js-view-list icon fa fa-th-list"></i>
                                 </div>
                             </div>
@@ -224,7 +223,7 @@
                                                     </div>
                                                     <div class="b-goods-1__inner">
                                                         <div class="b-goods-1__header"><a class="b-goods-1__choose hidden-th" href="listing-1.html"></a>
-                                                            <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $make; ?>
+                                                            <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $id; ?>"><?php echo $make; ?>
                                                                 </a></h2>
                                                         </div>
 
@@ -259,7 +258,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div>
+                                                    </div>
                                             </section>
                                         <?php
                                         }
