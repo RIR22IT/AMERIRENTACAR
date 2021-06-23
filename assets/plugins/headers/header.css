@@ -124,7 +124,7 @@
 
 .header-color-black *,
 .header.header-color-black .navbar .navbar-nav > li > a {
-    color: #222;
+    color: #fff;
 }
 
 .header.header-color-black .navbar .navbar-nav > li > a:hover {

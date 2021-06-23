@@ -40,7 +40,7 @@ a,
 .b-blockquote-2:after,
 .post-carousel .owl-nav div:hover:before,
 .b-team-2__contact:hover,
-.accordion .btn-collapse:hover {color: #d01818;}
+.accordion .btn-collapse:hover {color: #00245b;}
 
 
 .bg-primary,
@@ -91,7 +91,7 @@ a,
 .rent-carousel .owl-nav div:hover,
 .b-advantages-5:hover .b-advantages-5__icon,
 .yamm.nav>li>a:focus,
-.yamm.nav>li>a:hover {background-color: #d01818;}
+.yamm.nav>li>a:hover {background-color: #00245b;}
 
 
 .border_prim,
@@ -106,17 +106,17 @@ a,
 .btn-primary,
 .forms__label-radio-2:before,
 .b-filter-type-2__input:checked + .b-filter-type-2__label,
-.rent-carousel .owl-nav div:hover {border-color: #d01818;}
+.rent-carousel .owl-nav div:hover {border-color: #00245b;}
 
 .border-t_prim,
 .border-t_prim_h:hover,
 .tooltip-1.top .tooltip-arrow,
 .tooltip-1.top-left .tooltip-arrow,
-.tooltip-1.top-right .tooltip-arrow {border-top-color: #d01818;}
+.tooltip-1.top-right .tooltip-arrow {border-top-color: #00245b;}
 
 .border-r_prim,
 .border-r_prim_h:hover,
-.tooltip-1.right .tooltip-arrow {border-right-color: #d01818;}
+.tooltip-1.right .tooltip-arrow {border-right-color: #00245b;}
 
 .border-b_prim,
 .border-b_prim_h:hover,
@@ -128,17 +128,17 @@ a,
 .btn-up:after,
 .b-filter-2__title,
 .b-bnr-2,
-.b-advantages-3.active {border-bottom-color: #d01818;}
+.b-advantages-3.active {border-bottom-color: #00245b !important;}
 
 .border-l_prim,
 .border-l_prim_h:hover,
 .tooltip-1.left .tooltip-arrow,
 .border-left_primary:before,
-.form-sidebar__btn {border-left-color: #d01818;}
+.form-sidebar__btn {border-left-color: #00245b;}
 
 
 .b-advantages-3.active {
-  box-shadow: 0 2px 0 0 #d01818;
+  box-shadow: 0 2px 0 0 #00245b;
 }
 
 
