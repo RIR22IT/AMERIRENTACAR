@@ -32,7 +32,7 @@
 /* ======= GLOBAL ======= */
 body {
   font: 14px/1.7143 'Hind';
-  color: #444;
+  color: #00245b;
 }
 
 .l-theme {
@@ -102,7 +102,7 @@ body {
   font-weight: 700;
   letter-spacing: .02em;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 .ui-title-inner:before {
@@ -177,8 +177,8 @@ p + p {
 
 .bg-border {
   padding: 5px;
-  color: #222;
-  border: 1px dashed #222;
+  color: #00245b;
+  border: 1px dashed #00245b;
 }
 
 .text-primary_h, .bg-primary_h, .border_prim_h, .border-t_prim_h, .border-b_prim_h, .border-l_prim_h, .border-r_prim_h, .text-second_h, .bg-second_h, .border_second_h, .border-t_second_h, .border-r_second_h, .border-l_second_h, .border-b_second_h {
@@ -197,7 +197,7 @@ p + p {
 }
 
 .btn-dark {
-  background-color: #222;
+  background-color: #00245b;
 }
 
 .btn .icon {
@@ -353,15 +353,15 @@ select:focus {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #222;
+  color: #00245b;
 }
 
 .form-control::-moz-placeholder {
-  color: #222;
+  color: #00245b;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #222;
+  color: #00245b;
 }
 
 .ui-form-1 .btn {
@@ -403,7 +403,7 @@ select:focus {
   line-height: 48px;
   vertical-align: top;
   text-transform: inherit;
-  color: #222;
+  color: #00245b;
   border: 1px solid #eee;
   border-radius: 0;
   background-color: #fff;
@@ -414,7 +414,7 @@ select:focus {
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 /* Radio/check customisation */
@@ -684,7 +684,7 @@ blockquote cite {
   -webkit-transition: all .3s;
   transition: all .3s;
   opacity: .3;
-  color: #222;
+  color: #00245b;
 }
 
 .alert .close:hover {
@@ -856,7 +856,7 @@ blockquote cite {
   font-size: 12px;
   font-weight: 700;
   text-align: center;
-  color: #222;
+  color: #00245b;
 }
 
 .ui-filter-slider__label {
@@ -932,7 +932,7 @@ blockquote cite {
 }
 
 .area-bg_dark-2:after {
-  background-color: #222;
+  background-color: #00245b;
 }
 
 .area-bg_light:after {
@@ -1067,7 +1067,7 @@ blockquote cite {
 
 .owl-theme .owl-nav div:hover {
   opacity: 1;
-  background-color: #222;
+  background-color: #00245b;
 }
 
 .owl-theme .owl-nav div:hover:after {
@@ -1322,7 +1322,7 @@ blockquote cite {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: .01em;
-  color: #222;
+  color: #00245b;
 }
 
 .section-type-2__subtitle {
@@ -1330,7 +1330,7 @@ blockquote cite {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 300;
-  color: #222;
+  color: #00245b;
 }
 
 .section-type-2 .list {
@@ -1401,7 +1401,7 @@ blockquote cite {
 .b-about-main__title {
   font: 600 18px/1.2 Poppins;
   letter-spacing: .01em;
-  color: #222;
+  color: #00245b;
 }
 
 .b-about-main__subtitle {
@@ -1440,7 +1440,7 @@ blockquote cite {
 .b-about-list__title {
   margin-bottom: 14px;
   font: 600 16px Poppins;
-  color: #222;
+  color: #00245b;
 }
 
 .b-about-list__info {
@@ -1636,7 +1636,7 @@ blockquote cite {
   margin-bottom: 10px;
   font-size: 50px;
   line-height: 1;
-  color: #222;
+  color: #00245b;
 }
 
 .b-advantages-4__title {
@@ -1877,7 +1877,7 @@ blockquote cite {
   display: block;
   font: 600 16px Poppins;
   letter-spacing: .02em;
-  color: #222;
+  color: #00245b;
 }
 
 .b-blockquote-1 .b-blockquote__author:before {
@@ -1900,8 +1900,8 @@ blockquote cite {
   position: relative;
   margin: 44px 0 50px;
   padding: 0 0 4px 80px;
-  border-top: 3px solid #222;
-  border-bottom: 3px solid #222;
+  border-top: 3px solid #00245b;
+  border-bottom: 3px solid #00245b;
   border-left: none;
 }
 
@@ -1934,7 +1934,7 @@ blockquote cite {
   margin-top: 32px;
   font: 600 16px/1 Poppins;
   letter-spacing: .02em;
-  color: #222;
+  color: #00245b;
 }
 
 .b-blockquote-2 .b-blockquote__author:before {
@@ -2015,7 +2015,7 @@ blockquote cite {
   display: block;
   font: 600 14px/1.2 Poppins;
   letter-spacing: .02em;
-  color: #222;
+  color: #00245b;
 }
 
 .b-blockquote-3 .b-blockquote__author:before {
@@ -2144,7 +2144,7 @@ blockquote cite {
   font: 700 16px Poppins;
   letter-spacing: .01em;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 .b-calculator__info {
@@ -2161,7 +2161,7 @@ blockquote cite {
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 .b-calculator__input {
@@ -2228,7 +2228,7 @@ blockquote cite {
   margin-left: 21px;
   font: 500 12px Poppins;
   text-decoration: underline;
-  color: #222;
+  color: #00245b;
 }
 
 .b-car-details__section {
@@ -2244,7 +2244,7 @@ blockquote cite {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: -.005em;
-  color: #222;
+  color: #00245b;
 }
 
 .b-car-details__nav {
@@ -2269,7 +2269,7 @@ blockquote cite {
 
 .b-car-details__nav > li.active {
   background-color: #f4f4f4;
-  box-shadow: 0 -3px 0 0 #222;
+  box-shadow: 0 -3px 0 0 #00245b;
 }
 
 .b-car-details__nav > li.active > a {
@@ -2277,7 +2277,7 @@ blockquote cite {
   padding-top: 19px;
   padding-right: 30px;
   padding-left: 30px;
-  color: #222;
+  color: #00245b;
 }
 
 .b-car-details__tabs .tab-pane {
@@ -2291,7 +2291,7 @@ blockquote cite {
   font: 700 16px Poppins;
   letter-spacing: .03em;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 .b-car-info__price {
@@ -2330,7 +2330,7 @@ blockquote cite {
   padding-left: 130px;
   font-weight: 600;
   text-align: right;
-  color: #222;
+  color: #00245b;
   border-bottom: 1px solid #ddd;
 }
 
@@ -2360,14 +2360,14 @@ blockquote cite {
   margin-right: 7px;
   font-size: 30px;
   vertical-align: middle;
-  color: #222;
+  color: #00245b;
 }
 
 .b-car-info__item-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
-  color: #222;
+  color: #00245b;
 }
 
 .b-car-info__item-info {
@@ -2455,7 +2455,7 @@ blockquote cite {
 
 .b-filter-type__input:checked + .b-filter-type__label .b-filter-type__title {
   font-weight: 600;
-  color: #222;
+  color: #00245b;
 }
 
 .b-filter-type__label {
@@ -2610,7 +2610,7 @@ blockquote cite {
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-radius: 2px 2px 0 0;
-  background-color: #222;
+  background-color: #00245b;
 }
 
 .b-filter-2__group {
@@ -2622,7 +2622,7 @@ blockquote cite {
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 .b-filter-2 .form-control {
@@ -2826,7 +2826,7 @@ blockquote cite {
   font-size: 16px;
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: #222;
+  color: #00245b;
 }
 
 .featured-carousel {
@@ -2904,7 +2904,7 @@ blockquote cite {
 }
 
 .b-goods-feat__name a {
-  color: #222;
+  color: #00245b;
 }
 
 .b-goods-1 {
@@ -2954,7 +2954,7 @@ blockquote cite {
 }
 
 .b-goods-1__name a {
-  color: #222;
+  color: #00245b;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -2967,7 +2967,7 @@ blockquote cite {
   line-height: 40px;
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: #222;
+  color: #00245b;
 }
 
 .b-goods-1__price {
@@ -3115,7 +3115,7 @@ blockquote cite {
 }
 
 .b-goods-1_mod-a .b-goods-1__title[aria-expanded='false'] {
-  color: #222;
+  color: #00245b;
 }
 
 .b-goods-1_mod-a .b-goods-1__title[aria-expanded='false']:before {
@@ -3190,7 +3190,7 @@ blockquote cite {
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
-  color: #222;
+  color: #00245b;
 }
 
 .list-goods_th .b-goods-1__info {
@@ -3571,7 +3571,7 @@ blockquote cite {
   line-height: .9;
   letter-spacing: .035em;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
   background-color: #fff;
 }
 
@@ -3896,7 +3896,7 @@ blockquote cite {
 .b-post .entry-title, .b-post .entry-title a {
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: #222;
+  color: #00245b;
 }
 
 .b-post .entry-meta__item {
@@ -3907,7 +3907,7 @@ blockquote cite {
 .b-post .entry-meta__link {
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: #222;
+  color: #00245b;
 }
 
 .b-post .entry-meta__icon {
@@ -4000,7 +4000,7 @@ blockquote cite {
 }
 
 .b-post-1 .entry-meta__categorie:hover {
-  background-color: #222;
+  background-color: #00245b;
 }
 
 .b-post-1 .entry-content {
@@ -4057,7 +4057,7 @@ blockquote cite {
 .b-post-1 .b-post-social {
   float: left;
   font: 500 11px Poppins;
-  color: #222;
+  color: #00245b;
 }
 
 .b-post-1 .b-post-social__list {
@@ -4189,7 +4189,7 @@ blockquote cite {
   margin-right: 10px;
   font: 700 12px Poppins;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 .b-post-full .entry-footer__tags {
@@ -4212,7 +4212,7 @@ blockquote cite {
   -webkit-transition: all .3s;
   transition: all .3s;
   text-decoration: underline;
-  color: #222;
+  color: #00245b;
 }
 
 .b-post-full .entry-footer__link:hover {
@@ -4310,7 +4310,7 @@ blockquote cite {
 }
 
 .comments-list .comment-btn:hover {
-  color: #222;
+  color: #00245b;
 }
 
 /*03  Blog form */
@@ -4354,7 +4354,7 @@ blockquote cite {
 .about-author__name {
   font: 700 14px Poppins;
   letter-spacing: .02em;
-  color: #222;
+  color: #00245b;
 }
 
 .about-author__title {
@@ -4405,7 +4405,7 @@ blockquote cite {
   -webkit-transition: all .3s;
   transition: all .3s;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 .post-carousel .owl-nav .owl-prev:after, .post-carousel .owl-nav .owl-next:after {
@@ -4820,7 +4820,7 @@ blockquote cite {
   font-size: 16px;
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: #222;
+  color: #00245b;
   border: none;
   background-color: transparent;
 }
@@ -4866,7 +4866,7 @@ blockquote cite {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #222;
+  color: #00245b;
 }
 
 .b-team__media {
@@ -4909,11 +4909,11 @@ blockquote cite {
 }
 
 .b-team__social-net > li:hover {
-  border-color: #222;
+  border-color: #00245b;
 }
 
 .b-team__social-net > li:hover a {
-  color: #222;
+  color: #00245b;
 }
 
 .b-team__social-net > li > a {
@@ -5002,7 +5002,7 @@ blockquote cite {
   font: 600 16px Poppins;
   white-space: nowrap;
   letter-spacing: .01em;
-  color: #222;
+  color: #00245b;
 }
 
 .slider-thumbnail .sp-thumbnail-title:before {
@@ -5225,7 +5225,7 @@ blockquote cite {
 
 .footer:after {
   opacity: .9;
-  background-color: #0d0d0d;
+  background-color: #1148ad !important;
 }
 
 .footer__main {
@@ -5403,7 +5403,7 @@ blockquote cite {
   padding-left: 19px;
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: #888;
+  color: #fff;
 }
 
 .footer-list__link:after {
@@ -5610,7 +5610,7 @@ blockquote cite {
 }
 
 .form-sidebar__btn:hover .icon {
-  color: #222;
+  color: #00245b;
 }
 
 .form-sidebar__btn:focus {
@@ -5716,7 +5716,7 @@ blockquote cite {
   font-weight: 600;
   line-height: 1.57;
   letter-spacing: .02em;
-  color: #222;
+  color: #00245b;
 }
 
 .post-widget__date {
@@ -5727,7 +5727,7 @@ blockquote cite {
 }
 
 .post-widget__time {
-  color: #222;
+  color: #00245b;
 }
 
 .list-tags {

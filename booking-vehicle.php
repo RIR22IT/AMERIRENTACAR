@@ -1,5 +1,4 @@
 <?php include './database/connection.php'; ?>
-<?php include './admin/php_code.php'; ?>
 
 <?php
 if (isset($_GET['view'])) {
@@ -23,7 +22,7 @@ if (isset($_GET['view'])) {
             $musicOn      = $row['musicOn'];
             $ac           = $row['ac'];
             $img          = $row['img'];
-            $localPrice   = $rental * 200;
+            $localPrice   = number_format((float)$rental * 200, 2, '.', '');
         }
     }
 }
@@ -261,7 +260,7 @@ if (isset($_GET['view'])) {
                                         <aside class="l-sidebar">
 
                                             <form class="b-filter-2 bg-grey" action="vehicle-order.php" method="GET">
-                                                <h3 class="b-filter-2__title">$<?php echo $rental; ?> Day</h3>
+                                                <h3 class="b-filter-2__title">$<?php echo $rental; ?> Day | Rs. <?php echo $localPrice ?></h3>
 
 
                                                 <div class="b-filter-2__inner">
@@ -276,14 +275,32 @@ if (isset($_GET['view'])) {
                                                         <input class="form-control" name="dropDate" id="dropDate"
                                                             type="date" placeholder="Select Date" required />
                                                     </div>
+
+                                                    <div class="b-filter-2__group">
+                                                        <div class="b-filter-2__group-title">PICKUP LOCATION</div>
+                                                        <select class="selectpicker" name="pickupLoc" data-width="100%" required>
+                                                            <option value="officeP">OFFICE</option>
+                                                            <option value="airportP">AIRPORT</option>
+                                                            <option value="hotelP">HOTEL</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="b-filter-2__group">
+                                                        <div class="b-filter-2__group-title">DROP LOCATION</div>
+                                                        <select class="selectpicker" name="dropLoc" data-width="100%" required>
+                                                            <option value="officeD">OFFICE</option>
+                                                            <option value="airportD">AIRPORT</option>
+                                                            <option value="hotelD">HOTEL</option>
+                                                        </select>
+                                                    </div>
                                                     <input type="hidden" name="vehicleID" value="<?php echo $id ?>">
                                                     <button class="btn btn-primary" style="width: 310px;">Booking this
                                                         Car</a></button>
 
                                                     <div class="row">
-                                                  
+
                                                         <ul class="b-rent__list list-unstyled">
-                                                        <div class="b-filter-2__group-title">Specification</div>
+                                                            <div class="b-filter-2__group-title">Specification</div>
                                                             <li class="b-rent__list-item"><i
                                                                     class="icon flaticon-car"></i>Model Year -
                                                                 <?php echo $year ?></li>
@@ -294,7 +311,8 @@ if (isset($_GET['view'])) {
                                                                     class="icon flaticon-transmision"></i>Transmission -
                                                                 <?php echo $transmission?></li>
                                                             <li class="b-rent__list-item"><i
-                                                                    class="icon flaticon-wheel-and-manometer"></i>Engine -
+                                                                    class="icon flaticon-wheel-and-manometer"></i>Engine
+                                                                -
                                                                 <?php echo $engine?></li>
                                                             <li class="b-rent__list-item"><i
                                                                     class="icon flaticon-doors"></i>Doors -
