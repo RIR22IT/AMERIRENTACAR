@@ -232,8 +232,8 @@
                                     <tr>
 			                        <!-- <td><?php echo $id ?></td> -->
 			                        <td><?php echo '<img src="./admin/upload/' .$img.'" width = "70px;" height = "60px;" alt = "Image">'?></td>
-                                    <td><?php echo $make ?><br><br>
-                                    <?php echo $model ?></td>
+                                    <td><b>Vehicle: </b><?php echo $make ?><br><br>
+                                    <b>Model:</b> <?php echo $model ?></td>
                                     <td><?php echo $startDate ?></td>
                                     <td><?php echo $endDate ?></td>
 		    	                    <td>$<?php echo $rental ?>.00</td>
@@ -253,7 +253,7 @@
                                             <div class="widget-content">
                                                 <form class="form-sidebar" id="newsletter-form" style="width: 500px;" action="userform.php" method = "GET">
 
-                                                    <div class="b-car-info__item" disabled>$<?php echo $subTot ?>.00
+                                                    <div class="b-car-info__item" style = "font-size: 20px;" disabled>$<?php echo $subTot ?>.00
                                                         <div class="b-car-info__item-inner"><span class="b-car-info__item-info">TOTAL</span>
                                                         </div>
                                                     </div><br>
@@ -263,7 +263,7 @@
 
                                                     <div class="col-md-3 col-md-offset-3">
                                                     <input type="hidden" name="vehicleID" value="<?php  echo $id ?>" >
-                                                    <button class="btn btn-primary">proceed to checkout</button>
+                                                    <button class="btn btn-primary" name = "proceedBtn">proceed to checkout</button>
                                                     </div>
 
                                                 </form>

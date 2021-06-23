@@ -97,7 +97,14 @@ if (!isset($_SESSION['email'])) {
       <li class="nav-item">
         <a class="nav-link" href="viewDashboard.php">
           <i class="fas fa-eye"></i>
-          <span>View</span>
+          <span>View Vehicle Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewBillingDetails.php">
+          <i class="fas fa-eye"></i>
+          <span>View Billing Details</span>
         </a>
       </li>
 

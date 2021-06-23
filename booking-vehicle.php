@@ -23,6 +23,7 @@ if (isset($_GET['view'])) {
             $musicOn      = $row['musicOn'];
             $ac           = $row['ac'];
             $img          = $row['img'];
+            $localPrice   = $rental * 200;
         }
     }
 }
@@ -238,13 +239,13 @@ if (isset($_GET['view'])) {
                                                 <div class="row ">
                                                     <div class="col-md-4 col-md-offset-4" style="left: -260px;">
                                                         <h1 class="b-filter-2__title"
-                                                            style="width: 730px; height: 55px; bottom: -100px;">
-                                                            <?php echo $make; ?></h1>
+                                                            style="width: 730px; height: 55px; bottom: -100px; font-size: 35px;">
+                                                            <?php echo $make; ?> | <?php echo $model; ?></h1>
                                                     </div>
                                                 </div><br>
 
                                                 <div class="entry-media">
-                                                    <?php echo '<img src="./admin/upload/' . $img . '" width = "100%" height = "46%" alt = "Image">' ?>
+                                                    <?php echo '<img src="./admin/upload/' . $img . '" width = "100%" height = "53%" alt = "Image">' ?>
 
                                                 </div>
 
@@ -259,8 +260,9 @@ if (isset($_GET['view'])) {
                                     <div class="col-md-4">
                                         <aside class="l-sidebar">
 
-                                            <form class="b-filter-2 bg-grey" action="vehicle-order.php" method = "GET">
-                                                <h3 class="b-filter-2__title">$<?php echo $rental;?> Day</h3>
+                                            <form class="b-filter-2 bg-grey" action="vehicle-order.php" method="GET">
+                                                <h3 class="b-filter-2__title">$<?php echo $rental; ?> Day</h3>
+
 
                                                 <div class="b-filter-2__inner">
                                                     <div class="b-filter-2__group">
@@ -278,6 +280,39 @@ if (isset($_GET['view'])) {
                                                     <button class="btn btn-primary" style="width: 310px;">Booking this
                                                         Car</a></button>
 
+                                                    <div class="row">
+                                                  
+                                                        <ul class="b-rent__list list-unstyled">
+                                                        <div class="b-filter-2__group-title">Specification</div>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-car"></i>Model Year -
+                                                                <?php echo $year ?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-oil"></i>Fuel -
+                                                                <?php echo $fuel?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-transmision"></i>Transmission -
+                                                                <?php echo $transmission?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-wheel-and-manometer"></i>Engine -
+                                                                <?php echo $engine?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-doors"></i>Doors -
+                                                                <?php echo $door?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-transport-1"></i>Passengers -
+                                                                <?php echo $passenger ?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-ac"></i>A/C - <?php echo $ac ?>
+                                                            </li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-suitcase-with-white-details"></i>Luggages
+                                                                - <?php echo $luggage?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-smartphone"></i>Music Player
+                                                                - <?php echo $musicOn?></li>
+                                                        </ul>
+                                                    </div>
                                                 </div><br><br><br>
                                             </form>
                                             <!-- end .b-filter-->
