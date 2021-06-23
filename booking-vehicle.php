@@ -23,6 +23,7 @@ if (isset($_GET['view'])) {
             $musicOn      = $row['musicOn'];
             $ac           = $row['ac'];
             $img          = $row['img'];
+            $localPrice   = $rental * 200;
         }
     }
 }
@@ -259,8 +260,9 @@ if (isset($_GET['view'])) {
                                     <div class="col-md-4">
                                         <aside class="l-sidebar">
 
-                                            <form class="b-filter-2 bg-grey" action="vehicle-order.php" method = "GET">
-                                                <h3 class="b-filter-2__title">$<?php echo $rental;?> Day</h3>
+                                            <form class="b-filter-2 bg-grey" action="vehicle-order.php" method="GET">
+                                                <h3 class="b-filter-2__title">$<?php echo $rental; ?> Day</h3>
+
 
                                                 <div class="b-filter-2__inner">
                                                     <div class="b-filter-2__group">
@@ -278,6 +280,39 @@ if (isset($_GET['view'])) {
                                                     <button class="btn btn-primary" style="width: 310px;">Booking this
                                                         Car</a></button>
 
+                                                    <div class="row">
+                                                  
+                                                        <ul class="b-rent__list list-unstyled">
+                                                        <div class="b-filter-2__group-title">Specification</div>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-car"></i>Model Year -
+                                                                <?php echo $year ?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-oil"></i>Fuel -
+                                                                <?php echo $fuel?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-transmision"></i>Transmission -
+                                                                <?php echo $transmission?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-wheel-and-manometer"></i>Engine -
+                                                                <?php echo $engine?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-doors"></i>Doors -
+                                                                <?php echo $door?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-transport-1"></i>Passengers -
+                                                                <?php echo $passenger ?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-ac"></i>A/C - <?php echo $ac ?>
+                                                            </li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-suitcase-with-white-details"></i>Luggages
+                                                                - <?php echo $luggage?></li>
+                                                            <li class="b-rent__list-item"><i
+                                                                    class="icon flaticon-smartphone"></i>Music Player
+                                                                - <?php echo $musicOn?></li>
+                                                        </ul>
+                                                    </div>
                                                 </div><br><br><br>
                                             </form>
                                             <!-- end .b-filter-->
