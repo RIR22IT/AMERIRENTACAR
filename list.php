@@ -159,6 +159,19 @@
                 <div class="row">
                     <div class="col-md-9">
                         <main class="l-main-content">
+                        <div class="container">
+                    <div class="row">
+                    <div class="col-md-9">
+                        <main class="l-main-content">
+                            <div class="filter-goods">
+                                <div class="filter-goods__info">
+                                </div>
+                                <div class="filter-goods__select">
+                                  
+                                    <div class="btns-switch"><i class="btns-switch__item js-view-th icon fa fa-th-large"></i><i class="btns-switch__item js-view-list active icon fa fa-th-list"></i>
+                                    </div>
+                                </div>
+                            </div>
                             
                             <!-- end .filter-goods-->
                             <div class="goods-group-2 list-goods">
