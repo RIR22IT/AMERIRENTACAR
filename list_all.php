@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>AMERIRENTACAR | Portfolio</title>
+    <title>AMERIRENTACAR | List-All</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,7 +27,6 @@
     <!--Whatsapp CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/whatsapp.css">
-
 </head>
 
 <body>
@@ -171,36 +170,34 @@
                         </div>
                         <!-- end .filter-goods-->
                         <div class="goods-group-2 list-goods">
-                            <?php 
-                                    include('./database/connection.php');
-                                    if (isset($_POST['search'])) {
-                                        $make = $_POST['make'];
-                                        $fuel = $_POST['fuel'];
-                                        $transmission = $_POST['transmission'];
-                                        if ($make != "" || $fuel != "" || $transmission != "") {
-                                            $query = "SELECT * FROM car WHERE make = '$make' OR fuel = '$fuel' OR transmission = '$transmission'";
-                                            $data = mysqli_query($db, $query) or die('error');
-        
-                                            if (mysqli_num_rows($data) > 0) {
-                                                while ($row = mysqli_fetch_assoc($data)) {
-                                                    $id           = $row['id'];
-                                                    $img          = $row['img'];
-                                                    $model        = $row['model'];
-                                                    $year         = $row['year'];
-                                                    $engine       = $row['engine'];
-                                                    $rental       = $row['rental'];
-                                                    $passenger    = $row['passenger'];
-                                                    $luggage      = $row['luggage'];
-                                                    $make         = $row['make'];
-                                                    $transmission = $row['transmission'];
-                                                    $fuel         = $row['fuel'];
-                                                    $door         = $row['door'];
-                                                    $musicOn      = $row['musicOn'];
-                                                    $ac           = $row['ac'];
-                                                    $localPrice   = number_format((float)$rental * 200, 2, '.', '');
-                                ?>
 
-                            <!-- end .b-goods-1-->
+                            <?php
+                            include('./database/connection.php');
+                           
+                                    $query = "SELECT * FROM car";
+                                    $data = mysqli_query($db, $query) or die('error');
+
+                                    if (mysqli_num_rows($data) > 0) {
+                                        while ($row = mysqli_fetch_assoc($data)) {
+                                            $id           = $row['id'];
+                                            $img          = $row['img'];
+                                            $model        = $row['model'];
+                                            $year         = $row['year'];
+                                            $engine       = $row['engine'];
+                                            $rental       = $row['rental'];
+                                            $passenger    = $row['passenger'];
+                                            $luggage      = $row['luggage'];
+                                            $make         = $row['make'];
+                                            $transmission = $row['transmission'];
+                                            $fuel         = $row['fuel'];
+                                            $door         = $row['door'];
+                                            $musicOn      = $row['musicOn'];
+                                            $ac           = $row['ac'];
+                                            $localPrice   = number_format((float)$rental * 200, 2, '.', '');
+                            ?>
+
+
+
                             <section class="b-goods-1">
                                 <div class="row">
                                     <div class="b-goods-1__img">
@@ -211,37 +208,37 @@
                                     <div class="b-goods-1__inner">
                                         <div class="b-goods-1__header"><span
                                                 class="b-goods-1__price hidden-th">$<?php echo $rental ?><span
-                                                    class="b-goods-1__price-msrp">Rs.
+                                                    class="b-goods-1__price-msrp">Rs. 
                                                     <?php echo $localPrice?></span></span><a
                                                 class="b-goods-1__choose hidden-th" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
                                             <h2 class="b-goods-1__name"><a herf="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $model ?></a>
                                             </h2>
                                         </div>
                                         <div class="b-goods-1__info">
-                                        </div><span
-                                            class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental ?><span
+                                        </div><span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental ?><span
                                                 class="b-goods-1__price-msrp">Rs. <?php echo $localPrice ?></span><a
                                                 class="b-goods-1__choose" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
+                                                 
                                         </span>
                                         <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-4">
+                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-1">
                                                 Highlights</h3>
-                                            <div class="collapse in" id="desc-4">
+                                            <div class="collapse in" id="desc-1">
                                                 <ul class="b-goods-1__desc list-unstyled">
                                                     <li class="b-goods-1__desc-item"><?php echo $engine ?>cc</li>
                                                     <li class="b-goods-1__desc-item"><span
-                                                            class="hidden-th">Model:</span> <?php echo $year ?></li>
+                                                            class="hidden-th">Model:</span> <?php echo $year ?>/li>
                                                     <li class="b-goods-1__desc-item"><?php echo $transmission ?></li>
                                                     <li class="b-goods-1__desc-item hidden-th"><?php echo $fuel ?></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="b-goods-1__section hidden-th">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#list-4"
-                                                aria-expanded="false">specifications</h3>
-                                            <div class="collapse" id="list-4">
+                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#list-1">
+                                                specifications</h3>
+                                            <div class="collapse in" id="list-1">
                                                 <ul class="b-goods-1__list list list-mark-5 list_mark-prim">
-                                                    <li class="b-goods-1__list-item"><strong>Year:</strong> <?php echo $year ?></li>
+                                                <li class="b-goods-1__list-item"><strong>Year:</strong> <?php echo $year ?></li>
                                                     <li class="b-goods-1__list-item"><strong>Engine:</strong> <?php echo $engine ?>cc</li>
                                                     <li class="b-goods-1__list-item"><strong>Luggage:</strong> <?php echo $luggage ?></li>
                                                     <li class="b-goods-1__list-item"><strong>Music Player:</strong>  <?php echo $musicOn ?></li>
@@ -254,21 +251,11 @@
                                     </div>
                                 </div>
                             </section>
+                            <!-- end .b-goods-1-->
                             <?php
                                         }
-                                    } else {
-                                        ?>
-                            <h2> Results Not Found. View All Vehicles </h2><br>
-                            <div class="col-md-3 col-md-offset-3">
-                                <a class="btn btn-primary" href="rental-car-all.php" style="width: 200px;">VIEW
-                                </a>
-                            </div>
-                            <?php
-                                    }
-                                }
-                            }
-                            ?>
-                            <!-- end .b-goods-1-->
+                                    } ?>
+
 
                         </div>
                         <!-- end .goods-group-2-->

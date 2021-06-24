@@ -149,7 +149,7 @@
 
                             <div class="container">
 
-                                <form class="b-booking-form" action="rental-car.php" method="POST">
+                                <form class="b-booking-form" action="list.php" method="POST">
                                     <div class="area-bg__inner">
                                         <div class="row">
                                             <div class="col-md-4">
