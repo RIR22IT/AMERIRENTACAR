@@ -361,54 +361,30 @@
                 </div>
                 <div class="col-md-3">
                     <aside class="l-sidebar">
-                        <form class="b-filter-2 bg-grey" method="POST" action="list.php">
+                        <form class="b-filter-2 bg-grey" method="POST" action='list.php'>
                             <h3 class="b-filter-2__title">search options</h3>
                             <div class="b-filter-2__inner">
 
                                 <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">PICK-UP DATE</div>
-                                     <p><?php echo $pickDate ?></p>
+                                     <p name="pickDate" value="<?php echo $pickDate ?>"><?php echo $pickDate ?></p>
                                 </div>
 
                                 <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">DROP-OFF DATE</div>
-                                     <p><?php echo $dropDate ?></p>
+                                     <p name="dropDate" value="<?php echo $dropDate?>"><?php echo $dropDate ?></p>
                                 </div>
 
                                 <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">MAKES OF VEHICLE</div>
                                     <select class="selectpicker" name="make" data-width="100%">
                                         <option>All Makes</option>
-                                        <option value="Honda" <?php
-                                                                if ($make == 'Honda') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>HONDA</option>
-                                        <option value="Mitshubishi" <?php
-                                                                    if ($make == 'Mitshubishi') {
-                                                                        echo "selected";
-                                                                    }
-                                                                    ?>>MITSHUBISHI</option>
-                                        <option value="Kia" <?php
-                                                            if ($make == 'Kia') {
-                                                                echo "selected";
-                                                            }
-                                                            ?>>KIA</option>
-                                        <option value="Perodua" <?php
-                                                                if ($make == 'Perodua') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>PERODUA</option>
-                                        <option value="Toyota" <?php
-                                                                if ($make == 'Toyota') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>TOYOTA</option>
-                                        <option value="Suzuki" <?php
-                                                                if ($make == 'Suzuki') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>SUZUKI</option>
+                                        <option value="Honda">HONDA</option>
+                                        <option value="Mitshubishi">MITSHUBISHI</option>
+                                        <option value="Kia">KIA</option>
+                                        <option value="Perodua">PERODUA</option>
+                                        <option value="Toyota">TOYOTA</option>
+                                        <option value="Suzuki">SUZUKI</option>
                                     </select>
                                 </div>
 
@@ -416,43 +392,9 @@
                                     <div class="b-filter-2__group-title">TRANSMISSION RANGE</div>
                                     <select class="selectpicker" name="transmission" data-width="100%">
                                         <option>All Transmission</option>
-                                        <option value="Automatic" <?php
-                                                                    if ($transmission == 'Automatic') {
-                                                                        echo "selected";
-                                                                    }
-                                                                    ?>>Automatic</option>
-                                        <option value="Manual" <?php
-                                                                if ($transmission == 'Manual') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>Manual</option>
-                                        <option value="Semi-Automatic" <?php
-                                                                        if ($transmission == 'Semi-Automatic') {
-                                                                            echo "selected";
-                                                                        }
-                                                                        ?>>Semi-Automatic</option>
-                                    </select>
-                                </div>
-
-                                <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">Transmission</div>
-                                    <select class="selectpicker" name="transmission" data-width="100%">
-                                        <option>All Transmission</option>
-                                        <option value="Automatic" <?php
-                                                                    if ($transmission == 'Automatic') {
-                                                                        echo "selected";
-                                                                    }
-                                                                    ?>>Automatic</option>
-                                        <option value="Manual" <?php
-                                                                if ($transmission == 'Manual') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>Manual</option>
-                                        <option value="Semi-Automatic" <?php
-                                                                        if ($transmission == 'Semi-Automatic') {
-                                                                            echo "selected";
-                                                                        }
-                                                                        ?>>Semi-Automatic</option>
+                                        <option value="Automatic">Automatic</option>
+                                        <option value="Manual">Manual</option>
+                                        <option value="Semi-Automatic">Semi-Automatic</option>
                                     </select>
                                 </div>
 
@@ -460,39 +402,14 @@
                                     <div class="b-filter-2__group-title">FUEL</div>
                                     <select class="selectpicker" name="fuel" data-width="100%">
                                         <option>All Fuel Type</option>
-                                        <option value="Petrol" <?php
-                                                                if ($fuel == 'Petrol') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>Petrol</option>
-                                        <option value="Diesel" <?php
-                                                                if ($fuel == 'Diesel') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>Diesel</option>
-                                        <option value="Hybrid" <?php
-                                                                if ($fuel == 'Hybrid') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>Hybrid</option>
-                                        <option value="Plugin Electric" <?php
-                                                                        if ($fuel == 'Plugin Electric') {
-                                                                            echo "selected";
-                                                                        }
-                                                                        ?>>Plugin Electric</option>
-                                        <option value="Petrol + CNG" <?php
-                                                                        if ($fuel == 'Petrol + CNG') {
-                                                                            echo "selected";
-                                                                        }
-                                                                        ?>>Petrol + CNG</option>
-                                        <option value="LPG" <?php
-                                                            if ($fuel == 'LPG') {
-                                                                echo "selected";
-                                                            }
-                                                            ?>>LPG</option>
+                                        <option value="Petrol">Petrol</option>
+                                        <option value="Diesel">Diesel</option>
+                                        <option value="Hybrid">Hybrid</option>
+                                        <option value="Plugin Electric">Plugin Electric</option>
+                                        <option value="Petrol + CNG">Petrol + CNG</option>
+                                        <option value="LPG">LPG</option>
                                     </select>
                                 </div>
-
                                 <!-- <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">Filter Price</div>
                                     <div class="ui-filter-slider">
@@ -537,6 +454,7 @@
                                         </div>
                                     </div><br />
                                 </div> -->
+                                
                                 <div class="col-md-5">
                                     <button style="width: 200px; left:-5px;" class="btn btn-primary" name="filter">SEARCH</button>
                                 </div><br />
