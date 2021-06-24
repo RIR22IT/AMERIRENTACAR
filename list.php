@@ -256,7 +256,7 @@
                             </section>
                             <?php
                                         }
-                                    } else {
+                                    }else {
                                         ?>
                             <h2> Results Not Found. View All Vehicles </h2><br>
                             <div class="col-md-3 col-md-offset-3">
@@ -278,7 +278,7 @@
                 </div>
                 <div class="col-md-3">
                     <aside class="l-sidebar">
-                        <form class="b-filter-2 bg-grey">
+                        <form class="b-filter-2 bg-grey" method="POST" action = "list.php">
                             <h3 class="b-filter-2__title">search options</h3>
                             <div class="b-filter-2__inner">
                                 <div class="b-filter-2__group">
