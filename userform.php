@@ -220,7 +220,7 @@ $subTot = $rental * $qty;
                         <div class="row">
                             <div class="col-md-9">
 
-                                <form action="userform.php" method="POST" style="width: 900px;">
+                                <form action="checkout-connection.php" method="POST" style="width: 900px;">
                                     <lable>First name*</lable><br>
                                     <input class="form-control" id="firstname" type="text" name="firstname" required="required" />
 
