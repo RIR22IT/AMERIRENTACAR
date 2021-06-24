@@ -148,7 +148,7 @@
                                 </div>
                             </div>
                             <div class="container">
-                                <form class="b-booking-form" action="rental-car.php" method="POST" style="top: -60px;">
+                                <form class="b-booking-form" action="list.php" method="POST" style="top: -60px;">
                                     <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
                                         <div class="row">
                                             <div class="col-md-4">
@@ -191,9 +191,9 @@
                                             <div class="col-md-4">
                                                 <select class="selectpicker" name="transmission" data-width="115%">
                                                     <option>All Models</option>
-                                                    <option value="Automatic">Automatic</option>
-                                                    <option value="Manual">Manual</option>
-                                                    <option value="Semi-Automatic">Semi-Automatic</option>
+                                                    <option value="Automatic">#</option>
+                                                    <option value="Manual">#</option>
+                                                    <option value="Semi-Automatic">#</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -479,17 +479,17 @@
                 </div>
             </div>
 
-        </section>
+        </section><br/><br/>
         <section class="b-about section-default">
-            <div class="container">
+            <div class="container" >
                 <div class="row">
                     <div class="col-lg-10">
-                        <div class="b-about__inner">
+                        <div class="b-about__inner" style = "top: 400px;"><br/><br/>
                             <h2 class="ui-title-block">GET IN TOUCH WITH US</h2>
                             <div class="ui-subtitle-block">Whether its a car for self drive or chauffeur driven vehicle
                                 for an event, you are sure to get the best tailored deals and support from us around the
                                 clock 356 days.</div>
-                            <div class="ui-decor"></div>
+                            
                             <div class="b-about-main">
                                 <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
                                 <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
@@ -525,11 +525,11 @@
                                     <div class="ui-decor-2"></div>
                                 </div>
                             </li>
-                            <li class="b-about-list__item"><i class="b-about-list__icon "></i>
+                            <li class="b-about-list__item"><i class="b-about-list__icon flaticon-pick-up"></i>
                                 <div class="b-about-list__inner">
                                     <div class="b-about-list__title">Working Hours: 08:30 am - 05:30 pm</div>
 
-                                    <div class="ui-decor-2"></div>
+                                    <div class="ui-decor-2"></div> 
                                 </div>
                             </li>
                         </ul>
