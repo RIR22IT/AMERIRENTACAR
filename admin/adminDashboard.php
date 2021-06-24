@@ -176,6 +176,16 @@ if (!isset($_SESSION['email'])) {
                   <input type="number" class="form-control" name="rental" value="" required>
                 </div><br>
 
+                <div class="col-15">
+                  <label>Rental Per Week ($)</label>
+                  <input type="number" class="form-control" name="week" value="" required>
+                </div><br>
+
+                <div class="col-15">
+                  <label>Rental Per Month ($)</label>
+                  <input type="number" class="form-control" name="month" value="" required>
+                </div><br>
+
                 <div class=" col-15">
                   <label>No of Passengers</label>
                   <input type="number" class="form-control" name="passenger" value="" required>
@@ -190,14 +200,18 @@ if (!isset($_SESSION['email'])) {
 
               <div class="col-md-offset-1 col-md-6" style="bottom: -48px;">
                 <div class="col-15">
-                  <select class="form-control" id="make" name="make" style="height: 50px;">
-                    <option selected disabled="disabled">All Makes</option>
-                    <option value="Honda">Honda</option>
-                    <option value="Mitshubishi">Mitshubishi</option>
-                    <option value="Kia">Kia</option>
-                    <option value="Perodua">Perodua</option>
-                    <option value="Toyota">Toyota</option>
-                    <option value="Suzuki">Suzuki</option>
+                  <select class="form-control" id="type" name="type" style="height: 50px;">
+                    <option selected disabled="disabled">All Types</option>
+                    <option value="Compact Car">Compact Car</option>
+                    <option value="Midsize sedan">Midsize Sedan</option>
+                    <option value="Midsize Estate">Midsize Estate</option>
+                    <option value="Large Sedan">Large Sedan</option>
+                    <option value="Large Estate">Large Estate</option>
+                    <option value="Luxury Sedan">Luxury Sedan</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Large SUV">Large SUV</option>
+                    <option value="Utility Vehicle">Utility Vehicle</option>
+                    <option value="MPV/Minivan">MPV/Minivan</option>
                   </select>
                 </div><br>
 

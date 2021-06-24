@@ -145,7 +145,7 @@ if (!isset($_SESSION['email'])) {
                             <thead class="table-dark">
                                 <tr>
                                     <th>#</th>
-                                    <th>MAKE</th>
+                                    <th>TYPE</th>
                                     <th>MODEL</th>
                                     <th>PICK DATE</th>
                                     <th>DROP DATE</th>
@@ -167,7 +167,7 @@ if (!isset($_SESSION['email'])) {
 
                             <?php
                             $i   = 1;
-                            $qry = "select checkout.pickDate,checkout.dropDate,checkout.qty,checkout.firstname,checkout.lastname,checkout.companyname,checkout.country,checkout.streat,checkout.unit,checkout.city,checkout.postcode,checkout.phone,checkout.emailaddress,checkout.information,checkout.subTot, car.make, car.model 
+                            $qry = "select checkout.pickDate,checkout.dropDate,checkout.qty,checkout.firstname,checkout.lastname,checkout.companyname,checkout.country,checkout.streat,checkout.unit,checkout.city,checkout.postcode,checkout.phone,checkout.emailaddress,checkout.information,checkout.subTot, car.type, car.model 
                                     from checkout 
                                     inner join car on checkout.vehicleId = car.id";
                             $run = $db->query($qry);
@@ -177,7 +177,7 @@ if (!isset($_SESSION['email'])) {
 
                                     <tr>
                                         <td><?php echo $i++ ?></td>
-                                        <td><?php echo $row['make']; ?></td>
+                                        <td><?php echo $row['type']; ?></td>
                                         <td><?php echo $row['model']; ?></td>
                                         <td><?php echo $row['pickDate']; ?></td>
                                         <td><?php echo $row['dropDate']; ?></td>

@@ -43,8 +43,7 @@
 
     <!--WHATSAPP CONTENT
 			=============================================-->
-    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
-            class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
 
@@ -57,8 +56,7 @@
                     <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
                         <div class="navbar-search">
                             <form class="search-global">
-                                <input class="search-global__input" type="text" placeholder="Type to search"
-                                    autocomplete="off" name="s" value="" />
+                                <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
                                 <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
                                 </button>
                                 <div class="search-global__note">Begin typing your search above and press return to
@@ -130,7 +128,7 @@
 
         <section class="section-filter">
             <div class="main-slider main-slider-1">
-                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="true" data-slider-buttons="false">
+                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="false" data-slider-buttons="false">
 
                     <!-- 1st slide -->
                     <div class="sp-slides">
@@ -152,14 +150,18 @@
                                     <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
                                         <div class="row">
                                             <div class="col-md-4">
-                                                <select class="selectpicker" name="make" data-width="115%">
-                                                    <option>All Makes</option>
-                                                    <option value="Honda">HONDA</option>
-                                                    <option value="Mitshubishi">MITSHUBISHI</option>
-                                                    <option value="Kia">KIA</option>
-                                                    <option value="Perodua">PERODUA</option>
-                                                    <option value="Toyota">TOYOTA</option>
-                                                    <option value="Suzuki">SUZUKI</option>
+                                                <select class="selectpicker" name="type" data-width="115%">
+                                                    <option>All Types</option>
+                                                    <option value="Compact Car">Compact Car</option>
+                                                    <option value="Midsize sedan">Midsize Sedan</option>
+                                                    <option value="Midsize Estate">Midsize Estate</option>
+                                                    <option value="Large Sedan">Large Sedan</option>
+                                                    <option value="Large Estate">Large Estate</option>
+                                                    <option value="Luxury Sedan">Luxury Sedan</option>
+                                                    <option value="SUV">SUV</option>
+                                                    <option value="Large SUV">Large SUV</option>
+                                                    <option value="Utility Vehicle">Utility Vehicle</option>
+                                                    <option value="MPV/Minivan">MPV/Minivan</option>
                                                 </select>
                                             </div><br /><br />
                                         </div>
@@ -187,22 +189,22 @@
                                             </div>
                                         </div>
 
-                                        <div class="row">
+                                        <!-- <div class="row">
                                             <div class="col-md-4">
                                                 <select class="selectpicker" name="transmission" data-width="115%">
-                                                    <option>All Models</option>
+                                                    <option selected disabled="disabled">All Models</option>
                                                     <option value="Automatic">#</option>
                                                     <option value="Manual">#</option>
                                                     <option value="Semi-Automatic">#</option>
                                                 </select>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                         <div class="row">
                                             <div class="col-md-4" style="width: 38%">
                                                 <div>
                                                     <div style="color: white; text-align: left;">Pick-Up Date</div>
-                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
+                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -211,7 +213,7 @@
                                             <div class="col-md-4" style="width: 38%">
                                                 <div>
                                                     <div style="color: white; text-align: left;">Drop-Off Date</div>
-                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />
+                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -479,17 +481,17 @@
                 </div>
             </div>
 
-        </section><br/><br/>
+        </section><br /><br />
         <section class="b-about section-default">
-            <div class="container" >
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <div class="b-about__inner" style = "top: 400px;"><br/><br/>
+                        <div class="b-about__inner" style="top: 400px;"><br /><br />
                             <h2 class="ui-title-block">GET IN TOUCH WITH US</h2>
                             <div class="ui-subtitle-block">Whether its a car for self drive or chauffeur driven vehicle
                                 for an event, you are sure to get the best tailored deals and support from us around the
                                 clock 356 days.</div>
-                            
+
                             <div class="b-about-main">
                                 <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
                                 <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
@@ -529,7 +531,7 @@
                                 <div class="b-about-list__inner">
                                     <div class="b-about-list__title">Working Hours: 08:30 am - 05:30 pm</div>
 
-                                    <div class="ui-decor-2"></div> 
+                                    <div class="ui-decor-2"></div>
                                 </div>
                             </li>
                         </ul>
@@ -621,8 +623,7 @@
         <!-- end .section-reviews-->
 
         <!-- end .section-default-->
-        <section class="section-news area-bg area-bg_light area-bg_op_90 parallax"
-            style="background-image: url(assets/media/content/bg/bg-7.jpg)">
+        <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg)">
             <div class="area-bg__inner">
                 <div class="container">
                     <div class="row">
@@ -632,24 +633,18 @@
                                 <div class="ui-subtitle-block">TIPS FOR TRAVEL AROUND SRI LANKA</div>
                                 <div class="ui-decor"></div>
                             </div>
-                            <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel"
-                                data-min768="2" data-min992="3" data-min1200="3" data-margin="30"
-                                data-pagination="false" data-navigation="true" data-auto-play="4000"
-                                data-stop-on-hover="true">
+                            <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
                                 <!-- end .post-->
                                 <section class="b-post b-post-1 clearfix">
                                     <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto"
-                                            style="max-height:200px" />
+                                        <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto" style="max-height:200px" />
                                     </div>
                                     <div class="entry-main">
                                         <div class="entry-header">
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
-                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link"
-                                                        href="#"> Admin</a></span><a class="entry-meta__categorie"
-                                                    href="#"><strong>19 OCT</strong></a>
+                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
                                             </div>
                                             <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka
                                                 </a></h2>
@@ -666,18 +661,14 @@
                                 <!-- end .post-->
                                 <section class="b-post b-post-1 clearfix">
                                     <div class="entry-media">
-                                        <img class="img-responsive"
-                                            src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg"
-                                            alt="Foto" style="max-height:200px" />
+                                        <img class="img-responsive" src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg" alt="Foto" style="max-height:200px" />
                                     </div>
                                     <div class="entry-main">
                                         <div class="entry-header">
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
 
-                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link"
-                                                        href="#"> Admin</a></span><a class="entry-meta__categorie"
-                                                    href="#"><strong>19 OCT</strong></a>
+                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
                                             </div>
                                             <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a>
                                             </h2>
@@ -694,17 +685,14 @@
                                 <!-- end .post-->
                                 <section class="b-post b-post-1 clearfix">
                                     <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto"
-                                            style="max-height:200px" />
+                                        <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto" style="max-height:200px" />
                                     </div>
                                     <div class="entry-main">
                                         <div class="entry-header">
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                 </div>
-                                                <span class="entry-meta_item">Post by<a class="entry-meta_link"
-                                                        href="#">Admin</a></span><a class="entry-meta__categorie"
-                                                    href="blog-main.html"><strong>29 JUL</strong></a>
+                                                <span class="entry-meta_item">Post by<a class="entry-meta_link" href="#">Admin</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
                                             </div>
                                             <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN
                                                     SRILANKA</a></h2>

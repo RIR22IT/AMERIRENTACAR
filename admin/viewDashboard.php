@@ -150,9 +150,11 @@ if (!isset($_SESSION['email'])) {
                                     <th>YEAR</th>
                                     <th>ENGINE</th>
                                     <th>RENTAL</th>
+                                    <th>WEEK</th>
+                                    <th>MONTH</th>
                                     <th>PASSENGER</th>
                                     <th>LUGGAGE</th>
-                                    <th>MAKE</th>
+                                    <th>TYPE</th>
                                     <th>TRANSMISSION</th>
                                     <th>FUEL</th>
                                     <th>DOOR</th>
@@ -179,9 +181,11 @@ if (!isset($_SESSION['email'])) {
                                         <td><?php echo $row['year']; ?></td>
                                         <td><?php echo $row['engine']; ?></td>
                                         <td><?php echo $row['rental']; ?></td>
+                                        <td><?php echo $row['week']; ?></td>
+                                        <td><?php echo $row['month']; ?></td>
                                         <td><?php echo $row['passenger']; ?></td>
                                         <td><?php echo $row['luggage']; ?></td>
-                                        <td><?php echo $row['make']; ?></td>
+                                        <td><?php echo $row['type']; ?></td>
                                         <td><?php echo $row['transmission']; ?></td>
                                         <td><?php echo $row['fuel']; ?></td>
                                         <td><?php echo $row['door']; ?></td>

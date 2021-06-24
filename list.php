@@ -170,13 +170,11 @@
                             <?php
                             include('./database/connection.php');
                             if (isset($_POST['search'])) {
-                                $make = $_POST['make'];
+                                $type = $_POST['type'];
                                 $fuel = $_POST['fuel'];
                                 $transmission = $_POST['transmission'];
-                                $pickDate = $_POST['pickDate'];
-                                $dropDate = $_POST['dropDate'];
-                                if ($make != "" || $fuel != "" || $transmission != "") {
-                                    $query = "SELECT * FROM car WHERE make = '$make' OR fuel = '$fuel' OR transmission = '$transmission'";
+                                if ($type != "" || $fuel != "" || $transmission != "") {
+                                    $query = "SELECT * FROM car WHERE type = '$type' OR fuel = '$fuel' OR transmission = '$transmission'";
                                     $data = mysqli_query($db, $query) or die('error');
 
                                     if (mysqli_num_rows($data) > 0) {
@@ -189,7 +187,7 @@
                                             $rental       = $row['rental'];
                                             $passenger    = $row['passenger'];
                                             $luggage      = $row['luggage'];
-                                            $make         = $row['make'];
+                                            $type         = $row['type'];
                                             $transmission = $row['transmission'];
                                             $fuel         = $row['fuel'];
                                             $door         = $row['door'];
@@ -250,7 +248,7 @@
                                         ?>
                                         <h2> Results Not Found. View All Vehicles </h2><br>
                                         <div class="col-md-3 col-md-offset-3">
-                                            <a class="btn btn-primary" href="rental-car-all.php" style="width: 200px;">VIEW
+                                            <a class="btn btn-primary" href="list_all.php" style="width: 200px;">VIEW
                                             </a>
                                         </div>
                             <?php
@@ -264,13 +262,11 @@
                             <?php
                             include('./database/connection.php');
                             if (isset($_POST['filter'])) {
-                                $make2 = $_POST['make'];
+                                $type2 = $_POST['type'];
                                 $fuel2 = $_POST['fuel'];
                                 $transmission2 = $_POST['transmission'];
-                                $pickDate = $_POST['pickDate'];
-                                $dropDate = $_POST['dropDate'];
-                                if ($make2 != "" || $fuel2 != "" || $transmission2 != "") {
-                                    $query = "SELECT * FROM car WHERE make = '$make2' OR fuel = '$fuel2' OR transmission = '$transmission2'";
+                                if ($type2 != "" || $fuel2 != "" || $transmission2 != "") {
+                                    $query = "SELECT * FROM car WHERE type = '$type2' OR fuel = '$fuel2' OR transmission = '$transmission2'";
                                     $data = mysqli_query($db, $query) or die('error');
 
                                     if (mysqli_num_rows($data) > 0) {
@@ -283,7 +279,7 @@
                                             $rental2       = $row['rental'];
                                             $passenger2    = $row['passenger'];
                                             $luggage2      = $row['luggage'];
-                                            $make2         = $row['make'];
+                                            $type2         = $row['type'];
                                             $transmission2 = $row['transmission'];
                                             $fuel2         = $row['fuel'];
                                             $door2         = $row['door'];
@@ -366,30 +362,23 @@
                             <div class="b-filter-2__inner">
 
                                 <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">PICK-UP DATE</div>
-                                     <p name="pickDate" value="<?php echo $pickDate ?>"><?php echo $pickDate ?></p>
-                                </div>
-
-                                <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">DROP-OFF DATE</div>
-                                     <p name="dropDate" value="<?php echo $dropDate?>"><?php echo $dropDate ?></p>
-                                </div>
-
-                                <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">MAKES OF VEHICLE</div>
-                                    <select class="selectpicker" name="make" data-width="100%">
-                                        <option>All Makes</option>
-                                        <option value="Honda">HONDA</option>
-                                        <option value="Mitshubishi">MITSHUBISHI</option>
-                                        <option value="Kia">KIA</option>
-                                        <option value="Perodua">PERODUA</option>
-                                        <option value="Toyota">TOYOTA</option>
-                                        <option value="Suzuki">SUZUKI</option>
+                                    <div class="b-filter-2__group-title">TYPES OF VEHICLE</div>
+                                    <select class="selectpicker" name="type" data-width="100%">
+                                        <option>All types</option>
+                                        <option value="Compact Car" >Compact Car</option>
+                                        <option value="Midsize Sedan">Midsize Sedan</option>
+                                        <option value="Large Sedan">Large Sedan</option>
+                                        <option value="Large Estate">Large Estate</option>
+                                        <option value="Luxury Sedan">Luxury Sedan</option>
+                                        <option value="SUV">SUV</option>
+                                        <option value="Large SUV">Large SUV</option>
+                                        <option value="Utility Vehicle">Utility Vehicle</option>
+                                        <option value="MPV/Minivan">MPV/Minivan</option>
                                     </select>
                                 </div>
 
                                 <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">TRANSMISSION RANGE</div>
+                                    <div class="b-filter-2__group-title">Transmission</div>
                                     <select class="selectpicker" name="transmission" data-width="100%">
                                         <option>All Transmission</option>
                                         <option value="Automatic">Automatic</option>
@@ -410,7 +399,8 @@
                                         <option value="LPG">LPG</option>
                                     </select>
                                 </div>
-                                <!-- <div class="b-filter-2__group">
+
+                                <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">Filter Price</div>
                                     <div class="ui-filter-slider">
                                         <div id="slider-price"></div>
@@ -418,7 +408,7 @@
                                             <div class="ui-filter-slider__label">Price Range:</div><span class="ui-filter-slider__current" id="slider-snap-value-lower"></span>-<span class="ui-filter-slider__current" id="slider-snap-value-upper"></span>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div>
                                 <!-- <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">Body style</div>
                                     <div class="b-filter-type-2">
