@@ -45,7 +45,7 @@
                 $rental = $row['rental'];
                 $passenger = $row['passenger'];
                 $luggage = $row['luggage'];
-                $make = $row['make'];
+                $type = $row['type'];
                 $transmission = $row['transmission'];
                 $fuel = $row['fuel'];
                 $door = $row['door'];
@@ -72,7 +72,7 @@
         // Create the email and send the message
         $to =  'thisaradilshanbens99@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
         $email_subject = "Your Booking Confirmed with AMERIRENTACAR";
-        $email_body = "Vehicle has received  from your website.\n\n" . "Here are the details:\n\nName: \n\nLast Name: $lastname\n\nEmail: $emailaddress\n\nPhone: $phone\n\nVehicle: $make\n\nVehicle Model: $model\n\nPickup Date: $sDate\n\nDropOff Date: $eDate\n\nSub Total: $subTotal";
+        $email_body = "Vehicle has received  from your website.\n\n" . "Here are the details:\n\nName: \n\nLast Name: $lastname\n\nEmail: $emailaddress\n\nPhone: $phone\n\nVehicle: $type\n\nVehicle Model: $model\n\nPickup Date: $sDate\n\nDropOff Date: $eDate\n\nSub Total: $subTotal";
         $headers = "From: $emailaddress\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
         $headers .= "Reply-To: $emailaddress";
         mail($to, $email_subject, $email_body, $headers);

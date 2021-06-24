@@ -20,6 +20,8 @@ if (isset($_GET['edit'])) {
       $year = $n['year'];
       $engine = $n['engine'];
       $rental = $n['rental'];
+      $week = $n['week'];
+      $month = $n['month'];
       $passenger = $n['passenger'];
       $luggage = $n['luggage'];
       $type = $n['type'];
@@ -196,6 +198,16 @@ if (isset($_GET['edit'])) {
                   <div class="col-15">
                     <label>Rental Per Day ($)</label>
                     <input type="number" class="form-control" name="rental" value="<?php echo $rental; ?>" required>
+                  </div><br>
+
+                  <div class="col-15">
+                    <label>Rental Per Week ($)</label>
+                    <input type="number" class="form-control" name="week" value="<?php echo $week; ?>" required>
+                  </div><br>
+
+                  <div class="col-15">
+                    <label>Rental Per Month ($)</label>
+                    <input type="number" class="form-control" name="month" value="<?php echo $month; ?>" required>
                   </div><br>
 
                   <div class="col-15">

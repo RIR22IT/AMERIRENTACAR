@@ -6,6 +6,8 @@
 	$year = 0;
     $engine = 0;
 	$rental = 0;
+    $week = 0;
+    $month = 0;
     $passenger = 0;
     $luggage = 0;
 	$type = "";
@@ -23,6 +25,8 @@
 		$year = $_POST['year'];
         $engine = $_POST['engine'];
 		$rental = $_POST['rental'];
+        $week = $_POST['week'];
+        $month = $_POST['month'];
         $passenger = $_POST['passenger'];
         $luggage = $_POST['luggage'];
 		$type = $_POST['type'];
@@ -39,7 +43,7 @@
      
         }else{
 
-		$qry = "INSERT INTO car (img, model, year, engine, rental, passenger, luggage, type, transmission, fuel, door, musicOn, ac) VALUES ('$img', '$model', '$year', '$engine', '$rental', '$passenger','$luggage', '$type', '$transmission', '$fuel', '$door','$musicOn', '$ac')"; 
+		$qry = "INSERT INTO car (img, model, year, engine, rental, week, month, passenger, luggage, type, transmission, fuel, door, musicOn, ac) VALUES ('$img', '$model', '$year', '$engine', '$rental', '$week', '$month', '$passenger','$luggage', '$type', '$transmission', '$fuel', '$door','$musicOn', '$ac')"; 
         $run = mysqli_query($db, $qry);
         $_SESSION['message'] = "Added successfully"; 
         if($run){
@@ -57,6 +61,8 @@
 		$year = $_POST['year'];
         $engine = $_POST['engine'];
 		$rental = $_POST['rental'];
+        $week = $_POST['week'];
+        $month = $_POST['month'];
         $passenger = $_POST['passenger'];
         $luggage = $_POST['luggage'];
 		$type = $_POST['type'];
@@ -66,7 +72,7 @@
         $musicOn = $_POST['musicOn'];
         $ac = $_POST['ac'];
 		
-        mysqli_query($db, "UPDATE car SET model='$model', year='$year', engine='$engine', rental='$rental', passenger='$passenger' , luggage='$luggage', type='$type', transmission='$transmission', fuel='$fuel', door='$door' , musicOn='$musicOn', ac='$ac' WHERE id=$id");
+        mysqli_query($db, "UPDATE car SET model='$model', year='$year', engine='$engine', rental='$rental', week='$week', month='$month', passenger='$passenger' , luggage='$luggage', type='$type', transmission='$transmission', fuel='$fuel', door='$door' , musicOn='$musicOn', ac='$ac' WHERE id=$id");
         $_SESSION['message'] = "Updated successfully!"; 
         header('location: viewDashboard.php');
     }
