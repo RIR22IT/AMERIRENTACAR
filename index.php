@@ -129,13 +129,14 @@
         <?php include('./inc/header.php') ?>
 
         <section class="section-filter">
-            <div class="main-slider main-slider-4">
-                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="650px"
-                    data-slider-arrows="false" data-slider-buttons="false">
+            <div class="main-slider main-slider-1">
+                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="true" data-slider-buttons="false">
+
+                    <!-- 1st slide -->
                     <div class="sp-slides">
 
                         <div class="sp-slide">
-                            <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
+                            <img class="sp-image" src="assets/media/components/b-main-slider/Slider-Img-1.png" alt="slider" />
 
                             <div class="area-bg__inner">
                                 <div class="container">
@@ -145,15 +146,13 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div><br><br><br>
-
+                            </div>
                             <div class="container">
-
-                                <form class="b-booking-form" action="list.php" method="POST">
-                                    <div class="area-bg__inner">
+                                <form class="b-booking-form" action="rental-car.php" method="POST" style="top: -60px;">
+                                    <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
                                         <div class="row">
                                             <div class="col-md-4">
-                                                <select class="selectpicker" name="make" data-width="100%">
+                                                <select class="selectpicker" name="make" data-width="115%">
                                                     <option>All Makes</option>
                                                     <option value="Honda">HONDA</option>
                                                     <option value="Mitshubishi">MITSHUBISHI</option>
@@ -162,9 +161,11 @@
                                                     <option value="Toyota">TOYOTA</option>
                                                     <option value="Suzuki">SUZUKI</option>
                                                 </select>
-                                            </div>
+                                            </div><br /><br />
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-4">
-                                                <select class="selectpicker" name="fuel" data-width="100%">
+                                                <select class="selectpicker" name="fuel" data-width="115%">
                                                     <option>All Fuel Type</option>
                                                     <option value="Petrol">Petrol</option>
                                                     <option value="Diesel">Diesel</option>
@@ -174,101 +175,245 @@
                                                     <option value="LPG">LPG</option>
                                                 </select>
                                             </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-4">
-                                                <select class="selectpicker" name="transmission" data-width="100%">
+                                                <select class="selectpicker" name="transmission" data-width="115%">
                                                     <option>All Transmission</option>
                                                     <option value="Automatic">Automatic</option>
                                                     <option value="Manual">Manual</option>
                                                     <option value="Semi-Automatic">Semi-Automatic</option>
                                                 </select>
-                                            </div><br><br><br><br><br>
-
-                                            <!-- <div class="col-md-3">
-                                                <input class="form-control" type="text" id="datepicker"
-                                                    placeholder="Pickup Date" />
-                                            </div> -->
-
-                                            <div class="col-md-3 col-md-offset-4" style = "width: 360px;">
-                                                <button class="btn btn-primary" name="search">Find Now
-                                                </button>
                                             </div>
                                         </div>
-                                        <!-- <div class="row">
-                                            <div class="col-md-3">
-                                                <input class="form-control" type="text" id="datepicker"
-                                                    placeholder="Pickup Date" />
-                                            </div>
-                                            <div class="col-md-3">
-                                                <input class="form-control" type="text" id="offdatepicker"
-                                                    placeholder="Drop Off Date" />
-                                            </div>
-                                        </div> -->
 
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="transmission" data-width="115%">
+                                                    <option>All Models</option>
+                                                    <option value="Automatic">Automatic</option>
+                                                    <option value="Manual">Manual</option>
+                                                    <option value="Semi-Automatic">Semi-Automatic</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4" style="width: 38%">
+                                                <div>
+                                                    <div style="color: white; text-align: left;">Pick-Up Date</div>
+                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4" style="width: 38%">
+                                                <div>
+                                                    <div style="color: white; text-align: left;">Drop-Off Date</div>
+                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4" style="width: 400px;">
+                                            <button class="btn btn-primary" name="search">Find It Now
+                                            </button>
+                                        </div>
                                     </div>
                                 </form>
-                                <!-- <form class="b-booking-form" method="POST" action="rental-car.php">
-                                    <div class="area-bg__inner">
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <select class="selectpicker" name="make" data-width="100%">
-                                                    <option>All Makes</option>
-                                                    <option value="Honda">HONDA</option>
-                                                    <option value="Mitshubishi">MITSHUBISHI</option>
-                                                    <option value="Kia">KIA</option>
-                                                    <option value="Perodua">PERODUA</option>
-                                                    <option value="Toyota">TOYOTA</option>
-                                                    <option value="Suzuki">SUZUKI</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <select class="selectpicker" data-width="100%">
-                                                    <option>All Models</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <input class="form-control" type="text" id="datepicker"
-                                                    placeholder="Pickup Date" />
-                                            </div>
-
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <select class="selectpicker" name="fuel" data-width="100%">
-                                                    <option>All Fuel Type</option>
-                                                    <option value="Petrol">Petrol</option>
-                                                    <option value="Diesel">Diesel</option>
-                                                    <option value="Hybrid">Hybrid</option>
-                                                    <option value="Plugin Electric">Plugin Electric</option>
-                                                    <option value="Petrol + CNG">Petrol + CNG</option>
-                                                    <option value="LPG">LPG</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="col-md-3">
-                                                <select class="selectpicker" name="transmission" data-width="100%">
-                                                    <option>All Transmission</option>
-                                                    <option value="Automatic">Automatic</option>
-                                                    <option value="Manual">Manual</option>
-                                                    <option value="Semi-Automatic">Semi-Automatic</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <input class="form-control" type="text" id="offdatepicker"
-                                                    placeholder="Drop Off Date" />
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    <div class="col-md-3 col-md-offset-3">
-                                        <button class="btn btn-primary" name="search" type="submit">Find Now
-                                        </button>
-                                    </div>
-                                </form> -->
-
                             </div>
                         </div>
                     </div>
+
+                    <!-- 2nd slide -->
+                    <div class="sp-slides">
+
+                        <div class="sp-slide">
+                            <img class="sp-image" src="assets/media/components/b-main-slider/Slider-img---2.png" alt="slider" />
+
+                            <div class="area-bg__inner">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h1 class="b-title-page bg-primary_a">Find Your Car</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <form class="b-booking-form" action="rental-car.php" method="POST" style="top: -100px;">
+                                    <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="make" data-width="115%">
+                                                    <option>All Makes</option>
+                                                    <option value="Honda">HONDA</option>
+                                                    <option value="Mitshubishi">MITSHUBISHI</option>
+                                                    <option value="Kia">KIA</option>
+                                                    <option value="Perodua">PERODUA</option>
+                                                    <option value="Toyota">TOYOTA</option>
+                                                    <option value="Suzuki">SUZUKI</option>
+                                                </select>
+                                            </div><br /><br />
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="fuel" data-width="115%">
+                                                    <option>All Fuel Type</option>
+                                                    <option value="Petrol">Petrol</option>
+                                                    <option value="Diesel">Diesel</option>
+                                                    <option value="Hybrid">Hybrid</option>
+                                                    <option value="Plugin Electric">Plugin Electric</option>
+                                                    <option value="Petrol + CNG">Petrol + CNG</option>
+                                                    <option value="LPG">LPG</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="transmission" data-width="115%">
+                                                    <option>All Transmission</option>
+                                                    <option value="Automatic">Automatic</option>
+                                                    <option value="Manual">Manual</option>
+                                                    <option value="Semi-Automatic">Semi-Automatic</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="transmission" data-width="115%">
+                                                    <option>All Models</option>
+                                                    <option value="Automatic">Automatic</option>
+                                                    <option value="Manual">Manual</option>
+                                                    <option value="Semi-Automatic">Semi-Automatic</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4" style="width: 38%">
+                                                <div>
+                                                    <div style="color: white; text-align: left;">Pick-Up Date</div>
+                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4" style="width: 38%">
+                                                <div>
+                                                    <div style="color: white; text-align: left;">Drop-Off Date</div>
+                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4" style="width: 400px;">
+                                            <button class="btn btn-primary" name="search">Find It Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3rd slide -->
+                    <div class="sp-slides">
+
+                        <div class="sp-slide">
+                            <img class="sp-image" src="assets/media/components/b-main-slider/slider-img---3.png" alt="slider" />
+
+                            <div class="area-bg__inner">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h1 class="b-title-page bg-primary_a">Find Your Car</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <form class="b-booking-form" action="rental-car.php" method="POST" style="top: -100px;">
+                                    <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="make" data-width="115%">
+                                                    <option>All Makes</option>
+                                                    <option value="Honda">HONDA</option>
+                                                    <option value="Mitshubishi">MITSHUBISHI</option>
+                                                    <option value="Kia">KIA</option>
+                                                    <option value="Perodua">PERODUA</option>
+                                                    <option value="Toyota">TOYOTA</option>
+                                                    <option value="Suzuki">SUZUKI</option>
+                                                </select>
+                                            </div><br /><br />
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="fuel" data-width="115%">
+                                                    <option>All Fuel Type</option>
+                                                    <option value="Petrol">Petrol</option>
+                                                    <option value="Diesel">Diesel</option>
+                                                    <option value="Hybrid">Hybrid</option>
+                                                    <option value="Plugin Electric">Plugin Electric</option>
+                                                    <option value="Petrol + CNG">Petrol + CNG</option>
+                                                    <option value="LPG">LPG</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="transmission" data-width="115%">
+                                                    <option>All Transmission</option>
+                                                    <option value="Automatic">Automatic</option>
+                                                    <option value="Manual">Manual</option>
+                                                    <option value="Semi-Automatic">Semi-Automatic</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <select class="selectpicker" name="transmission" data-width="115%">
+                                                    <option>All Models</option>
+                                                    <option value="Automatic">Automatic</option>
+                                                    <option value="Manual">Manual</option>
+                                                    <option value="Semi-Automatic">Semi-Automatic</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4" style="width: 38%">
+                                                <div>
+                                                    <div style="color: white; text-align: left;">Pick-Up Date</div>
+                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4" style="width: 38%">
+                                                <div>
+                                                    <div style="color: white; text-align: left;">Drop-Off Date</div>
+                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4" style="width: 400px;">
+                                            <button class="btn btn-primary" name="search">Find It Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -280,29 +425,23 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="text-center">
-
-
                             <div class="col-md-12">
                                 <div class="section-advantages-1">
-                                    <section class="b-advantages-1"><i
-                                            class="b-advantages-1__icon flaticon-car-dashboard"></i>
+                                    <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-car-dashboard"></i>
                                         <h3 class="b-advantages-1__title">Fast & Easy Booking</h3>
                                         <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis
                                             velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.
                                         </div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
-                                    <section class="b-advantages-1 active"><i
-                                            class="b-advantages-1__icon flaticon-doors"></i>
+                                    <section class="b-advantages-1 active"><i class="b-advantages-1__icon flaticon-doors"></i>
                                         <h3 class="b-advantages-1__title">Many Pickup Locations</h3>
                                         <div class="b-advantages-1__info">We pride ourselves on providing a many pickup
                                             and drop locations service with our wide range of rental cars. Our goal is
-                                            to provide a great customer experience.</div><span
-                                            class="ui-decor-2"></span>
+                                            to provide a great customer experience.</div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
-                                    <section class="b-advantages-1"><i
-                                            class="b-advantages-1__icon flaticon-calculator"></i>
+                                    <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-calculator"></i>
                                         <h3 class="b-advantages-1__title">Best Prices in Sri Lanka</h3>
                                         <div class="b-advantages-1__info">We are all about helping people find the best
                                             car deals in Sri Lanka. Guaranteed best deals for self drive rates and with
@@ -325,15 +464,13 @@
 
         <!-- end .section-default-->
 
-        <section class="section-advantages-2 section-dark area-bg area-bg_dark parallax"
-            style="background-image: url(assets/media/content/bg/bg-1.jpg)">
+        <section class="section-advantages-2 section-dark area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-1.jpg)">
             <div class="area-bg__inner">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="text-center">
-                                <img class="sp-image" src="./images/dealer.png"
-                                    style="margin-left: auto; margin-right: auto; width: 40%;" />
+                                <img class="sp-image" src="./images/dealer.png" style="margin-left: auto; margin-right: auto; width: 40%;" />
 
                             </div>
                         </div>
@@ -404,25 +541,20 @@
         <!-- end .b-about-->
         <div class="info-group block-table block-table_md">
             <div class="info-group__section col-md-6">
-                <section class="b-info b-info_mod-a area-bg area-bg_op_80 area-bg_prim parallax"
-                    style="background-image: url(assets/media/content/bg/bg-4.jpg)">
+                <section class="b-info b-info_mod-a area-bg area-bg_op_80 area-bg_prim parallax" style="background-image: url(assets/media/content/bg/bg-4.jpg)">
                     <div class="area-bg__inner">
-                        <h2 class="b-info__title">Call Today For Booking Your Next Ride<strong
-                                class="b-info__title_lg">(+94) 777 312 848</strong></h2>
-                        <div class="b-info__desc">Operators available 24/7.</div><a class="btn btn-white"
-                            href="#">search your car</a>
+                        <h2 class="b-info__title">Call Today For Booking Your Next Ride<strong class="b-info__title_lg">(+94) 777 312 848</strong></h2>
+                        <div class="b-info__desc">Operators available 24/7.</div><a class="btn btn-white" href="#">search your car</a>
                     </div>
                 </section>
             </div>
             <div class="info-group__section col-md-6">
-                <section class="b-info b-info_mod-b area-bg area-bg_op_80 area-bg_dark-2 parallax"
-                    style="background-image: url(assets/media/content/bg/bg-3.jpg)">
+                <section class="b-info b-info_mod-b area-bg area-bg_op_80 area-bg_dark-2 parallax" style="background-image: url(assets/media/content/bg/bg-3.jpg)">
                     <div class="area-bg__inner">
                         <h2 class="b-info__title">Please Contact Us<strong class="b-info__title_lg">For Special Discount
                                 and Promos</strong></h2>
                         <div class="b-info__desc">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal
-                            sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white"
-                            href="#">cONTACT US</a>
+                            sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white" href="#">cONTACT US</a>
                     </div>
                 </section>
             </div>
@@ -432,11 +564,10 @@
         <!-- end .section-default-->
 
         <!-- end .section-isotope-->
-        <br><br>
+        <br><br><br><br>
 
         <!-- end .b-list-brands-->
-        <div class="section-reviews area-bg area-bg_dark parallax"
-            style="background-image: url(assets/media/content/bg/bg-6.jpg)">
+        <div class="section-reviews area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-6.jpg)">
 
             <div class="area-bg__inner">
 
@@ -447,67 +578,39 @@
                         <center>
                             <h2 class="b-info__title"><strong class="b-info__title_lg">CUSTOMER REVIEWS</strong></h2>
                         </center>
-                        <div class="col-xs-12">
-                            <div class="carousel-reviews owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel"
-                                data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true"
-                                data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
+                        <div class="col-xs-2" style="width: 600px; height: 250px;">
+                            <div class="carousel-reviews" data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
 
                                 <div class="b-blockquote b-blockquote-1">
                                     <!-- <div class="b-blockquote__img">
                                             <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
                                         </div> -->
                                     <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span
-                                                class="b-blockquote__author">Chris Fogden</span><span
-                                                class="b-blockquote__category"></span></cite>
+                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Chris Fogden</span><span class="b-blockquote__category"></span></cite>
                                         <p>Great car in excellent condition and find working order. The staff were
                                             Friendly and helpful and prices are very competitive.They also organised my
                                             local driving permit with ease. I look forward to renting with them again.
                                         </p>
                                     </blockquote>
                                 </div>
-                                <!-- end .b-blockquote-->
+                            </div>
+                            <!-- end .carousel-reviews-->
+                        </div>
+                        <div class="col-xs-12" style="width: 600px; top: -250px; left: 600px;">
+                            <div class="carousel-reviews" data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
+
                                 <div class="b-blockquote b-blockquote-1">
                                     <!-- <div class="b-blockquote__img">
-                                            <img src="assets/media/components/b-blockquote/face-2.jpg" alt="foto" />
+                                            <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
                                         </div> -->
                                     <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span
-                                                class="b-blockquote__author">Gayani Loid</span><span
-                                                class="b-blockquote__category"></span></cite>
+                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Gayani Loid</span><span class="b-blockquote__category"></span></cite>
                                         <p>I had a great service from this company!!! The KIA SUV was in really good
                                             condition. Communication with staff was verry proffessional and very
                                             helpful! I have been using this company for two years and will use them
                                             again without any doubt! Thank you Amire rental!</p>
                                     </blockquote>
                                 </div>
-                                <!-- end .b-blockquote-->
-                                <div class="b-blockquote b-blockquote-1">
-                                    <!-- <div class="b-blockquote__img">
-                                            <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
-                                        </div> -->
-                                    <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span
-                                                class="b-blockquote__author">Taste Of India</span><span
-                                                class="b-blockquote__category"></span></cite>
-                                        <p>We were very happy with Ameri Rent a Car.Sajad Ismail was very friendly and
-                                            helpful. The rental car was in very good condition.Should we again need a
-                                            car in Sri Lanka. We will definitely rent again at Ameri. Highly
-                                            recommended.</p>
-                                    </blockquote>
-                                </div>
-
-                                <div class="b-blockquote b-blockquote-1">
-                                    <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span
-                                                class="b-blockquote__author">James Liam</span><span
-                                                class="b-blockquote__category">Quality Assurance Manager</span></cite>
-                                        <p>Motorland uis aute irure reprehender voluptate velit ese acium fugiat nulla
-                                            pariatur lorem excepteur ipsum et dolore magna aliqua. Ut enim minim veniam
-                                            quis nostrud exercitation ullamco.</p>
-                                    </blockquote>
-                                </div>
-                                <!-- end .b-blockquote-->
                             </div>
                             <!-- end .carousel-reviews-->
                         </div>
@@ -544,7 +647,7 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link"
+                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link"
                                                         href="#"> Admin</a></span><a class="entry-meta__categorie"
                                                     href="#"><strong>19 OCT</strong></a>
                                             </div>
@@ -572,7 +675,7 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
 
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link"
+                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link"
                                                         href="#"> Admin</a></span><a class="entry-meta__categorie"
                                                     href="#"><strong>19 OCT</strong></a>
                                             </div>
@@ -599,7 +702,7 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                 </div>
-                                                <span class="entry-meta__item">Post by<a class="entry-meta__link"
+                                                <span class="entry-meta_item">Post by<a class="entry-meta_link"
                                                         href="#">Admin</a></span><a class="entry-meta__categorie"
                                                     href="blog-main.html"><strong>29 JUL</strong></a>
                                             </div>
@@ -623,14 +726,9 @@
                 </div>
             </div>
         </section>
-
-        <!-- end .section-news-->
-
-        <!-- footer start here-->
         <?php include('./inc/footer.php') ?>
 
     </div>
-    <!-- end layout-theme-->
 
 
     <!-- ++++++++++++-->
@@ -650,7 +748,7 @@
     <!-- Select customization & Color scheme-->
     <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
     <!-- Slider-->
-    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <!-- <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script> -->
     <!-- Pop-up window-->
     <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
     <!-- Mail scripts-->
@@ -675,6 +773,24 @@
     <script src="assets/js/map-custom.js"></script>
     <!-- Datepicker-->
     <script src="assets/plugins/datepicker/jquery.datetimepicker.js"></script>
+
+    <script>
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1; //January is 0!
+        var yyyy = today.getFullYear();
+        if (dd < 10) {
+            dd = '0' + dd
+        }
+        if (mm < 10) {
+            mm = '0' + mm
+        }
+
+        today = yyyy + '-' + mm + '-' + dd;
+        document.getElementById("pickDate").setAttribute("min", today);
+        document.getElementById("dropDate").setAttribute("min", today);
+    </script>
+
 
 </body>
 
