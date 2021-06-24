@@ -170,13 +170,13 @@
                             <?php
                             include('./database/connection.php');
                             if (isset($_POST['search'])) {
-                                $make = $_POST['make'];
+                                $type = $_POST['type'];
                                 $fuel = $_POST['fuel'];
                                 $transmission = $_POST['transmission'];
                                 $pickDate = $_POST['pickDate'];
                                 $dropDate = $_POST['dropDate'];
-                                if ($make != "" || $fuel != "" || $transmission != "") {
-                                    $query = "SELECT * FROM car WHERE make = '$make' OR fuel = '$fuel' OR transmission = '$transmission'";
+                                if ($type != "" || $fuel != "" || $transmission != "") {
+                                    $query = "SELECT * FROM car WHERE type = '$type' OR fuel = '$fuel' OR transmission = '$transmission'";
                                     $data = mysqli_query($db, $query) or die('error');
 
                                     if (mysqli_num_rows($data) > 0) {
@@ -189,7 +189,7 @@
                                             $rental       = $row['rental'];
                                             $passenger    = $row['passenger'];
                                             $luggage      = $row['luggage'];
-                                            $make         = $row['make'];
+                                            $type         = $row['type'];
                                             $transmission = $row['transmission'];
                                             $fuel         = $row['fuel'];
                                             $door         = $row['door'];
@@ -264,13 +264,13 @@
                             <?php
                             include('./database/connection.php');
                             if (isset($_POST['filter'])) {
-                                $make2 = $_POST['make'];
+                                $type2 = $_POST['type'];
                                 $fuel2 = $_POST['fuel'];
                                 $transmission2 = $_POST['transmission'];
                                 $pickDate = $_POST['pickDate'];
                                 $dropDate = $_POST['dropDate'];
-                                if ($make2 != "" || $fuel2 != "" || $transmission2 != "") {
-                                    $query = "SELECT * FROM car WHERE make = '$make2' OR fuel = '$fuel2' OR transmission = '$transmission2'";
+                                if ($type2 != "" || $fuel2 != "" || $transmission2 != "") {
+                                    $query = "SELECT * FROM car WHERE type = '$type2' OR fuel = '$fuel2' OR transmission = '$transmission2'";
                                     $data = mysqli_query($db, $query) or die('error');
 
                                     if (mysqli_num_rows($data) > 0) {
@@ -283,7 +283,7 @@
                                             $rental2       = $row['rental'];
                                             $passenger2    = $row['passenger'];
                                             $luggage2      = $row['luggage'];
-                                            $make2         = $row['make'];
+                                            $type2         = $row['type'];
                                             $transmission2 = $row['transmission'];
                                             $fuel2         = $row['fuel'];
                                             $door2         = $row['door'];
@@ -367,48 +367,63 @@
 
                                 <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">PICK-UP DATE</div>
-                                     <p><?php echo $pickDate ?></p>
+                                    <p><?php echo $pickDate ?></p>
                                 </div>
 
                                 <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">DROP-OFF DATE</div>
-                                     <p><?php echo $dropDate ?></p>
+                                    <p><?php echo $dropDate ?></p>
                                 </div>
 
                                 <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">MAKES OF VEHICLE</div>
-                                    <select class="selectpicker" name="make" data-width="100%">
-                                        <option>All Makes</option>
-                                        <option value="Honda" <?php
-                                                                if ($make == 'Honda') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>HONDA</option>
-                                        <option value="Mitshubishi" <?php
-                                                                    if ($make == 'Mitshubishi') {
+                                    <div class="b-filter-2__group-title">TYPES OF VEHICLE</div>
+                                    <select class="selectpicker" name="type" data-width="100%">
+                                        <option>All types</option>
+                                        <option value="Compact Car" <?php
+                                                                    if ($type == 'Compact Car') {
                                                                         echo "selected";
                                                                     }
-                                                                    ?>>MITSHUBISHI</option>
-                                        <option value="Kia" <?php
-                                                            if ($make == 'Kia') {
+                                                                    ?>>Compact Car</option>
+                                        <option value="Midsize Sedan" <?php
+                                                                        if ($type == 'Midsize Sedan') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>Midsize Sedan</option>
+                                        <option value="Large Sedan" <?php
+                                                                    if ($type == 'Large Sedan') {
+                                                                        echo "selected";
+                                                                    }
+                                                                    ?>>Large Sedan</option>
+                                        <option value="Large Estate" <?php
+                                                                        if ($type == 'Large Estate') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>Large Estate</option>
+                                        <option value="Luxury Sedan" <?php
+                                                                        if ($type == 'Luxury Sedan') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>Luxury Sedan</option>
+                                        <option value="SUV" <?php
+                                                            if ($type == 'SUV') {
                                                                 echo "selected";
                                                             }
-                                                            ?>>KIA</option>
-                                        <option value="Perodua" <?php
-                                                                if ($make == 'Perodua') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>PERODUA</option>
-                                        <option value="Toyota" <?php
-                                                                if ($make == 'Toyota') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>TOYOTA</option>
-                                        <option value="Suzuki" <?php
-                                                                if ($make == 'Suzuki') {
-                                                                    echo "selected";
-                                                                }
-                                                                ?>>SUZUKI</option>
+                                                            ?>>SUV</option>
+                                        <option value="Large SUV" <?php
+                                                                    if ($type == 'Large SUV') {
+                                                                        echo "selected";
+                                                                    }
+                                                                    ?>>Large SUV</option>
+                                        <option value="Utility Vehicle" <?php
+                                                                        if ($type == 'Utility Vehicle') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>Utility Vehicle</option>
+                                        <option value="MPV/Minivan" <?php
+                                                                        if ($type == 'MPV/Minivan') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>MPV/Minivan</option>
                                     </select>
                                 </div>
 

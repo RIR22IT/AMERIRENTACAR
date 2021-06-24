@@ -22,7 +22,7 @@ if (isset($_GET['edit'])) {
       $rental = $n['rental'];
       $passenger = $n['passenger'];
       $luggage = $n['luggage'];
-      $make = $n['make'];
+      $type = $n['type'];
       $transmission = $n['transmission'];
       $fuel = $n['fuel'];
       $door = $n['door'];
@@ -151,11 +151,11 @@ if (isset($_GET['edit'])) {
                 <img class="img-profile rounded-circle" src="../images//admin-img.jpg">
               </a>
             </li>
-              <!--logout btn-->
+            <!--logout btn-->
             <li class="nav-item dropdown no-arrow" style="padding-top:15px; ">
               <a href="logout.php?logout" class="btn btn-outline-secondary" role="button" aria-pressed="true"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
             </li>
-          
+
           </ul>
 
         </nav>
@@ -212,44 +212,68 @@ if (isset($_GET['edit'])) {
 
                 <div class="col-md-offset-1 col-md-6" style="bottom: -22px;">
                   <div class="col-15">
-                    <select class="form-control" id="make" name="make" style="height: 50px;" required>
-                      <option selected disabled="disabled">All Makes</option>
-                      <option value="Honda" <?php
-                                            if ($make == 'Honda') {
-                                              echo "selected";
-                                            }
-                                            ?>>Honda</option>
-
-                      <option value="Mitshubishi" <?php
-                                                  if ($make == 'Mitshubishi') {
+                    <select class="form-control" id="type" name="type" style="height: 50px;" required>
+                      <option selected disabled="disabled">All Types</option>
+                      <option value="Compact Car" <?php
+                                                  if ($type == 'Compact Car') {
                                                     echo "selected";
                                                   }
-                                                  ?>>Mitshubishi</option>
+                                                  ?>>Compact Car</option>
 
-                      <option value="Kia" <?php
-                                          if ($make == 'Kia') {
+                      <option value="Midsize Sedan" <?php
+                                                    if ($type == 'Midsize Sedan') {
+                                                      echo "selected";
+                                                    }
+                                                    ?>>Midsize Sedan</option>
+
+                      <option value="Midsize Estate" <?php
+                                                      if ($type == 'Midsize Estate') {
+                                                        echo "selected";
+                                                      }
+                                                      ?>>Midsize Estate</option>
+
+                      <option value="Large Sedan" <?php
+                                                  if ($type == 'Large Sedan') {
+                                                    echo "selected";
+                                                  }
+                                                  ?>>Large Sedan</option>
+
+                      <option value="Large Estate" <?php
+                                                    if ($type == 'Large Estate') {
+                                                      echo "selected";
+                                                    }
+                                                    ?>>Large Estate</option>
+
+                      <option value="Luxury Sedan" <?php
+                                                    if ($type == 'Luxury Sedan') {
+                                                      echo "selected";
+                                                    }
+                                                    ?>>Luxury Sedan</option>
+
+                      <option value="SUV" <?php
+                                          if ($type == 'SUV') {
                                             echo "selected";
                                           }
-                                          ?>>Kia</option>
+                                          ?>>SUV</option>
 
-                      <option value="Perodua" <?php
-                                              if ($make == 'Perodua') {
-                                                echo "selected";
-                                              }
-                                              ?>>Perodua</option>
+                      <option value="Large SUV" <?php
+                                                if ($type == 'Large SUV') {
+                                                  echo "selected";
+                                                }
+                                                ?>>Large SUV</option>
 
-                      <option value="Toyota" <?php
-                                              if ($make == 'Toyota') {
-                                                echo "selected";
-                                              }
-                                              ?>>Toyota</option>
+                      <option value="Utility Vehicle" <?php
+                                                      if ($type == 'Utility Vehicle') {
+                                                        echo "selected";
+                                                      }
+                                                      ?>>Utility Vehicle</option>
 
-                      <option value="Suzuki" <?php
-                                              if ($make == 'Suzuki') {
-                                                echo "selected";
-                                              }
-                                              ?>>Suzuki</option>
-                    </select>
+                      <option value="MPV/Minivan" <?php
+                                                      if ($type == 'MPV/Minivan') {
+                                                        echo "selected";
+                                                      }
+                                                      ?>>MPV/Minivan</option>
+                  </select>
                   </div><br>
 
                   <div class="col-15">
@@ -346,46 +370,46 @@ if (isset($_GET['edit'])) {
                   <hr><br>
 
                   <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;" required>
-                    <option selected disabled="disabled">Music Player</option>
+                    <select class="form-control" id="musicOn" name="musicOn" style="height: 50px;" required>
+                      <option selected disabled="disabled">Music Player</option>
 
-                    <option value="Yes" <?php
-                                        if ($musicOn == 'Yes') {
-                                          echo "selected";
-                                        }
-                                        ?>>Music Player - Yes</option>
+                      <option value="Yes" <?php
+                                          if ($musicOn == 'Yes') {
+                                            echo "selected";
+                                          }
+                                          ?>>Music Player - Yes</option>
 
-                    <option value="No" <?php
-                                        if ($musicOn == 'No') {
-                                          echo "selected";
-                                        }
-                                        ?>>Music Player - No</option>
-                  </select>
-                </div><br>
+                      <option value="No" <?php
+                                          if ($musicOn == 'No') {
+                                            echo "selected";
+                                          }
+                                          ?>>Music Player - No</option>
+                    </select>
+                  </div><br>
 
-                <div class="col-15" style="bottom: -30px;">
-                  <select class="form-control" id="ac" name="ac" style="height: 50px;" required>
-                    <option selected disabled="disabled">A/C</option>
+                  <div class="col-15" style="bottom: -30px;">
+                    <select class="form-control" id="ac" name="ac" style="height: 50px;" required>
+                      <option selected disabled="disabled">A/C</option>
 
-                    <option value="Yes" <?php
-                                        if ($ac == 'Yes') {
-                                          echo "selected";
-                                        }
-                                        ?>>A/C</option>
+                      <option value="Yes" <?php
+                                          if ($ac == 'Yes') {
+                                            echo "selected";
+                                          }
+                                          ?>>A/C</option>
 
-                    <option value="No" <?php
-                                        if ($ac == 'No') {
-                                          echo "selected";
-                                        }
-                                        ?>>non A/C</option>
-                  </select>
-                </div><br>
+                      <option value="No" <?php
+                                          if ($ac == 'No') {
+                                            echo "selected";
+                                          }
+                                          ?>>non A/C</option>
+                    </select>
+                  </div><br>
 
-                <?php if ($update == true) : ?>
-                <button class="btn btn-primary" type="submit" name="update">update</button>
-              <?php else : ?>
-                <button class="btn" type="submit" name="save">Update</button>
-              <?php endif ?>
+                  <?php if ($update == true) : ?>
+                    <button class="btn btn-primary" type="submit" name="update">update</button>
+                  <?php else : ?>
+                    <button class="btn" type="submit" name="save">Update</button>
+                  <?php endif ?>
 
 
                 </div>
