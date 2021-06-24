@@ -189,7 +189,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row">
+                                        <!-- <div class="row">
                                             <div class="col-md-4">
                                                 <select class="selectpicker" name="transmission" data-width="115%">
                                                     <option selected disabled="disabled">All Models</option>
@@ -198,7 +198,7 @@
                                                     <option value="Semi-Automatic">#</option>
                                                 </select>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                         <div class="row">
                                             <div class="col-md-4" style="width: 38%">
