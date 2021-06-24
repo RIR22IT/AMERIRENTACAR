@@ -260,6 +260,99 @@
                             ?>
                             <!-- end .b-goods-1-->
 
+                            <!-- search filter result -->
+                            <?php
+                            include('./database/connection.php');
+                            if (isset($_POST['filter'])) {
+                                $make2 = $_POST['make'];
+                                $fuel2 = $_POST['fuel'];
+                                $transmission2 = $_POST['transmission'];
+                                $pickDate = $_POST['pickDate'];
+                                $dropDate = $_POST['dropDate'];
+                                if ($make2 != "" || $fuel2 != "" || $transmission2 != "") {
+                                    $query = "SELECT * FROM car WHERE make = '$make2' OR fuel = '$fuel2' OR transmission = '$transmission2'";
+                                    $data = mysqli_query($db, $query) or die('error');
+
+                                    if (mysqli_num_rows($data) > 0) {
+                                        while ($row = mysqli_fetch_assoc($data)) {
+                                            $id2           = $row['id'];
+                                            $img2          = $row['img'];
+                                            $model2        = $row['model'];
+                                            $year2         = $row['year'];
+                                            $engine2       = $row['engine'];
+                                            $rental2       = $row['rental'];
+                                            $passenger2    = $row['passenger'];
+                                            $luggage2      = $row['luggage'];
+                                            $make2         = $row['make'];
+                                            $transmission2 = $row['transmission'];
+                                            $fuel2         = $row['fuel'];
+                                            $door2         = $row['door'];
+                                            $musicOn2      = $row['musicOn'];
+                                            $ac2           = $row['ac'];
+                                            $localPrice2   = number_format((float)$rental2 * 200, 2, '.', '');
+                            ?>
+
+                                            <!-- end .b-goods-1-->
+                                            <section class="b-goods-1">
+                                                <div class="row">
+                                                    <div class="b-goods-1__img">
+                                                        <a class="js-zoom-images" href="">
+                                                            <?php echo '<img class="img-responsive" src="./admin/upload/' . $img2 . '" width = "100%" height = "auto" alt = "Image">' ?>
+                                                        </a>
+                                                    </div>
+                                                    <div class="b-goods-1__inner">
+                                                        <div class="b-goods-1__header"><span class="b-goods-1__price hidden-th">$<?php echo $rental2 ?><span class="b-goods-1__price-msrp">Rs.
+                                                                    <?php echo $localPrice2 ?></span></span><a class="b-goods-1__choose hidden-th" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
+                                                            <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $model2 ?></a>
+                                                            </h2>
+                                                        </div>
+                                                        <div class="b-goods-1__info">
+                                                        </div><span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental2 ?><span class="b-goods-1__price-msrp">Rs. <?php echo $localPrice2 ?></span><a class="b-goods-1__choose" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
+                                                        </span>
+                                                        <div class="b-goods-1__section">
+                                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-4">
+                                                                Highlights</h3>
+                                                            <div class="collapse in" id="desc-4">
+                                                                <ul class="b-goods-1__desc list-unstyled">
+                                                                    <li class="b-goods-1__desc-item"><?php echo $engine2 ?>cc</li>
+                                                                    <li class="b-goods-1__desc-item"><span class="hidden-th">Model:</span> <?php echo $year2 ?></li>
+                                                                    <li class="b-goods-1__desc-item"><?php echo $transmission2 ?></li>
+                                                                    <li class="b-goods-1__desc-item hidden-th"><?php echo $fuel2 ?></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="b-goods-1__section hidden-th">
+                                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#list-4" aria-expanded="false">specifications</h3>
+                                                            <div class="collapse" id="list-4">
+                                                                <ul class="b-goods-1__list list list-mark-5 list_mark-prim">
+                                                                    <li class="b-goods-1__list-item"><strong>Year:</strong> <?php echo $year2 ?></li>
+                                                                    <li class="b-goods-1__list-item"><strong>Engine:</strong> <?php echo $engine2 ?>cc</li>
+                                                                    <li class="b-goods-1__list-item"><strong>Luggage:</strong> <?php echo $luggage2 ?></li>
+                                                                    <li class="b-goods-1__list-item"><strong>Music Player:</strong> <?php echo $musicOn2 ?></li>
+                                                                    <li class="b-goods-1__list-item"><strong>A/C:</strong> <?php echo $ac2 ?></li>
+                                                                    <li class="b-goods-1__list-item"><strong>Passengers:</strong> <?php echo $passenger2 ?></li>
+                                                                    <li class="b-goods-1__list-item"><strong>Doors:</strong> <?php echo $door2 ?> doors</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        <?php
+                                        }
+                                    } else {
+                                        ?>
+                                        <h2> Results Not Found. View All Vehicles </h2><br>
+                                        <div class="col-md-3 col-md-offset-3">
+                                            <a class="btn btn-primary" href="rental-car-all.php" style="width: 200px;">VIEW
+                                            </a>
+                                        </div>
+                            <?php
+                                    }
+                                }
+                            }
+                            ?>
+
                         </div>
                         <!-- end .goods-group-2-->
 
@@ -271,48 +364,136 @@
                         <form class="b-filter-2 bg-grey" method="POST" action="list.php">
                             <h3 class="b-filter-2__title">search options</h3>
                             <div class="b-filter-2__inner">
+
                                 <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">PICK-UP DATE</div>
-                                    <input class="form-control" type="date" placeholder="Select date" value="<?php echo $pickDate ?>" disabled/>
+                                     <p><?php echo $pickDate ?></p>
                                 </div>
 
                                 <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">DROP-OFF DATE</div>
-                                    <input class="form-control" type="date" placeholder="Select date" />
+                                     <p><?php echo $dropDate ?></p>
                                 </div>
 
                                 <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">MAKES OF VEHICLE</div>
                                     <select class="selectpicker" name="make" data-width="100%">
                                         <option>All Makes</option>
-                                        <option value="Honda">HONDA</option>
-                                        <option value="Mitshubishi">MITSHUBISHI</option>
-                                        <option value="Kia">KIA</option>
-                                        <option value="Perodua">PERODUA</option>
-                                        <option value="Toyota">TOYOTA</option>
-                                        <option value="Suzuki">SUZUKI</option>
-                                    </select>
-                                </div>
-                                <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">MODEL OF THE VEHICLE</div>
-                                    <select class="selectpicker" name="transmission" data-width="100%">
-                                        <option>All Models</option>
-                                        <option value="Automatic">#</option>
-                                        <option value="Manual">#</option>
-                                        <option value="Semi-Automatic">#</option>
-                                    </select>
-                                </div>
-                                <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">TRANSMISSION RANGE</div>
-                                    <select class="selectpicker" name="transmission" data-width="100%">
-                                        <option>All Transmission</option>
-                                        <option value="Automatic">Automatic</option>
-                                        <option value="Manual">Manual</option>
-                                        <option value="Semi-Automatic">Semi-Automatic</option>
+                                        <option value="Honda" <?php
+                                                                if ($make == 'Honda') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>HONDA</option>
+                                        <option value="Mitshubishi" <?php
+                                                                    if ($make == 'Mitshubishi') {
+                                                                        echo "selected";
+                                                                    }
+                                                                    ?>>MITSHUBISHI</option>
+                                        <option value="Kia" <?php
+                                                            if ($make == 'Kia') {
+                                                                echo "selected";
+                                                            }
+                                                            ?>>KIA</option>
+                                        <option value="Perodua" <?php
+                                                                if ($make == 'Perodua') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>PERODUA</option>
+                                        <option value="Toyota" <?php
+                                                                if ($make == 'Toyota') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>TOYOTA</option>
+                                        <option value="Suzuki" <?php
+                                                                if ($make == 'Suzuki') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>SUZUKI</option>
                                     </select>
                                 </div>
 
                                 <div class="b-filter-2__group">
+                                    <div class="b-filter-2__group-title">TRANSMISSION RANGE</div>
+                                    <select class="selectpicker" name="transmission" data-width="100%">
+                                        <option>All Transmission</option>
+                                        <option value="Automatic" <?php
+                                                                    if ($transmission == 'Automatic') {
+                                                                        echo "selected";
+                                                                    }
+                                                                    ?>>Automatic</option>
+                                        <option value="Manual" <?php
+                                                                if ($transmission == 'Manual') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>Manual</option>
+                                        <option value="Semi-Automatic" <?php
+                                                                        if ($transmission == 'Semi-Automatic') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>Semi-Automatic</option>
+                                    </select>
+                                </div>
+
+                                <div class="b-filter-2__group">
+                                    <div class="b-filter-2__group-title">Transmission</div>
+                                    <select class="selectpicker" name="transmission" data-width="100%">
+                                        <option>All Transmission</option>
+                                        <option value="Automatic" <?php
+                                                                    if ($transmission == 'Automatic') {
+                                                                        echo "selected";
+                                                                    }
+                                                                    ?>>Automatic</option>
+                                        <option value="Manual" <?php
+                                                                if ($transmission == 'Manual') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>Manual</option>
+                                        <option value="Semi-Automatic" <?php
+                                                                        if ($transmission == 'Semi-Automatic') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>Semi-Automatic</option>
+                                    </select>
+                                </div>
+
+                                <div class="b-filter-2__group">
+                                    <div class="b-filter-2__group-title">FUEL</div>
+                                    <select class="selectpicker" name="fuel" data-width="100%">
+                                        <option>All Fuel Type</option>
+                                        <option value="Petrol" <?php
+                                                                if ($fuel == 'Petrol') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>Petrol</option>
+                                        <option value="Diesel" <?php
+                                                                if ($fuel == 'Diesel') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>Diesel</option>
+                                        <option value="Hybrid" <?php
+                                                                if ($fuel == 'Hybrid') {
+                                                                    echo "selected";
+                                                                }
+                                                                ?>>Hybrid</option>
+                                        <option value="Plugin Electric" <?php
+                                                                        if ($fuel == 'Plugin Electric') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>Plugin Electric</option>
+                                        <option value="Petrol + CNG" <?php
+                                                                        if ($fuel == 'Petrol + CNG') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>Petrol + CNG</option>
+                                        <option value="LPG" <?php
+                                                            if ($fuel == 'LPG') {
+                                                                echo "selected";
+                                                            }
+                                                            ?>>LPG</option>
+                                    </select>
+                                </div>
+
+                                <!-- <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">Filter Price</div>
                                     <div class="ui-filter-slider">
                                         <div id="slider-price"></div>
@@ -320,8 +501,8 @@
                                             <div class="ui-filter-slider__label">Price Range:</div><span class="ui-filter-slider__current" id="slider-snap-value-lower"></span>-<span class="ui-filter-slider__current" id="slider-snap-value-upper"></span>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="b-filter-2__group">
+                                </div> -->
+                                <!-- <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">Body style</div>
                                     <div class="b-filter-type-2">
                                         <div class="b-filter-type-2__item">
@@ -354,9 +535,11 @@
                                             <label class="b-filter-type-2__label" for="typeMinicar"><i class="b-filter-type-2__icon flaticon-car-1"></i><span class="b-filter-type-2__title">MINICAR</span>
                                             </label>
                                         </div>
-                                    </div>
-                                </div>
-
+                                    </div><br />
+                                </div> -->
+                                <div class="col-md-5">
+                                    <button style="width: 200px; left:-5px;" class="btn btn-primary" name="filter">SEARCH</button>
+                                </div><br />
                             </div>
                         </form>
                         <!-- end .b-filter-->
@@ -393,7 +576,7 @@
     <!-- Select customization & Color scheme-->
     <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
     <!-- Slider-->
-    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <!-- <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script> -->
     <!-- Pop-up window-->
     <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
     <!-- Mail scripts-->

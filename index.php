@@ -227,7 +227,7 @@
                     </div>
 
                     <!-- 2nd slide -->
-                    <div class="sp-slides">
+                    <!-- <div class="sp-slides">
 
                         <div class="sp-slide">
                             <img class="sp-image" src="assets/media/components/b-main-slider/Slider-img---2.png" alt="slider" />
@@ -318,10 +318,10 @@
                                 </form>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- 3rd slide -->
-                    <div class="sp-slides">
+                    <!-- <div class="sp-slides">
 
                         <div class="sp-slide">
                             <img class="sp-image" src="assets/media/components/b-main-slider/slider-img---3.png" alt="slider" />
@@ -412,7 +412,7 @@
                                 </form>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>AMERIRENTACAR | RENTAL CAR ALL</title>
+    <title>AMERIRENTACAR | CAR LIST ALL</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -183,6 +183,7 @@
                 <div class="col-md-8">
                     <main class="l-main-content">
                         <div class="filter-goods">
+                            
                             <div class="filter-goods__select">
                                 <div class="btns-switch"><i class="btns-switch__item js-view-th active icon fa fa-th-large"></i><i class="btns-switch__item js-view-list icon fa fa-th-list"></i>
                                 </div>
