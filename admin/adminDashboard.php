@@ -176,6 +176,16 @@ if (!isset($_SESSION['email'])) {
                   <input type="number" class="form-control" name="rental" value="" required>
                 </div><br>
 
+                <div class="col-15">
+                  <label>Rental Per Week ($)</label>
+                  <input type="number" class="form-control" name="week" value="" required>
+                </div><br>
+
+                <div class="col-15">
+                  <label>Rental Per Month ($)</label>
+                  <input type="number" class="form-control" name="month" value="" required>
+                </div><br>
+
                 <div class=" col-15">
                   <label>No of Passengers</label>
                   <input type="number" class="form-control" name="passenger" value="" required>

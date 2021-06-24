@@ -151,7 +151,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <select class="selectpicker" name="type" data-width="115%">
-                                                    <option selected disabled="disabled">All Types</option>
+                                                    <option>All Types</option>
                                                     <option value="Compact Car">Compact Car</option>
                                                     <option value="Midsize sedan">Midsize Sedan</option>
                                                     <option value="Midsize Estate">Midsize Estate</option>
@@ -168,7 +168,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <select class="selectpicker" name="fuel" data-width="115%">
-                                                    <option selected disabled="disabled">All Fuel Type</option>
+                                                    <option>All Fuel Type</option>
                                                     <option value="Petrol">Petrol</option>
                                                     <option value="Diesel">Diesel</option>
                                                     <option value="Hybrid">Hybrid</option>
@@ -181,7 +181,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <select class="selectpicker" name="transmission" data-width="115%">
-                                                    <option selected disabled="disabled">All Transmission</option>
+                                                    <option>All Transmission</option>
                                                     <option value="Automatic">Automatic</option>
                                                     <option value="Manual">Manual</option>
                                                     <option value="Semi-Automatic">Semi-Automatic</option>
@@ -204,7 +204,7 @@
                                             <div class="col-md-4" style="width: 38%">
                                                 <div>
                                                     <div style="color: white; text-align: left;">Pick-Up Date</div>
-                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" required/>
+                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -213,7 +213,7 @@
                                             <div class="col-md-4" style="width: 38%">
                                                 <div>
                                                     <div style="color: white; text-align: left;">Drop-Off Date</div>
-                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" required/>
+                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date"/>
                                                 </div>
                                             </div>
                                         </div>

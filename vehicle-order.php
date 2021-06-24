@@ -1,5 +1,4 @@
 <?php include('./database/connection.php'); ?>
-<?php include('./admin/php_code.php'); ?>
 
 <?php
 // if (isset($_GET['view'])) {
@@ -9,6 +8,24 @@
     $qty = ($dropDate - $pickDate)/60/60/24;
     $startDate = $_GET['pickDate'];
     $endDate = $_GET['dropDate'];
+    $pickupLoc = $_GET['pickupLoc'];
+    $dropLoc = $_GET['dropLoc']; 
+
+    if(isset($_GET['arriving'])){
+        $arriving = $_GET['arriving'];
+    }
+    if(isset($_GET['departing'])){
+        $departing = $_GET['departing'];
+    }
+    if(isset($_GET['millage'])){
+        $millage = $_GET['millage'];
+    }
+    if(isset($_GET['excess'])){
+        $excess = $_GET['excess'];
+    }
+    if(isset($_GET['license'])){
+        $license = $_GET['license'];
+    }
 
     // $update = true;
     $qry = "select * from car where id = $vehicleID";
@@ -18,13 +35,50 @@
             $id = $row['id'];
             $model = $row['model'];
             $rental = $row['rental'];
-            $make = $row['make'];
+            $week = $row['week'];
+            $month = $row['month'];
+            $type = $row['type'];
             $img = $row['img']; 
         }
     }
 
     //Calculate the subtotal
-    $subTot = $rental * $qty;
+    //$subTot = $rental * $qty;
+    $tot = 0;
+    if(0 < $qty && $qty < 7){
+        $tot += $qty * $rental;
+    }else if(7 < $qty && $qty < 29){
+        $tot += $qty * ($week/7);
+    }else{
+        $tot += $qty * ($month/30);
+    }
+
+    $finalTot = 0;
+    if($millage == 'millage'){
+        $finalTot += (2 * $tot);
+    }
+    if($excess =='excess'){
+        $finalTot += 10;
+    }
+    if($license == 'license'){
+        $finalTot += 25;
+    }
+    
+    if(($pickupLoc == 'hotelP' || $pickupLoc == 'airportP') && ($dropLoc == 'hotelD' || $dropLoc == 'airportD')){
+        $subTot = $finalTot + 17;
+    }else if($arriving == 'arriving' && $departing == 'departing'){
+        $subTot = $finalTot + 50;
+    }else if($arriving == 'arriving'){
+        $subTot = $finalTot + 25;
+    }else if($departing == 'departing'){
+        $subTot = $finalTot + 25;
+    }else{
+        $subTot = $finalTot;
+    }
+
+    
+
+
 // }
 ?>
 
@@ -153,7 +207,7 @@
             </ul>
         </div>
         <!-- Header -->
-        <?php include('./inc/header.php') ?>
+       
 
         <!-- main slider start-->
         <div class="main-slider main-slider-1">
@@ -232,7 +286,7 @@
                                     <tr>
 			                        <!-- <td><?php echo $id ?></td> -->
 			                        <td><?php echo '<img src="./admin/upload/' .$img.'" width = "70px;" height = "60px;" alt = "Image">'?></td>
-                                    <td><b>Vehicle: </b><?php echo $make ?><br><br>
+                                    <td><b>Vehicle: </b><?php echo $type ?><br><br>
                                     <b>Model:</b> <?php echo $model ?></td>
                                     <td><?php echo $startDate ?></td>
                                     <td><?php echo $endDate ?></td>
