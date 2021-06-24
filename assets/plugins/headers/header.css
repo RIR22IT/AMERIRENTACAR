@@ -100,7 +100,7 @@
 
 .header-color-white *,
 .header.header-color-white .navbar .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
 }
 
 .header.header-color-white .toggle-menu-button .toggle-menu-button-icon span {
@@ -124,7 +124,7 @@
 
 .header-color-black *,
 .header.header-color-black .navbar .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
 }
 
 .header.header-color-black .navbar .navbar-nav > li > a:hover {
@@ -153,7 +153,7 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-nav > li > a {
 
 body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-nav > li:hover > a,
 .header.navbar-scrolling .navbar .navbar-nav > li a:hover {
-    color: #333 !important;
+    color: #fff !important;
 }
 
 body:not(.header-demo) .header.navbar-scrolling .navbar .toggle-menu-button .toggle-menu-button-icon span {
@@ -570,7 +570,7 @@ body:not(.header-demo) .navbar-scrolling .btn {
     padding: 0 15px;
     font-size: 13px;
     line-height: 31px;
-    color: #fff;
+    color: #000;
     border: 0;
     border-radius: 0;
     -webkit-transition: color 0.3s ease-out;
