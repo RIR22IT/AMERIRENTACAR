@@ -33,9 +33,9 @@ body{
     top: 0;
     right: 0;
     border-left: 150px solid transparent;
-    border-right: 150px solid #ff393c;
+    border-right: 150px solid #1148ad;
     border-top: 100px solid transparent;
-    border-bottom: 100px solid #ff393c;
+    border-bottom: 100px solid #1148ad;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     z-index: 5;
@@ -46,10 +46,10 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    border-left: 150px solid #ff5355;
+    border-left: 150px solid #1148ad;
     border-right: 150px solid transparent;
     border-top: 100px solid transparent;
-    border-bottom: 100px solid #ff5355;
+    border-bottom: 100px solid #1148ad;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     z-index: 4;
@@ -118,7 +118,7 @@ body{
 }
 
 .vertical-center button {
-    background: #ff393c;
+    background: #00245b;
     padding: 10px 10px 10px 10px;
     font-size: 20px;
 }

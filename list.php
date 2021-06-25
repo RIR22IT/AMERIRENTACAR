@@ -340,7 +340,7 @@
                                         ?>
                                         <h2> Results Not Found. View All Vehicles </h2><br>
                                         <div class="col-md-3 col-md-offset-3">
-                                            <a class="btn btn-primary" href="rental-car-all.php" style="width: 200px;">VIEW
+                                            <a class="btn btn-primary" href="list_all.php" style="width: 200px;">VIEW
                                             </a>
                                         </div>
                             <?php
