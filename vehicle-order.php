@@ -38,21 +38,42 @@
 
     //define the total
     $subTot = 0;
+
+    //Pickuploc charges
+    if($pickupLoc == 'hotelP'){
+        $subTot = $subTot + $tot + 8;
+    }else if($pickupLoc == 'airportP'){
+        $subTot = $subTot + $tot + 17;
+    }else{
+        $subTot = $subTot + $tot;
+    }
+
+    
+    //DropLoc charges
+    if($dropLoc == 'hotelD'){
+        $subTot = $subTot + $tot + 8;
+    }else if($dropLoc == 'airportP'){
+        $subTot = $subTot + $tot + 17;
+    }else{
+        $subTot = $subTot + $tot;
+    }
+
+    
     $c = count($select);
     
     for($i=0; $i<$c; $i++){
         if($select[$i] == 'arriving'){
             if($pickupLoc == 'hotelP' || $pickupLoc == 'airportP'){
-                $subTot = $subTot + $tot + 25;
+                $subTot = $subTot + 10;
             }else{
-                $subTot = $subTot + $tot;
+                $subTot = $subTot;
             }
         }
         if($select[$i] == 'departing'){
             if($dropLoc == 'hotelD' || $dropLoc == 'airportD'){
-                $subTot = $subTot + $tot + 25;
+                $subTot = $subTot +  10;
             }else{
-                $subTot = $subTot + $tot;
+                $subTot = $subTot;
             }
 
         }
@@ -61,37 +82,21 @@
         }
         if($select[$i] == 'excess'){
             if($type == 'Compact Car' || $type == 'Midsize sedan' || $type == 'Midsize Estate' || $type == 'Large Sedan' || $type == 'Large Estate' || $type == 'Large Sedan'){
-                $subTot = $subTot + $tot + 10;
+                $subTot = $subTot + 10;
             }else{
-                $subTot = $subTot + $tot + 30;
+                $subTot = $subTot + 30;
             }
 
         }
         if($select[$i] == 'license'){
-            $subTot = $subTot + $tot + 25;
+            $subTot = $subTot +  25;
         }
         if($select[$i] == 'require'){
-            $subTot = $subTot + $tot;
+            $subTot = $subTot;
         }
     }
 
-    //Pickuploc charges
-    if($pickupLoc == 'hotelP'){
-        $subTot = $subTot + 8;
-    }else if($pickupLoc == 'airportP'){
-        $subTot = $subTot + 17;
-    }else{
-        $subTot = $subTot;
-    }
-
-    //DropLoc charges
-    if($dropLoc == 'hotelD'){
-        $subTot = $subTot + 8;
-    }else if($dropLoc == 'airportP'){
-        $subTot = $subTot + 17;
-    }else{
-        $subTot = $subTot;
-    }
+    
 
     // if(isset($_GET['arriving'])){
     //     $arriving = $_GET['arriving'];
@@ -349,7 +354,7 @@
                                         <th>PRODUCT</th>
                                         <th>PICKUP DATE</th>
                                         <th>DROP DATE</th>
-                                        <th>PRICE</th>
+                                        <th>PRICE (PER DAY)</th>
                                         <th>QUANTITY</th>
                                         <th>SUBTOTAL</th>
                                     </tr>
