@@ -357,7 +357,7 @@
                 </div>
                 <div class="col-md-3">
                     <aside class="l-sidebar">
-                        <form class="b-filter-2 bg-grey" method="POST" action="list.php">
+                        <form class="b-filter-2 bg-grey" method="POST" action='list.php'>
                             <h3 class="b-filter-2__title">search options</h3>
                             <div class="b-filter-2__inner">
 
@@ -444,6 +444,7 @@
                                         </div>
                                     </div><br />
                                 </div> -->
+                                
                                 <div class="col-md-5">
                                     <button style="width: 200px; left:-5px;" class="btn btn-primary" name="filter">SEARCH</button>
                                 </div><br />

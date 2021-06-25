@@ -265,69 +265,6 @@
                                         }
                                     } ?>
 
-                            <!-- <section class="b-goods-1 b-goods-1_mod-a">
-                                <div class="row">
-                                    <div class="b-goods-1__img">
-                                        <a class="js-zoom-images" href="assets/media/components/b-goods/263x210_2.jpg">
-                                            <img class="img-responsive"
-                                                src="assets/media/components/b-goods/263x210_2.jpg" alt="foto" />
-                                        </a><span class="b-goods-1__price hidden-th">$<span
-                                                class="b-goods-1__price-msrp">MSRP $27,000</span></span>
-                                    </div>
-                                    <div class="b-goods-1__inner">
-                                        <div class="b-goods-1__header"><a class="b-goods-1__choose hidden-th"
-                                                href="listing-1.html"></a>
-                                            <h2 class="b-goods-1__name"><a href="car-details.html">Lexus GX 490i
-                                                    Hybird</a></h2>
-                                        </div>
-                                        <div class="b-goods-1__info">Duis aute irure reprehender voluptate velit esacium
-                                            fugiat nula pariatur excepteurd magna aliqua ut enim ad minim veniam quis
-                                            nostrud Lorem ipsum dolor sit amet con sectetur adipisicing elit sed do
-                                            eiusmod tempor
-                                            incididunt<span class="b-goods-1__info-more collapse" id="info-2"> lorem
-                                                ipsum dolor sit amet, consectetur adipisicing elit. Odit aut rerum
-                                                numquam hic eum, aperiam fuga, pariatur repellendus. Incidunt corporis
-                                                iusto illo nesciunt soluta optio eius aliquam. Similique, laborum
-                                                dicta!</span>
-                                            <span class="b-goods-1__info-link" data-toggle="collapse"
-                                                data-target="#info-2"></span>
-                                        </div><span class="b-goods-1__price_th text-primary visible-th">$45,000<span
-                                                class="b-goods-1__price-msrp">MSRP $27,000</span><a
-                                                class="b-goods-1__choose" href="listing-1.html"></a>
-                                        </span>
-                                        <div class="b-goods-1__section">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-2">
-                                                Highlights</h3>
-                                            <div class="collapse in" id="desc-2">
-                                                <ul class="b-goods-1__desc list-unstyled">
-                                                    <li class="b-goods-1__desc-item">35,000 mi</li>
-                                                    <li class="b-goods-1__desc-item"><span
-                                                            class="hidden-th">Model:</span> 2017</li>
-                                                    <li class="b-goods-1__desc-item">Auto</li>
-                                                    <li class="b-goods-1__desc-item hidden-th">320 hp</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="b-goods-1__section hidden-th">
-                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#list-2"
-                                                aria-expanded="false">specifications</h3>
-                                            <div class="collapse" id="list-2">
-                                                <ul class="b-goods-1__list list list-mark-5">
-                                                    <li class="b-goods-1__list-item">Engine DOHC 24-valve V-6</li>
-                                                    <li class="b-goods-1__list-item">Audio Controls on Steering Wheel
-                                                    </li>
-                                                    <li class="b-goods-1__list-item">Power Windows</li>
-                                                    <li class="b-goods-1__list-item">Daytime Running Lights</li>
-                                                    <li class="b-goods-1__list-item">Cruise Control, ABS</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section> -->
-
-
-
                         </div>
                         <!-- end .goods-group-2-->
                     </main>
