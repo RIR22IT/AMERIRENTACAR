@@ -147,9 +147,9 @@
                             </div>
                             <div class="container">
                                 <form class="b-booking-form" action="list.php" method="POST" style="top: -60px;">
-                                    <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
+                                    <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -20px;">
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                                 <select class="selectpicker" name="type" data-width="115%">
                                                     <option>All Types</option>
                                                     <option value="Compact Car">Compact Car</option>
@@ -166,7 +166,7 @@
                                             </div><br /><br />
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                                 <select class="selectpicker" name="fuel" data-width="115%">
                                                     <option>All Fuel Type</option>
                                                     <option value="Petrol">Petrol</option>
@@ -179,7 +179,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                                 <select class="selectpicker" name="transmission" data-width="115%">
                                                     <option>All Transmission</option>
                                                     <option value="Automatic">Automatic</option>
@@ -201,24 +201,24 @@
                                         </div> -->
 
                                         <div class="row">
-                                            <div class="col-md-4" style="width: 38%">
+                                            <div class="col-md-3" style="width: 300px">
                                                 <div>
                                                     <div style="color: white; text-align: left;">Pick-Up Date</div>
-                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date"/>
+                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="row">
-                                            <div class="col-md-4" style="width: 38%">
+                                            <div class="col-md-3" style="width: 300px">
                                                 <div>
                                                     <div style="color: white; text-align: left;">Drop-Off Date</div>
-                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date"/>
+                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-4" style="width: 400px;">
+                                        <div class="col-md-3" style="width: 300px;">
                                             <button class="btn btn-primary" name="search">Find It Now
                                             </button>
                                         </div>
@@ -486,27 +486,27 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <div class="b-about__inner" style="top: 400px;"><br /><br />
+                        <div class="b-about__inner" style="top: 400px;"><br /><br /><br /><br />
                             <h2 class="ui-title-block">GET IN TOUCH WITH US</h2>
                             <div class="ui-subtitle-block">Whether its a car for self drive or chauffeur driven vehicle
                                 for an event, you are sure to get the best tailored deals and support from us around the
-                                clock 356 days.</div>
+                                clock 356 days.</div><br /><br /><br /><br />
 
-                            <div class="b-about-main">
-                                <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
-                                <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
-                                <p></p>
-                                <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor
-                                    raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                <div class="b-about-main__btns"><a class="btn btn-dark" href="contact.php">Contact
-                                        Us</a><a class="btn btn-primary" href="#">learn more</a>
-                                </div>
+
+                            <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
+                            <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
+                            <p></p>
+                            <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor
+                                raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <div class="b-about-main__btns"><a class="btn btn-dark" href="contact.php">Contact
+                                    Us</a><a class="btn btn-primary" href="#">learn more</a>
                             </div>
+
                         </div>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-2" style="top: -80px;">
                         <ul class="b-about-list list-unstyled">
-                            <li class="b-about-list__item"><i class="b-about-list__icon flaticon-transport"></i>
+                            <li class="b-about-list__item"><i class="b-about-list__icon flaticon-sportive-car"></i>
                                 <div class="b-about-list__inner">
                                     <div class="b-about-list__title">No.43, School Lane, Colombo-03, Sri Lanka</div>
                                     <!-- <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div> -->
@@ -530,8 +530,6 @@
                             <li class="b-about-list__item"><i class="b-about-list__icon flaticon-pick-up"></i>
                                 <div class="b-about-list__inner">
                                     <div class="b-about-list__title">Working Hours: 08:30 am - 05:30 pm</div>
-
-                                    <div class="ui-decor-2"></div>
                                 </div>
                             </li>
                         </ul>
@@ -623,7 +621,7 @@
         <!-- end .section-reviews-->
 
         <!-- end .section-default-->
-        <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg)">
+        <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg); top: -80px;">
             <div class="area-bg__inner">
                 <div class="container">
                     <div class="row">
@@ -631,81 +629,93 @@
                             <div class="text-center">
                                 <h2 class="ui-title-block">EXPLORE SRI LANKA</h2>
                                 <div class="ui-subtitle-block">TIPS FOR TRAVEL AROUND SRI LANKA</div>
-                                <div class="ui-decor"></div>
+                                <div class="ui-decor"></div><br /><br /><br /><br />
                             </div>
-                            <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
+                            <div data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
                                 <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
-                                                    <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
-                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
+                                <section class="section-area">
+                                    <div class="container">
+                                        <div class="row">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <section class="b-post b-post-1 clearfix" style="width: 300px; height: 200px;">
+                                                    <div class="entry-media">
+                                                        <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto" style="max-height:400px; width: 500px;" />
+                                                    </div>
+                                                    <div class="entry-main">
+                                                        <div class="entry-header">
+                                                            <div class="entry-meta">
+                                                                <div class="entry-meta__face">
+                                                                    <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
+                                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#">Admin &nbsp;</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
+                                                            </div>
+                                                            <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka
+                                                                </a></h2>
+                                                        </div>
+                                                        <div class="entry-content">
+                                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
+                                                                Have. Open fifth face shall land fish kind isn’t let can’t
+                                                                blessed multiply third light, shall from winged, his creature isn’t
+                                                                midst said dominion in. Male firmament beginning dominion fourth he
+                                                                place shall. [...]</p>
+                                                        </div>
+                                                    </div>
+                                                </section>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka
-                                                </a></h2>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
-                                                Have. Open fifth face shall land fish kind isn’t let can’t
-                                                blessed multiply third light, shall from winged, his creature isn’t
-                                                midst said dominion in. Male firmament beginning dominion fourth he
-                                                place shall. [...]</p>
-                                        </div>
-                                    </div>
-                                </section>
-                                <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
+                                            <div class="col-md-4">
+                                                <section class="b-post b-post-1 clearfix" style="width: 300px; height: 200px;">
+                                                    <div class="entry-media">
+                                                        <img class="img-responsive" src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg" alt="Foto" style="max-height:400px; width: 500px;" />
+                                                    </div>
+                                                    <div class="entry-main">
+                                                        <div class="entry-header">
+                                                            <div class="entry-meta">
+                                                                <div class="entry-meta__face">
 
-                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
+                                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#"> Admin &nbsp;</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
+                                                            </div>
+                                                            <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a>
+                                                            </h2>
+                                                        </div>
+                                                        <div class="entry-content">
+                                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
+                                                                Have. Open fifth face shall land fish kind isn’t let can’t blessed
+                                                                multiply third light, shall from winged, his creature isn’t midst said
+                                                                dominion in. Male firmament beginning dominion fourth he place
+                                                                shall[...]</p>
+                                                        </div>
+                                                    </div>
+                                                </section>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a>
-                                            </h2>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
-                                                Have. Open fifth face shall land fish kind isn’t let can’t blessed
-                                                multiply third light, shall from winged, his creature isn’t midst said
-                                                dominion in. Male firmament beginning dominion fourth he place
-                                                shall[...]</p>
-                                        </div>
-                                    </div>
-                                </section>
-                                <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
-                                                </div>
-                                                <span class="entry-meta_item">Post by<a class="entry-meta_link" href="#">Admin</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
+                                            <div class="col-md-4">
+                                                <section class="b-post b-post-1 clearfix" style="width: 300px; height: 200px;">
+                                                    <div class="entry-media">
+                                                        <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto" style="max-height:200px" />
+                                                    </div>
+                                                    <div class="entry-main">
+                                                        <div class="entry-header">
+                                                            <div class="entry-meta">
+                                                                <div class="entry-meta__face">
+                                                                </div>
+                                                                <span class="entry-meta_item">Post by<a class="entry-meta_link" href="#">Admin &nbsp;</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
+                                                            </div>
+                                                            <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN
+                                                                    SRILANKA</a></h2>
+                                                        </div>
+                                                        <div class="entry-content">
+                                                            <p>Negombo Negombo is a modest beach town located just 10km from
+                                                                Bandaranaike International Airport. With a stash of decent hotels and
+                                                                restaurants to suit all pockets, a friendly local community. Negombo is
+                                                                the Major tourist destination in Sri Lanka.
+                                                                Negombo offers one of the best beaches […]</p>
+                                                        </div>
+                                                    </div>
+                                                </section>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN
-                                                    SRILANKA</a></h2>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Negombo Negombo is a modest beach town located just 10km from
-                                                Bandaranaike International Airport. With a stash of decent hotels and
-                                                restaurants to suit all pockets, a friendly local community. Negombo is
-                                                the Major tourist destination in Sri Lanka.
-                                                Negombo offers one of the best beaches […]</p>
                                         </div>
                                     </div>
-                                </section>
+                                </section><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                                 <!-- end .post-->
                             </div>
                             <!-- end .carousel-news-->
