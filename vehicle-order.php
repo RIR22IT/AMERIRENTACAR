@@ -30,7 +30,7 @@
     $tot = 0;
     if(0 < $qty && $qty < 7){
         $tot = $tot + ($qty * $rental);
-    }else if(7 < $qty && $qty < 29){
+    }else if(7 <= $qty && $qty <= 29){
         $tot = $tot +  ($qty * ($week/7));
     }else{
         $tot = $tot + ($qty * ($month/30));
