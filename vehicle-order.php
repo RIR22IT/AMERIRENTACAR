@@ -29,11 +29,11 @@
 
     $tot = 0;
     if(0 < $qty && $qty < 7){
-        $tot += $qty * $rental;
+        $tot = $tot + ($qty * $rental);
     }else if(7 < $qty && $qty < 29){
-        $tot += $qty * ($week/7);
+        $tot = $tot +  ($qty * ($week/7));
     }else{
-        $tot += $qty * ($month/30);
+        $tot = $tot + ($qty * ($month/30));
     }
 
     //define the total
@@ -71,7 +71,7 @@
             $subTot = $subTot + $tot + 25;
         }
         if($select[$i] == 'require'){
-            $subTot = $subTot;
+            $subTot = $subTot + $tot;
         }
     }
 
@@ -134,7 +134,7 @@
     //     $finalTot += 25;
     // }
 
-    
+    $localPrice   = number_format((float)$subTot * 200, 2, '.', '');
 
 
 // }
@@ -182,7 +182,8 @@
 
     <!--WHATSAPP CONTENT
         =============================================-->
-    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
+            class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
         <!-- Start Switcher-->
@@ -197,7 +198,8 @@
                     <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
                         <div class="navbar-search">
                             <form class="search-global">
-                                <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
+                                <input class="search-global__input" type="text" placeholder="Type to search"
+                                    autocomplete="off" name="s" value="" />
                                 <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
                                 </button>
                                 <div class="search-global__note">Begin typing your search above and press return to
@@ -265,29 +267,42 @@
             </ul>
         </div>
         <!-- Header -->
-       
+
 
         <!-- main slider start-->
         <div class="main-slider main-slider-1">
-            <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="true" data-slider-buttons="false">
+            <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px"
+                data-slider-arrows="true" data-slider-buttons="false">
                 <div class="sp-slides">
                     <!-- Slide 1-->
                     <div class="sp-slide">
                         <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />
-                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                            <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>
+                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"
+                            data-horizontal="62%" data-show-transition="left" data-hide-transition="left"
+                            data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
+                            <div class="main-slider__title">mercedes benz<span
+                                    class="main-slider__label bg-primary">model 2018</span>
                             </div>
-                            <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white btn-lg" href="services.html"><span class="main-slider__btn-label">Starting</span><span class="main-slider__btn-price">
-                                    $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary btn-lg" href="services.html">book now</a>
+                            <div class="main-slider__subtitle">smart drive</div><a
+                                class="main-slider__btn btn btn-white btn-lg" href="services.html"><span
+                                    class="main-slider__btn-label">Starting</span><span class="main-slider__btn-price">
+                                    $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary btn-lg"
+                                href="services.html">book now</a>
                         </div>
                     </div>
                     <!-- Slide 2-->
                     <div class="sp-slide">
                         <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
-                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                            <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>
+                        <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"
+                            data-horizontal="62%" data-show-transition="left" data-hide-transition="left"
+                            data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
+                            <div class="main-slider__title">mercedes benz<span
+                                    class="main-slider__label bg-primary">model 2018</span>
                             </div>
-                            <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white" href="services.html">Starting<span class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary" href="services.html">book now</a>
+                            <div class="main-slider__subtitle">smart drive</div><a
+                                class="main-slider__btn btn btn-white" href="services.html">Starting<span
+                                    class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a
+                                class="main-slider__btn btn btn-primary" href="services.html">book now</a>
                         </div>
                     </div>
                 </div>
@@ -342,18 +357,20 @@
 
                                 <tbody>
                                     <tr>
-			                        <!-- <td><?php echo $id ?></td> -->
-			                        <td><?php echo '<img src="./admin/upload/' .$img.'" width = "70px;" height = "60px;" alt = "Image">'?></td>
-                                    <td><b>Vehicle: </b><?php echo $type ?><br><br>
-                                    <b>Model:</b> <?php echo $model ?></td>
-                                    <td><?php echo $startDate ?></td>
-                                    <td><?php echo $endDate ?></td>
-		    	                    <td>$<?php echo $rental ?>.00</td>
-                                    <td><?php echo $qty ?> Day(s)</td>
-                                    <td>$<?php echo $subTot ?>.00</td>
+                                        <!-- <td><?php echo $id ?></td> -->
+                                        <td><?php echo '<img src="./admin/upload/' .$img.'" width = "70px;" height = "60px;" alt = "Image">'?>
+                                        </td>
+                                        <td><b>Vehicle: </b><?php echo $type ?><br><br>
+                                            <b>Model:</b> <?php echo $model ?>
+                                        </td>
+                                        <td><?php echo $startDate ?></td>
+                                        <td><?php echo $endDate ?></td>
+                                        <td>$<?php echo $rental ?>.00</td>
+                                        <td><?php echo $qty ?> Day(s)</td>
+                                        <td>$<?php echo (round($subTot)) ?>.00 | Rs. <?php echo $localPrice?></td>
                                     </tr>
                                     <?php     
-                                    ?> 
+                                    ?>
                                 </tbody>
                             </table>
 
@@ -361,21 +378,31 @@
                                 <div class="b-bnr-2" style="width: 540px; height: 250px;">
                                     <div class="b-bnr-2__inner">
                                         <div class="widget widget-newsletter section-sidebar">
-                                            <h3 class="widget-title ui-title-inner" style="color: white;">CART TOTAL</h3>
+                                            <h3 class="widget-title ui-title-inner" style="color: white;">CART TOTAL
+                                            </h3>
                                             <div class="widget-content">
-                                                <form class="form-sidebar" id="newsletter-form" style="width: 500px;" action="userform.php" method = "GET">
+                                                <form class="form-sidebar" id="newsletter-form" style="width: 500px;"
+                                                    action="userform.php" method="GET">
 
-                                                    <div class="b-car-info__item" style = "font-size: 20px;" disabled>$<?php echo $subTot ?>.00
-                                                        <div class="b-car-info__item-inner"><span class="b-car-info__item-info">TOTAL</span>
+                                                    <div class="b-car-info__item" style="font-size: 20px;" disabled>
+                                                        $<?php echo (round($subTot)) ?>.00 | Rs.
+                                                        <?php echo $localPrice?>
+                                                        <div class="b-car-info__item-inner"><span
+                                                                class="b-car-info__item-info">TOTAL</span>
                                                         </div>
                                                     </div><br>
 
-                                                    <input type="hidden" name="startDate" value="<?php  echo $startDate ?>" >
-                                                    <input type="hidden" name="endDate" value="<?php  echo $endDate ?>" >
-
+                                                    <input type="hidden" name="startDate"
+                                                        value="<?php  echo $startDate ?>">
+                                                    <input type="hidden" name="endDate" value="<?php  echo $endDate ?>">
+                                                    <input type="hidden" name="pickLoc"
+                                                        value="<?php  echo $pickupLoc ?>">
+                                                    <input type="hidden" name="dropLoc" value="<?php  echo $dropLoc ?>">
                                                     <div class="col-md-3 col-md-offset-3">
-                                                    <input type="hidden" name="vehicleID" value="<?php  echo $id ?>" >
-                                                    <button class="btn btn-primary" name = "proceedBtn">proceed to checkout</button>
+                                                        <input type="hidden" name="vehicleID"
+                                                            value="<?php  echo $id ?>">
+                                                        <button class="btn btn-primary" name="proceedBtn">proceed to
+                                                            checkout</button>
                                                     </div>
 
                                                 </form>
