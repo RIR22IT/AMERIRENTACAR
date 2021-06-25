@@ -19,9 +19,11 @@
         $phone = $_POST['phone'];
         $emailaddress = $_POST['emailaddress'];
         $information = $_POST['information'];
-        $subTotal = $_POST['subTotal'];
-    
-        $qry = "INSERT INTO checkout (vehicleId, pickDate, dropDate, qty, firstname, lastname, companyname, country, streat, unit, city, postcode, phone, emailaddress, information,subTot) VALUES ('$vehicleId', '$sDate', '$eDate', '$quantity', '$firstname', '$lastname', '$companyname', '$country', '$streat', '$unit', '$city', '$postcode', '$phone', '$emailaddress', '$information', '$subTotal')";
+        $subtot = $_POST['subtot'];
+        $pickLoc = $_POST['pickLoc'];
+        $dropLoc = $_POST['dropLoc'];
+
+        $qry = "INSERT INTO checkout (vehicleId, pickDate, dropDate, qty, firstname, lastname, companyname, country, streat, unit, city, postcode, phone, emailaddress, information, subTot, pickLoc, dropLoc) VALUES ('$vehicleId', '$sDate', '$eDate', '$quantity', '$firstname', '$lastname', '$companyname', '$country', '$streat', '$unit', '$city', '$postcode', '$phone', '$emailaddress', '$information', '$subtot', '$pickLoc', '$dropLoc')";
         
         if (mysqli_query($db, $qry)) {
             $_SESSION['status'] = "Your booking has been confirmed";
@@ -69,42 +71,40 @@
         //    $phone = $_POST['phone'];
         //    $subject = ($_POST['subject'] ? $_POST['subject'] : "Website Contact Form: $name");
     
-        // Create the email and send the message
-        $to =  'thisaradilshanbens99@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-        $email_subject = "Your Booking Confirmed with AMERIRENTACAR";
-        $email_body = "Vehicle has received  from your website.\n\n" . "Here are the details:\n\nName: \n\nLast Name: $lastname\n\nEmail: $emailaddress\n\nPhone: $phone\n\nVehicle: $type\n\nVehicle Model: $model\n\nPickup Date: $sDate\n\nDropOff Date: $eDate\n\nSub Total: $subTotal";
-        $headers = "From: $emailaddress\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-        $headers .= "Reply-To: $emailaddress";
-        mail($to, $email_subject, $email_body, $headers);
-        // echo json_encode(array('success' => 'true'));
-        // return true;
-    }
+ // Create the email and send the message
+ $to =  'dhanan@reachitright.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+ $email_subject = "Your Booking Confirmed with AMERIRENTACAR";
+ $email_body = "Vehicle has received  from your website.\n\n" . "Here are the details:\n\nName: \n\nLast Name: $lastname\n\nEmail: $emailaddress\n\nPhone: $phone\n\nVehicle: $type\n\nVehicle Model: $model\n\nPickup Date: $sDate\n\nDropOff Date: $eDate\n\nSub Total: $ $subtot.00";
+ $headers = "From: amerirentacar\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+ $headers .= "Reply-To: amerirentacar";
+ mail($to, $email_subject, $email_body, $headers);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
 
 <div class="wrapper">
-    <div class="mail">
-    <div class = "cover"></div>
-    <div class="letter"><h3>Thank you for Booking!</h3></div>
-    </div>
-    <div class="vertical-center">
-        <button><a href="index.php">BACK TO HOME</a></button>
-    </div>
+<div class="mail">
+<div class = "cover"></div>
+<div class="letter"><h3>Thank you for Booking!</h3></div>
+</div>
+<div class="vertical-center">
+ <button><a href="index.php">BACK TO HOME</a></button>
+</div>
 </div>
 
 <script>
-        if (window.history.replaceState) {
-            window.history.replaceState(null, null, window.location.href);
-        }
+ if (window.history.replaceState) {
+     window.history.replaceState(null, null, window.location.href);
+ }
 </script>
 </body>
 </html>
