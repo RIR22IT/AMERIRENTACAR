@@ -1,3 +1,5 @@
+//THISARA
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -149,7 +151,7 @@
                                 <form class="b-booking-form" action="list.php" method="POST" style="top: -60px;">
                                     <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                                 <select class="selectpicker" name="type" data-width="115%">
                                                     <option>All Types</option>
                                                     <option value="Compact Car">Compact Car</option>
@@ -166,7 +168,7 @@
                                             </div><br /><br />
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                                 <select class="selectpicker" name="fuel" data-width="115%">
                                                     <option>All Fuel Type</option>
                                                     <option value="Petrol">Petrol</option>
@@ -179,7 +181,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                                 <select class="selectpicker" name="transmission" data-width="115%">
                                                     <option>All Transmission</option>
                                                     <option value="Automatic">Automatic</option>
@@ -201,24 +203,24 @@
                                         </div> -->
 
                                         <div class="row">
-                                            <div class="col-md-4" style="width: 38%">
+                                            <div class="col-md-4" style="width: 300px">
                                                 <div>
                                                     <div style="color: white; text-align: left;">Pick-Up Date</div>
-                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date"/>
+                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="row">
-                                            <div class="col-md-4" style="width: 38%">
+                                            <div class="col-md-4" style="width: 300px">
                                                 <div>
                                                     <div style="color: white; text-align: left;">Drop-Off Date</div>
-                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date"/>
+                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-4" style="width: 400px;">
+                                        <div class="col-md-4" style="width: 300px;">
                                             <button class="btn btn-primary" name="search">Find It Now
                                             </button>
                                         </div>
@@ -486,27 +488,27 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <div class="b-about__inner" style="top: 400px;"><br /><br />
+                        <div class="b-about__inner" style="top: 400px;"><br /><br /><br /><br />
                             <h2 class="ui-title-block">GET IN TOUCH WITH US</h2>
                             <div class="ui-subtitle-block">Whether its a car for self drive or chauffeur driven vehicle
                                 for an event, you are sure to get the best tailored deals and support from us around the
-                                clock 356 days.</div>
+                                clock 356 days.</div><br /><br /><br /><br />
 
-                            <div class="b-about-main">
-                                <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
-                                <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
-                                <p></p>
-                                <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor
-                                    raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                <div class="b-about-main__btns"><a class="btn btn-dark" href="contact.php">Contact
-                                        Us</a><a class="btn btn-primary" href="#">learn more</a>
-                                </div>
+
+                            <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
+                            <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
+                            <p></p>
+                            <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor
+                                raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <div class="b-about-main__btns"><a class="btn btn-dark" href="contact.php">Contact
+                                    Us</a><a class="btn btn-primary" href="#">learn more</a>
                             </div>
+
                         </div>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-2" style="top: -80px;">
                         <ul class="b-about-list list-unstyled">
-                            <li class="b-about-list__item"><i class="b-about-list__icon flaticon-transport"></i>
+                            <li class="b-about-list__item"><i class="b-about-list__icon flaticon-sportive-car"></i>
                                 <div class="b-about-list__inner">
                                     <div class="b-about-list__title">No.43, School Lane, Colombo-03, Sri Lanka</div>
                                     <!-- <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div> -->
@@ -530,8 +532,6 @@
                             <li class="b-about-list__item"><i class="b-about-list__icon flaticon-pick-up"></i>
                                 <div class="b-about-list__inner">
                                     <div class="b-about-list__title">Working Hours: 08:30 am - 05:30 pm</div>
-
-                                    <div class="ui-decor-2"></div>
                                 </div>
                             </li>
                         </ul>
