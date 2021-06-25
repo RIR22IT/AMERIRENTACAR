@@ -1,4 +1,3 @@
-//THISARA
 
 <!DOCTYPE html>
 <html lang="zxx">
