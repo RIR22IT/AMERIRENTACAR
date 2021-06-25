@@ -51,7 +51,7 @@
         <!-- ==========================-->
         <!-- SEARCH MODAL-->
         <!-- ==========================-->
-        <div class="header-search open-search">
+        <!-- <div class="header-search open-search">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
@@ -69,8 +69,8 @@
             </div>
             <button class="search-close close" type="button"><i class="fa fa-times"></i>
             </button>
-        </div>
-        <div data-off-canvas="slidebar-1 left overlay">
+        </div> -->
+        <!-- <div data-off-canvas="slidebar-1 left overlay">
             <ul class="nav navbar-nav">
                 <li><a class="scrollTo" href="#features-section">features</a>
                 </li>
@@ -123,7 +123,7 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <!-- Header -->
         <?php include('./inc/header.php') ?>
 

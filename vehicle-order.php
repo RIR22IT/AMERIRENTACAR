@@ -286,7 +286,7 @@ $localPrice   = number_format((float)$subTot * 200, 2, '.', '');
             </ul>
         </div>
         <!-- Header -->
-
+        <?php include('./inc/header.php') ?>
 
         <!-- main slider start-->
         <div class="main-slider main-slider-1">

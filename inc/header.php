@@ -10,8 +10,8 @@
                     </button>
                     <!-- Mobile Trigger End-->
                     <a class="navbar-brand scroll" href="home.php">
-                        <img class="normal-logo img-responsive" src="./images/logo-new_withcap.png" alt="logo" />
-                        <img class="scroll-logo hidden-xs img-responsive" src="./images/logo-new_withcap.png" alt="logo"
+                        <img class="normal-logo img-responsive" src="./IMAGES/LOGO.PNG" alt="logo" />
+                        <img class="scroll-logo hidden-xs img-responsive" src="./IMAGES/LOGO.PNG" alt="logo"
                             style="width:120px" />
                     </a>
                 </div>
