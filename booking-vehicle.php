@@ -279,7 +279,7 @@ if (isset($_GET['view'])) {
 
                                                     <div class="b-filter-2__group">
                                                         <div class="b-filter-2__group-title">PICKUP LOCATION</div>
-                                                        <select class="selectpicker" name="pickupLoc" id="pickLoc"
+                                                        <select class="form-control" name="pickupLoc" id="pickLoc"
                                                             onfocusout="check()" data-width="100%" required="true">
                                                             <option value="">PICKUP LOCATION</option>
                                                             <option value="officeP">OFFICE</option>
@@ -295,7 +295,7 @@ if (isset($_GET['view'])) {
 
                                                     <div class="b-filter-2__group">
                                                         <div class="b-filter-2__group-title">DROP LOCATION</div>
-                                                        <select class="selectpicker" name="dropLoc" od="dropLoc"
+                                                        <select class="form-control" name="dropLoc" od="dropLoc"
                                                             data-width="100%" required="true">
                                                             <option value="">DROP LOCATION</option>
                                                             <option value="officeD">OFFICE</option>
