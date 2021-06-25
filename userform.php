@@ -9,6 +9,10 @@ $dropDate = strtotime($_GET['endDate']);
 $qty = ($dropDate - $pickDate) / 60 / 60 / 24;
 $startDate = $_GET['startDate'];
 $endDate = $_GET['endDate'];
+$pickLoc = $_GET['pickLoc'];
+$dropLoc = $_GET['dropLoc'];
+$subtot = $_GET['subTot'];
+$localprice = $_GET['localprice'];
 
 // $update = true;
 $qry = "select * from car where id = $vehicleID";
@@ -18,13 +22,13 @@ if ($run->num_rows > 0) {
         $id = $row['id'];
         $model = $row['model'];
         $rental = $row['rental'];
-        $make = $row['make'];
+        $type = $row['type'];
         $img = $row['img'];
     }
 }
 
 //Calculate the subtotal
-$subTot = $rental * $qty;
+// $subTot = $rental * $qty;
 }
 ?>
 
@@ -521,19 +525,23 @@ $subTot = $rental * $qty;
                                                                     <th>PRICE</th>
                                                                     <th>QUANTITY</th>
                                                                     <th>SUBTOTAL</th>
+                                                                    <!-- <th>PICKUP LOCATION</th>
+                                                                    <th>DROPOFF LOCATION</th> -->
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
                                                                     <!-- <td><?php echo $id ?></td> -->
                                                                     <td><?php echo '<img src="./admin/upload/' . $img . '" width = "70px;" height = "60px;" alt = "Image">' ?></td>
-                                                                    <td><?php echo $make ?><br><br>
+                                                                    <td><?php echo $type ?><br><br>
                                                                         <?php echo $model ?></td>
                                                                     <td><?php echo $startDate ?></td>
                                                                     <td><?php echo $endDate ?></td>
                                                                     <td>$<?php echo $rental ?>.00</td>
                                                                     <td><?php echo $qty ?> Day(s)</td>
-                                                                    <td>$<?php echo $subTot ?>.00</td>
+                                                                    <td>$<?php echo $subtot ?>.00 | Rs. <?php echo $localprice ?></td>
+                                                                    <!-- <td><?php echo $pickLoc ?></td>
+                                                                    <td><?php echo $dropLoc ?></td> -->
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -549,7 +557,9 @@ $subTot = $rental * $qty;
                                     <input type="hidden" name="pDate" value="<?php echo $startDate; ?>">
                                     <input type="hidden" name="dDate" value="<?php echo $endDate; ?>">
                                     <input type="hidden" name="quantity" value="<?php echo $qty; ?>">
-                                    <input type="hidden" name="subTotal" value="<?php echo $subTot; ?>">
+                                    <input type="hidden" name="subtot" value="<?php echo $subtot; ?>">
+                                    <input type="hidden" name="pickLoc" value="<?php echo $pickLoc; ?>">
+                                    <input type="hidden" name="dropLoc" value="<?php echo $dropLoc; ?>">
 
                                     <button type="submit" class="btn btn-primary btn-lg" name="book">Placed order</button>
                                 </form>
