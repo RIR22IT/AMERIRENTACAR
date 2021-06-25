@@ -131,8 +131,8 @@
             <div class="area-bg__inner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12">
-                            <h1 class="b-title-page bg-primary_a">cars listings I</h1>
+                        <div class="col-xs-12"><br/>
+                            <h1 class="b-title-page bg-primary_a">VEHICLE LIST</h1>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                         <ol class="breadcrumb">
                             <li><a href="home.html"><i class="icon fa fa-home"></i></a>
                             </li>
-                            <li class="active">Vehicle Inventry</li>
+                            <li class="active">Vehicle List</li>
                         </ol>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
                                                         </div><span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental ?><span class="b-goods-1__price-msrp">Rs. <?php echo $localPrice ?></span><a class="b-goods-1__choose" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
                                                         </span>
                                                         <div class="b-goods-1__section">
-                                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-4">
+                                                            <h3 class="b-goods-1__title">
                                                                 Highlights</h3>
                                                             <div class="collapse in" id="desc-4">
                                                                 <ul class="b-goods-1__desc list-unstyled">
@@ -226,8 +226,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="b-goods-1__section hidden-th">
-                                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#list-4" aria-expanded="false">specifications</h3>
-                                                            <div class="collapse" id="list-4">
+                                                            <h3 class="b-goods-1__title">specifications</h3>
                                                                 <ul class="b-goods-1__list list list-mark-5 list_mark-prim">
                                                                     <li class="b-goods-1__list-item"><strong>Year:</strong> <?php echo $year ?></li>
                                                                     <li class="b-goods-1__list-item"><strong>Engine:</strong> <?php echo $engine ?>cc</li>
@@ -237,7 +236,6 @@
                                                                     <li class="b-goods-1__list-item"><strong>Passengers:</strong> <?php echo $passenger ?></li>
                                                                     <li class="b-goods-1__list-item"><strong>Doors:</strong> <?php echo $door ?> doors</li>
                                                                 </ul>
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -306,7 +304,7 @@
                                                         </div><span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental2 ?><span class="b-goods-1__price-msrp">Rs. <?php echo $localPrice2 ?></span><a class="b-goods-1__choose" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
                                                         </span>
                                                         <div class="b-goods-1__section">
-                                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-4">
+                                                            <h3 class="b-goods-1__title">
                                                                 Highlights</h3>
                                                             <div class="collapse in" id="desc-4">
                                                                 <ul class="b-goods-1__desc list-unstyled">
@@ -318,8 +316,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="b-goods-1__section hidden-th">
-                                                            <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#list-4" aria-expanded="false">specifications</h3>
-                                                            <div class="collapse" id="list-4">
+                                                            <h3 class="b-goods-1__title">specifications</h3>
                                                                 <ul class="b-goods-1__list list list-mark-5 list_mark-prim">
                                                                     <li class="b-goods-1__list-item"><strong>Year:</strong> <?php echo $year2 ?></li>
                                                                     <li class="b-goods-1__list-item"><strong>Engine:</strong> <?php echo $engine2 ?>cc</li>
@@ -329,7 +326,6 @@
                                                                     <li class="b-goods-1__list-item"><strong>Passengers:</strong> <?php echo $passenger2 ?></li>
                                                                     <li class="b-goods-1__list-item"><strong>Doors:</strong> <?php echo $door2 ?> doors</li>
                                                                 </ul>
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
