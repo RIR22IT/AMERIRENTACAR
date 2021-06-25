@@ -10,24 +10,9 @@
     $endDate = $_GET['dropDate'];
     $pickupLoc = $_GET['pickupLoc'];
     $dropLoc = $_GET['dropLoc']; 
+    $select = $_GET['choice'];
 
-    if(isset($_GET['arriving'])){
-        $arriving = $_GET['arriving'];
-    }
-    if(isset($_GET['departing'])){
-        $departing = $_GET['departing'];
-    }
-    if(isset($_GET['millage'])){
-        $millage = $_GET['millage'];
-    }
-    if(isset($_GET['excess'])){
-        $excess = $_GET['excess'];
-    }
-    if(isset($_GET['license'])){
-        $license = $_GET['license'];
-    }
 
-    // $update = true;
     $qry = "select * from car where id = $vehicleID";
     $run = $db->query($qry);
     if ($run->num_rows > 0) {
@@ -42,8 +27,6 @@
         }
     }
 
-    //Calculate the subtotal
-    //$subTot = $rental * $qty;
     $tot = 0;
     if(0 < $qty && $qty < 7){
         $tot += $qty * $rental;
@@ -53,28 +36,103 @@
         $tot += $qty * ($month/30);
     }
 
-    $finalTot = 0;
-    if($millage == 'millage'){
-        $finalTot += (2 * $tot);
-    }
-    if($excess =='excess'){
-        $finalTot += 10;
-    }
-    if($license == 'license'){
-        $finalTot += 25;
-    }
+    //define the total
+    $subTot = 0;
+    $c = count($select);
     
-    if(($pickupLoc == 'hotelP' || $pickupLoc == 'airportP') && ($dropLoc == 'hotelD' || $dropLoc == 'airportD')){
-        $subTot = $finalTot + 17;
-    }else if($arriving == 'arriving' && $departing == 'departing'){
-        $subTot = $finalTot + 50;
-    }else if($arriving == 'arriving'){
-        $subTot = $finalTot + 25;
-    }else if($departing == 'departing'){
-        $subTot = $finalTot + 25;
-    }else{
-        $subTot = $finalTot;
+    for($i=0; $i<$c; $i++){
+        if($select[$i] == 'arriving'){
+            if($pickupLoc == 'hotelP' || $pickupLoc == 'airportP'){
+                $subTot = $subTot + $tot + 25;
+            }else{
+                $subTot = $subTot + $tot;
+            }
+        }
+        if($select[$i] == 'departing'){
+            if($dropLoc == 'hotelD' || $dropLoc == 'airportD'){
+                $subTot = $subTot + $tot + 25;
+            }else{
+                $subTot = $subTot + $tot;
+            }
+
+        }
+        if($select[$i] == 'millage'){
+            $subTot = $subTot +  (2 * $tot);
+        }
+        if($select[$i] == 'excess'){
+            if($type == 'Compact Car' || $type == 'Midsize sedan' || $type == 'Midsize Estate' || $type == 'Large Sedan' || $type == 'Large Estate' || $type == 'Large Sedan'){
+                $subTot = $subTot + $tot + 10;
+            }else{
+                $subTot = $subTot + $tot + 30;
+            }
+
+        }
+        if($select[$i] == 'license'){
+            $subTot = $subTot + $tot + 25;
+        }
+        if($select[$i] == 'require'){
+            $subTot = $subTot;
+        }
     }
+
+    //Pickuploc charges
+    if($pickupLoc == 'hotelP'){
+        $subTot = $subTot + 8;
+    }else if($pickupLoc == 'airportP'){
+        $subTot = $subTot + 17;
+    }else{
+        $subTot = $subTot;
+    }
+
+    //DropLoc charges
+    if($dropLoc == 'hotelD'){
+        $subTot = $subTot + 8;
+    }else if($dropLoc == 'airportP'){
+        $subTot = $subTot + 17;
+    }else{
+        $subTot = $subTot;
+    }
+
+    // if(isset($_GET['arriving'])){
+    //     $arriving = $_GET['arriving'];
+    // }
+    // if(isset($_GET['departing'])){
+    //     $departing = $_GET['departing'];
+    // }
+    // if(isset($_GET['millage'])){
+    //     $millage = $_GET['millage'];
+    // }
+    // if(isset($_GET['excess'])){
+    //     $excess = $_GET['excess'];
+    // }
+    // if(isset($_GET['license'])){
+    //     $license = $_GET['license'];
+    // }
+
+    // $update = true;
+   
+
+    //Calculate the subtotal
+    //$subTot = $rental * $qty;
+    // $tot = 0;
+    // if(0 < $qty && $qty < 7){
+    //     $tot += $qty * $rental;
+    // }else if(7 < $qty && $qty < 29){
+    //     $tot += $qty * ($week/7);
+    // }else{
+    //     $tot += $qty * ($month/30);
+    // }
+
+    // $finalTot = 0;
+    // if($millage == 'millage'){
+    //     $finalTot += (2 * $tot);
+    // }
+    // if($excess =='excess'){
+    //     $finalTot += 10;
+    // }
+    // if($license == 'license'){
+    //     $finalTot += 25;
+    // }
 
     
 
