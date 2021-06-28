@@ -127,8 +127,8 @@
         <!-- Header -->
         <?php include('./inc/header.php') ?>
 
-        <section class="section-filter">
-            <div class="main-slider main-slider-1">
+        <!-- <section class="section-filter"> -->
+            <div class="main-slider main-slider-1" style = "top: -40px;">
                 <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="false" data-slider-buttons="false">
 
                     <!-- 1st slide -->
@@ -140,7 +140,7 @@
                             <div class="area-bg__inner">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-xs-12">
+                                        <div class="col-xs-12"><br/><br/>
                                             <h1 class="b-title-page bg-primary_a">Find Your Car</h1>
                                         </div>
                                     </div>
@@ -150,7 +150,7 @@
                                 <form class="b-booking-form" action="list.php" method="POST" style="top: -60px;">
                                     <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-md-3"><br/>
                                                 <select class="selectpicker" name="type" data-width="115%">
                                                     <option>All Types</option>
                                                     <option value="Compact Car">Compact Car</option>
@@ -419,7 +419,7 @@
 
                 </div>
             </div>
-        </section>
+        <!-- </section> -->
 
         <!-- end .main-slider-->
         <br>
@@ -505,7 +505,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-2" style="top: -80px;">
+                    <div class="col-lg-2" style="top: -30px;">
                         <ul class="b-about-list list-unstyled">
                             <li class="b-about-list__item"><i class="b-about-list__icon flaticon-sportive-car"></i>
                                 <div class="b-about-list__inner">
@@ -621,98 +621,97 @@
         </div>
         <!-- end .section-reviews-->
 
-        <!-- end .section-default-->
-        <section class="section-news area-bg area-bg_light area-bg_op_90 parallax" style="background-image: url(assets/media/content/bg/bg-7.jpg)">
-            <div class="area-bg__inner">
+
+            <section class="section-area" style = "top: -50px;">
                 <div class="container">
+                    <div class="text-center">
+                        <h2 class="ui-title-block">EXPLORE SRI LANKA</h2>
+                        <div class="ui-subtitle-block">TIPS FOR TRAVEL AROUND SRI LANKA</div>
+                        <div class="ui-decor"></div>
+                    </div><br /><br /><br /><br />
                     <div class="row">
-                        <div class="col-xs-12">
-                            <div class="text-center">
-                                <h2 class="ui-title-block">EXPLORE SRI LANKA</h2>
-                                <div class="ui-subtitle-block">TIPS FOR TRAVEL AROUND SRI LANKA</div>
-                                <div class="ui-decor"></div>
-                            </div>
-                            <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
-                                <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/to-do.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
-                                                    <!-- <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" /> -->
-                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
-                                            </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">Things to do in Sri Lanka
-                                                </a></h2>
+                        <div class="col-md-4">
+                            <section class="b-post b-post-1 clearfix">
+                                <div class="entry-media">
+                                    <img class="img-responsive" src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg" alt="Foto" style="max-height:240px; width: 500px;" />
+                                </div>
+                                <div class="entry-main">
+                                    <div class="entry-header">
+                                        <div class="entry-meta">
+                                            <div class="entry-meta__face">
+
+                                            </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#">Admin &nbsp; </a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
                                         </div>
-                                        <div class="entry-content">
-                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
+                                        <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a>
+                                        </h2>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
+                                            Have. Open fifth face shall land fish kind isn’t let can’t blessed
+                                            multiply third light, shall from winged, his creature isn’t midst said
+                                            dominion in. Male firmament beginning dominion fourth he place
+                                            shall[...]</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-4">
+                            <section class="b-post b-post-1 clearfix">
+                                <div class="entry-media">
+                                    <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto" style="max-height:280px; width: 500px;" />
+                                </div>
+                                <div class="entry-main">
+                                    <div class="entry-header">
+                                        <div class="entry-meta">
+                                            <div class="entry-meta__face">
+                                            </div>
+                                            <span class="entry-meta_item">Post by<a class="entry-meta_link" href="#">Admin &nbsp; </a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
+                                        </div>
+                                        <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN
+                                                SRILANKA</a></h2>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p>Negombo Negombo is a modest beach town located just 10km from
+                                            Bandaranaike International Airport. With a stash of decent hotels and
+                                            restaurants to suit all pockets, a friendly local community. Negombo is
+                                            the Major tourist destination in Sri Lanka.
+                                            Negombo offers one of the best beaches […]</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-4">
+                            <section class="b-post b-post-1 clearfix">
+                                <div class="entry-media">
+                                    <img class="img-responsive"  src="./images/home_blog/to-do.jpg" alt="Foto" style="max-height:280px; width: 500px;" />
+                                </div>
+                                <div class="entry-main">
+                                    <div class="entry-header">
+                                        <div class="entry-meta">
+                                            <div class="entry-meta__face">
+                                            </div>
+                                            <span class="entry-meta_item">Post by<a class="entry-meta_link" href="#">Admin &nbsp; </a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
+                                        </div>
+                                        <h2 class="entry-title"><a href="blog-post.html">THINGS TO DO SRI LANKA</a></h2>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
                                                 Have. Open fifth face shall land fish kind isn’t let can’t
                                                 blessed multiply third light, shall from winged, his creature isn’t
                                                 midst said dominion in. Male firmament beginning dominion fourth he
                                                 place shall. [...]</p>
-                                        </div>
                                     </div>
-                                </section>
-                                <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/stockvault-sri-lankan-heritage-of-art.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
-
-                                                </div><span class="entry-meta_item">Post by<a class="entry-meta_link" href="#"> Admin</a></span><a class="entry-meta__categorie" href="#"><strong>19 OCT</strong></a>
-                                            </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">CITIES IN SRI LANKA</a>
-                                            </h2>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
-                                                Have. Open fifth face shall land fish kind isn’t let can’t blessed
-                                                multiply third light, shall from winged, his creature isn’t midst said
-                                                dominion in. Male firmament beginning dominion fourth he place
-                                                shall[...]</p>
-                                        </div>
-                                    </div>
-                                </section>
-                                <!-- end .post-->
-                                <section class="b-post b-post-1 clearfix">
-                                    <div class="entry-media">
-                                        <img class="img-responsive" src="./images/home_blog/ocean.jpg" alt="Foto" style="max-height:200px" />
-                                    </div>
-                                    <div class="entry-main">
-                                        <div class="entry-header">
-                                            <div class="entry-meta">
-                                                <div class="entry-meta__face">
-                                                </div>
-                                                <span class="entry-meta_item">Post by<a class="entry-meta_link" href="#">Admin</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>29 JUL</strong></a>
-                                            </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">BEST BEACHES IN
-                                                    SRILANKA</a></h2>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Negombo Negombo is a modest beach town located just 10km from
-                                                Bandaranaike International Airport. With a stash of decent hotels and
-                                                restaurants to suit all pockets, a friendly local community. Negombo is
-                                                the Major tourist destination in Sri Lanka.
-                                                Negombo offers one of the best beaches […]</p>
-                                        </div>
-                                    </div>
-                                </section>
-                                <!-- end .post-->
-                            </div>
-                            <!-- end .carousel-news-->
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
+            </section>
+    
+    
+            <div class="carousel-news owl-carousel owl-theme owl-theme_w-btn enable-owl-carousel" data-min768="2" data-min992="3" data-min1200="3" data-margin="30" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">                   
             </div>
-        </section>
+
         <?php include('./inc/footer.php') ?>
 
     </div>
