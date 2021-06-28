@@ -127,8 +127,8 @@
         <!-- Header -->
         <?php include('./inc/header.php') ?>
 
-        <section class="section-filter">
-            <div class="main-slider main-slider-1">
+        <!-- <section class="section-filter"> -->
+            <div class="main-slider main-slider-1" style = "top: -40px;">
                 <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="false" data-slider-buttons="false">
 
                     <!-- 1st slide -->
@@ -140,7 +140,7 @@
                             <div class="area-bg__inner">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-xs-12">
+                                        <div class="col-xs-12"><br/><br/>
                                             <h1 class="b-title-page bg-primary_a">Find Your Car</h1>
                                         </div>
                                     </div>
@@ -150,7 +150,7 @@
                                 <form class="b-booking-form" action="list.php" method="POST" style="top: -60px;">
                                     <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-md-3"><br/>
                                                 <select class="selectpicker" name="type" data-width="115%">
                                                     <option>All Types</option>
                                                     <option value="Compact Car">Compact Car</option>
@@ -419,7 +419,7 @@
 
                 </div>
             </div>
-        </section>
+        <!-- </section> -->
 
         <!-- end .main-slider-->
         <br>
