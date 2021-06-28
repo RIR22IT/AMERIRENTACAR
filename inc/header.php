@@ -1,28 +1,28 @@
-<header
-    class="header header-boxed-width navbar-fixed-top header-background-white header-color-black header-topbar-dark header-logo-black header-topbarbox-1-left header-topbarbox-2-right header-navibox-1-left header-navibox-2-right header-navibox-3-right header-navibox-4-right">
+<header class="header header-boxed-width navbar-fixed-top header-background-white header-color-black header-topbar-dark header-logo-black header-topbarbox-1-left header-topbarbox-2-right header-navibox-1-left header-navibox-2-right header-navibox-3-right header-navibox-4-right">
     <div class="container container-boxed-width">
         <nav class="navbar" id="nav">
             <div class="container">
                 <div class="header-navibox-1">
                     <!-- Mobile Trigger Start-->
-                    <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i
-                            class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i>
+                    <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i>
                     </button>
                     <!-- Mobile Trigger End-->
                     <a class="navbar-brand scroll" href="home.php">
                         <img class="normal-logo img-responsive" src="./IMAGES/LOGO.PNG" alt="logo" />
-                        <img class="scroll-logo hidden-xs img-responsive" src="./IMAGES/LOGO.PNG" alt="logo"
-                            style="width:120px" />
+                        <img class="scroll-logo hidden-xs img-responsive" src="./IMAGES/LOGO.PNG" alt="logo" style="width:120px" />
                     </a>
-                </div>
+
+                </div><br /><br /><br />
                 <div class="header-navibox-2">
+
+                <div class="topright" style = "color: white; top: -40px; left: 312px; font-size: 18px; position: relative;">Phone:(+94)777 312 848 | Hotline:(+94)765 566 531 | e-mail:amerirentacar@gmail.com </div>
+
                     <ul class="yamm main-menu nav navbar-nav">
                         <li><a href="index.php">Home</a>
                         </li>
                         <li><a href="who-we-are.php">Who we are</a>
                         </li>
-                        <li class="dropdown"><a class="dropdown-toggle" href="listings-1.html"
-                                data-toggle="dropdown">Vehicle Fleet<b class="caret"></b></a>
+                        <li class="dropdown"><a class="dropdown-toggle" href="listings-1.html" data-toggle="dropdown">Our Fleet<b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="rent-general-cars.php" tabindex="-1">RENT GENERAL CARS IN SRI LANKA</a>
                                 </li>
@@ -40,12 +40,11 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="rental-car-all.php">Our Cars</a>
-                        </li>
+                        <!-- <li><a href="rental-car-all.php">Our Cars</a>
+                        </li> -->
                         <li><a href="our-location.php">Our Location</a>
                         </li>
-                        <li class="dropdown"><a class="dropdown-toggle" href="listings-1.html"
-                                data-toggle="dropdown">Rates<b class="caret"></b></a>
+                        <li class="dropdown"><a class="dropdown-toggle" href="listings-1.html" data-toggle="dropdown">Rates<b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="self-drive-rates.php" tabindex="-1">SELF DRIVE RATES IN SRI LANKA</a>
                                 </li>
@@ -77,4 +76,5 @@
         </nav>
     </div>
 </header>
+
 <!-- end .header-->

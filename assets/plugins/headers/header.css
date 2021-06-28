@@ -500,14 +500,15 @@ body:not(.header-demo) .navbar-scrolling .btn {
 }
 
 .navbar {
-    margin-bottom: 0;
-    padding-top: 13px;
-    padding-bottom: 8px;
+    margin-bottom: -2px;
+    margin-top: -5px;
+    padding-top: 0px;
+    padding-bottom: -2px;
     border: none;
     background: none;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; 
 }
 
 .navbar .container {
