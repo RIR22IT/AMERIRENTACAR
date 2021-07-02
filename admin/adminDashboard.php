@@ -204,9 +204,9 @@ if (!isset($_SESSION['email'])) {
                     <option selected disabled="disabled">All Types</option>
                     <option value="Compact Car">Compact Car</option>
                     <option value="Midsize sedan">Midsize Sedan</option>
-                    <option value="Midsize Estate">Midsize Estate</option>
+                    <!--<option value="Midsize Estate">Midsize Estate</option>-->
                     <option value="Large Sedan">Large Sedan</option>
-                    <option value="Large Estate">Large Estate</option>
+                    <!--<option value="Large Estate">Large Estate</option>-->
                     <option value="Luxury Sedan">Luxury Sedan</option>
                     <option value="SUV">SUV</option>
                     <option value="Large SUV">Large SUV</option>
@@ -220,7 +220,7 @@ if (!isset($_SESSION['email'])) {
                     <option selected disabled="disabled">All Transmissions</option>
                     <option value="Automatic">Automatic</option>
                     <option value="Manual">Manual</option>
-                    <option value="Semi-Automatic">Semi-Automatic</option>
+                    <!--<option value="Semi-Automatic">Semi-Automatic</option>-->
                   </select>
                 </div><br>
 
@@ -258,6 +258,23 @@ if (!isset($_SESSION['email'])) {
                     <option selected disabled="disabled">Select A/C</option>
                     <option value="Yes">A/C</option>
                     <option value="No">non A/C</option>
+                  </select>
+                </div><br>
+                
+                <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="ideal" name="ideal" style="height: 50px;" required>
+                    <option selected disabled="disabled">Ideal Type</option>
+                    <option value="Ideal for families">Ideal for families</option>
+                    <option value="Ideal for long drive">Ideal for long drive</option>
+                    <option value="Ideal for city drive">Ideal for city drive</option>
+                  </select>
+                </div><br>
+                
+                <div class="col-15" style="bottom: -30px;">
+                  <select class="form-control" id="availability" name="availability" style="height: 50px;" required>
+                    <option selected disabled="disabled">Vehicle Availability</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
                 </div><br>
 

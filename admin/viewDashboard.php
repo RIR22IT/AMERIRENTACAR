@@ -160,6 +160,8 @@ if (!isset($_SESSION['email'])) {
                                     <th>DOOR</th>
                                     <th>MUSIC</th>
                                     <th>A/C</th>
+                                    <th>IDEAL TYPE</th>
+                                    <th>VEHICLE AVAILABILITY</th>
                                     <th>ACTIONS</th>
                                 </tr>
                             </thead>
@@ -191,6 +193,8 @@ if (!isset($_SESSION['email'])) {
                                         <td><?php echo $row['door']; ?></td>
                                         <td><?php echo $row['musicOn']; ?></td>
                                         <td><?php echo $row['ac']; ?></td>
+                                        <td><?php echo $row['ideal']; ?></td>
+                                        <td><?php echo $row['availability']; ?></td>
                                         <td>
                                             <a href="editVehicleDetails.php?edit=<?php echo $row['id']; ?>" class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>
                                             &nbsp; &nbsp; &nbsp; &nbsp;
