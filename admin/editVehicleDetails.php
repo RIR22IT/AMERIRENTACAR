@@ -93,34 +93,78 @@ if (isset($_GET['edit'])) {
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-       <!-- Sidebar - Brand -->
-       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
-                <div class="sidebar-brand-icon">
-                    <i class="fas fa-users-cog"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">ADMIN</div>
-            </a>
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminDashboard.php">
+        <div class="sidebar-brand-icon">
+          <i class="fas fa-users-cog"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">ADMIN</div>
+      </a>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
 
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link" href="adminDashboard.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>ADMIN PANEL</span></a>
-            </li>
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item">
+        <a class="nav-link" href="adminDashboard.php">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>ADMIN PANEL</span></a>
+      </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
+      <!-- Divider -->
+      <hr class="sidebar-divider">
 
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="adminDashboard.php">
-                    <i class="fas fa-plus-square"></i>
-                    <span>Add Vehicle</span>
-                </a>
-            </li>
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="adminDashboard.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add Vehicle</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="selfDriverRates.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add Self Driver Rates</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="withDriverRates.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add With Driver Rates</span>
+        </a>
+      </li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link" href="viewDashboard.php">
+          <i class="fas fa-eye"></i>
+          <span>View Vehicle Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewBillingDetails.php">
+          <i class="fas fa-eye"></i>
+          <span>View Billing Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewSelfDriver.php">
+          <i class="fas fa-eye"></i>
+          <span>View Self Driver Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewWithDriver.php">
+          <i class="fas fa-eye"></i>
+          <span>View With Driver Details</span>
+        </a>
+      </li>
+
 
             <li class="nav-item">
                 <a class="nav-link" href="adminweddingRates.php">
@@ -132,21 +176,6 @@ if (isset($_GET['edit'])) {
                 <a class="nav-link" href="adminBikeRates.php">
                     <i class="fas fa-plus-square"></i>
                     <span>Add Motorbike Rates</span>
-                </a>
-            </li>
-
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link" href="viewDashboard.php">
-                    <i class="fas fa-eye"></i>
-                    <span>View Vehicle Details</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="viewBillingDetails.php">
-                    <i class="fas fa-eye"></i>
-                    <span>View Billing Details</span>
                 </a>
             </li>
 
@@ -306,11 +335,11 @@ if (isset($_GET['edit'])) {
                                                       ?>>Utility Vehicle</option>
 
                       <option value="MPV/Minivan" <?php
-                                                      if ($type == 'MPV/Minivan') {
-                                                        echo "selected";
-                                                      }
-                                                      ?>>MPV/Minivan</option>
-                  </select>
+                                                  if ($type == 'MPV/Minivan') {
+                                                    echo "selected";
+                                                  }
+                                                  ?>>MPV/Minivan</option>
+                    </select>
                   </div><br>
 
                   <div class="col-15">

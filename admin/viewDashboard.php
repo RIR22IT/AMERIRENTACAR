@@ -88,6 +88,16 @@ if (!isset($_SESSION['email'])) {
             </li>
 
             <li class="nav-item">
+                <a class="nav-link collapsed" href="selfDriverRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Self Driver Rates</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="withDriverRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add With Driver Rates</span>
                 <a class="nav-link" href="adminweddingRates.php">
                     <i class="fas fa-plus-square"></i>
                     <span>Add Wedding Car Rates</span>
@@ -116,6 +126,19 @@ if (!isset($_SESSION['email'])) {
             </li>
 
             <li class="nav-item">
+                <a class="nav-link" href="viewSelfDriver.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Self Driver Details</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="viewWithDriver.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View With Driver Details</span>
+                </a>
+            </li>
+
                 <a class="nav-link" href="viewWeddingRates.php">
                     <i class="fas fa-eye"></i>
                     <span>View Wedding Rates</span>

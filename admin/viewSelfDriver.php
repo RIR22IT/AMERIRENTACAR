@@ -1,5 +1,5 @@
 <?php include '../database/connection.php'; ?>
-<?php include '../admin/php_code.php'; ?>
+<?php include '../admin/selfDriver_php_code.php'; ?>
 
 <?php
 session_start();
@@ -56,8 +56,8 @@ if (!isset($_SESSION['email'])) {
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-             <!-- Sidebar - Brand -->
-             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminDashboard.php">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-users-cog"></i>
                 </div>
@@ -96,16 +96,6 @@ if (!isset($_SESSION['email'])) {
                 <a class="nav-link collapsed" href="withDriverRates.php">
                     <i class="fas fa-plus-square"></i>
                     <span>Add With Driver Rates</span>
-            <li class="nav-item">
-                <a class="nav-link" href="adminweddingRates.php">
-                    <i class="fas fa-plus-square"></i>
-                    <span>Add Wedding Car Rates</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="adminBikeRates.php">
-                    <i class="fas fa-plus-square"></i>
-                    <span>Add Motorbike Rates</span>
                 </a>
             </li>
 
@@ -137,18 +127,6 @@ if (!isset($_SESSION['email'])) {
                     <span>View With Driver Details</span>
                 </a>
             </li>
-                <a class="nav-link" href="viewWeddingRates.php">
-                    <i class="fas fa-eye"></i>
-                    <span>View Wedding Rates</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="viewbikeRates.php">
-                    <i class="fas fa-eye"></i>
-                    <span>View Motorbike Rates</span>
-                </a>
-            </li>
-
         </ul>
 
         <!-- Content Wrapper -->
@@ -186,7 +164,7 @@ if (!isset($_SESSION['email'])) {
                 </nav>
 
                 <center>
-                    <h1 class="h3 mb-1 text-gray-800">View Billing Details</h1>
+                    <h1 class="h3 mb-1 text-gray-800">View Self Driver Rates</h1>
                 </center><br>
 
                 <center>
@@ -195,55 +173,36 @@ if (!isset($_SESSION['email'])) {
                             <thead class="table-dark">
                                 <tr>
                                     <th>#</th>
-                                    <th>TYPE</th>
-                                    <th>MODEL</th>
-                                    <th>PICK DATE</th>
-                                    <th>DROP DATE</th>
-                                    <th>QTY</th>
-                                    <th>FIRST NAME</th>
-                                    <th>LAST NAME</th>
-                                    <th>COMPANY NAME</th>
-                                    <th>COUNTRY</th>
-                                    <th>STREET</th>
-                                    <th>UNIT</th>
-                                    <th>CITY</th>
-                                    <th>POST CODE</th>
-                                    <th>CONTACT</th>
-                                    <th>EMAIL</th>
-                                    <th>INFORMATION</th>
-                                    <th>SUB TOTAL</th>
+                                    <th>VEHICLE</th>
+                                    <th>CATEGORY</th>
+                                    <th>RATE PER MONTH</th>
+                                    <th>RATE PER WEEK</th>
+                                    <th>EXCESS MILEAGE</th>
+                                    <th>ACTIONS</th>
                                 </tr>
                             </thead>
 
                             <?php
                             $i   = 1;
-                            $qry = "select checkout.pickDate,checkout.dropDate,checkout.qty,checkout.firstname,checkout.lastname,checkout.companyname,checkout.country,checkout.streat,checkout.unit,checkout.city,checkout.postcode,checkout.phone,checkout.emailaddress,checkout.information,checkout.subTot, car.type, car.model 
-                                    from checkout 
-                                    inner join car on checkout.vehicleId = car.id";
+                            $qry = "select * from selfdriverates";
                             $run = $db->query($qry);
                             if ($run->num_rows > 0) {
                                 while ($row = $run->fetch_assoc()) {
+                                    $id = $row['id'];
                             ?>
 
                                     <tr>
                                         <td><?php echo $i++ ?></td>
-                                        <td><?php echo $row['type']; ?></td>
-                                        <td><?php echo $row['model']; ?></td>
-                                        <td><?php echo $row['pickDate']; ?></td>
-                                        <td><?php echo $row['dropDate']; ?></td>
-                                        <td><?php echo $row['qty']; ?></td>
-                                        <td><?php echo $row['firstname']; ?></td>
-                                        <td><?php echo $row['lastname']; ?></td>
-                                        <td><?php echo $row['companyname']; ?></td>
-                                        <td><?php echo $row['country']; ?></td>
-                                        <td><?php echo $row['streat']; ?></td>
-                                        <td><?php echo $row['unit']; ?></td>
-                                        <td><?php echo $row['city']; ?></td>
-                                        <td><?php echo $row['postcode']; ?></td>
-                                        <td><?php echo $row['phone']; ?></td>
-                                        <td><?php echo $row['emailaddress']; ?></td>
-                                        <td><?php echo $row['information']; ?></td>
-                                        <td><?php echo $row['subTot']; ?></td>
+                                        <td><?php echo $row['vehicle']; ?></td>
+                                        <td><?php echo $row['category']; ?></td>
+                                        <td><?php echo $row['ratePerMonth']; ?></td>
+                                        <td><?php echo $row['ratePerWeek']; ?></td>
+                                        <td><?php echo $row['ExcessMileage']; ?></td>
+                                        <td>
+                                            <a href="editSelfDriverDetails.php?edit=<?php echo $row['id']; ?>" class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>
+                                            &nbsp; &nbsp; &nbsp; &nbsp;
+                                            <a href="selfDriver_php_code.php?del=<?php echo $row['id']; ?>" class="del_btn"><i class="fa fa-trash" style="color:grey"></i></a>
+                                        </td>
                                     </tr>
 
                                     <?php ?>

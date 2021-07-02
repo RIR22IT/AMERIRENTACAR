@@ -71,22 +71,104 @@ if (!isset($_SESSION['email'])) {
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-             <!-- Sidebar - Brand -->
-             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
-                <div class="sidebar-brand-icon">
-                    <i class="fas fa-users-cog"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">ADMIN</div>
-            </a>
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
+        <div class="sidebar-brand-icon">
+          <i class="fas fa-users-cog"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">ADMIN</div>
+      </a>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
 
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link" href="adminDashboard.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>ADMIN PANEL</span></a>
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item">
+        <a class="nav-link" href="adminDashboard.php">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>ADMIN PANEL</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="adminDashboard.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add Vehicle</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="selfDriverRates.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add Self Driver Rates</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="withDriverRates.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add With Driver Rates</span>
+        </a>
+      </li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link" href="viewDashboard.php">
+          <i class="fas fa-eye"></i>
+          <span>View Vehicle Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewBillingDetails.php">
+          <i class="fas fa-eye"></i>
+          <span>View Billing Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewSelfDriver.php">
+          <i class="fas fa-eye"></i>
+          <span>View Self Driver Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewWithDriver.php">
+          <i class="fas fa-eye"></i>
+          <span>View With Driver Details</span>
+        </a>
+      </li>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                <img class="img-profile rounded-circle" src="../images/admin-img.jpg">
+              </a>
             </li>
 
             <!-- Divider -->
