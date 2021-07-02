@@ -4,23 +4,23 @@
 <?php
 session_start();
 if (!isset($_SESSION['email'])) {
-  header("location: index.php");
+    header("location: index.php");
 }
 ?>
 
 <?php
 if (isset($_GET['edit'])) {
-  $id = $_GET['edit'];
-  $update = true;
-  $record = mysqli_query($db, "SELECT * FROM bikerates WHERE id=$id");
-  if ($record->num_rows > 0) {
-    while ($n = $record->fetch_assoc()) {
-        $category = $n['category'];
-        $vehicle = $n['vehicle'];
-        $dailyrental = $n['dailyrental'];
-        $weekrate = $n['weekrate'];
+    $id = $_GET['edit'];
+    $update = true;
+    $record = mysqli_query($db, "SELECT * FROM bikerates WHERE id=$id");
+    if ($record->num_rows > 0) {
+        while ($n = $record->fetch_assoc()) {
+            $category = $n['category'];
+            $vehicle = $n['vehicle'];
+            $dailyrental = $n['dailyrental'];
+            $weekrate = $n['weekrate'];
+        }
     }
-  }
 }
 ?>
 
@@ -36,45 +36,40 @@ if (isset($_GET['edit'])) {
     <meta name="author" content="">
 
     <style>
-    form {
-        width: 45%;
-        margin: 50px auto;
-        text-align: left;
-        padding: 20px;
-        border: 1px solid #bbbbbb;
-        border-radius: 5px;
-    }
+        form {
+            width: 45%;
+            margin: 50px auto;
+            text-align: left;
+            padding: 20px;
+            border: 1px solid #bbbbbb;
+            border-radius: 5px;
+        }
 
-    .msg {
-        margin: 30px auto;
-        padding: 10px;
-        border-radius: 5px;
-        color: #3c763d;
-        background: #dff0d8;
-        border: 1px solid #3c763d;
-        width: 50%;
-        text-align: center;
-    }
+        .msg {
+            margin: 30px auto;
+            padding: 10px;
+            border-radius: 5px;
+            color: #3c763d;
+            background: #dff0d8;
+            border: 1px solid #3c763d;
+            width: 50%;
+            text-align: center;
+        }
     </style>
 
     <title>ADMIN PANEL</title>
 
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="../admin//styles//sb-admin-2.min.css" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
     </script>
 
 </head>
@@ -84,7 +79,6 @@ if (isset($_GET['edit'])) {
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
@@ -117,6 +111,20 @@ if (isset($_GET['edit'])) {
             </li>
 
             <li class="nav-item">
+                <a class="nav-link collapsed" href="selfDriverRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Self Driver Rates</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="withDriverRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add With Driver Rates</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
                 <a class="nav-link" href="adminweddingRates.php">
                     <i class="fas fa-plus-square"></i>
                     <span>Add Wedding Car Rates</span>
@@ -141,6 +149,20 @@ if (isset($_GET['edit'])) {
                 <a class="nav-link" href="viewBillingDetails.php">
                     <i class="fas fa-eye"></i>
                     <span>View Billing Details</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="viewSelfDriver.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Self Driver Details</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="viewWithDriver.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View With Driver Details</span>
                 </a>
             </li>
 
@@ -179,17 +201,14 @@ if (isset($_GET['edit'])) {
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
                                 <img class="img-profile rounded-circle" src="../images//admin-img.jpg">
                             </a>
                         </li>
                         <!--logout btn-->
                         <li class="nav-item dropdown no-arrow" style="padding-top:15px; ">
-                            <a href="logout.php?logout" class="btn btn-outline-secondary" role="button"
-                                aria-pressed="true"><i
-                                    class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
+                            <a href="logout.php?logout" class="btn btn-outline-secondary" role="button" aria-pressed="true"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
                         </li>
 
                     </ul>
@@ -214,46 +233,42 @@ if (isset($_GET['edit'])) {
                                     <input type="hidden" name="id" value="<?php echo $id; ?>">
 
                                     <div class="col-15">
-                                        <select class="form-control" id="category" name="category" style="height: 50px;"
-                                            required>
+                                        <select class="form-control" id="category" name="category" style="height: 50px;" required>
                                             <option selected disabled="disabled">Select Category</option>
 
                                             <option value="MOTOR BIKES" <?php
-                                                if ($category == 'MOTOR BIKES') {
-                                                  echo "selected";
-                                                }
-                                                ?>>MOTOR BIKES</option>
+                                                                        if ($category == 'MOTOR BIKES') {
+                                                                            echo "selected";
+                                                                        }
+                                                                        ?>>MOTOR BIKES</option>
 
                                             <option value="BICYCLE" <?php
-                                              if ($category == 'BICYCLE') {
-                                                echo "selected";
-                                              }
-                                              ?>>BICYCLE</option>
+                                                                    if ($category == 'BICYCLE') {
+                                                                        echo "selected";
+                                                                    }
+                                                                    ?>>BICYCLE</option>
                                         </select>
                                     </div><br>
 
                                     <div class="col-15">
                                         <label>Vehicle</label>
-                                        <input type="text" name="vehicle" class="form-control"
-                                            value="<?php echo $vehicle; ?>" required>
+                                        <input type="text" name="vehicle" class="form-control" value="<?php echo $vehicle; ?>" required>
                                     </div><br>
 
                                     <div class="col-15">
                                         <label>Daily Rental (Minimum 4 days)</label>
-                                        <input type="text" name="dailyrental" class="form-control"
-                                            value="<?php echo $dailyrental; ?>" required>
+                                        <input type="text" name="dailyrental" class="form-control" value="<?php echo $dailyrental; ?>" required>
                                     </div><br>
 
                                     <div class="col-15">
                                         <label>1 Week (7) days</label>
-                                        <input type="text" class="form-control" name="weekrate"
-                                            value="<?php echo $weekrate; ?>" required>
+                                        <input type="text" class="form-control" name="weekrate" value="<?php echo $weekrate; ?>" required>
                                     </div><br>
                                     <div class="col-15">
                                         <?php if ($update == true) : ?>
-                                        <button class="btn btn-primary" type="submit" name="bikeUpdate">update</button>
+                                            <button class="btn btn-primary" type="submit" name="bikeUpdate">update</button>
                                         <?php else : ?>
-                                        <button class="btn" type="submit" name="bike">Update</button>
+                                            <button class="btn" type="submit" name="bike">Update</button>
                                         <?php endif ?>
 
 
@@ -269,17 +284,17 @@ if (isset($_GET['edit'])) {
 
                         <div class="card-body">
                             <?php
-              if (isset($_SESSION['success']) && $_SESSION['success'] != '') {
-                echo '<h2 class = "bg-primary text-white"> ' . $_SESSION['success'] . '</h2>';
-                unset($_SESSION['success']);
-              }
+                            if (isset($_SESSION['success']) && $_SESSION['success'] != '') {
+                                echo '<h2 class = "bg-primary text-white"> ' . $_SESSION['success'] . '</h2>';
+                                unset($_SESSION['success']);
+                            }
 
-              if (isset($_SESSION['status']) && $_SESSION['status'] != '') {
-                echo '<h2 class = "bg-primary text-white"> ' . $_SESSION['status'] . '</h2>';
-                unset($_SESSION['status']);
-              }
+                            if (isset($_SESSION['status']) && $_SESSION['status'] != '') {
+                                echo '<h2 class = "bg-primary text-white"> ' . $_SESSION['status'] . '</h2>';
+                                unset($_SESSION['status']);
+                            }
 
-              ?>
+                            ?>
                         </div>
 
                         <!-- Content Row -->

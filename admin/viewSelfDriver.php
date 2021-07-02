@@ -53,11 +53,10 @@ if (!isset($_SESSION['email'])) {
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminDashboard.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-users-cog"></i>
                 </div>
@@ -99,6 +98,19 @@ if (!isset($_SESSION['email'])) {
                 </a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="adminweddingRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Wedding Car Rates</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="adminBikeRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Motorbike Rates</span>
+                </a>
+            </li>
+
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link" href="viewDashboard.php">
@@ -127,7 +139,22 @@ if (!isset($_SESSION['email'])) {
                     <span>View With Driver Details</span>
                 </a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="viewWeddingRates.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Wedding Rates</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="viewbikeRate.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Motorbike Rates</span>
+                </a>
+            </li>
+
         </ul>
+        <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
