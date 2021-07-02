@@ -11,6 +11,8 @@
         <meta content="telephone=no" name="format-detection" />
         <meta name="HandheldFriendly" content="true" />
         <link rel="stylesheet" href="assets/css/master.css" />
+        <!--fav-icon-->
+    <link rel="shortcut icon" href="fav-icon.png"/>
         <!-- SWITCHER-->
         <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
         <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
@@ -55,78 +57,78 @@
             <!-- ==========================-->
             <!-- SEARCH MODAL-->
             <!-- ==========================-->
-            <div class="header-search open-search">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-                            <div class="navbar-search">
-                                <form class="search-global">
-                                    <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
-                                    <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
-                                    </button>
-                                    <div class="search-global__note">Begin typing your search above and press return to search.</div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="search-close close" type="button"><i class="fa fa-times"></i>
-                </button>
-            </div>
-            <div data-off-canvas="slidebar-1 left overlay">
-                <ul class="nav navbar-nav">
-                    <li><a class="scrollTo" href="#features-section">features</a>
-                    </li>
-                    <li><a class="scrollTo" href="#services-section">Services</a>
-                    </li>
-                    <li><a class="scrollTo" href="#works-section">Works</a>
-                    </li>
-                    <li><a class="scrollTo" href="#about-section">About</a>
-                    </li>
-                    <li><a class="scrollTo" href="#team-section">Team</a>
-                    </li>
-                    <li><a href="#">News</a>
-                        <div class="wrap-inside-nav">
-                            <div class="inside-col">
-                                <ul class="inside-nav">
-                                    <li><a href="blog.html">Blog 1</a>
-                                    </li>
-                                    <li><a href="blog-2.html">Blog 2</a>
-                                    </li>
-                                    <li><a href="blog-single.html">Blog single</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="#">Portfolio</a>
-                        <div class="wrap-inside-nav">
-                            <div class="inside-col">
-                                <ul class="inside-nav">
-                                    <li><a href="portfolio.html">Portfolio</a>
-                                    </li>
-                                    <li><a href="portfolio-single.html">Portfolio single</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="#">Contact</a>
-                        <div class="wrap-inside-nav">
-                            <div class="inside-col">
-                                <ul class="inside-nav">
-                                    <li><a href="contact.html">Contact 1</a>
-                                    </li>
-                                    <li><a href="contact-2.html">Contact 2</a>
-                                    </li>
-                                    <li><a href="contact-3.html">Contact 3</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <!--<div class="header-search open-search">-->
+            <!--    <div class="container">-->
+            <!--        <div class="row">-->
+            <!--            <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">-->
+            <!--                <div class="navbar-search">-->
+            <!--                    <form class="search-global">-->
+            <!--                        <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />-->
+            <!--                        <button class="search-global__btn"><i class="icon stroke icon-Search"></i>-->
+            <!--                        </button>-->
+            <!--                        <div class="search-global__note">Begin typing your search above and press return to search.</div>-->
+            <!--                    </form>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--    <button class="search-close close" type="button"><i class="fa fa-times"></i>-->
+            <!--    </button>-->
+            <!--</div>-->
+            <!--<div data-off-canvas="slidebar-1 left overlay">-->
+            <!--    <ul class="nav navbar-nav">-->
+            <!--        <li><a class="scrollTo" href="#features-section">features</a>-->
+            <!--        </li>-->
+            <!--        <li><a class="scrollTo" href="#services-section">Services</a>-->
+            <!--        </li>-->
+            <!--        <li><a class="scrollTo" href="#works-section">Works</a>-->
+            <!--        </li>-->
+            <!--        <li><a class="scrollTo" href="#about-section">About</a>-->
+            <!--        </li>-->
+            <!--        <li><a class="scrollTo" href="#team-section">Team</a>-->
+            <!--        </li>-->
+            <!--        <li><a href="#">News</a>-->
+            <!--            <div class="wrap-inside-nav">-->
+            <!--                <div class="inside-col">-->
+            <!--                    <ul class="inside-nav">-->
+            <!--                        <li><a href="blog.html">Blog 1</a>-->
+            <!--                        </li>-->
+            <!--                        <li><a href="blog-2.html">Blog 2</a>-->
+            <!--                        </li>-->
+            <!--                        <li><a href="blog-single.html">Blog single</a>-->
+            <!--                        </li>-->
+            <!--                    </ul>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </li>-->
+            <!--        <li><a href="#">Portfolio</a>-->
+            <!--            <div class="wrap-inside-nav">-->
+            <!--                <div class="inside-col">-->
+            <!--                    <ul class="inside-nav">-->
+            <!--                        <li><a href="portfolio.html">Portfolio</a>-->
+            <!--                        </li>-->
+            <!--                        <li><a href="portfolio-single.html">Portfolio single</a>-->
+            <!--                        </li>-->
+            <!--                    </ul>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </li>-->
+            <!--        <li><a href="#">Contact</a>-->
+            <!--            <div class="wrap-inside-nav">-->
+            <!--                <div class="inside-col">-->
+            <!--                    <ul class="inside-nav">-->
+            <!--                        <li><a href="contact.html">Contact 1</a>-->
+            <!--                        </li>-->
+            <!--                        <li><a href="contact-2.html">Contact 2</a>-->
+            <!--                        </li>-->
+            <!--                        <li><a href="contact-3.html">Contact 3</a>-->
+            <!--                        </li>-->
+            <!--                    </ul>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </li>-->
+            <!--    </ul>-->
+            <!--</div>-->
            
            <!-- Header starts here --> 
            <?php include('./inc/header.php')?>
@@ -148,7 +150,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <ol class="breadcrumb">
-                                <li><a href="home.html"><i class="icon fa fa-home"></i></a>
+                                <li><a href="index.php"><i class="icon fa fa-home" style="color: #000"></i></a>
                                 </li>
                                 <li><a href="listings-1.html.html">Vehicle Inventry</a>
                                 </li>

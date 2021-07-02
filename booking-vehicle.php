@@ -41,13 +41,15 @@ if (isset($_GET['view'])) {
     <meta content="telephone=no" name="format-detection" />
     <meta name="HandheldFriendly" content="true" />
     <link rel="stylesheet" href="assets/css/master.css" />
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="fav-icon.png"/>
     <!-- SWITCHER-->
     <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
     <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
     <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2" />
     <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
     <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+ 
     <!--[if lt IE 9 ]>
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
@@ -325,13 +327,13 @@ if (isset($_GET['view'])) {
                                                     <div>
                                                         <input name="choice[]" value="require" type="checkbox"
                                                             required />
-                                                        <label>I accept the <a href="our-terms.php">Terms and
+                                                        <label>I accept the <a href="our-terms.php" style="color: #00245b;">Terms and
                                                                 conditions</a></label>
                                                     </div>
                                                     <br />
 
                                                     <input type="hidden" name="vehicleID" value="<?php echo $id ?>">
-                                                    <button class="btn btn-primary" style="width: 310px;">Booking this
+                                                    <button class="btn btn-primary" style="width: 310px;">Book this
                                                         Car</a></button>
 
                                                     <div class="row">

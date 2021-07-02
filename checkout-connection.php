@@ -88,6 +88,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
 <link rel="stylesheet" href="assets/css/styles.css" />
+<!--fav-icon-->
+<link rel="shortcut icon" href="fav-icon.png"/>
 </head>
 <body>
 

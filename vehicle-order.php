@@ -43,16 +43,16 @@ $c = count($select);
 for ($i = 0; $i < $c; $i++) {
     if ($select[$i] == 'arriving') {
         if ($pickupLoc == 'hotelP' || $pickupLoc == 'airportP') {
-            $subTot = $subTot + 17;
+            $subTot = $subTot + 8;
         } else {
-            $subTot = $subTot;
+            $subTot = $subTot + 5;
         }
     }
     if ($select[$i] == 'departing') {
         if ($dropLoc == 'hotelD' || $dropLoc == 'airportD') {
-            $subTot = $subTot + 17;
+            $subTot = $subTot + 8;
         } else {
-            $subTot = $subTot;
+            $subTot = $subTot + 5;
         }
     }
     if ($select[$i] == 'millage') {
@@ -92,21 +92,21 @@ for ($i = 0; $i < $c; $i++) {
 // }
 
 if ($pickupLoc == 'hotelP' && $dropLoc == 'hotelD'){
-    $subTot = $subTot + 16;
+    $subTot = $subTot + 10;
 } else if ($pickupLoc == 'airportP' && $dropLoc == 'airportD'){
-    $subTot = $subTot + 20;
+    $subTot = $subTot + 35;
 } else if ($pickupLoc == 'airportP' && $dropLoc == 'hotelD'){
     $subTot = $subTot + 18;
 } else if ($pickupLoc == 'hotelP' && $dropLoc == 'airportD'){
-    $subTot = $subTot + 18;
+    $subTot = $subTot + 23;
 } else if ($pickupLoc == 'hotelP' && $dropLoc == 'officeD'){
-    $subTot = $subTot + 8;
+    $subTot = $subTot + 5;
 } else if ($pickupLoc == 'officeP' && $dropLoc == 'hotelD'){
-    $subTot = $subTot + 8;
+    $subTot = $subTot + 5;
 } else if ($pickupLoc == 'airportP' && $dropLoc == 'officeD'){
-    $subTot = $subTot + 10;
+    $subTot = $subTot + 18;
 } else if ($pickupLoc == 'officeP' && $dropLoc == 'airportD'){
-    $subTot = $subTot + 10;
+    $subTot = $subTot + 18;
 } else {
     $subTot = $subTot;
 }
@@ -174,13 +174,15 @@ $localPrice   = number_format((float)$subTot * 200, 2, '.', '');
     <meta content="telephone=no" name="format-detection" />
     <meta name="HandheldFriendly" content="true" />
     <link rel="stylesheet" href="assets/css/master.css" />
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="fav-icon.png"/>
     <!-- SWITCHER-->
     <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
     <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
     <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2" />
     <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
     <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!--<link rel="icon" type="image/x-icon" href="favicon.ico" />-->
     <!--[if lt IE 9 ]>
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->

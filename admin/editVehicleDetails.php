@@ -30,6 +30,8 @@ if (isset($_GET['edit'])) {
       $door = $n['door'];
       $musicOn = $n['musicOn'];
       $ac = $n['ac'];
+      $ideal = $n['ideal'];
+      $availability = $n['availability'];
     }
   }
 }
@@ -163,6 +165,33 @@ if (isset($_GET['edit'])) {
         </a>
       </li>
 
+
+            <li class="nav-item">
+                <a class="nav-link" href="adminweddingRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Wedding Car Rates</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="adminBikeRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Motorbike Rates</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="viewWeddingRates.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Wedding Rates</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="viewbikeRate.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Motorbike Rates</span>
+                </a>
+            </li>
+
     </ul>
     <!-- End of Sidebar -->
 
@@ -275,23 +304,11 @@ if (isset($_GET['edit'])) {
                                                     }
                                                     ?>>Midsize Sedan</option>
 
-                      <option value="Midsize Estate" <?php
-                                                      if ($type == 'Midsize Estate') {
-                                                        echo "selected";
-                                                      }
-                                                      ?>>Midsize Estate</option>
-
                       <option value="Large Sedan" <?php
                                                   if ($type == 'Large Sedan') {
                                                     echo "selected";
                                                   }
                                                   ?>>Large Sedan</option>
-
-                      <option value="Large Estate" <?php
-                                                    if ($type == 'Large Estate') {
-                                                      echo "selected";
-                                                    }
-                                                    ?>>Large Estate</option>
 
                       <option value="Luxury Sedan" <?php
                                                     if ($type == 'Luxury Sedan') {
@@ -341,11 +358,7 @@ if (isset($_GET['edit'])) {
                                               }
                                               ?>>Manual</option>
 
-                      <option value="Semi-Automatic" <?php
-                                                      if ($transmission == 'Semi-Automatic') {
-                                                        echo "selected";
-                                                      }
-                                                      ?>>Semi-Automatic</option>
+                 
 
                     </select>
                   </div><br>
@@ -451,6 +464,47 @@ if (isset($_GET['edit'])) {
                                             echo "selected";
                                           }
                                           ?>>non A/C</option>
+                    </select>
+                  </div><br>
+                  
+                  <div class="col-15" style="bottom: -30px;">
+                    <select class="form-control" id="ideal" name="ideal" style="height: 50px;" required>
+                      <option selected disabled="disabled">Ideal Type</option>
+
+                      <option value="Ideal for families" <?php
+                                          if ($ideal == 'Ideal for families') {
+                                            echo "selected";
+                                          }
+                                          ?>>Ideal for families</option>
+
+                      <option value="Ideal for long drive" <?php
+                                          if ($ideal == 'Ideal for long drive') {
+                                            echo "selected";
+                                          }
+                                          ?>>Ideal for long drive</option>
+                      <option value="Ideal for city drive" <?php
+                                          if ($ideal == 'Ideal for city drive') {
+                                            echo "selected";
+                                          }
+                                          ?>>Ideal for city drive</option>
+                    </select>
+                  </div><br>
+                  
+                  <div class="col-15" style="bottom: -30px;">
+                    <select class="form-control" id="availability" name="availability" style="height: 50px;" required>
+                      <option selected disabled="disabled">Vehicle Availability</option>
+
+                      <option value="Yes" <?php
+                                          if ($availability == 'Yes') {
+                                            echo "selected";
+                                          }
+                                          ?>>Yes</option>
+
+                      <option value="No" <?php
+                                          if ($availability == 'No') {
+                                            echo "selected";
+                                          }
+                                          ?>>No</option>
                     </select>
                   </div><br>
 

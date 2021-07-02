@@ -6,7 +6,7 @@
                                 <div class="col-md-3">
                                     <div class="footer-section">
                                         <a class="footer__logo" href="home.html">
-                                            <img class="img-responsive" src="./IMAGES/LOGO.PNG" alt="Logo" />
+                                            <img class="img-responsive" src="./images/logo.png" alt="Logo" />
                                         </a>
                                         <!-- <div class="footer__info">Duis aute irure reprehend voluptate velit ese acium fugiat nula pariatur exceptus ipsum dolor sit amet consectetur adipisic elita sed eiusmod tempor.</div> -->
                                         <!-- <ul class="social-net list-inline">
@@ -43,19 +43,19 @@
                                     <section class="footer-section footer-section_list-one">
                                         <h3 class="footer-section__title ui-title-inner">Vehicle Fleet</h3>
                                         <ul class="footer-list list-unstyled">
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">RENT GENERAL CARS IN SRI LANKA</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="rent-general-cars.php">RENT GENERAL CARS IN SRI LANKA</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">PREMIUM CARS FOR RENT IN SRI LANKA</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="premium-cars-for-rental.php">PREMIUM CARS FOR RENT IN SRI LANKA</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">SUV/4WD FOR RENT IN SRI LANKA</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="4WD-for-rent.php">SUV/4WD FOR RENT IN SRI LANKA</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">WEDDING CARS FOR RENT IN SRI LANKA</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="wedding-cars-for-rent.php">WEDDING CARS FOR RENT IN SRI LANKA</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">CLASSIC AND VINTAGE CARS</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="classic-and-vintage-cars.php">CLASSIC AND VINTAGE CARS</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">LUXURY VANS FOR RENT IN SRI LANKA</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="luxury-vans-for-rent.php">LUXURY VANS FOR RENT IN SRI LANKA</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">LUXURY BUSES FOR RENT IN SRI LANKA</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="luxury-buses-for-rent.php">LUXURY BUSES FOR RENT IN SRI LANKA</a>
                                             </li>
                                         </ul>
                                     </section>
@@ -63,7 +63,7 @@
                                 <div class="col-md-3">
                                     <section class="footer-section">
                                         <h3 class="footer-section__title ui-title-inner">Address Information</h3>
-                                        <div class="footer-contact footer-contact_lg">Call us<span class="text-primary"> (+94) 765 566 531</span>
+                                        <div class="footer-contact footer-contact_lg">Call us<span class="text-primary" style = "color: white"> (+94) 765 566 531</span>
                                         </div>
                                         <div class="footer-contact"><i class="icon icon-xs fa fa-envelope-o"></i>amerirentacar@gmail.com</div>
                                         <div class="footer-contact"><i class="icon icon-lg fa fa-map-marker"></i>No.43, School Lane, Colombo-03, Sri Lanka</div>
@@ -76,11 +76,12 @@
                     <div class="copyright">
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-12">Copyrights 2021<a class="copyright__brand" href="home.php"> AMERIRENTACAR</a> All Rights Reserved<a class="copyright__link" href="#">Privacy Policy</a><a class="copyright__link" href="our-terms.php">Terms & Conditions</a>
+                                <div class="col-xs-12">Copyrights 2021<a class="copyright__brand" href="home.php"> AMERIRENTACAR</a> All Rights Reserved
                                 </div>
                             </div>
                         </div>
-                    </div><span class="btn-up" id="toTop">TOP</span>
+                    </div>
+                    <!--<span class="btn-up" id="toTop">TOP</span>-->
                 </div>
             </footer>
             <!-- .footer-->

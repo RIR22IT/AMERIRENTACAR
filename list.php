@@ -13,13 +13,15 @@
     <link rel="stylesheet" href="assets/css/master.css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="fav-icon.png"/>
     <!-- SWITCHER-->
     <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
     <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
     <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2" />
     <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
     <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!--<link rel="icon" type="image/x-icon" href="favicon.ico" />-->
     <!--[if lt IE 9 ]>
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
@@ -49,84 +51,84 @@
         <!-- ==========================-->
         <!-- SEARCH MODAL-->
         <!-- ==========================-->
-        <div class="header-search open-search">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-                        <div class="navbar-search">
-                            <form class="search-global">
-                                <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
-                                <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
-                                </button>
-                                <div class="search-global__note">Begin typing your search above and press return to
-                                    search.</div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="search-close close" type="button"><i class="fa fa-times"></i>
-            </button>
-        </div>
-        <div data-off-canvas="slidebar-1 left overlay">
-            <ul class="nav navbar-nav">
-                <li><a class="scrollTo" href="#features-section">features</a>
-                </li>
-                <li><a class="scrollTo" href="#services-section">Services</a>
-                </li>
-                <li><a class="scrollTo" href="#works-section">Works</a>
-                </li>
-                <li><a class="scrollTo" href="#about-section">About</a>
-                </li>
-                <li><a class="scrollTo" href="#team-section">Team</a>
-                </li>
-                <li><a href="#">News</a>
-                    <div class="wrap-inside-nav">
-                        <div class="inside-col">
-                            <ul class="inside-nav">
-                                <li><a href="blog.html">Blog 1</a>
-                                </li>
-                                <li><a href="blog-2.html">Blog 2</a>
-                                </li>
-                                <li><a href="blog-single.html">Blog single</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="#">Portfolio</a>
-                    <div class="wrap-inside-nav">
-                        <div class="inside-col">
-                            <ul class="inside-nav">
-                                <li><a href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li><a href="portfolio-single.html">Portfolio single</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="#">Contact</a>
-                    <div class="wrap-inside-nav">
-                        <div class="inside-col">
-                            <ul class="inside-nav">
-                                <li><a href="contact.html">Contact 1</a>
-                                </li>
-                                <li><a href="contact-2.html">Contact 2</a>
-                                </li>
-                                <li><a href="contact-3.html">Contact 3</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <!--<div class="header-search open-search">-->
+        <!--    <div class="container">-->
+        <!--        <div class="row">-->
+        <!--            <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">-->
+        <!--                <div class="navbar-search">-->
+        <!--                    <form class="search-global">-->
+        <!--                        <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />-->
+        <!--                        <button class="search-global__btn"><i class="icon stroke icon-Search"></i>-->
+        <!--                        </button>-->
+        <!--                        <div class="search-global__note">Begin typing your search above and press return to-->
+        <!--                            search.</div>-->
+        <!--                    </form>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <button class="search-close close" type="button"><i class="fa fa-times"></i>-->
+        <!--    </button>-->
+        <!--</div>-->
+        <!--<div data-off-canvas="slidebar-1 left overlay">-->
+        <!--    <ul class="nav navbar-nav">-->
+        <!--        <li><a class="scrollTo" href="#features-section">features</a>-->
+        <!--        </li>-->
+        <!--        <li><a class="scrollTo" href="#services-section">Services</a>-->
+        <!--        </li>-->
+        <!--        <li><a class="scrollTo" href="#works-section">Works</a>-->
+        <!--        </li>-->
+        <!--        <li><a class="scrollTo" href="#about-section">About</a>-->
+        <!--        </li>-->
+        <!--        <li><a class="scrollTo" href="#team-section">Team</a>-->
+        <!--        </li>-->
+        <!--        <li><a href="#">News</a>-->
+        <!--            <div class="wrap-inside-nav">-->
+        <!--                <div class="inside-col">-->
+        <!--                    <ul class="inside-nav">-->
+        <!--                        <li><a href="blog.html">Blog 1</a>-->
+        <!--                        </li>-->
+        <!--                        <li><a href="blog-2.html">Blog 2</a>-->
+        <!--                        </li>-->
+        <!--                        <li><a href="blog-single.html">Blog single</a>-->
+        <!--                        </li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li><a href="#">Portfolio</a>-->
+        <!--            <div class="wrap-inside-nav">-->
+        <!--                <div class="inside-col">-->
+        <!--                    <ul class="inside-nav">-->
+        <!--                        <li><a href="portfolio.html">Portfolio</a>-->
+        <!--                        </li>-->
+        <!--                        <li><a href="portfolio-single.html">Portfolio single</a>-->
+        <!--                        </li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li><a href="#">Contact</a>-->
+        <!--            <div class="wrap-inside-nav">-->
+        <!--                <div class="inside-col">-->
+        <!--                    <ul class="inside-nav">-->
+        <!--                        <li><a href="contact.html">Contact 1</a>-->
+        <!--                        </li>-->
+        <!--                        <li><a href="contact-2.html">Contact 2</a>-->
+        <!--                        </li>-->
+        <!--                        <li><a href="contact-3.html">Contact 3</a>-->
+        <!--                        </li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--    </ul>-->
+        <!--</div>-->
         <!-- Header -->
         <?php include('./inc/header.php') ?>
 
         <!-- end .header-->
-        <br>
+        <br><br><br><br><br><br><br>
         <div class="section-title-page area-bg area-bg_dark area-bg_op_70">
             <div class="area-bg__inner">
                 <div class="container">
@@ -144,7 +146,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ol class="breadcrumb">
-                            <li><a href="home.html"><i class="icon fa fa-home"></i></a>
+                            <li><a href="index.php"><i class="icon fa fa-home" style="color: #000"></i></a>
                             </li>
                             <li class="active">Vehicle List</li>
                         </ol>
@@ -171,10 +173,10 @@
                             include('./database/connection.php');
                             if (isset($_POST['search'])) {
                                 $type = $_POST['type'];
-                                $fuel = $_POST['fuel'];
+                                // $fuel = $_POST['fuel'];
                                 $transmission = $_POST['transmission'];
-                                if ($type != "" || $fuel != "" || $transmission != "") {
-                                    $query = "SELECT * FROM car WHERE type = '$type' OR fuel = '$fuel' OR transmission = '$transmission'";
+                                if ($type != "" || $transmission != "") {
+                                    $query = "SELECT * FROM car WHERE type = '$type' OR transmission = '$transmission'";
                                     $data = mysqli_query($db, $query) or die('error');
 
                                     if (mysqli_num_rows($data) > 0) {
@@ -200,7 +202,7 @@
                                             <section class="b-goods-1">
                                                 <div class="row">
                                                     <div class="b-goods-1__img">
-                                                        <a class="js-zoom-images" href="">
+                                                        <a class="b-goods-1__choose" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
                                                             <?php echo '<img class="img-responsive" src="./admin/upload/' . $img . '" width = "100%" height = "auto" alt = "Image">' ?>
                                                         </a>
                                                     </div>
@@ -244,11 +246,89 @@
                                         }
                                     } else {
                                         ?>
-                                        <h2> Results Not Found. View All Vehicles </h2><br>
-                                        <div class="col-md-3 col-md-offset-3">
-                                            <a class="btn btn-primary" href="list_all.php" style="width: 200px;">VIEW
-                                            </a>
+                                        <!--<h2> Results Not Found. View All Vehicles </h2><br>-->
+                                        <!--<div class="col-md-3 col-md-offset-3">-->
+                                        <!--    <a class="btn btn-primary" href="list_all.php" style="width: 200px;">VIEW-->
+                                        <!--    </a>-->
+                                        <!--</div>-->
+                                        <div class="goods-group-2 list-goods">
+
+                            <?php
+                            include('./database/connection.php');
+
+                            $query = "SELECT * FROM car";
+                            $data = mysqli_query($db, $query) or die('error');
+
+                            if (mysqli_num_rows($data) > 0) {
+                                while ($row = mysqli_fetch_assoc($data)) {
+                                    $id           = $row['id'];
+                                    $img          = $row['img'];
+                                    $model        = $row['model'];
+                                    $year         = $row['year'];
+                                    $engine       = $row['engine'];
+                                    $rental       = $row['rental'];
+                                    $passenger    = $row['passenger'];
+                                    $luggage      = $row['luggage'];
+                                    $type         = $row['type'];
+                                    $transmission = $row['transmission'];
+                                    $fuel         = $row['fuel'];
+                                    $door         = $row['door'];
+                                    $musicOn      = $row['musicOn'];
+                                    $ac           = $row['ac'];
+                                    $localPrice   = number_format((float)$rental * 200, 2, '.', '');
+                            ?>
+
+                                    <section class="b-goods-1">
+                                        <div class="row">
+                                            <div class="b-goods-1__img">
+                                                <a href="booking-vehicle.php?view=<?php echo $row['id']; ?>">
+                                                    <?php echo '<img class="img-responsive" src="./admin/upload/' . $img . '" width = "100%" height = "auto" alt = "Image">' ?>
+                                                </a>
+                                            </div>
+                                            <div class="b-goods-1__inner">
+                                                <div class="b-goods-1__header"><span class="b-goods-1__price hidden-th">$<?php echo $rental ?><span class="b-goods-1__price-msrp">Rs.
+                                                            <?php echo $localPrice ?></span></span><a class="b-goods-1__choose hidden-th" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
+                                                    <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $model ?></a>
+                                                    </h2>
+                                                </div>
+                                                <div class="b-goods-1__info">
+                                                </div><span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental ?><span class="b-goods-1__price-msrp">Rs. <?php echo $localPrice ?></span><a class="b-goods-1__choose" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
+                                                </span>
+                                                <div class="b-goods-1__section">
+                                                    <h3 class="b-goods-1__title">
+                                                        Highlights</h3>
+                                                    <div class="collapse in" id="desc-4">
+                                                        <ul class="b-goods-1__desc list-unstyled">
+                                                            <li class="b-goods-1__desc-item"><?php echo $engine ?>cc</li>
+                                                            <li class="b-goods-1__desc-item"><span class="hidden-th">Model:</span> <?php echo $year ?></li>
+                                                            <li class="b-goods-1__desc-item"><?php echo $transmission ?></li>
+                                                            <li class="b-goods-1__desc-item hidden-th"><?php echo $fuel ?></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="b-goods-1__section hidden-th">
+                                                    <h3 class="b-goods-1__title">specifications</h3>
+                                                        <ul class="b-goods-1__list list list-mark-5 list_mark-prim">
+                                                            <li class="b-goods-1__list-item"><strong>Year:</strong> <?php echo $year ?></li>
+                                                            <li class="b-goods-1__list-item"><strong>Engine:</strong> <?php echo $engine ?>cc</li>
+                                                            <li class="b-goods-1__list-item"><strong>Luggage:</strong> <?php echo $luggage ?></li>
+                                                            <li class="b-goods-1__list-item"><strong>Music Player:</strong> <?php echo $musicOn ?></li>
+                                                            <li class="b-goods-1__list-item"><strong>A/C:</strong> <?php echo $ac ?></li>
+                                                            <li class="b-goods-1__list-item"><strong>Passengers:</strong> <?php echo $passenger ?></li>
+                                                            <li class="b-goods-1__list-item"><strong>Doors:</strong> <?php echo $door ?> doors</li>
+                                                        </ul>
+                                                    
+                                                </div>
+                                            </div>
                                         </div>
+                                    </section>
+                                    <!-- end .b-goods-1-->
+                            <?php
+                                }
+                            } ?>
+
+
+                        </div>
                             <?php
                                     }
                                 }
@@ -261,10 +341,10 @@
                             include('./database/connection.php');
                             if (isset($_POST['filter'])) {
                                 $type2 = $_POST['type'];
-                                $fuel2 = $_POST['fuel'];
+                                // $fuel2 = $_POST['fuel'];
                                 $transmission2 = $_POST['transmission'];
-                                if ($type2 != "" || $fuel2 != "" || $transmission2 != "") {
-                                    $query = "SELECT * FROM car WHERE type = '$type2' OR fuel = '$fuel2' OR transmission = '$transmission2'";
+                                if ($type2 != "" || $transmission2 != "") {
+                                    $query = "SELECT * FROM car WHERE type = '$type2' OR transmission = '$transmission2'";
                                     $data = mysqli_query($db, $query) or die('error');
 
                                     if (mysqli_num_rows($data) > 0) {
@@ -383,28 +463,28 @@
                                     </select>
                                 </div>
 
-                                <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">FUEL</div>
-                                    <select class="selectpicker" name="fuel" data-width="100%">
-                                        <option>All Fuel Type</option>
-                                        <option value="Petrol">Petrol</option>
-                                        <option value="Diesel">Diesel</option>
-                                        <option value="Hybrid">Hybrid</option>
-                                        <option value="Plugin Electric">Plugin Electric</option>
-                                        <option value="Petrol + CNG">Petrol + CNG</option>
-                                        <option value="LPG">LPG</option>
-                                    </select>
-                                </div>
+                                <!--<div class="b-filter-2__group">-->
+                                <!--    <div class="b-filter-2__group-title">FUEL</div>-->
+                                <!--    <select class="selectpicker" name="fuel" data-width="100%">-->
+                                <!--        <option>All Fuel Type</option>-->
+                                <!--        <option value="Petrol">Petrol</option>-->
+                                <!--        <option value="Diesel">Diesel</option>-->
+                                <!--        <option value="Hybrid">Hybrid</option>-->
+                                <!--        <option value="Plugin Electric">Plugin Electric</option>-->
+                                <!--        <option value="Petrol + CNG">Petrol + CNG</option>-->
+                                <!--        <option value="LPG">LPG</option>-->
+                                <!--    </select>-->
+                                <!--</div>-->
 
-                                <div class="b-filter-2__group">
-                                    <div class="b-filter-2__group-title">Filter Price</div>
-                                    <div class="ui-filter-slider">
-                                        <div id="slider-price"></div>
-                                        <div class="ui-filter-slider__info">
-                                            <div class="ui-filter-slider__label">Price Range:</div><span class="ui-filter-slider__current" id="slider-snap-value-lower"></span>-<span class="ui-filter-slider__current" id="slider-snap-value-upper"></span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!--<div class="b-filter-2__group">-->
+                                <!--    <div class="b-filter-2__group-title">Filter Price</div>-->
+                                <!--    <div class="ui-filter-slider">-->
+                                <!--        <div id="slider-price"></div>-->
+                                <!--        <div class="ui-filter-slider__info">-->
+                                <!--            <div class="ui-filter-slider__label">Price Range:</div><span class="ui-filter-slider__current" id="slider-snap-value-lower"></span>-<span class="ui-filter-slider__current" id="slider-snap-value-upper"></span>-->
+                                <!--        </div>-->
+                                <!--    </div>-->
+                                <!--</div>-->
                                 <!-- <div class="b-filter-2__group">
                                     <div class="b-filter-2__group-title">Body style</div>
                                     <div class="b-filter-type-2">
