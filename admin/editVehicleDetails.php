@@ -93,40 +93,75 @@ if (isset($_GET['edit'])) {
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-      <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminDashboard.php">
-        <div class="sidebar-brand-icon">
-          <i class="fas fa-users-cog"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">ADMIN</div>
-      </a>
+       <!-- Sidebar - Brand -->
+       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
+                <div class="sidebar-brand-icon">
+                    <i class="fas fa-users-cog"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">ADMIN</div>
+            </a>
 
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0">
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
 
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item">
-        <a class="nav-link" href="adminDashboard.php">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>ADMIN PANEL</span></a>
-      </li>
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="adminDashboard.php">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>ADMIN PANEL</span></a>
+            </li>
 
+            <!-- Divider -->
+            <hr class="sidebar-divider">
 
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link" href="adminDashboard.php">
-          <i class="fas fa-plus-square"></i>
-          <span>Add</span>
-        </a>
-      </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="adminDashboard.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Vehicle</span>
+                </a>
+            </li>
 
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link" href="viewDashboard.php">
-          <i class="fas fa-eye"></i>
-          <span>View</span>
-        </a>
-      </li>
+            <li class="nav-item">
+                <a class="nav-link" href="adminweddingRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Wedding Car Rates</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="adminBikeRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Motorbike Rates</span>
+                </a>
+            </li>
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="viewDashboard.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Vehicle Details</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="viewBillingDetails.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Billing Details</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="viewWeddingRates.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Wedding Rates</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="viewbikeRate.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Motorbike Rates</span>
+                </a>
+            </li>
 
     </ul>
     <!-- End of Sidebar -->

@@ -1,5 +1,5 @@
 <?php include '../database/connection.php'; ?>
-<?php include '../admin/php_code.php'; ?>
+<?php include '../admin/wedding_code.php'; ?>
 
 <?php
 session_start();
@@ -122,11 +122,12 @@ if (!isset($_SESSION['email'])) {
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="viewbikeRates.php">
+                <a class="nav-link" href="viewbikeRate.php">
                     <i class="fas fa-eye"></i>
                     <span>View Motorbike Rates</span>
                 </a>
             </li>
+
         </ul>
 
         <!-- Content Wrapper -->
@@ -167,7 +168,7 @@ if (!isset($_SESSION['email'])) {
                 </nav>
 
                 <center>
-                    <h1 class="h3 mb-1 text-gray-800">View Vehicles</h1>
+                    <h1 class="h3 mb-1 text-gray-800">View Wedding Car Rates</h1>
                 </center><br>
 
                 <center>
@@ -176,30 +177,20 @@ if (!isset($_SESSION['email'])) {
                             <thead class="table-dark">
                                 <tr>
                                     <th>#</th>
-                                    <th>IMAGE</th>
-                                    <th>MODEL</th>
-                                    <th>YEAR</th>
-                                    <th>ENGINE</th>
-                                    <th>RENTAL</th>
-                                    <th>WEEK</th>
-                                    <th>MONTH</th>
-                                    <th>PASSENGER</th>
-                                    <th>LUGGAGE</th>
-                                    <th>TYPE</th>
-                                    <th>TRANSMISSION</th>
-                                    <th>FUEL</th>
-                                    <th>DOOR</th>
-                                    <th>MUSIC</th>
-                                    <th>A/C</th>
-                                    <th>IDEAL TYPE</th>
-                                    <th>VEHICLE AVAILABILITY</th>
-                                    <th>ACTIONS</th>
+                                    <th>Category</th>
+                                    <th>Vehicle</th>
+                                    <th>2 Hours & 30kms</th>
+                                    <th>4 Hours & 40kms</th>
+                                    <th>8 Hours & 80kms</th>
+                                    <th>Excess Hours</th>
+                                    <th>Excess Mileage</th>
+                                    <th>Actions</th>
                                 </tr>
                             </thead>
 
                             <?php
                             $i   = 1;
-                            $qry = "select * from car";
+                            $qry = "select * from weddingrates";
                             $run = $db->query($qry);
                             if ($run->num_rows > 0) {
                                 while ($row = $run->fetch_assoc()) {
@@ -208,29 +199,18 @@ if (!isset($_SESSION['email'])) {
 
                             <tr>
                                 <td><?php echo $i++ ?></td>
-                                <td><?php echo '<img src="upload/' . $row['img'] . '" width = "70px;" height = "60px;" alt = "Image">' ?>
-                                </td>
-                                <td><?php echo $row['model']; ?></td>
-                                <td><?php echo $row['year']; ?></td>
-                                <td><?php echo $row['engine']; ?></td>
-                                <td><?php echo $row['rental']; ?></td>
-                                <td><?php echo $row['week']; ?></td>
-                                <td><?php echo $row['month']; ?></td>
-                                <td><?php echo $row['passenger']; ?></td>
-                                <td><?php echo $row['luggage']; ?></td>
-                                <td><?php echo $row['type']; ?></td>
-                                <td><?php echo $row['transmission']; ?></td>
-                                <td><?php echo $row['fuel']; ?></td>
-                                <td><?php echo $row['door']; ?></td>
-                                <td><?php echo $row['musicOn']; ?></td>
-                                <td><?php echo $row['ac']; ?></td>
-                                <td><?php echo $row['ideal']; ?></td>
-                                <td><?php echo $row['availability']; ?></td>
+                                <td><?php echo $row['category']; ?></td>
+                                <td><?php echo $row['vehicle']; ?></td>
+                                <td><?php echo $row['2hourand30Km']; ?></td>
+                                <td><?php echo $row['4hourand40Km']; ?></td>
+                                <td><?php echo $row['8hourand80Km']; ?></td>
+                                <td><?php echo $row['excessHours']; ?></td>
+                                <td><?php echo $row['excessMileage']; ?></td>
                                 <td>
-                                    <a href="editVehicleDetails.php?edit=<?php echo $row['id']; ?>" class="edit_btn"><i
+                                    <a href="editWeddingRates.php?edit=<?php echo $row['id']; ?>" class="edit_btn"><i
                                             class="fas fa-edit" style="color:grey"></i></a>
                                     &nbsp; &nbsp; &nbsp; &nbsp;
-                                    <a href="php_code.php?del=<?php echo $row['id']; ?>" class="del_btn"><i
+                                    <a href="wedding_code.php?del=<?php echo $row['id']; ?>" class="del_btn"><i
                                             class="fa fa-trash" style="color:grey"></i></a>
                                 </td>
                             </tr>

@@ -1,5 +1,5 @@
 <?php include('../database/connection.php'); ?>
-<?php include('../admin/wedding_code.php'); ?>
+<?php include('../admin/bike_code.php'); ?>
 <?php
 session_start();
 if (!isset($_SESSION['email'])) {
@@ -71,8 +71,8 @@ if (!isset($_SESSION['email'])) {
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-             <!-- Sidebar - Brand -->
-             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-users-cog"></i>
                 </div>
@@ -184,56 +184,37 @@ if (!isset($_SESSION['email'])) {
                 <div class="container-fluid" style="width: 1300px;">
                     <!-- Page Heading -->
                     <center>
-                        <h1 class="h3 mb-1 text-gray-800">Wedding Rates</h1>
+                        <h1 class="h3 mb-1 text-gray-800">MotorBike Rates</h1>
                     </center>
 
-                    <form method="post" action="viewWeddingRates.php" enctype="multipart/form-data">
+                    <form method="post" action="viewBikeRate.php" enctype="multipart/form-data">
                         <div class="row">
 
-                            <div class="col-md-offset-1 col-md-6"><br>
+                            <div class="col-md-offset-1 col-md-6 ml-5"><br>
                                 <div class="col-15">
                                     <select class="form-control" id="type" name="category" style="height: 50px;">
                                         <option selected disabled="disabled">Select Categories</option>
-                                        <option value="LUXARY CARS">LUXARY CARS</option>
-                                        <option value="VINTAGE & CLASSIC CARS">VINTAGE & CLASSIC CARS</option>
-                                        <option value="PREMIUM CARS">PREMIUM CARS</option>
+                                        <option value="MOTOR BIKES">MOTOR BIKES</option>
+                                        <option value="BICYCLE">BICYCLE</option>
                                     </select>
                                 </div><br>
                                 <div class="col-15">
                                     <label>Vehicle</label>
                                     <input type="text" name="vehicle" class="form-control" value="" required>
-                                </div><br>
-
+                                </div><br/>
                                 <div class="col-15">
-                                    <label>2 Hours & 30kms</label>
-                                    <input type="text" class="form-control" name="2hourand30Km" value="" required>
-                                </div><br>
-
-                                <div class="col-15">
-                                    <label>4 Hours & 40kms</label>
-                                    <input type="text" name="4hourand40Km" class="form-control" value="" required>
-                                </div><br>
-                            </div>
-
-                            <div class="col-md-offset-1 col-md-6" style="bottom: -48px;">
-                                <div class="col-15">
-                                    <label>8 Hours & 80kms</label>
-                                    <input type="text" name="8hourand80Km" class="form-control" value="" required>
+                                    <label>Daily Rental (Minimum 4 days)</label>
+                                    <input type="text" name="dailyrental" class="form-control" value="" required>
                                 </div><br>
                                 <div class="col-15">
-                                    <label>Excess Hours</label>
-                                    <input type="text" name="excessHours" class="form-control" value="" required>
+                                    <label>1 Week (7) days</label>
+                                    <input type="text" name="weekrate" class="form-control" value="" required>
                                 </div><br>
-                                <div class="col-15">
-                                    <label>Excess Mileage</label>
-                                    <input type="text" name="excessMileage" class="form-control" value="" required>
-                                </div><br>
-
                             </div>
                         </div>
 
-                        <div class="col-md-20">
-                            <button type="submit" name="wedding" class="btn btn-primary">Add</button>
+                        <div class="col-md-20 ml-5">
+                            <button type="submit" name="bike" class="btn btn-primary">Add</button>
                         </div>
 
                     </form>
