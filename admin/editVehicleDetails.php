@@ -90,11 +90,10 @@ if (isset($_GET['edit'])) {
   <!-- Page Wrapper -->
   <div id="wrapper">
 
-    <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminDashboard.php">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
         <div class="sidebar-brand-icon">
           <i class="fas fa-users-cog"></i>
         </div>
@@ -136,6 +135,19 @@ if (isset($_GET['edit'])) {
         </a>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="adminweddingRates.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add Wedding Car Rates</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="adminBikeRates.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add Motorbike Rates</span>
+        </a>
+      </li>
+
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link" href="viewDashboard.php">
@@ -165,32 +177,18 @@ if (isset($_GET['edit'])) {
         </a>
       </li>
 
-
-            <li class="nav-item">
-                <a class="nav-link" href="adminweddingRates.php">
-                    <i class="fas fa-plus-square"></i>
-                    <span>Add Wedding Car Rates</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="adminBikeRates.php">
-                    <i class="fas fa-plus-square"></i>
-                    <span>Add Motorbike Rates</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="viewWeddingRates.php">
-                    <i class="fas fa-eye"></i>
-                    <span>View Wedding Rates</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="viewbikeRate.php">
-                    <i class="fas fa-eye"></i>
-                    <span>View Motorbike Rates</span>
-                </a>
-            </li>
+      <li class="nav-item">
+        <a class="nav-link" href="viewWeddingRates.php">
+          <i class="fas fa-eye"></i>
+          <span>View Wedding Rates</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="viewbikeRate.php">
+          <i class="fas fa-eye"></i>
+          <span>View Motorbike Rates</span>
+        </a>
+      </li>
 
     </ul>
     <!-- End of Sidebar -->
@@ -358,7 +356,7 @@ if (isset($_GET['edit'])) {
                                               }
                                               ?>>Manual</option>
 
-                 
+
 
                     </select>
                   </div><br>
@@ -466,30 +464,30 @@ if (isset($_GET['edit'])) {
                                           ?>>non A/C</option>
                     </select>
                   </div><br>
-                  
+
                   <div class="col-15" style="bottom: -30px;">
                     <select class="form-control" id="ideal" name="ideal" style="height: 50px;" required>
                       <option selected disabled="disabled">Ideal Type</option>
 
                       <option value="Ideal for families" <?php
-                                          if ($ideal == 'Ideal for families') {
-                                            echo "selected";
-                                          }
-                                          ?>>Ideal for families</option>
+                                                          if ($ideal == 'Ideal for families') {
+                                                            echo "selected";
+                                                          }
+                                                          ?>>Ideal for families</option>
 
                       <option value="Ideal for long drive" <?php
-                                          if ($ideal == 'Ideal for long drive') {
-                                            echo "selected";
-                                          }
-                                          ?>>Ideal for long drive</option>
+                                                            if ($ideal == 'Ideal for long drive') {
+                                                              echo "selected";
+                                                            }
+                                                            ?>>Ideal for long drive</option>
                       <option value="Ideal for city drive" <?php
-                                          if ($ideal == 'Ideal for city drive') {
-                                            echo "selected";
-                                          }
-                                          ?>>Ideal for city drive</option>
+                                                            if ($ideal == 'Ideal for city drive') {
+                                                              echo "selected";
+                                                            }
+                                                            ?>>Ideal for city drive</option>
                     </select>
                   </div><br>
-                  
+
                   <div class="col-15" style="bottom: -30px;">
                     <select class="form-control" id="availability" name="availability" style="height: 50px;" required>
                       <option selected disabled="disabled">Vehicle Availability</option>

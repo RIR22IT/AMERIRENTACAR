@@ -61,7 +61,6 @@ if (!isset($_SESSION['email'])) {
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
@@ -107,6 +106,19 @@ if (!isset($_SESSION['email'])) {
                 </a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="adminweddingRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Wedding Car Rates</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="adminBikeRates.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Add Motorbike Rates</span>
+                </a>
+            </li>
+
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link" href="viewDashboard.php">
@@ -136,6 +148,18 @@ if (!isset($_SESSION['email'])) {
                 </a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="viewWeddingRates.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Wedding Rates</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="viewbikeRate.php">
+                    <i class="fas fa-eye"></i>
+                    <span>View Motorbike Rates</span>
+                </a>
+            </li>
 
         </ul>
         <!-- End of Sidebar -->
@@ -177,7 +201,7 @@ if (!isset($_SESSION['email'])) {
                 <div class="container-fluid" style="width: 1300px;">
                     <!-- Page Heading -->
                     <center>
-                        <h1 class="h3 mb-1 text-gray-800">Add With Driver Rates</h1>
+                        <h1 class="h3 mb-1 text-gray-800">With Driver Rates</h1>
                     </center>
 
                     <form method="post" action="viewWithDriver.php" enctype="multipart/form-data">
