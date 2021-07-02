@@ -2,14 +2,14 @@
         <!-- ==========================-->
         <div data-off-canvas="mobile-slidebar left overlay">
             <a class="navbar-brand scroll" href="home.html">
-                <img class="normal-logo img-resonsive visible-xs visible-sm" src="./images/logo-new_withcap.png" alt="logo" />
-                <img class="scroll-logo img-resonsive hidden-xs hidden-sm" src="./images/logo-new_withcap.png" alt="logo" />
+                <img class="normal-logo img-resonsive visible-xs visible-sm" src="./images/logo.png" alt="logo" />
+                <img class="scroll-logo img-resonsive hidden-xs hidden-sm" src="./images/logo.png" alt="logo" />
             </a>
             <ul class="nav navbar-nav">
                 <li>
-                    <h4><a href="">Mobile sidebar</a></h4>
+                    <h4><a href="">Ameri Rent a Car</a></h4>
                 </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="index.php" data-toggle="dropdown">Home</a>
+                <li class="dropdown"><a  href="index.php">Home</a>
                 </li>
                 <li><a href="who-we-are.php">Who we are</a>
                 </li>
@@ -31,7 +31,7 @@
                                 </li>
                     </ul>
                 </li>
-                <li><a href="car-rental.html">Our Cars</a>
+                <!--<li><a href="car-rental.html">Our Cars</a>-->
                 </li>
                 <li><a href="our-location.php">Our Location</a>
                 </li>

@@ -2,9 +2,9 @@
 <?php
 
 $host = 'localhost';
-$user = 'root';
-$pass = '';
-$db_name = 'amerirentacar';
+$user = 'dummrkdf_ameri_admin';
+$pass = 'admin@ameri123';
+$db_name = 'dummrkdf_amerirentacar';
 
     //database connection
     $db = mysqli_connect($host,$user,$pass,$db_name);

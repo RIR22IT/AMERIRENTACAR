@@ -501,8 +501,8 @@ body:not(.header-demo) .navbar-scrolling .btn {
 
 .navbar {
     margin-bottom: -2px;
-    margin-top: -5px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
     padding-bottom: -2px;
     border: none;
     background: none;
@@ -540,6 +540,7 @@ body:not(.header-demo) .navbar-scrolling .btn {
     display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
+    margin-top: -60px;
 }
 
 .navbar .navbar-nav.social-nav li a {
@@ -547,7 +548,7 @@ body:not(.header-demo) .navbar-scrolling .btn {
 }
 
 .navbar .navbar-nav > li {
-    padding: 15px 8px;
+    padding: 1px 1px;
 }
 
 .navbar .navbar-nav > li.no-hover a {
@@ -1460,7 +1461,7 @@ html [data-off-canvas*=open] {
 
 .navbar-brand {
     height: auto;
-    padding: 5px 0 0 44px;
+    padding: 20px 0 0 5px;
 }
 
 .header-2 .top-bar .social-links li > a {

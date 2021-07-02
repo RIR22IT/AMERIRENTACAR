@@ -16,6 +16,8 @@
 	$door = "";
     $musicOn = "";
     $ac = "";
+    $ideal = "";
+    $availability = "";
 	$id = 0;
 	$update = false;
 
@@ -35,6 +37,8 @@
         $door = $_POST['door'];
         $musicOn = $_POST['musicOn'];
         $ac = $_POST['ac'];
+        $ideal = $_POST['ideal'];
+        $availability = $_POST['availability'];
 		
          if(file_exists("upload/".$_FILES["img"]["name"]))
         {
@@ -43,7 +47,7 @@
      
         }else{
 
-		$qry = "INSERT INTO car (img, model, year, engine, rental, week, month, passenger, luggage, type, transmission, fuel, door, musicOn, ac) VALUES ('$img', '$model', '$year', '$engine', '$rental', '$week', '$month', '$passenger','$luggage', '$type', '$transmission', '$fuel', '$door','$musicOn', '$ac')"; 
+		$qry = "INSERT INTO car (img, model, year, engine, rental, week, month, passenger, luggage, type, transmission, fuel, door, musicOn, ac, ideal, availability) VALUES ('$img', '$model', '$year', '$engine', '$rental', '$week', '$month', '$passenger','$luggage', '$type', '$transmission', '$fuel', '$door','$musicOn', '$ac', '$ideal', '$availability')"; 
         $run = mysqli_query($db, $qry);
         $_SESSION['message'] = "Added successfully"; 
         if($run){
@@ -71,8 +75,10 @@
         $door = $_POST['door'];
         $musicOn = $_POST['musicOn'];
         $ac = $_POST['ac'];
+        $ideal = $_POST['ideal'];
+        $availability = $_POST['availability'];
 		
-        mysqli_query($db, "UPDATE car SET model='$model', year='$year', engine='$engine', rental='$rental', week='$week', month='$month', passenger='$passenger' , luggage='$luggage', type='$type', transmission='$transmission', fuel='$fuel', door='$door' , musicOn='$musicOn', ac='$ac' WHERE id=$id");
+        mysqli_query($db, "UPDATE car SET model='$model', year='$year', engine='$engine', rental='$rental', week='$week', month='$month', passenger='$passenger' , luggage='$luggage', type='$type', transmission='$transmission', fuel='$fuel', door='$door' , musicOn='$musicOn', ac='$ac', ideal='$ideal', availability = '$availability' WHERE id=$id");
         $_SESSION['message'] = "Updated successfully!"; 
         header('location: viewDashboard.php');
     }

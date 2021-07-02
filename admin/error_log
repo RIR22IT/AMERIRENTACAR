@@ -1,0 +1,49 @@
+[25-Jun-2021 15:23:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 10
+[25-Jun-2021 15:23:02 UTC] PHP Notice:  Trying to get property of non-object in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 13
+[25-Jun-2021 15:23:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 16
+[25-Jun-2021 15:23:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 18
+[25-Jun-2021 15:23:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 10
+[25-Jun-2021 15:23:21 UTC] PHP Notice:  Trying to get property of non-object in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 13
+[25-Jun-2021 15:23:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 16
+[25-Jun-2021 15:23:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 18
+[25-Jun-2021 15:23:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 10
+[25-Jun-2021 15:23:41 UTC] PHP Notice:  Trying to get property of non-object in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 13
+[25-Jun-2021 15:23:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 16
+[25-Jun-2021 15:23:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 18
+[25-Jun-2021 15:24:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 10
+[25-Jun-2021 15:24:06 UTC] PHP Notice:  Trying to get property of non-object in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 13
+[25-Jun-2021 15:24:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 16
+[25-Jun-2021 15:24:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 18
+[25-Jun-2021 15:24:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 10
+[25-Jun-2021 15:24:41 UTC] PHP Notice:  Trying to get property of non-object in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 13
+[25-Jun-2021 15:24:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 16
+[25-Jun-2021 15:24:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 18
+[25-Jun-2021 15:24:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 10
+[25-Jun-2021 15:24:56 UTC] PHP Notice:  Trying to get property of non-object in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 13
+[25-Jun-2021 15:24:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 16
+[25-Jun-2021 15:24:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 18
+[25-Jun-2021 15:26:04 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 10
+[25-Jun-2021 15:26:04 UTC] PHP Notice:  Trying to get property of non-object in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/database/connection.php on line 13
+[25-Jun-2021 15:26:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 16
+[25-Jun-2021 15:26:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/process.php on line 18
+[27-Jun-2021 03:04:46 UTC] PHP Notice:  Undefined index: transmission in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/php_code.php on line 33
+[27-Jun-2021 03:04:46 UTC] PHP Notice:  Undefined index: musicOn in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/php_code.php on line 36
+[27-Jun-2021 03:04:56 UTC] PHP Notice:  Undefined index: musicOn in /home/grg4tlquhb2j/public_html/ameri.reachitright.net/admin/php_code.php on line 72
+[28-Jun-2021 01:31:00 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'ameri_admin'@'localhost' (using password: YES) in /home/dummrkdf/amerirentacar.com/database/connection.php on line 10
+[28-Jun-2021 01:31:00 America/New_York] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/dummrkdf/amerirentacar.com/database/connection.php on line 13
+[28-Jun-2021 01:31:00 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/dummrkdf/amerirentacar.com/admin/process.php on line 16
+[28-Jun-2021 01:31:00 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dummrkdf/amerirentacar.com/admin/process.php on line 18
+[01-Jul-2021 02:36:33 America/New_York] PHP Notice:  Undefined index: type in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 72
+[01-Jul-2021 02:36:33 America/New_York] PHP Notice:  Undefined index: fuel in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 74
+[01-Jul-2021 02:36:46 America/New_York] PHP Notice:  Undefined index: type in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 72
+[01-Jul-2021 02:36:46 America/New_York] PHP Notice:  Undefined index: fuel in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 74
+[01-Jul-2021 05:09:28 America/New_York] PHP Notice:  Undefined index: type in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 34
+[01-Jul-2021 05:09:28 America/New_York] PHP Notice:  Undefined index: transmission in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 35
+[01-Jul-2021 05:09:28 America/New_York] PHP Notice:  Undefined index: fuel in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 36
+[01-Jul-2021 05:09:28 America/New_York] PHP Notice:  Undefined index: door in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 37
+[01-Jul-2021 05:09:28 America/New_York] PHP Notice:  Undefined index: musicOn in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 38
+[01-Jul-2021 05:09:28 America/New_York] PHP Notice:  Undefined index: ac in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 39
+[01-Jul-2021 05:09:28 America/New_York] PHP Notice:  Undefined index: ideal in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 40
+[01-Jul-2021 05:09:28 America/New_York] PHP Notice:  Undefined index: availability in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 41
+[01-Jul-2021 05:35:37 America/New_York] PHP Notice:  Undefined index: type in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 72
+[01-Jul-2021 05:35:37 America/New_York] PHP Notice:  Undefined index: ideal in /home/dummrkdf/amerirentacar.com/admin/php_code.php on line 78

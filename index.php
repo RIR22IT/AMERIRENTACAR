@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>AMERIRENTACAR | Home</title>
+    <title>Ameri Rent a Car | Home</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="assets/css/master.css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="fav-icon.png"/>
     </script>
     <!-- SWITCHER-->
     <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
@@ -21,7 +23,7 @@
     <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2" />
     <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
     <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    
     <!--[if lt IE 9 ]>
 <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
 <![endif]-->
@@ -127,8 +129,8 @@
         <!-- Header -->
         <?php include('./inc/header.php') ?>
 
-        <!-- <section class="section-filter"> -->
-            <div class="main-slider main-slider-1" style = "top: -40px;">
+        <!--<section class="section-filter">-->
+            <div class="main-slider main-slider-1" style = "top: -15px;">
                 <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="false" data-slider-buttons="false">
 
                     <!-- 1st slide -->
@@ -146,49 +148,90 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="container">
+                            <div class="container"><br/><br/>
                                 <form class="b-booking-form" action="list.php" method="POST" style="top: -60px;">
-                                    <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -50px;">
-                                        <div class="row">
-                                            <div class="col-md-3"><br/>
-                                                <select class="selectpicker" name="type" data-width="115%">
+                                    <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -100px;">
+                                        
+                                         <div class="row" style="top:-40px;">
+                                            <div class="col-md-3" style="width: 300px">
+                                                <div class="form-group">
+                                                     <p style="color: white; text-align: left;">Pick-up Date</p>
+                                                        <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
+                                                        
+                                                </div>
+                                                <div class="form-group">
+                                                     <p style="color: white; text-align: left;">Drop-Off Date</p>
+                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />
+                                                </div>
+                                               
+                                                <div class="form-group">
+                                                <select class="selectpicker" name="type" data-width="100%">
                                                     <option>All Types</option>
                                                     <option value="Compact Car">Compact Car</option>
                                                     <option value="Midsize sedan">Midsize Sedan</option>
-                                                    <option value="Midsize Estate">Midsize Estate</option>
+                                                    <!--<option value="Midsize Estate">Midsize Estate</option>-->
                                                     <option value="Large Sedan">Large Sedan</option>
-                                                    <option value="Large Estate">Large Estate</option>
+                                                    <!--<option value="Large Estate">Large Estate</option>-->
                                                     <option value="Luxury Sedan">Luxury Sedan</option>
                                                     <option value="SUV">SUV</option>
                                                     <option value="Large SUV">Large SUV</option>
                                                     <option value="Utility Vehicle">Utility Vehicle</option>
                                                     <option value="MPV/Minivan">MPV/Minivan</option>
                                                 </select>
-                                            </div><br /><br />
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <select class="selectpicker" name="fuel" data-width="115%">
-                                                    <option>All Fuel Type</option>
-                                                    <option value="Petrol">Petrol</option>
-                                                    <option value="Diesel">Diesel</option>
-                                                    <option value="Hybrid">Hybrid</option>
-                                                    <option value="Plugin Electric">Plugin Electric</option>
-                                                    <option value="Petrol + CNG">Petrol + CNG</option>
-                                                    <option value="LPG">LPG</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <select class="selectpicker" name="transmission" data-width="115%">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                <select class="selectpicker" name="transmission" data-width="100%">
                                                     <option>All Transmission</option>
                                                     <option value="Automatic">Automatic</option>
                                                     <option value="Manual">Manual</option>
-                                                    <option value="Semi-Automatic">Semi-Automatic</option>
+                                                    <!--<option value="Semi-Automatic">Semi-Automatic</option>-->
                                                 </select>
+                                                </div>
+                                                    <!--<div style="color: white; text-align: left;">Pick-Up Date</div>-->
+                                                    
+                                                <!--</div>-->
                                             </div>
                                         </div>
+                                        <!--</div>-->
+
+                                        <!--<div class="row">-->
+                                            <!--<div class="col-md-3" style="width: 300px">-->
+                                                <!--<div>-->
+                                                    <!--<div style="color: white; text-align: left;">Drop-Off Date</div>-->
+                                                    <!--<input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        
+                                        <!--<div class="row">-->
+                                            <!--<div class="col-md-3">-->
+                                            <!--    <select class="selectpicker" name="type" data-width="115%">-->
+                                            <!--        <option>All Types</option>-->
+                                            <!--        <option value="Compact Car">Compact Car</option>-->
+                                            <!--        <option value="Midsize sedan">Midsize Sedan</option>-->
+                                            <!--        <option value="Midsize Estate">Midsize Estate</option>-->
+                                            <!--        <option value="Large Sedan">Large Sedan</option>-->
+                                            <!--        <option value="Large Estate">Large Estate</option>-->
+                                            <!--        <option value="Luxury Sedan">Luxury Sedan</option>-->
+                                            <!--        <option value="SUV">SUV</option>-->
+                                            <!--        <option value="Large SUV">Large SUV</option>-->
+                                            <!--        <option value="Utility Vehicle">Utility Vehicle</option>-->
+                                            <!--        <option value="MPV/Minivan">MPV/Minivan</option>-->
+                                            <!--    </select>-->
+                                            <!--</div><br /><br />-->
+                                        <!--</div>-->
+                                        
+                                        <!--<div class="row">-->
+                                        <!--    <div class="col-md-3">-->
+                                        <!--        <select class="selectpicker" name="transmission" data-width="115%">-->
+                                        <!--            <option>All Transmission</option>-->
+                                        <!--            <option value="Automatic">Automatic</option>-->
+                                        <!--            <option value="Manual">Manual</option>-->
+                                        <!--            <option value="Semi-Automatic">Semi-Automatic</option>-->
+                                        <!--        </select>-->
+                                        <!--    </div>-->
+                                        <!--</div>-->
 
                                         <!-- <div class="row">
                                             <div class="col-md-4">
@@ -201,29 +244,11 @@
                                             </div>
                                         </div> -->
 
-                                        <div class="row">
-                                            <div class="col-md-4" style="width: 300px">
-                                                <div>
-                                                    <div style="color: white; text-align: left;">Pick-Up Date</div>
-                                                    <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-4" style="width: 300px">
-                                                <div>
-                                                    <div style="color: white; text-align: left;">Drop-Off Date</div>
-                                                    <input class="form-control" name="dropDate" id="dropDate" type="date" placeholder="Select Date" />
-                                                </div>
-                                            </div>
-                                        </div>
-
                                         <div class="col-md-4" style="width: 300px;">
                                             <button class="btn btn-primary" name="search">Find It Now
                                             </button>
                                         </div>
-                                    </div>
+                                    <!--</div>-->
                                 </form>
                             </div>
                         </div>
@@ -419,7 +444,7 @@
 
                 </div>
             </div>
-        <!-- </section> -->
+        <!--</section>-->
 
         <!-- end .main-slider-->
         <br>
@@ -430,23 +455,23 @@
                         <div class="text-center">
                             <div class="col-md-12">
                                 <div class="section-advantages-1">
-                                    <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-car-dashboard"></i>
+                                    <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-car-dashboard" style = "color: #00245b;"></i>
                                         <h3 class="b-advantages-1__title">Fast & Easy Booking</h3>
-                                        <div class="b-advantages-1__info">MotorLand is nisi aliquip ex consequat duis
-                                            velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.
+                                        <div class="b-advantages-1__info" style = "color: #00245b;">We made your booking easy. Let us know the your
+                                            requirement and we will give you the best available option matching your need.
                                         </div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
-                                    <section class="b-advantages-1 active"><i class="b-advantages-1__icon flaticon-doors"></i>
+                                    <section class="b-advantages-1 active"><i class="b-advantages-1__icon flaticon-doors" style = "color: #00245b;"></i>
                                         <h3 class="b-advantages-1__title">Many Pickup Locations</h3>
-                                        <div class="b-advantages-1__info">We pride ourselves on providing a many pickup
+                                        <div class="b-advantages-1__info" style = "color: #00245b;">We pride ourselves on providing a many pickup
                                             and drop locations service with our wide range of rental cars. Our goal is
                                             to provide a great customer experience.</div><span class="ui-decor-2"></span>
                                     </section>
                                     <!-- end .b-advantages-->
-                                    <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-calculator"></i>
+                                    <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-calculator" style = "color: #00245b;"></i>
                                         <h3 class="b-advantages-1__title">Best Prices in Sri Lanka</h3>
-                                        <div class="b-advantages-1__info">We are all about helping people find the best
+                                        <div class="b-advantages-1__info" style = "color: #00245b;">We are all about helping people find the best
                                             car deals in Sri Lanka. Guaranteed best deals for self drive rates and with
                                             driver rates in Sri Lanka.</div><span class="ui-decor-2"></span>
                                     </section>
@@ -495,29 +520,29 @@
 
 
                             <div class="b-about-main__title">We are a Trusted Name in Rent Vehicle Industry</div>
-                            <div class="b-about-main__subtitle">Best Vehicles for rent in Sri Lanka!</div>
+                            <div class="b-about-main__subtitle"style="color: #00245b;">Best Vehicles for rent in Sri Lanka!</div>
                             <p></p>
-                            <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor
-                                raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p style="color: #888;">With our large fleet of vehicles, we are able to serve a wide range of customer requests, 
+                                from short-term rentals to long-term leasing and specialty contracts..</p>
                             <div class="b-about-main__btns"><a class="btn btn-dark" href="contact.php">Contact
-                                    Us</a><a class="btn btn-primary" href="#">learn more</a>
+                                    Us</a>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-lg-2" style="top: -30px;">
+                    <div class="col-lg-2" style="top: -30px; left: 30px;">
                         <ul class="b-about-list list-unstyled">
                             <li class="b-about-list__item"><i class="b-about-list__icon flaticon-sportive-car"></i>
                                 <div class="b-about-list__inner">
-                                    <div class="b-about-list__title">No.43, School Lane, Colombo-03, Sri Lanka</div>
+                                    <div class="b-about-list__title">No.43, School Lane,<br/> Colombo-03, Sri Lanka</div>
                                     <!-- <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div> -->
                                     <div class="ui-decor-2"></div>
                                 </div>
                             </li>
                             <li class="b-about-list__item"><i class="b-about-list__icon flaticon-smartphone"></i>
                                 <div class="b-about-list__inner">
-                                    <div class="b-about-list__title">Support Phone : &nbsp; &nbsp; (+94) 777 312 848,
-                                        (+94) 777668166, (+94) 727343435, (+94) 0765566431</div>
+                                    <div class="b-about-list__title">Support Phone : &nbsp; &nbsp; <br/>(+94) 777 312 848, <br/>
+                                        (+94) 777668166, <br/>(+94) 727343435, <br/>(+94) 0765566431</div>
                                     <!-- <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div> -->
                                     <div class="ui-decor-2"></div>
                                 </div>
@@ -530,7 +555,7 @@
                             </li>
                             <li class="b-about-list__item"><i class="b-about-list__icon flaticon-pick-up"></i>
                                 <div class="b-about-list__inner">
-                                    <div class="b-about-list__title">Working Hours: 08:30 am - 05:30 pm</div>
+                                    <div class="b-about-list__title">Working Hours:<br/> 08:30 am - 05:30 pm</div>
                                 </div>
                             </li>
                         </ul>
@@ -554,8 +579,8 @@
                     <div class="area-bg__inner">
                         <h2 class="b-info__title">Please Contact Us<strong class="b-info__title_lg">For Special Discount
                                 and Promos</strong></h2>
-                        <div class="b-info__desc">MotorLand is nisi aliquip exa con velit esse cillum dolore fugiatal
-                            sint occaecat excepteur ipsum dolor sit amet consectetur.</div><a class="btn btn-white" href="#">cONTACT US</a>
+                        <div class="b-info__desc">With our large fleet of vehicles, we are able to serve a wide range of customer requests, 
+                        from short-term rentals to long-term leasing and specialty contracts.</div><a class="btn btn-white" href="#">cONTACT US</a>
                     </div>
                 </section>
             </div>
@@ -568,61 +593,61 @@
         <br><br><br><br>
 
         <!-- end .b-list-brands-->
-        <div class="section-reviews area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-6.jpg)">
+        <!--<div class="section-reviews area-bg area-bg_dark parallax" style="background-image: url(assets/media/content/bg/bg-6.jpg)">-->
 
-            <div class="area-bg__inner">
+        <!--    <div class="area-bg__inner">-->
 
-                <div class="container">
+        <!--        <div class="container">-->
 
-                    <div class="row">
+        <!--            <div class="row">-->
 
-                        <center>
-                            <h2 class="b-info__title"><strong class="b-info__title_lg">CUSTOMER REVIEWS</strong></h2>
-                        </center>
-                        <div class="col-xs-2" style="width: 600px; height: 250px;">
-                            <div class="carousel-reviews" data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
+        <!--                <center>-->
+        <!--                    <h2 class="b-info__title"><strong class="b-info__title_lg">CUSTOMER REVIEWS</strong></h2>-->
+        <!--                </center>-->
+        <!--                <div class="col-xs-2" style="width: 600px; height: 250px;">-->
+        <!--                    <div class="carousel-reviews" data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">-->
 
-                                <div class="b-blockquote b-blockquote-1">
+        <!--                        <div class="b-blockquote b-blockquote-1">-->
                                     <!-- <div class="b-blockquote__img">
-                                            <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
-                                        </div> -->
-                                    <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Chris Fogden</span><span class="b-blockquote__category"></span></cite>
-                                        <p>Great car in excellent condition and find working order. The staff were
-                                            Friendly and helpful and prices are very competitive.They also organised my
-                                            local driving permit with ease. I look forward to renting with them again.
-                                        </p>
-                                    </blockquote>
-                                </div>
-                            </div>
+        <!--                                    <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />-->
+        <!--                                </div> -->-->
+        <!--                            <blockquote>-->
+        <!--                                <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Chris Fogden</span><span class="b-blockquote__category"></span></cite>-->
+        <!--                                <p>Great car in excellent condition and find working order. The staff were-->
+        <!--                                    Friendly and helpful and prices are very competitive.They also organised my-->
+        <!--                                    local driving permit with ease. I look forward to renting with them again.-->
+        <!--                                </p>-->
+        <!--                            </blockquote>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
                             <!-- end .carousel-reviews-->
-                        </div>
-                        <div class="col-xs-12" style="width: 600px; top: -250px; left: 600px;">
-                            <div class="carousel-reviews" data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
+        <!--                </div>-->
+        <!--                <div class="col-xs-12" style="width: 600px; top: -250px; left: 600px;">-->
+        <!--                    <div class="carousel-reviews" data-min768="1" data-min992="2" data-min1200="2" data-margin="0" data-pagination="true" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">-->
 
-                                <div class="b-blockquote b-blockquote-1">
+        <!--                        <div class="b-blockquote b-blockquote-1">-->
                                     <!-- <div class="b-blockquote__img">
-                                            <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />
-                                        </div> -->
-                                    <blockquote>
-                                        <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Gayani Loid</span><span class="b-blockquote__category"></span></cite>
-                                        <p>I had a great service from this company!!! The KIA SUV was in really good
-                                            condition. Communication with staff was verry proffessional and very
-                                            helpful! I have been using this company for two years and will use them
-                                            again without any doubt! Thank you Amire rental!</p>
-                                    </blockquote>
-                                </div>
-                            </div>
+        <!--                                    <img src="assets/media/components/b-blockquote/face-1.jpg" alt="foto" />-->
+        <!--                                </div> -->-->
+        <!--                            <blockquote>-->
+        <!--                                <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Gayani Loid</span><span class="b-blockquote__category"></span></cite>-->
+        <!--                                <p>I had a great service from this company!!! The KIA SUV was in really good-->
+        <!--                                    condition. Communication with staff was verry proffessional and very-->
+        <!--                                    helpful! I have been using this company for two years and will use them-->
+        <!--                                    again without any doubt! Thank you Amire rental!</p>-->
+        <!--                            </blockquote>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
                             <!-- end .carousel-reviews-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
         <!-- end .section-reviews-->
 
 
-            <section class="section-area" style = "top: -50px;">
+            <section class="section-area" style = "top: -20px;">
                 <div class="container">
                     <div class="text-center">
                         <h2 class="ui-title-block">EXPLORE SRI LANKA</h2>
@@ -646,7 +671,7 @@
                                         </h2>
                                     </div>
                                     <div class="entry-content">
-                                        <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
+                                        <p style = "color: #00245b;">Every forth one male man which. Brought won’t divide in. Hath gathering.
                                             Have. Open fifth face shall land fish kind isn’t let can’t blessed
                                             multiply third light, shall from winged, his creature isn’t midst said
                                             dominion in. Male firmament beginning dominion fourth he place
@@ -671,7 +696,7 @@
                                                 SRILANKA</a></h2>
                                     </div>
                                     <div class="entry-content">
-                                        <p>Negombo Negombo is a modest beach town located just 10km from
+                                        <p style = "color: #00245b;">Negombo Negombo is a modest beach town located just 10km from
                                             Bandaranaike International Airport. With a stash of decent hotels and
                                             restaurants to suit all pockets, a friendly local community. Negombo is
                                             the Major tourist destination in Sri Lanka.
@@ -695,7 +720,7 @@
                                         <h2 class="entry-title"><a href="blog-post.html">THINGS TO DO SRI LANKA</a></h2>
                                     </div>
                                     <div class="entry-content">
-                                        <p>Every forth one male man which. Brought won’t divide in. Hath gathering.
+                                        <p style = "color: #00245b;">Every forth one male man which. Brought won’t divide in. Hath gathering.
                                                 Have. Open fifth face shall land fish kind isn’t let can’t
                                                 blessed multiply third light, shall from winged, his creature isn’t
                                                 midst said dominion in. Male firmament beginning dominion fourth he
