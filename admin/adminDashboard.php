@@ -89,7 +89,21 @@ if (!isset($_SESSION['email'])) {
       <li class="nav-item">
         <a class="nav-link collapsed" href="adminDashboard.php">
           <i class="fas fa-plus-square"></i>
-          <span>Add</span>
+          <span>Add Vehicle</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="selfDriverRates.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add Self Driver Rates</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="withDriverRates.php">
+          <i class="fas fa-plus-square"></i>
+          <span>Add With Driver Rates</span>
         </a>
       </li>
 
@@ -105,6 +119,20 @@ if (!isset($_SESSION['email'])) {
         <a class="nav-link" href="viewBillingDetails.php">
           <i class="fas fa-eye"></i>
           <span>View Billing Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewSelfDriver.php">
+          <i class="fas fa-eye"></i>
+          <span>View Self Driver Details</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="viewWithDriver.php">
+          <i class="fas fa-eye"></i>
+          <span>View With Driver Details</span>
         </a>
       </li>
 
