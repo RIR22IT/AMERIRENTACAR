@@ -207,14 +207,14 @@ $localPrice   = number_format((float)$subTot * 200, 2, '.', '');
         =============================================-->
     <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
-    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
+    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container" style="top: -120px">
         <!-- Start Switcher-->
 
         <!-- end switcher-->
         <!-- ==========================-->
         <!-- SEARCH MODAL-->
         <!-- ==========================-->
-        <div class="header-search open-search">
+        <!-- <div class="header-search open-search">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
@@ -286,7 +286,7 @@ $localPrice   = number_format((float)$subTot * 200, 2, '.', '');
                     </div>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <!-- Header -->
         <?php include('./inc/header.php') ?>
 
@@ -423,13 +423,9 @@ $localPrice   = number_format((float)$subTot * 200, 2, '.', '');
                 </div>
             </div>
         </div>
-
-
-
-        <!-- footer start here-->
-        <?php include('./inc/footer.php') ?>
-
     </div>
+    <!-- footer start here-->
+    <?php include('./inc/footer.php') ?>
     <!-- end layout-theme-->
 
     <!-- ++++++++++++-->

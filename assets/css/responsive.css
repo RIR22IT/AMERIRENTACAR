@@ -494,7 +494,7 @@
 
   }
   .section-title-page {
-    margin-top: 100px;
+    margin-top: -13px !important;
     height: auto;
   }
   .b-title-page {
