@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/master.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
     <!--fav-icon-->
-    <link rel="shortcut icon" href="fav-icon.png"/>
+    <link rel="shortcut icon" href="fav-icon.png" />
 
     <!-- SWITCHER-->
     <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
@@ -30,22 +30,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/whatsapp.css">
     <style>
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
-        width: 100%;
-        border: 1px solid #ddd;
-    }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
 
-    th,
-    td {
-        text-align: left;
-        padding: 8px;
-    }
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
 
-    tr:nth-child(even) {
-        background-color: #f2f2f2
-    }
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
     </style>
 
 </head>
@@ -64,8 +64,7 @@
 
     <!--WHATSAPP CONTENT
 			=============================================-->
-            <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
-            class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
         <!-- Start Switcher-->
@@ -156,7 +155,7 @@
         <!--    <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px"-->
         <!--        data-slider-arrows="true" data-slider-buttons="false">-->
         <!--        <div class="sp-slides">-->
-                    <!-- Slide 1-->
+        <!-- Slide 1-->
         <!--            <div class="sp-slide">-->
         <!--                <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />-->
         <!--                <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"-->
@@ -172,7 +171,7 @@
         <!--                        href="services.html">book now</a>-->
         <!--                </div>-->
         <!--            </div>-->
-                    <!-- Slide 2-->
+        <!-- Slide 2-->
         <!--            <div class="sp-slide">-->
         <!--                <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />-->
         <!--                <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"-->
@@ -191,12 +190,12 @@
         <!--    </div>-->
         <!--</div>-->
         <!-- end .header-->
-        <br><br><br><br><br><br>
         <div class="section-title-page area-bg area-bg_dark area-bg_op_70">
             <div class="area-bg__inner">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
+                            <br />
                             <h1 class="b-title-page bg-primary_a">MOTORBIKE RATES</h1>
                         </div>
                     </div>
@@ -220,37 +219,68 @@
         <!-- end breadcrumb-->
 
         <center>
-        <div class="typography-section typography-section-border" style = "width: 1300px;>
-            <div style="overflow-x:auto;">
-                <table>
-                    <tr>
-                        <th>VEHICLES</th>
-                        <th>Daily Rental (Minimum 4 days)</th>
-                        <th>1 Week (7) days</th>
-                    </tr>
-                    <tr>
-                        <th style="font-size:30px">MOTOR BIKES</th>
-                    </tr>
-                    <tr>
-                        <td>Bajaj Discovery M 125cc</td>
-                        <td>Rs 3000 (U$ 18) Per day</td>
-                        <td>Rs 17,500(U$ 100)</td>
-                    </tr>
+            <div>
+                <div style="overflow-x:auto;">
+                    <table>
+                        <tr style="background-color: #c7effc;">
+                            <th>VEHICLES</th>
+                            <th>Daily Rental (Minimum 4 days)</th>
+                            <th>1 Week (7) days</th>
+                        </tr>
+                        <tr>
+                            <th style="font-size:30px">MOTOR BIKES</th>
+                        </tr>
+                        <?php
+                        include('./database/connection.php');
+                        $query = "SELECT * FROM bikerates WHERE category = 'MOTOR BIKES'";
+                        $data = mysqli_query($db, $query) or die('error');
 
-                    <tr>
-                        <th style="font-size:30px">BICYCLE</th>
-                    </tr>
-                    <tr>
-                        <td>Merida Mountain (TFS - Matts)</td>
-                        <td>U$ 9 Per day</td>
-                    </tr>
-                    <tr>
-                        <td>Specialised road (Elite)</td>
-                        <td>U$ 9 Per day</td>
-                    </tr>
-                </table>
+                        if (mysqli_num_rows($data) > 0) {
+                            while ($row = mysqli_fetch_assoc($data)) {
+                                $id = $row['id'];
+                                $vehicle = $row['vehicle'];
+                                $category = $row['category'];
+                                $dailyrental = $row['dailyrental'];
+                                $weekrate = $row['weekrate'];
+                        ?>
+                                <tr>
+                                    <td><?php echo $vehicle ?></td>
+                                    <td><?php echo $dailyrental ?></td>
+                                    <td><?php echo $weekrate ?></td>
+                                </tr>
+                        <?php
+                            }
+                        }
+                        ?>
+
+                        <tr>
+                            <th style="font-size:30px">BICYCLE</th>
+                        </tr>
+                        <?php
+                        include('./database/connection.php');
+                        $query = "SELECT * FROM bikerates WHERE category = 'BICYCLE'";
+                        $data = mysqli_query($db, $query) or die('error');
+
+                        if (mysqli_num_rows($data) > 0) {
+                            while ($row = mysqli_fetch_assoc($data)) {
+                                $id = $row['id'];
+                                $vehicle = $row['vehicle'];
+                                $category = $row['category'];
+                                $dailyrental = $row['dailyrental'];
+                                $weekrate = $row['weekrate'];
+                        ?>
+                                <tr>
+                                    <td><?php echo $vehicle ?></td>
+                                    <td><?php echo $dailyrental ?></td>
+                                    <td><?php echo $weekrate ?></td>
+                                </tr>
+                        <?php
+                            }
+                        }
+                        ?>
+                    </table>
+                </div>
             </div>
-        </div>
         </center>
 
 

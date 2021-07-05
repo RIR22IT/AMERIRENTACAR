@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/master.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
     <!--fav-icon-->
-    <link rel="shortcut icon" href="fav-icon.png"/>
+    <link rel="shortcut icon" href="fav-icon.png" />
 
     <!-- SWITCHER-->
     <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
@@ -32,22 +32,22 @@
     <link rel="stylesheet" href="assets/css/whatsapp.css">
 
     <style>
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
-        width: 100%;
-        border: 1px solid #ddd;
-    }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
 
-    th,
-    td {
-        text-align: left;
-        padding: 8px;
-    }
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
 
-    tr:nth-child(even) {
-        background-color: #f2f2f2
-    }
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
     </style>
 
 </head>
@@ -66,8 +66,7 @@
 
     <!--WHATSAPP CONTENT
 			=============================================-->
-    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
-            class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
         <!-- Start Switcher-->
@@ -158,7 +157,7 @@
         <!--    <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px"-->
         <!--        data-slider-arrows="true" data-slider-buttons="false">-->
         <!--        <div class="sp-slides">-->
-                    <!-- Slide 1-->
+        <!-- Slide 1-->
         <!--            <div class="sp-slide">-->
         <!--                <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />-->
         <!--                <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"-->
@@ -174,7 +173,7 @@
         <!--                        href="services.html">book now</a>-->
         <!--                </div>-->
         <!--            </div>-->
-                    <!-- Slide 2-->
+        <!-- Slide 2-->
         <!--            <div class="sp-slide">-->
         <!--                <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />-->
         <!--                <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"-->
@@ -193,7 +192,7 @@
         <!--    </div>-->
         <!--</div>-->
         <!-- end .header-->
-        <br><br><br><br><br><br>
+
         <div class="section-title-page area-bg area-bg_dark area-bg_op_70">
             <div class="area-bg__inner">
                 <div class="container">
@@ -221,137 +220,158 @@
         </div>
         <!-- end breadcrumb-->
 
-         <center>
-        <div class="typography-section typography-section-border"  style = "width: 1300px;>
-            <div style="overflow-x:auto;">
-                <table>
-                    <tr>
-                        <th>VEHICLES</th>
-                        <th>PER DAY (100KM)</th>
-                        <th>EXCESS MILEAGE</th>
-                    </tr>
-                    <tr>
-                        <th style="font-size:30px">LUXURY CARS (100 KMS PER DAY)</th>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA NZE 141</td>
-                        <td>7,500.00</td>
-                        <td>75.00</td>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA ALLION 260</td>
-                        <td>8,500.00</td>
-                        <td>85.00</td>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA AXIO HYBIRD</td>
-                        <td>10,500.00</td>
-                        <td>105.00</td>
-                    </tr>
-                    <tr>
-                        <th style="font-size:30px">LUXURY CARS (8 HOURS 80 KM PER DAY)</th>
-                    </tr>
-                    <tr>
-                        <td>MERCEDES BENZ C CLASS</td>
-                        <td>30,000.00</td>
-                        <td>200.00</td>
-                    </tr>
-                    <tr>
-                        <td>MERCEDES BENZ E 250 – WHITE</td>
-                        <td>29,500.00</td>
-                        <td>200.00</td>
-                    </tr>
-                    <tr>
-                        <td>CHRYSLER 300 C – WHITE</td>
-                        <td>30,000.00</td>
-                        <td>300.00</td>
-                    </tr>
-                    <tr>
-                        <td>MERCEDES BENZ S CLASS</td>
-                        <td>65,000.00</td>
-                        <td>600.00</td>
-                    </tr>
-                    <tr>
-                        <td>BMW 521I (PETROL) – ALPINE WHITE</td>
-                        <td>30,500.00</td>
-                        <td>250.00</td>
-                    </tr>
-                    <tr>
-                        <td>MERCEDES BENZ E 250 – CALCITE WHITE</td>
-                        <td>35,000.00</td>
-                        <td>350.00</td>
-                    </tr>
-                    <tr>
-                        <td>JAGUAR XF – POLAR WHITE</td>
-                        <td>35,000.00</td>
-                        <td>350.00</td>
-                    </tr>
+        <center>
+            <div>
+                <div style="overflow-x:auto;">
+                    <div>
+                        <table>
+                            <thead>
+                                <tr style="background-color: #c7effc;">
+                                    <th>Vehicles</th>
+                                    <th>Per Day (100KM)</th>
+                                    <th>Excess Mileage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- LUXURY CARS (100 KMS PER DAY) -->
+                                <tr>
+                                    <th style="font-size:30px">LUXURY CARS (100 KMS PER DAY)</th>
+                                </tr>
+                                <?php
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM withdriverrates WHERE category = 'Luxury Cars (100 KMS PER DAY)'";
+                                $data = mysqli_query($db, $query) or die('error');
 
-                    <tr>
-                        <th style="font-size:30px">LUXURY BUSES</th>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA COASTER 29 SEATER</td>
-                        <td>15,000.00</td>
-                        <td>150.00</td>
-                    </tr>
-                    <tr>
-                        <td>STANDARD VANS</td>
-                    </tr>
-                    <tr>
-                        <th style="font-size:30px">LUXURY VANS</th>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA HIACE LUXURY 7 SEATER</td>
-                        <td>8,500.00</td>
-                        <td>75.00</td>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA HIACE LUXURY 15 SEATER</td>
-                        <td>9,000.00</td>
-                        <td>90.00</td>
-                    </tr>
-                    <tr>
-                        <td>MERCEDES BENZ VITO</td>
-                        <td>27,000.00</td>
-                        <td>275.00</td>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA ALPHARD</td>
-                        <td>27,000.00</td>
-                        <td>275.00</td>
-                    </tr>
-                    <tr>
-                        <th style="font-size:30px">4WD VEHICLES</th>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA RAV 4 / KIA SPORTAGE</td>
-                        <td>13,000.00</td>
-                        <td>129.50</td>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA LAND CRUISER PRADO TRJ 120</td>
-                        <td>22,500.00</td>
-                        <td>200.00</td>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA LAND CRUISER PRADO TRJ 150</td>
-                        <td>25,500.00</td>
-                        <td>250.00</td>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA LAND CRUISER SAHARA V8 / LEXUS LX 470</td>
-                        <td>30,000.00</td>
-                        <td>300.00</td>
-                    </tr>
-                    <tr>
-                        <td>TOYOTA LAND CRUISER 200 V8</td>
-                        <td>30,000.00</td>
-                        <td>300.00</td>
-                    </tr>
-                </table>
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $perDay = $row['perDay'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $perDay ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+                                        </tr>
+                                <?php
+                                    }
+                                }
+                                ?>
+                                <!-- LUXURY CARS (8 HOURS 80 KM PER DAY) -->
+                                <tr>
+                                    <th style="font-size:30px">LUXURY CARS (8 HOURS 80 KM PER DAY)</th>
+                                </tr>
+                                <?php
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM withdriverrates WHERE category = 'Luxury Cars (8 HOURS 80 KM PER DAY)'";
+                                $data = mysqli_query($db, $query) or die('error');
+
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $perDay = $row['perDay'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $perDay ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+                                        </tr>
+                                <?php
+                                    }
+                                }
+                                ?>
+                                <!-- LUXURY BUSES -->
+                                <tr>
+                                    <th style="font-size:30px">LUXURY BUSES</th>
+                                </tr>
+                                <?php
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM withdriverrates WHERE category = 'Luxury Buses'";
+                                $data = mysqli_query($db, $query) or die('error');
+
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $perDay = $row['perDay'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $perDay ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+                                        </tr>
+                                <?php
+                                    }
+                                }
+                                ?>
+                                <!-- LUXURY VANS  -->
+                                <tr>
+                                    <th style="font-size:30px">LUXURY VANS</th>
+                                </tr>
+                                <?php
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM withdriverrates WHERE category = 'Luxury Vans'";
+                                $data = mysqli_query($db, $query) or die('error');
+
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $perDay = $row['perDay'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $perDay ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+
+                                        </tr>
+                                <?php
+                                    }
+                                }
+                                ?>
+                                <!-- 4WD  -->
+                                <tr>
+                                    <th style="font-size:30px">4WD VEHICLES</th>
+                                </tr>
+                                <?php
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM withdriverrates WHERE category = '4WD Vehicles'";
+                                $data = mysqli_query($db, $query) or die('error');
+
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $perDay = $row['perDay'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $perDay ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+
+                                        </tr>
+                                <?php
+                                    }
+                                }
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+
+                </div>
             </div>
-        </div>
         </center>
 
 
