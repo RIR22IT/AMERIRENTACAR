@@ -35,7 +35,7 @@
                 </li>
                 <li><a href="our-location.php">Our Location</a>
                 </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="listings-1.html"
+                <li class="dropdown"><a class="dropdown-toggle" href="#"
                                 data-toggle="dropdown">Rates<b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="self-drive-rates.php" tabindex="-1">SELF DRIVE RATES IN SRI LANKA</a>

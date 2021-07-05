@@ -72,7 +72,7 @@
         //    $subject = ($_POST['subject'] ? $_POST['subject'] : "Website Contact Form: $name");
     
  // Create the email and send the message
- $to =  'dhanan@reachitright.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+ $to =  'amerirentacar@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
  $email_subject = "Your Booking Confirmed with AMERIRENTACAR";
  $email_body = "Vehicle has received  from your website.\n\n" . "Here are the details:\n\nName: \n\nLast Name: $lastname\n\nEmail: $emailaddress\n\nPhone: $phone\n\nVehicle: $type\n\nVehicle Model: $model\n\nPickup Date: $sDate\n\nDropOff Date: $eDate\n\nSub Total: $ $subtot.00";
  $headers = "From: amerirentacar\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.

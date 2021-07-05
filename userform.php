@@ -80,7 +80,7 @@ if ($run->num_rows > 0) {
 			=============================================-->
     <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
-    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
+    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container" style="top: -120px">
         <!-- Start Switcher-->
 
         <!-- end switcher-->
@@ -163,32 +163,31 @@ if ($run->num_rows > 0) {
         <?php include('./inc/header.php') ?>
 
         <!-- main slider start-->
-        <!--<div class="main-slider main-slider-1">-->
-        <!--    <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="true" data-slider-buttons="false">-->
-        <!--        <div class="sp-slides">-->
+        <div class="main-slider main-slider-1">
+           <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="true" data-slider-buttons="false">
+               <div class="sp-slides">
                     <!-- Slide 1-->
-        <!--            <div class="sp-slide">-->
-        <!--                <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />-->
-        <!--                <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">-->
-        <!--                    <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>-->
-        <!--                    </div>-->
-        <!--                    <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white btn-lg" href="services.html"><span class="main-slider__btn-label">Starting</span><span class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary btn-lg" href="services.html">book now</a>-->
-        <!--                </div>-->
-        <!--            </div>-->
+                   <div class="sp-slide">
+                       <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />
+                       <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
+                           <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>
+                           </div>
+                           <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white btn-lg" href="services.html"><span class="main-slider__btn-label">Starting</span><span class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary btn-lg" href="services.html">book now</a>
+                       </div>
+                   </div>
                     <!-- Slide 2-->
-        <!--            <div class="sp-slide">-->
-        <!--                <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />-->
-        <!--                <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">-->
-        <!--                    <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>-->
-        <!--                    </div>-->
-        <!--                    <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white" href="services.html">Starting<span class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary" href="services.html">book now</a>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</div>-->
-        <!-- end .header-->
-        <br><br><br><br><br><br>
+                   <div class="sp-slide">
+                       <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />
+                       <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft" data-horizontal="62%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
+                           <div class="main-slider__title">mercedes benz<span class="main-slider__label bg-primary">model 2018</span>
+                           </div>
+                           <div class="main-slider__subtitle">smart drive</div><a class="main-slider__btn btn btn-white" href="services.html">Starting<span class="main-slider__btn-price"> $<strong>560/M</strong></span></a><a class="main-slider__btn btn btn-primary" href="services.html">book now</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <!-- end .header -->
         <div class="section-title-page area-bg area-bg_dark area-bg_op_70">
             <div class="area-bg__inner">
                 <div class="container">

@@ -75,14 +75,14 @@ if (isset($_GET['view'])) {
     <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
             class="fa fa-whatsapp whatsapp-icon"></i></a>
 
-    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
+    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container"  style="top: -120px">
         <!-- Start Switcher-->
 
         <!-- end switcher-->
         <!-- ==========================-->
         <!-- SEARCH MODAL-->
         <!-- ==========================-->
-        <div class="header-search open-search">
+        <!-- <div class="header-search open-search">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
@@ -155,7 +155,7 @@ if (isset($_GET['view'])) {
                     </div>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <!-- Header -->
         <?php include './inc/header.php' ?>
 
@@ -163,7 +163,7 @@ if (isset($_GET['view'])) {
         <div class="main-slider main-slider-1">
             <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px"
                 data-slider-arrows="true" data-slider-buttons="false">
-                <div class="sp-slides">
+                <div class="sp-slides"> 
                     <!-- Slide 1-->
                     <div class="sp-slide">
                         <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />
@@ -216,7 +216,7 @@ if (isset($_GET['view'])) {
                 <div class="row">
                     <div class="col-xs-12">
                         <ol class="breadcrumb">
-                            <li><a href="home.html"><i class="icon fa fa-home"></i></a>
+                            <li><a href="index.php"><i class="icon fa fa-home"></i></a>
                             </li>
                             <li class="active"><?php echo $type; ?></li>
                         </ol>
@@ -395,10 +395,11 @@ if (isset($_GET['view'])) {
 
 
 
-        <!-- footer start here-->
-        <?php include './inc/footer.php' ?>
+        
 
     </div>
+    <!-- footer start here-->
+    <?php include './inc/footer.php' ?>
     <!-- end layout-theme-->
 
     <!-- ++++++++++++-->
@@ -418,7 +419,7 @@ if (isset($_GET['view'])) {
     <!-- Select customization & Color scheme-->
     <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
     <!-- Slider-->
-    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <!-- <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script> -->
     <!-- Pop-up window-->
     <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
     <!-- Mail scripts-->

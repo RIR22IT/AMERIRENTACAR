@@ -130,8 +130,8 @@
         <?php include('./inc/header.php') ?>
 
         <!--<section class="section-filter">-->
-            <div class="main-slider main-slider-1" style = "top: -15px;">
-                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="false" data-slider-buttons="false">
+            <div class="main-slider main-slider-1">
+                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="false" data-slider-buttons="false" style = "top: -140px;">
 
                     <!-- 1st slide -->
                     <div class="sp-slides">
