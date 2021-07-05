@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/master.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
     <!--fav-icon-->
-    <link rel="shortcut icon" href="fav-icon.png"/>
+    <link rel="shortcut icon" href="fav-icon.png" />
     <!-- SWITCHER-->
     <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
     <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
@@ -75,7 +75,49 @@
         transform: scale(1.1);
         box-shadow: 0 120px 100px -99px black;
     }
+
+
+
+    /* Float four columns side by side */
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+        margin: 0 -5px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    /* Style the counter cards */
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        text-align: center;
+        background-color: #f1f1f1;
+        width: 300px;
+        height: 300px;
+    }
     </style>
+
+
 
 </head>
 
@@ -190,7 +232,7 @@
         <!--    <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px"-->
         <!--        data-slider-arrows="true" data-slider-buttons="false">-->
         <!--        <div class="sp-slides">-->
-                    <!-- Slide 1-->
+        <!-- Slide 1-->
         <!--            <div class="sp-slide">-->
         <!--                <img class="sp-image" src="assets/media/components/b-main-slider/1.jpg" alt="slider" />-->
         <!--                <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"-->
@@ -206,7 +248,7 @@
         <!--                        href="services.html">book now</a>-->
         <!--                </div>-->
         <!--            </div>-->
-                    <!-- Slide 2-->
+        <!-- Slide 2-->
         <!--            <div class="sp-slide">-->
         <!--                <img class="sp-image" src="assets/media/components/b-main-slider/2.jpg" alt="slider" />-->
         <!--                <div class="main-slider__wrap sp-layer" data-width="" data-position="centerLeft"-->
@@ -254,10 +296,10 @@
 
 
         <!-- <center><h1>WELCOME TO AMERI RENT A CAR!</h1></center> -->
-        <div class="typography-section typography-section-border">
-            <div class="container">
+        <!-- <div class="typography-section typography-section-border">
+            <div class="container"> -->
 
-                <div class="contactCard">
+        <!-- <div class="contactCard">
                     <img src="images/contact.jpg" alt="photo">
                     <h2>Contact Us</h2>
                     <h3>No.43, School Lane, Colombo-03, Sri Lanka</h3>
@@ -265,11 +307,42 @@
                     <h3>(+94) 765 566 531</h3>
                     <br />
                     <button><a href="tel:(+94) 765 566 531">CALL NOW</a></button>
+                </div> -->
+
+
+        <!-- </div>
+        </div> -->
+        <div class="typography-section typography-section-border">
+            <div class="container">
+                <div class="map-1" id="map">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.946277225689!2d79.85451711556532!3d6.8970293206196684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bdf4a1ab231%3A0xa15b314b086393e4!2s43%20School%20Ln%2C%20Colombo%2000300!5e0!3m2!1sen!2slk!4v1621843298629!5m2!1sen!2slk"
+                        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <i class="b-advantages-1__icon flaticon-car-1"></i>
+                            <h3>Head Office</h3>
+                            <p>No.43, School Lane, Colombo-03, Sri Lanka</p>
+                        </div>
+
+
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <i class="b-advantages-1__icon flaticon-transport-1"></i>
+                            <h3>Airport</h3>
+                            <p>Bandaranaike International Airport</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
-
 
 
 
