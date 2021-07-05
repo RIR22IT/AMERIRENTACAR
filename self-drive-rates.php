@@ -32,22 +32,22 @@
 <![endif]-->
 
     <style>
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
-        width: 100%;
-        border: 1px solid #ddd;
-    }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
 
-    th,
-    td {
-        text-align: left;
-        padding: 8px;
-    }
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
 
-    tr:nth-child(even) {
-        background-color: #f2f2f2
-    }
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
     </style>
 
 </head>
@@ -66,8 +66,7 @@
 
     <!--WHATSAPP CONTENT
 			=============================================-->
-    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
-            class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
 
@@ -78,7 +77,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1 class="b-title-page bg-primary_a">SELF DRIVE RATES IN SRI LANKA</h1>
+                            <br/><h1 class="b-title-page bg-primary_a">SELF DRIVE RATES IN SRI LANKA</h1>
                         </div>
                     </div>
                 </div>
@@ -102,12 +101,12 @@
 
         <center>
 
-            <div class="typography-section typography-section-border" style="width: 1300px;">
+            <div>
                 <div style="overflow-x:auto;">
-                    <div class="table-container">
-                        <table class="table table_primary">
+                    <div>
+                        <table>
                             <thead>
-                                <tr>
+                                <tr style="background-color: #c7effc;">
                                     <th>Vehicles</th>
                                     <th>Rate Per Month</th>
                                     <th>Rate Per Week</th>
@@ -120,145 +119,145 @@
                                     <th style="font-size:30px">GENERAL CARS</th>
                                 </tr>
                                 <?php
-                                    include('./database/connection.php');
-                                    $query = "SELECT * FROM selfdriverates WHERE category = 'General Cars'";
-                                    $data = mysqli_query($db, $query) or die('error');
-                                    
-                                    if(mysqli_num_rows($data) > 0) {
-                                        while($row = mysqli_fetch_assoc($data)){
-                                            $id = $row['id'];
-                                            $vehicle = $row['vehicle'];
-                                            $category = $row['category'];
-                                            $ratePerMonth = $row['ratePerMonth'];
-                                            $ratePerWeek = $row['ratePerWeek'];
-                                            $ExcessMileage = $row['ExcessMileage'];
-                                            ?>
-                                <tr>
-                                    <td><?php echo $vehicle ?></td>
-                                    <td><?php echo $ratePerMonth?></td>
-                                    <td><?php echo $ratePerWeek?></td>
-                                    <td><?php echo $ExcessMileage ?></td>
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM selfdriverates WHERE category = 'General Cars'";
+                                $data = mysqli_query($db, $query) or die('error');
 
-                                </tr>
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $ratePerMonth = $row['ratePerMonth'];
+                                        $ratePerWeek = $row['ratePerWeek'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $ratePerMonth ?></td>
+                                            <td><?php echo $ratePerWeek ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+
+                                        </tr>
                                 <?php
-                                        }
                                     }
+                                }
                                 ?>
                                 <!-- Premium Cars -->
                                 <tr>
                                     <th style="font-size:30px">PREMIUM CARS</th>
                                 </tr>
                                 <?php
-                                    include('./database/connection.php');
-                                    $query = "SELECT * FROM selfdriverates WHERE category = 'Premium Cars'";
-                                    $data = mysqli_query($db, $query) or die('error');
-                                    
-                                    if(mysqli_num_rows($data) > 0) {
-                                        while($row = mysqli_fetch_assoc($data)){
-                                            $id = $row['id'];
-                                            $vehicle = $row['vehicle'];
-                                            $category = $row['category'];
-                                            $ratePerMonth = $row['ratePerMonth'];
-                                            $ratePerWeek = $row['ratePerWeek'];
-                                            $ExcessMileage = $row['ExcessMileage'];
-                                            ?>
-                                <tr>
-                                    <td><?php echo $vehicle ?></td>
-                                    <td><?php echo $ratePerMonth?></td>
-                                    <td><?php echo $ratePerWeek?></td>
-                                    <td><?php echo $ExcessMileage ?></td>
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM selfdriverates WHERE category = 'Premium Cars'";
+                                $data = mysqli_query($db, $query) or die('error');
 
-                                </tr>
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $ratePerMonth = $row['ratePerMonth'];
+                                        $ratePerWeek = $row['ratePerWeek'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $ratePerMonth ?></td>
+                                            <td><?php echo $ratePerWeek ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+
+                                        </tr>
                                 <?php
-                                        }
                                     }
+                                }
                                 ?>
                                 <!-- Semi Luxury Cars -->
                                 <tr>
                                     <th style="font-size:30px">SEMI LUXURY CARS</th>
                                 </tr>
                                 <?php
-                                    include('./database/connection.php');
-                                    $query = "SELECT * FROM selfdriverates WHERE category = 'Semi Luxury Cars'";
-                                    $data = mysqli_query($db, $query) or die('error');
-                                    
-                                    if(mysqli_num_rows($data) > 0) {
-                                        while($row = mysqli_fetch_assoc($data)){
-                                            $id = $row['id'];
-                                            $vehicle = $row['vehicle'];
-                                            $category = $row['category'];
-                                            $ratePerMonth = $row['ratePerMonth'];
-                                            $ratePerWeek = $row['ratePerWeek'];
-                                            $ExcessMileage = $row['ExcessMileage'];
-                                            ?>
-                                <tr>
-                                    <td><?php echo $vehicle ?></td>
-                                    <td><?php echo $ratePerMonth?></td>
-                                    <td><?php echo $ratePerWeek?></td>
-                                    <td><?php echo $ExcessMileage ?></td>
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM selfdriverates WHERE category = 'Semi Luxury Cars'";
+                                $data = mysqli_query($db, $query) or die('error');
 
-                                </tr>
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $ratePerMonth = $row['ratePerMonth'];
+                                        $ratePerWeek = $row['ratePerWeek'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $ratePerMonth ?></td>
+                                            <td><?php echo $ratePerWeek ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+
+                                        </tr>
                                 <?php
-                                        }
                                     }
+                                }
                                 ?>
                                 <!-- Vans  -->
                                 <tr>
                                     <th style="font-size:30px">VANS</th>
                                 </tr>
                                 <?php
-                                    include('./database/connection.php');
-                                    $query = "SELECT * FROM selfdriverates WHERE category = 'Vans'";
-                                    $data = mysqli_query($db, $query) or die('error');
-                                    
-                                    if(mysqli_num_rows($data) > 0) {
-                                        while($row = mysqli_fetch_assoc($data)){
-                                            $id = $row['id'];
-                                            $vehicle = $row['vehicle'];
-                                            $category = $row['category'];
-                                            $ratePerMonth = $row['ratePerMonth'];
-                                            $ratePerWeek = $row['ratePerWeek'];
-                                            $ExcessMileage = $row['ExcessMileage'];
-                                            ?>
-                                <tr>
-                                    <td><?php echo $vehicle ?></td>
-                                    <td><?php echo $ratePerMonth?></td>
-                                    <td><?php echo $ratePerWeek?></td>
-                                    <td><?php echo $ExcessMileage ?></td>
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM selfdriverates WHERE category = 'Vans'";
+                                $data = mysqli_query($db, $query) or die('error');
 
-                                </tr>
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $ratePerMonth = $row['ratePerMonth'];
+                                        $ratePerWeek = $row['ratePerWeek'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $ratePerMonth ?></td>
+                                            <td><?php echo $ratePerWeek ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+
+                                        </tr>
                                 <?php
-                                        }
                                     }
+                                }
                                 ?>
                                 <!-- 4WD  -->
                                 <tr>
                                     <th style="font-size:30px">4WD</th>
                                 </tr>
                                 <?php
-                                    include('./database/connection.php');
-                                    $query = "SELECT * FROM selfdriverates WHERE category = '4WD'";
-                                    $data = mysqli_query($db, $query) or die('error');
-                                    
-                                    if(mysqli_num_rows($data) > 0) {
-                                        while($row = mysqli_fetch_assoc($data)){
-                                            $id = $row['id'];
-                                            $vehicle = $row['vehicle'];
-                                            $category = $row['category'];
-                                            $ratePerMonth = $row['ratePerMonth'];
-                                            $ratePerWeek = $row['ratePerWeek'];
-                                            $ExcessMileage = $row['ExcessMileage'];
-                                            ?>
-                                <tr>
-                                    <td><?php echo $vehicle ?></td>
-                                    <td><?php echo $ratePerMonth?></td>
-                                    <td><?php echo $ratePerWeek?></td>
-                                    <td><?php echo $ExcessMileage ?></td>
+                                include('./database/connection.php');
+                                $query = "SELECT * FROM selfdriverates WHERE category = '4WD'";
+                                $data = mysqli_query($db, $query) or die('error');
 
-                                </tr>
+                                if (mysqli_num_rows($data) > 0) {
+                                    while ($row = mysqli_fetch_assoc($data)) {
+                                        $id = $row['id'];
+                                        $vehicle = $row['vehicle'];
+                                        $category = $row['category'];
+                                        $ratePerMonth = $row['ratePerMonth'];
+                                        $ratePerWeek = $row['ratePerWeek'];
+                                        $ExcessMileage = $row['ExcessMileage'];
+                                ?>
+                                        <tr>
+                                            <td><?php echo $vehicle ?></td>
+                                            <td><?php echo $ratePerMonth ?></td>
+                                            <td><?php echo $ratePerWeek ?></td>
+                                            <td><?php echo $ExcessMileage ?></td>
+
+                                        </tr>
                                 <?php
-                                        }
                                     }
+                                }
                                 ?>
                             </tbody>
                         </table>

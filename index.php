@@ -153,7 +153,7 @@
                                     <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -100px;">
                                         
                                          <div class="row" style="top:-40px;">
-                                            <div class="col-md-3" style="width: 300px">
+                                            <div class="col-md-3" style="width: 270px">
                                                 <div class="form-group">
                                                      <p style="color: white; text-align: left;">Pick-up Date</p>
                                                         <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
@@ -244,7 +244,7 @@
                                             </div>
                                         </div> -->
 
-                                        <div class="col-md-4" style="width: 300px;">
+                                        <div class="col-md-4" style="width: 270px;">
                                             <button class="btn btn-primary" name="search">Find It Now
                                             </button>
                                         </div>
@@ -453,7 +453,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="text-center">
-                            <div class="col-md-12">
+                            <div class="col-md-12" style = "margin-top: -160px;">
                                 <div class="section-advantages-1">
                                     <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-car-dashboard" style = "color: #00245b;"></i>
                                         <h3 class="b-advantages-1__title">Fast & Easy Booking</h3>
@@ -510,7 +510,7 @@
         </section><br /><br />
         <section class="b-about section-default">
             <div class="container">
-                <div class="row">
+                <div class="row" style="margin-top: -80px;">
                     <div class="col-lg-10">
                         <div class="b-about__inner" style="top: 400px;"><br /><br /><br /><br />
                             <h2 class="ui-title-block">GET IN TOUCH WITH US</h2>
