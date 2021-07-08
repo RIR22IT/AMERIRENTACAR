@@ -153,7 +153,7 @@
                                     <div class="col-md-12 col-md-offset-10" data-width="600" data-position="left" data-horizontal="0" data-show-transition="right" data-hide-transition="right" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400" style="top: -100px;">
                                         
                                          <div class="row" style="top:-40px;">
-                                            <div class="col-md-3" style="width: 270px">
+                                            <div class="col-md-3" style="width: 300px">
                                                 <div class="form-group">
                                                      <p style="color: white; text-align: left;">Pick-up Date</p>
                                                         <input class="form-control" name="pickDate" id="pickDate" type="date" placeholder="Select Date" />
@@ -244,7 +244,7 @@
                                             </div>
                                         </div> -->
 
-                                        <div class="col-md-4" style="width: 270px;">
+                                        <div class="col-md-4" style="width: 300px;">
                                             <button class="btn btn-primary" name="search">Find It Now
                                             </button>
                                         </div>
@@ -541,8 +541,8 @@
                             </li>
                             <li class="b-about-list__item"><i class="b-about-list__icon flaticon-smartphone"></i>
                                 <div class="b-about-list__inner">
-                                    <div class="b-about-list__title">Support Phone : &nbsp; &nbsp; <br/>(+94) 777 312 848, <br/>
-                                        (+94) 777668166, <br/>(+94) 727343435, <br/>(+94) 0765566431</div>
+                                    <div class="b-about-list__title">Support Phone : &nbsp; &nbsp; <br/><a href="tel:0777 312 848" style="color:#00245b">(+94) 777 312 848</a>, <br/>
+                                        <a href="tel:0777 668 166" style="color:#00245b">(+94) 777 668 166</a>, <br/><a href="tel:0773 006 060" style="color:#00245b">(+94) 773 006 060,</a> <br/><a href="tel:0765 566 431" style="color:#00245b">(+94) 765 566 431</a></div>
                                     <!-- <div class="b-about-list__info">MotorLand is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div> -->
                                     <div class="ui-decor-2"></div>
                                 </div>
@@ -569,7 +569,7 @@
             <div class="info-group__section col-md-6">
                 <section class="b-info b-info_mod-a area-bg area-bg_op_80 area-bg_prim parallax" style="background-image: url(assets/media/content/bg/bg-4.jpg)">
                     <div class="area-bg__inner">
-                        <h2 class="b-info__title">Call Today For Booking Your Next Ride<strong class="b-info__title_lg">(+94) 777 312 848</strong></h2>
+                        <h2 class="b-info__title">Call Today For Booking Your Next Ride<strong class="b-info__title_lg"><a href="tel:0777 312 848" style="color:#fff">(+94) 777 312 848</a></strong></h2>
                         <div class="b-info__desc">Operators available 24/7.</div><a class="btn btn-white" href="#">search your car</a>
                     </div>
                 </section>

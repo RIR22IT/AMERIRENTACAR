@@ -57,6 +57,15 @@ if (isset($_GET['view'])) {
     <!--Whatsapp CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/whatsapp.css">
+    
+    <style>
+    @media only screen and (max-width: 1200px){
+        .b-filter-2__title{
+            font-size: 15px !important;
+        }
+    }
+    </style>
+    
 </head>
 
 <body>
@@ -75,7 +84,7 @@ if (isset($_GET['view'])) {
     <a href="https://wa.me/94777312848" class="whatsapp_float" target="_blank"> <i
             class="fa fa-whatsapp whatsapp-icon"></i></a>
 
-    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container"  style="top: -120px">
+    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container" style="top: -120px">
         <!-- Start Switcher-->
 
         <!-- end switcher-->
@@ -395,11 +404,10 @@ if (isset($_GET['view'])) {
 
 
 
-        
+        <!-- footer start here-->
+        <?php include './inc/footer.php' ?>
 
     </div>
-    <!-- footer start here-->
-    <?php include './inc/footer.php' ?>
     <!-- end layout-theme-->
 
     <!-- ++++++++++++-->

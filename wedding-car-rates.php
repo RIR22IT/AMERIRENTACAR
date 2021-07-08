@@ -47,6 +47,15 @@
         tr:nth-child(even) {
             background-color: #f2f2f2
         }
+        tr > th > .table-title{
+            font-size:30px;
+        }
+        
+        @media only screen and (max-width: 1000px) {
+            tr > th > .table-title {
+                font-size: 15px;
+            }
+        }
     </style>
 
 </head>
@@ -206,7 +215,7 @@
         <!-- end breadcrumb-->
 
         <center>
-            <div>
+            <div style="width: 70%">
                 <div style="overflow-x:auto;">
                     <table>
                         <tr style="background-color: #c7effc;">
@@ -218,7 +227,11 @@
                             <th>Excess Mileage</th>
                         </tr>
                         <tr>
-                            <th style="font-size:30px">LUXURY CARS</th>
+                            <th>
+                                <div class = "table-title">
+                                LUXURY CARS
+                                </div>
+                            </th>
                         </tr>
                         <?php
                         include('./database/connection.php');
@@ -258,7 +271,11 @@
                             <th>Excess Mileage</th>
                         </tr>
                         <tr>
-                            <th style="font-size:30px">VINTAGE & CLASSIC CARS</th>
+                            <th>
+                                <div class = "table-title">
+                                VINTAGE & CLASSIC CARS
+                                </div>
+                            </th>
                         </tr>
                         <?php
                         include('./database/connection.php');
@@ -298,7 +315,11 @@
                             <th>Excess Mileage</th>
                         </tr>
                         <tr>
-                            <th style="font-size:30px">PREMIUM CARS</th>
+                            <th>
+                                <div class = "table-title">
+                                PREMIUM CARS
+                                </div>
+                            </th>
                         </tr>
 
                         <?php
@@ -331,7 +352,7 @@
                     </table>
                 </div>
             </div>
-        </center>
+        </center><br/>
 
 
 

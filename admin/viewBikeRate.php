@@ -99,7 +99,7 @@ if (!isset($_SESSION['email'])) {
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="adminweddingRates.php">
+                <a class="nav-link" href="adminWeddingRates.php">
                     <i class="fas fa-plus-square"></i>
                     <span>Add Wedding Car Rates</span>
                 </a>
@@ -147,7 +147,7 @@ if (!isset($_SESSION['email'])) {
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="viewbikeRate.php">
+                <a class="nav-link" href="viewBikeRate.php">
                     <i class="fas fa-eye"></i>
                     <span>View Motorbike Rates</span>
                 </a>

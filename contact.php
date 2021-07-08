@@ -30,50 +30,44 @@
     <link rel="stylesheet" href="assets/css/whatsapp.css">
 
     <style>
-    .contactCard {
-        min-width: 300px;
-        background-color: white;
-        border-radius: 1em;
-        padding: 10em;
+    /* Float four columns side by side */
+    .column {
+        float: left;
+        width: 35%;
+        padding: 0 10px;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+        margin: 0 -5px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Responsive columns */
+    @media screen and (max-width: 992px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .map{
+            width: 100%;
+            display: block;
+        }
+    }
+
+    /* Style the counter cards */
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 20px;
         text-align: center;
-        transition: transform 500ms ease-in;
-    }
-
-    .contactCard img {
-        height: 50vh;
-        width: 50vh;
-        border-radius: .5em;
-    }
-
-    .contactCard h2 {
-        color: rgba(35, 101, 167, 0.78);
-        text-transform: uppercase;
-        font-weight: 800;
-        font-size: 5rem;
-    }
-
-    .contactCard h3 {
-        color: gray;
-        font-size: 2rem;
-    }
-
-    .contactCard button {
-        height: 4vh;
-        padding: 1em;
-        border-radius: 2vh;
-        color: white;
-        cursor: pointer;
-        text-transform: uppercase;
-        font-size: 2.5vh;
-        line-height: .2;
-        border: none;
-        background-color: orange;
-        background: linear-gradient(to right, rgba(255, 165, 0, 1) 30%, rgba(255, 165, 0, .3));
-    }
-
-    .contactCard:hover {
-        transform: scale(1.1);
-        box-shadow: 0 120px 100px -99px black;
+        background-color: #f1f1f1;
     }
 
 
@@ -312,15 +306,9 @@
 
         <!-- </div>
         </div> -->
+
         <div class="typography-section typography-section-border">
             <div class="container">
-                <div class="map-1" id="map">
-
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.946277225689!2d79.85451711556532!3d6.8970293206196684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bdf4a1ab231%3A0xa15b314b086393e4!2s43%20School%20Ln%2C%20Colombo%2000300!5e0!3m2!1sen!2slk!4v1621843298629!5m2!1sen!2slk"
-                        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-                </div>
 
                 <div class="row">
                     <div class="column">
@@ -329,15 +317,27 @@
                             <h3>Head Office</h3>
                             <p>No.43, School Lane, Colombo-03, Sri Lanka</p>
                         </div>
-
-
-                    </div>
-                    <div class="column">
+                        <br />
+                        <br />
+                        <br />
                         <div class="card">
                             <i class="b-advantages-1__icon flaticon-transport-1"></i>
                             <h3>Airport</h3>
                             <p>Bandaranaike International Airport</p>
                         </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="card">
+                            <i class="b-advantages-1__icon flaticon-smartphone"></i>
+                            <h3><a href="tel:(+94) 765 566 531" style="color: #00245B">(+94) 765 566 531</h3>
+                            <p>amerirentacar@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.946277225689!2d79.85451711556532!3d6.8970293206196684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bdf4a1ab231%3A0xa15b314b086393e4!2s43%20School%20Ln%2C%20Colombo%2000300!5e0!3m2!1sen!2slk!4v1621843298629!5m2!1sen!2slk"
+                            width="600" height="430" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
 

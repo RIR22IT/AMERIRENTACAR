@@ -1,7 +1,7 @@
 <!-- MOBILE MENU-->
         <!-- ==========================-->
         <div data-off-canvas="mobile-slidebar left overlay">
-            <a class="navbar-brand scroll" href="home.html">
+            <a class="navbar-brand scroll" href="index.php">
                 <img class="normal-logo img-resonsive visible-xs visible-sm" src="./images/logo.png" alt="logo" />
                 <img class="scroll-logo img-resonsive hidden-xs hidden-sm" src="./images/logo.png" alt="logo" />
             </a>
@@ -13,7 +13,7 @@
                 </li>
                 <li><a href="who-we-are.php">Who we are</a>
                 </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Vehicle Fleet<b class="caret"></b></a>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Our Fleet<b class="caret"></b></a>
                     <ul class="dropdown-menu" role="menu">
                                 <li><a href="rent-general-cars.php" tabindex="-1">RENT GENERAL CARS IN SRI LANKA</a>
                                 </li>
@@ -32,10 +32,10 @@
                     </ul>
                 </li>
                 <!--<li><a href="car-rental.html">Our Cars</a>-->
-                </li>
-                <li><a href="our-location.php">Our Location</a>
-                </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="#"
+                <!--</li>-->
+                <!--<li><a href="our-location.php">Our Location</a>-->
+                <!--</li>-->
+                <li class="dropdown"><a class="dropdown-toggle" href="listings-1.html"
                                 data-toggle="dropdown">Rates<b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="self-drive-rates.php" tabindex="-1">SELF DRIVE RATES IN SRI LANKA</a>
