@@ -156,13 +156,13 @@
             <!--    </div>-->
             <!--</div>-->
             <!-- end .header-->
-            
+           
             <div class="section-title-page area-bg area-bg_dark area-bg_op_70">
                 <div class="area-bg__inner">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
-                                <h1 class="b-title-page bg-primary_a">WHO WE ARE</h1>
+                                <br><h1 class="b-title-page bg-primary_a">WHO WE ARE</h1>
                             </div>
                         </div>
                     </div>

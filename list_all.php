@@ -127,7 +127,7 @@
         <?php include('./inc/header.php') ?>
 
         <!-- end .header-->
-        <br><br><br><br><br><br><br>
+     
         <div class="section-title-page area-bg area-bg_dark area-bg_op_70">
             <div class="area-bg__inner">
                 <div class="container">
@@ -158,16 +158,16 @@
             <div class="row">
                 <div class="col-md-9">
                     <main class="l-main-content">
-                        <div class="filter-goods">
+                        <!--<div class="filter-goods">-->
 
-                            <div class="filter-goods__select"><span class="hidden-xs">Sort</span>
+                        <!--    <div class="filter-goods__select"><span class="hidden-xs">Sort</span>-->
 
-                                <div class="btns-switch"><i class="btns-switch__item js-view-th icon fa fa-th-large"></i><i class="btns-switch__item js-view-list active icon fa fa-th-list"></i>
-                                </div>
-                            </div>
-                        </div>
+                        <!--        <div class="btns-switch"><i class="btns-switch__item js-view-th icon fa fa-th-large"></i><i class="btns-switch__item js-view-list active icon fa fa-th-list"></i>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--</div>-->
                         <!-- end .filter-goods-->
-                        <div class="goods-group-2 list-goods">
+                            <div class="goods-group-2 list-goods">
 
                             <?php
                             include('./database/connection.php');
@@ -191,6 +191,8 @@
                                     $door         = $row['door'];
                                     $musicOn      = $row['musicOn'];
                                     $ac           = $row['ac'];
+                                    $ideal        = $row['ideal'];
+                                    $availability = $row['availability'];
                                     $localPrice   = number_format((float)$rental * 200, 2, '.', '');
                             ?>
 
@@ -202,47 +204,44 @@
                                                 </a>
                                             </div>
                                             <div class="b-goods-1__inner">
-                                                <div class="b-goods-1__header"><span class="b-goods-1__price hidden-th">$<?php echo $rental ?><span class="b-goods-1__price-msrp">Rs.
-                                                            <?php echo $localPrice ?></span></span><a class="b-goods-1__choose hidden-th" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
-                                                    <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $model ?></a>
-                                                    </h2>
+                                                <div class="b-goods-1__header"><span class="b-goods-1__price hidden-th">$<?php echo $rental ?><span class="b-goods-1__price-msrp">Rs. <?php echo $localPrice ?> </span></span>
+                                                    <h2 class="b-goods-1__name"><a href="booking-vehicle.php?view=<?php echo $row['id']; ?>"><?php echo $model ?></a></h2>
                                                 </div>
                                                 <div class="b-goods-1__info">
-                                                </div><span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental ?><span class="b-goods-1__price-msrp">Rs. <?php echo $localPrice ?></span><a class="b-goods-1__choose" href="booking-vehicle.php?view=<?php echo $row['id']; ?>"></a>
+                                                </div><span class="b-goods-1__price_th text-primary visible-th">$<?php echo $rental ?><span class="b-goods-1__price-msrp">Rs. <?php echo $localPrice ?></span>
                                                 </span>
                                                 <div class="b-goods-1__section">
-                                                    <h3 class="b-goods-1__title">
-                                                        Highlights</h3>
-                                                    <div class="collapse in" id="desc-4">
+                                                    <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#desc-<?php echo $id ?>">Highlights</h3>
+                                                    <div class="collapse in" id="desc-<?php echo $id ?>">
                                                         <ul class="b-goods-1__desc list-unstyled">
-                                                            <li class="b-goods-1__desc-item"><?php echo $engine ?>cc</li>
-                                                            <li class="b-goods-1__desc-item"><span class="hidden-th">Model:</span> <?php echo $year ?></li>
-                                                            <li class="b-goods-1__desc-item"><?php echo $transmission ?></li>
+                                                            <li class="b-goods-1__desc-item"><span class="hidden-th">Availability:</span><?php echo $availability ?></li>
+                                                            <li class="b-goods-1__desc-item"><span class="hidden-th"></span> <?php echo $year ?></li>
+                                                            <li class="b-goods-1__desc-item"><?php echo $ideal ?></li>
                                                             <li class="b-goods-1__desc-item hidden-th"><?php echo $fuel ?></li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="b-goods-1__section hidden-th">
-                                                    <h3 class="b-goods-1__title">specifications</h3>
-                                                        <ul class="b-goods-1__list list list-mark-5 list_mark-prim">
-                                                            <li class="b-goods-1__list-item"><strong>Year:</strong> <?php echo $year ?></li>
-                                                            <li class="b-goods-1__list-item"><strong>Engine:</strong> <?php echo $engine ?>cc</li>
-                                                            <li class="b-goods-1__list-item"><strong>Luggage:</strong> <?php echo $luggage ?></li>
-                                                            <li class="b-goods-1__list-item"><strong>Music Player:</strong> <?php echo $musicOn ?></li>
-                                                            <li class="b-goods-1__list-item"><strong>A/C:</strong> <?php echo $ac ?></li>
-                                                            <li class="b-goods-1__list-item"><strong>Passengers:</strong> <?php echo $passenger ?></li>
-                                                            <li class="b-goods-1__list-item"><strong>Doors:</strong> <?php echo $door ?> doors</li>
+                                                    <h3 class="b-goods-1__title" data-toggle="collapse" data-target="#list-<?php echo $id ?>" aria-expanded="false">specifications</h3>
+                                                    <div class="collapse" id="list-<?php echo $id ?>">
+                                                        <ul class="b-rent__list list-unstyled">
+                                                            <li class="b-rent__list-item"><i class="icon flaticon-car"></i><strong>Year:</strong> <?php echo $year ?></li>
+                                                            <li class="b-rent__list-item"><i class="icon flaticon-wheel-and-manometer"></i><strong>Engine:</strong> <?php echo $engine ?>cc</li>
+                                                            <li class="b-rent__list-item"><i class="icon flaticon-transmision"></i><strong>Transmission:</strong> <?php echo $transmission ?> </li>
+                                                            <li class="b-rent__list-item"><i class="icon flaticon-suitcase-with-white-details"></i><strong>Luggage:</strong> <?php echo $luggage ?></li>
+                                                            <li class="b-rent__list-item"><i class="icon flaticon-smartphone"></i><strong>Music Player:</strong> <?php echo $musicOn ?></li>
+                                                            <li class="b-rent__list-item"><i class="icon flaticon-ac"></i><strong>A/C:</strong> <?php echo $ac ?></li>
+                                                            <li class="b-rent__list-item"><i class="icon flaticon-transport-1"></i><strong>Passengers:</strong> <?php echo $passenger ?></li>
+                                                            <li class="b-rent__list-item"><i class="icon flaticon-doors"></i><strong>Doors:</strong> <?php echo $door ?> doors</li>
                                                         </ul>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </section>
-                                    <!-- end .b-goods-1-->
                             <?php
                                 }
                             } ?>
-
 
                         </div>
                         <!-- end .goods-group-2-->

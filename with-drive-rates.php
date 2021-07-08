@@ -48,6 +48,15 @@
         tr:nth-child(even) {
             background-color: #f2f2f2
         }
+        tr > th > .table-title{
+            font-size:30px;
+        }
+        
+        @media only screen and (max-width: 1000px) {
+            tr > th > .table-title {
+                font-size: 15px;
+            }
+        }
     </style>
 
 </head>
@@ -221,7 +230,7 @@
         <!-- end breadcrumb-->
 
         <center>
-            <div>
+            <div style="width: 70%">
                 <div style="overflow-x:auto;">
                     <div>
                         <table>
@@ -235,7 +244,11 @@
                             <tbody>
                                 <!-- LUXURY CARS (100 KMS PER DAY) -->
                                 <tr>
-                                    <th style="font-size:30px">LUXURY CARS (100 KMS PER DAY)</th>
+                                    <th>
+                                        <div class = "table-title">
+                                        LUXURY CARS (100 KMS PER DAY)
+                                        </div>
+                                    </th>
                                 </tr>
                                 <?php
                                 include('./database/connection.php');
@@ -261,7 +274,11 @@
                                 ?>
                                 <!-- LUXURY CARS (8 HOURS 80 KM PER DAY) -->
                                 <tr>
-                                    <th style="font-size:30px">LUXURY CARS (8 HOURS 80 KM PER DAY)</th>
+                                    <th>
+                                        <div class = "table-title">
+                                        LUXURY CARS (8 HOURS 80 KM PER DAY)
+                                        </div>
+                                    </th>
                                 </tr>
                                 <?php
                                 include('./database/connection.php');
@@ -287,7 +304,11 @@
                                 ?>
                                 <!-- LUXURY BUSES -->
                                 <tr>
-                                    <th style="font-size:30px">LUXURY BUSES</th>
+                                    <th>
+                                        <div class = "table-title">
+                                        LUXURY BUSES
+                                        </div>
+                                    </th>
                                 </tr>
                                 <?php
                                 include('./database/connection.php');
@@ -313,7 +334,11 @@
                                 ?>
                                 <!-- LUXURY VANS  -->
                                 <tr>
-                                    <th style="font-size:30px">LUXURY VANS</th>
+                                    <th>
+                                        <div class = "table-title">
+                                        LUXURY VANS
+                                        </div>
+                                    </th>
                                 </tr>
                                 <?php
                                 include('./database/connection.php');
@@ -340,7 +365,11 @@
                                 ?>
                                 <!-- 4WD  -->
                                 <tr>
-                                    <th style="font-size:30px">4WD VEHICLES</th>
+                                    <th>
+                                        <div class = "table-title">
+                                        4WD VEHICLES
+                                        </div>
+                                    </th>
                                 </tr>
                                 <?php
                                 include('./database/connection.php');
@@ -371,7 +400,7 @@
                     
 
                 </div>
-            </div>
+            </div><br/>
         </center>
 
 

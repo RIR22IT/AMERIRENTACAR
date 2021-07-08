@@ -5,7 +5,7 @@
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="footer-section">
-                                        <a class="footer__logo" href="home.html">
+                                        <a class="footer__logo" href="index.php">
                                             <img class="img-responsive" src="./images/logo.png" alt="Logo" />
                                         </a>
                                         <!-- <div class="footer__info">Duis aute irure reprehend voluptate velit ese acium fugiat nula pariatur exceptus ipsum dolor sit amet consectetur adipisic elita sed eiusmod tempor.</div> -->
@@ -63,7 +63,7 @@
                                 <div class="col-md-3">
                                     <section class="footer-section">
                                         <h3 class="footer-section__title ui-title-inner">Address Information</h3>
-                                        <div class="footer-contact footer-contact_lg">Call us<span class="text-primary" style = "color: white"> (+94) 765 566 531</span>
+                                        <div class="footer-contact footer-contact_lg">Call us<br/><br/><span class="text-primary" style = "color: white"> <a href="tel:0765 566 531" style="color:#fff">(+94) 765 566 531</a></span>
                                         </div>
                                         <div class="footer-contact"><i class="icon icon-xs fa fa-envelope-o"></i>amerirentacar@gmail.com</div>
                                         <div class="footer-contact"><i class="icon icon-lg fa fa-map-marker"></i>No.43, School Lane, Colombo-03, Sri Lanka</div>

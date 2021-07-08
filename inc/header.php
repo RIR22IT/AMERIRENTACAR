@@ -9,7 +9,7 @@
                             class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i>
                     </button>
                     <!-- Mobile Trigger End-->
-                    <a class="navbar-brand scroll" href="home.php">
+                    <a class="navbar-brand scroll" href="index.php">
                         <img class="normal-logo img-responsive" src="./images/logo.png" alt="logo" />
                         <img class="scroll-logo hidden-xs img-responsive" src="./images/logo.png" alt="logo"
                             style="width:120px" />
@@ -17,7 +17,7 @@
                 </div><br /><br /><br />
                 <div class="header-navibox-2">
                     
-                    <div class="topright" style = "color: white; top: -60px; left: 275px; font-family:serif; letter-spacing:2px; font-size: 14px; position: relative;">Phone:+94 777 312 848 | Hotline:+94 765 566 431 | e-mail:amerirentacar@gmail.com </div>
+                    <div class="topright" style = "color: white; top: -60px; left: 275px; font-family:serif; letter-spacing:2px; font-size: 14px; position: relative;">Phone:<a href="tel:0777 312 848" style="color:#fff">+94 777 312 848</a> | Hotline:<a href="tel:0765 566 431" style="color:#fff">+94 765 566 431</a> | e-mail:amerirentacar@gmail.com </div>
                     
                     <ul class="yamm main-menu nav navbar-nav">
                         <li><a href="index.php">Home</a>
@@ -45,8 +45,8 @@
                         </li>
                         <!--<li><a href="list_all.php">Our Cars</a>-->
                         <!--</li>-->
-                        <li><a href="our-location.php">Our Location</a>
-                        </li>
+                        <!--<li><a href="our-location.php">Our Location</a>-->
+                        <!--</li>-->
                         <li class="dropdown"><a class="dropdown-toggle" href="listings-1.html"
                                 data-toggle="dropdown">Rates<b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
